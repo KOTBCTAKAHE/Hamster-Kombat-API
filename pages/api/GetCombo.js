@@ -2,7 +2,7 @@
 
 export default function handler(req, res) {
   res.status(200).json({
-    combo: ["p2p_trading", "hamster_drop", "defi2.0_tokens"],
+    combo: ["x", "dao", "trading_bots"],
     date: "09-06-24"
   });
 }
