@@ -2,7 +2,7 @@
 
 export default function handler(req, res) {
   res.status(200).json({
-    combo: ["gamefi_tokens", "margin_trading_x30", "trading_bots"],
-    date: "14-06-24"
+    combo: ["p2p_trading", "apps_center_listing", "nft_collection_launch"],
+    date: "15-06-24"
   });
 }
