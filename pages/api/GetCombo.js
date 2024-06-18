@@ -2,7 +2,7 @@
 
 export default function handler(req, res) {
   res.status(200).json({
-    combo: ["it_team", "meme_coins", "web3_academy_launch"],
-    date: "17-06-24"
+    combo: ["youtube", "reddit", "licence_india"],
+    date: "18-06-24"
   });
 }
