@@ -3,13 +3,13 @@
         {
             "id": "support_team",
             "name": "Support team",
-            "price": 1246909,
-            "profitPerHour": 2159,
+            "price": 3000835,
+            "profitPerHour": 2380,
             "condition": null,
             "section": "PR&Team",
-            "level": 17,
-            "currentProfitPerHour": 1952,
-            "profitPerHourDelta": 207,
+            "level": 18,
+            "currentProfitPerHour": 2159,
+            "profitPerHourDelta": 221,
             "isAvailable": true,
             "isExpired": false
         },
@@ -123,30 +123,30 @@
         {
             "id": "influencers",
             "name": "Influencers",
-            "price": 4156363,
-            "profitPerHour": 8327,
+            "price": 1813407,
+            "profitPerHour": 7530,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "x",
                 "level": 5
             },
             "section": "PR&Team",
-            "level": 17,
-            "currentProfitPerHour": 7530,
-            "profitPerHourDelta": 797,
+            "level": 16,
+            "currentProfitPerHour": 6785,
+            "profitPerHourDelta": 745,
             "isAvailable": true,
             "isExpired": false
         },
         {
             "id": "fan_tokens",
             "name": "Fan tokens",
-            "price": 3322971,
-            "profitPerHour": 23874,
+            "price": 7253630,
+            "profitPerHour": 26495,
             "condition": null,
             "section": "Markets",
-            "level": 15,
-            "currentProfitPerHour": 21424,
-            "profitPerHourDelta": 2450,
+            "level": 16,
+            "currentProfitPerHour": 23874,
+            "profitPerHourDelta": 2621,
             "isAvailable": true,
             "isExpired": false
         },
@@ -209,17 +209,17 @@
         {
             "id": "gamefi_tokens",
             "name": "GameFi tokens",
-            "price": 2000557,
-            "profitPerHour": 2380,
+            "price": 5055307,
+            "profitPerHour": 2617,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "youtube",
                 "level": 4
             },
             "section": "Markets",
-            "level": 18,
-            "currentProfitPerHour": 2159,
-            "profitPerHourDelta": 221,
+            "level": 19,
+            "currentProfitPerHour": 2380,
+            "profitPerHourDelta": 237,
             "isAvailable": true,
             "isExpired": false
         },
@@ -260,17 +260,17 @@
         {
             "id": "meme_coins",
             "name": "Meme coins",
-            "price": 1450726,
-            "profitPerHour": 3068,
+            "price": 8002226,
+            "profitPerHour": 3740,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "influencers",
                 "level": 10
             },
             "section": "Markets",
-            "level": 16,
-            "currentProfitPerHour": 2765,
-            "profitPerHourDelta": 303,
+            "level": 18,
+            "currentProfitPerHour": 3393,
+            "profitPerHourDelta": 347,
             "isAvailable": true,
             "isExpired": false
         },
@@ -294,17 +294,17 @@
         {
             "id": "margin_trading_x10",
             "name": "Margin trading x10",
-            "price": 4156363,
-            "profitPerHour": 8483,
+            "price": 1813407,
+            "profitPerHour": 7671,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "shit_coins",
                 "level": 5
             },
             "section": "Markets",
-            "level": 17,
-            "currentProfitPerHour": 7671,
-            "profitPerHourDelta": 812,
+            "level": 16,
+            "currentProfitPerHour": 6912,
+            "profitPerHourDelta": 759,
             "isAvailable": true,
             "isExpired": false
         },
@@ -328,34 +328,34 @@
         {
             "id": "margin_trading_x30",
             "name": "Margin trading x30",
-            "price": 5818908,
-            "profitPerHour": 15419,
+            "price": 2538770,
+            "profitPerHour": 13943,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "legal_opinion",
                 "level": 6
             },
             "section": "Markets",
-            "level": 17,
-            "currentProfitPerHour": 13943,
-            "profitPerHourDelta": 1476,
+            "level": 16,
+            "currentProfitPerHour": 12563,
+            "profitPerHourDelta": 1380,
             "isAvailable": true,
             "isExpired": false
         },
         {
             "id": "margin_trading_x50",
             "name": "Margin trading x50",
-            "price": 3322971,
-            "profitPerHour": 27641,
+            "price": 7253630,
+            "profitPerHour": 30676,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "margin_trading_x30",
                 "level": 8
             },
             "section": "Markets",
-            "level": 15,
-            "currentProfitPerHour": 24805,
-            "profitPerHourDelta": 2836,
+            "level": 16,
+            "currentProfitPerHour": 27641,
+            "profitPerHourDelta": 3035,
             "isAvailable": true,
             "isExpired": false
         },
@@ -556,30 +556,30 @@
         {
             "id": "anti_money_loundering",
             "name": "Anti money loundering",
-            "price": 4987636,
-            "profitPerHour": 8638,
+            "price": 2176089,
+            "profitPerHour": 7811,
             "condition": null,
             "section": "Legal",
-            "level": 17,
-            "currentProfitPerHour": 7811,
-            "profitPerHourDelta": 827,
+            "level": 16,
+            "currentProfitPerHour": 7038,
+            "profitPerHourDelta": 773,
             "isAvailable": true,
             "isExpired": false
         },
         {
             "id": "licence_uae",
             "name": "Licence UAE",
-            "price": 3626815,
-            "profitPerHour": 15617,
+            "price": 8312726,
+            "profitPerHour": 17270,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "kyc",
                 "level": 5
             },
             "section": "Legal",
-            "level": 16,
-            "currentProfitPerHour": 14072,
-            "profitPerHourDelta": 1545,
+            "level": 17,
+            "currentProfitPerHour": 15617,
+            "profitPerHourDelta": 1653,
             "isAvailable": true,
             "isExpired": false
         },
@@ -654,17 +654,17 @@
         {
             "id": "licence_north_america",
             "name": "Licence North America",
-            "price": 3322971,
-            "profitPerHour": 24122,
+            "price": 7253630,
+            "profitPerHour": 26771,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "sec_transparancy",
                 "level": 10
             },
             "section": "Legal",
-            "level": 15,
-            "currentProfitPerHour": 21647,
-            "profitPerHourDelta": 2475,
+            "level": 16,
+            "currentProfitPerHour": 24122,
+            "profitPerHourDelta": 2649,
             "isAvailable": true,
             "isExpired": false
         },
@@ -718,6 +718,22 @@
             "isExpired": false
         },
         {
+            "id": "licence_india",
+            "name": "Licence India",
+            "price": 45000,
+            "profitPerHour": 2500,
+            "condition": {
+                "_type": "ReferralCount",
+                "referralCount": 3
+            },
+            "section": "Legal",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 2500,
+            "isAvailable": false,
+            "isExpired": false
+        },
+        {
             "id": "ceo",
             "name": "CEO",
             "price": 1662545,
@@ -733,13 +749,13 @@
         {
             "id": "it_team",
             "name": "IT team",
-            "price": 3325090,
-            "profitPerHour": 7402,
+            "price": 20221228,
+            "profitPerHour": 8971,
             "condition": null,
             "section": "PR&Team",
-            "level": 17,
-            "currentProfitPerHour": 6693,
-            "profitPerHourDelta": 709,
+            "level": 19,
+            "currentProfitPerHour": 8160,
+            "profitPerHourDelta": 811,
             "isAvailable": true,
             "isExpired": false
         },
@@ -776,17 +792,17 @@
         {
             "id": "product_team",
             "name": "Product team",
-            "price": 1662545,
-            "profitPerHour": 3084,
+            "price": 4001113,
+            "profitPerHour": 3400,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "ceo",
                 "level": 2
             },
             "section": "PR&Team",
-            "level": 17,
-            "currentProfitPerHour": 2789,
-            "profitPerHourDelta": 295,
+            "level": 18,
+            "currentProfitPerHour": 3084,
+            "profitPerHourDelta": 316,
             "isAvailable": true,
             "isExpired": false
         },
@@ -957,8 +973,8 @@
         {
             "id": "tokenomics_expert",
             "name": "Tokenomics expert",
-            "price": 1661486,
-            "profitPerHour": 12563,
+            "price": 3626815,
+            "profitPerHour": 13943,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "bisdev_team",
@@ -966,9 +982,9 @@
             },
             "cooldownSeconds": 0,
             "section": "PR&Team",
-            "level": 15,
-            "currentProfitPerHour": 11274,
-            "profitPerHourDelta": 1289,
+            "level": 16,
+            "currentProfitPerHour": 12563,
+            "profitPerHourDelta": 1380,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -976,14 +992,14 @@
         {
             "id": "consensys_explorer_pass",
             "name": "Consensus Explorer pass",
-            "price": 2018259,
-            "profitPerHour": 30211,
+            "price": 8307428,
+            "profitPerHour": 37694,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "PR&Team",
-            "level": 13,
-            "currentProfitPerHour": 26833,
-            "profitPerHourDelta": 3378,
+            "level": 15,
+            "currentProfitPerHour": 33826,
+            "profitPerHourDelta": 3868,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -1118,18 +1134,18 @@
         {
             "id": "bogdanoff",
             "name": "Bogdanoff is calling",
-            "price": 5000,
-            "profitPerHour": 475,
+            "price": 3626815,
+            "profitPerHour": 13248,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "margin_trading_x50",
                 "level": 15
             },
             "section": "Specials",
-            "level": 1,
-            "currentProfitPerHour": 0,
-            "profitPerHourDelta": 475,
-            "isAvailable": false,
+            "level": 16,
+            "currentProfitPerHour": 11937,
+            "profitPerHourDelta": 1311,
+            "isAvailable": true,
             "isExpired": false
         },
         {
@@ -1250,17 +1266,17 @@
         {
             "id": "special_hamster_conference",
             "name": "Special Hamster Conference",
-            "price": 1661486,
-            "profitPerHour": 22616,
+            "price": 8312726,
+            "profitPerHour": 27756,
             "condition": {
                 "_type": "SubscribeTelegramChannel",
                 "link": "https://t.me/+kK14mIuJR2hlMmNi",
                 "channelId": -1002075341442
             },
             "section": "Specials",
-            "level": 15,
-            "currentProfitPerHour": 20295,
-            "profitPerHourDelta": 2321,
+            "level": 17,
+            "currentProfitPerHour": 25099,
+            "profitPerHourDelta": 2657,
             "isAvailable": true,
             "isExpired": false
         },
@@ -1268,17 +1284,17 @@
             "id": "contract_with_football_club",
             "name": "Ad contract with a football club",
             "expiresAt": "2024-06-01T16:00:00.000Z",
-            "price": 595998,
-            "profitPerHour": 27622,
+            "price": 348467,
+            "profitPerHour": 24179,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "fan_tokens",
                 "level": 8
             },
             "section": "Specials",
-            "level": 11,
-            "currentProfitPerHour": 24179,
-            "profitPerHourDelta": 3443,
+            "level": 10,
+            "currentProfitPerHour": 20962,
+            "profitPerHourDelta": 3217,
             "isAvailable": true,
             "isExpired": true
         },
@@ -1304,11 +1320,11 @@
             "id": "joe_rogan_podcast",
             "name": "Joe Roogan Podcast",
             "maxLevel": 1,
-            "price": 1102500,
+            "price": 1000000,
             "profitPerHour": 0,
             "condition": null,
             "section": "Specials",
-            "level": 2,
+            "level": 1,
             "currentProfitPerHour": 0,
             "profitPerHourDelta": 0,
             "isAvailable": true,
@@ -1385,18 +1401,18 @@
         {
             "id": "top10_global",
             "name": "Top 10 Global Ranking",
-            "price": 1598406,
-            "profitPerHour": 27062,
+            "price": 7253630,
+            "profitPerHour": 33467,
             "condition": {
                 "_type": "SubscribeTelegramChannel",
                 "link": "https://t.me/+_uqfAor-9TFkOWNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 5109,
+            "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 14,
-            "currentProfitPerHour": 24170,
-            "profitPerHourDelta": 2892,
+            "level": 16,
+            "currentProfitPerHour": 30156,
+            "profitPerHourDelta": 3311,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -1404,18 +1420,18 @@
         {
             "id": "bitcoin_pizza_day",
             "name": "Bitcoin Pizza Day",
-            "price": 159841,
-            "profitPerHour": 2255,
+            "price": 1662545,
+            "profitPerHour": 3084,
             "condition": {
                 "_type": "SubscribeTelegramChannel",
                 "link": "https://t.me/+BKxnK5qrA7JhN2Uy",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 5183,
+            "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 14,
-            "currentProfitPerHour": 2014,
-            "profitPerHourDelta": 241,
+            "level": 17,
+            "currentProfitPerHour": 2789,
+            "profitPerHourDelta": 295,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -1443,17 +1459,17 @@
             "id": "hamster_daily_show",
             "name": "Hamster daily show",
             "expiresAt": "2024-06-01T16:00:00.000Z",
-            "price": 319681,
-            "profitPerHour": 4510,
+            "price": 161461,
+            "profitPerHour": 4028,
             "condition": {
                 "_type": "LinkWithoutCheck",
                 "link": "http://twitter.com/hamster_kombat"
             },
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 14,
-            "currentProfitPerHour": 4028,
-            "profitPerHourDelta": 482,
+            "level": 13,
+            "currentProfitPerHour": 3578,
+            "profitPerHourDelta": 450,
             "isAvailable": true,
             "isExpired": true,
             "totalCooldownSeconds": 7200
@@ -1479,8 +1495,8 @@
         {
             "id": "hamster_youtube_gold_button",
             "name": "YouTube Gold Button",
-            "price": 1813407,
-            "profitPerHour": 7671,
+            "price": 4156363,
+            "profitPerHour": 8483,
             "condition": {
                 "_type": "LinksToUpgradeLevel",
                 "subscribeLink": "https://www.youtube.com/@HamsterKombat_Official?sub_confirmation=1",
@@ -1495,9 +1511,9 @@
             },
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 16,
-            "currentProfitPerHour": 6912,
-            "profitPerHourDelta": 759,
+            "level": 17,
+            "currentProfitPerHour": 7671,
+            "profitPerHourDelta": 812,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -1505,8 +1521,8 @@
         {
             "id": "web3_academy_launch",
             "name": "Web3 academy launch",
-            "price": 3655268,
-            "profitPerHour": 37694,
+            "price": 18287997,
+            "profitPerHour": 46261,
             "condition": {
                 "_type": "LinksToUpgradeLevel",
                 "subscribeLink": "https://www.youtube.com/@HamsterKombat_Official?sub_confirmation=1",
@@ -1523,9 +1539,9 @@
             },
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 15,
-            "currentProfitPerHour": 33826,
-            "profitPerHourDelta": 3868,
+            "level": 17,
+            "currentProfitPerHour": 41833,
+            "profitPerHourDelta": 4428,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -1551,18 +1567,18 @@
         {
             "id": "consensys_piranja_pass",
             "name": "Consensus Piranha Pass",
-            "price": 2140652,
-            "profitPerHour": 33989,
+            "price": 7992030,
+            "profitPerHour": 42847,
             "condition": {
                 "_type": "SubscribeTelegramChannel",
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 5149,
+            "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 12,
-            "currentProfitPerHour": 29990,
-            "profitPerHourDelta": 3999,
+            "level": 14,
+            "currentProfitPerHour": 38268,
+            "profitPerHourDelta": 4579,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -1570,17 +1586,17 @@
         {
             "id": "partner_announce",
             "name": "TON + Hamster Kombat = Success",
-            "price": 5516015,
-            "profitPerHour": 51300,
+            "price": 13938696,
+            "profitPerHour": 69083,
             "condition": null,
-            "cooldownSeconds": 452,
+            "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 8,
-            "currentProfitPerHour": 43271,
-            "profitPerHourDelta": 8029,
+            "level": 10,
+            "currentProfitPerHour": 59891,
+            "profitPerHourDelta": 9192,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 1800
+            "totalCooldownSeconds": 5400
         },
         {
             "id": "football_club_winner",
@@ -1654,12 +1670,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "licence_europe",
-            "top10_global"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 744
+        "remainSeconds": 86071
     }
 }
