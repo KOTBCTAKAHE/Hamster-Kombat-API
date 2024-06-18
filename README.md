@@ -46,6 +46,6 @@
 
 ```json
 {
-  "combo": ["", "", ""],
-  "date": ""
+  "combo": ["card1", "card2", "card3"],
+  "date": "dd-mm-yy"
 }
