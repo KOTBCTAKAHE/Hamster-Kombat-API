@@ -3,13 +3,13 @@
         {
             "id": "support_team",
             "name": "Support team",
-            "price": 249223,
-            "profitPerHour": 1759,
+            "price": 544022,
+            "profitPerHour": 1952,
             "condition": null,
             "section": "PR&Team",
-            "level": 15,
-            "currentProfitPerHour": 1579,
-            "profitPerHourDelta": 180,
+            "level": 16,
+            "currentProfitPerHour": 1759,
+            "profitPerHourDelta": 193,
             "isAvailable": true,
             "isExpired": false
         },
@@ -140,13 +140,13 @@
         {
             "id": "fan_tokens",
             "name": "Fan tokens",
-            "price": 3322971,
-            "profitPerHour": 23874,
+            "price": 7253630,
+            "profitPerHour": 26495,
             "condition": null,
             "section": "Markets",
-            "level": 15,
-            "currentProfitPerHour": 21424,
-            "profitPerHourDelta": 2450,
+            "level": 16,
+            "currentProfitPerHour": 23874,
+            "profitPerHourDelta": 2621,
             "isAvailable": true,
             "isExpired": false
         },
@@ -462,8 +462,8 @@
         {
             "id": "p2p_trading",
             "name": "P2P trading",
-            "price": 1395648,
-            "profitPerHour": 9800,
+            "price": 3046524,
+            "profitPerHour": 10876,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "kyc",
@@ -471,9 +471,9 @@
             },
             "cooldownSeconds": 0,
             "section": "Markets",
-            "level": 15,
-            "currentProfitPerHour": 8794,
-            "profitPerHourDelta": 1006,
+            "level": 16,
+            "currentProfitPerHour": 9800,
+            "profitPerHourDelta": 1076,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -500,14 +500,14 @@
         {
             "id": "layerzero_listing",
             "name": "LayerZero Listing",
-            "price": 3322971,
-            "profitPerHour": 22616,
+            "price": 7253630,
+            "profitPerHour": 25099,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 3271,
             "section": "Markets",
-            "level": 15,
-            "currentProfitPerHour": 20295,
-            "profitPerHourDelta": 2321,
+            "level": 16,
+            "currentProfitPerHour": 22616,
+            "profitPerHourDelta": 2483,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -571,13 +571,13 @@
         {
             "id": "anti_money_loundering",
             "name": "Anti money loundering",
-            "price": 996891,
-            "profitPerHour": 7038,
+            "price": 2176089,
+            "profitPerHour": 7811,
             "condition": null,
             "section": "Legal",
-            "level": 15,
-            "currentProfitPerHour": 6316,
-            "profitPerHourDelta": 722,
+            "level": 16,
+            "currentProfitPerHour": 7038,
+            "profitPerHourDelta": 773,
             "isAvailable": true,
             "isExpired": false
         },
@@ -779,6 +779,25 @@
             "profitPerHourDelta": 5000,
             "isAvailable": false,
             "isExpired": false
+        },
+        {
+            "id": "licence_vietnam",
+            "name": "Licence Vietnam",
+            "releaseAt": "2024-06-23T11:00:00.000Z",
+            "price": 85000,
+            "profitPerHour": 4000,
+            "condition": {
+                "_type": "MoreReferralsCount",
+                "moreReferralsCount": 1
+            },
+            "cooldownSeconds": 0,
+            "section": "Legal",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 4000,
+            "isAvailable": false,
+            "isExpired": false,
+            "totalCooldownSeconds": 0
         },
         {
             "id": "ceo",
@@ -1181,17 +1200,17 @@
         {
             "id": "bogdanoff",
             "name": "Bogdanoff is calling",
-            "price": 1661486,
-            "profitPerHour": 11937,
+            "price": 3626815,
+            "profitPerHour": 13248,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "margin_trading_x50",
                 "level": 15
             },
             "section": "Specials",
-            "level": 15,
-            "currentProfitPerHour": 10712,
-            "profitPerHourDelta": 1225,
+            "level": 16,
+            "currentProfitPerHour": 11937,
+            "profitPerHourDelta": 1311,
             "isAvailable": true,
             "isExpired": false
         },
@@ -1720,20 +1739,20 @@
             "id": "youtube_25_million",
             "name": "YouTube 25 Million",
             "releaseAt": "2024-06-22T11:00:00.000Z",
-            "price": 99288,
-            "profitPerHour": 21546,
+            "price": 13056533,
+            "profitPerHour": 58566,
             "condition": {
                 "_type": "LinkWithoutCheck",
                 "link": "https://youtube.com/@hamsterkombat_official"
             },
-            "cooldownSeconds": 108,
+            "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 8,
-            "currentProfitPerHour": 18174,
-            "profitPerHourDelta": 3372,
+            "level": 16,
+            "currentProfitPerHour": 52772,
+            "profitPerHourDelta": 5794,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 1800
+            "totalCooldownSeconds": 7200
         }
     ],
     "sections": [
@@ -1758,6 +1777,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 86388
+        "remainSeconds": 80092
     }
 }
