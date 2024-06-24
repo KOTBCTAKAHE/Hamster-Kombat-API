@@ -2,7 +2,7 @@
 
 export default function handler(req, res) {
   res.status(200).json({
-    combo: ["licence_vietnam", "security_team", "prediction_markets"],
+    combo: ["vc_labs", "hamster_drop", "hamster_green_energy],
     date: "23-06-24"
   });
 }
