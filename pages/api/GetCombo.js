@@ -2,7 +2,7 @@
 
 export default function handler(req, res) {
   res.status(200).json({
-    combo: ["twitter_10_million", "security_audition", "usdt_on_ton"],
-    date: "26-06-24"
+    combo: ["long_squeeze", "short_squeeze", "licence_philippines"],
+    date: "27-06-24"
   });
 }
