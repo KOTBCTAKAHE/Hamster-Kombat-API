@@ -2,7 +2,7 @@
 
 export default function handler(req, res) {
   res.status(200).json({
-    combo: ["licence_ethiopia", "premarket_launch", "nft_collection_launch"],
-    date: "28-06-24"
+    combo: ["blocking_suspicious_accounts", "youtube_25_million", "compliance_officer"],
+    date: "29-06-24"
   });
 }
