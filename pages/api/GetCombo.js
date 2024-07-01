@@ -1,8 +1,8 @@
 // pages/api/GetCombo.js
-
+// с первым июля
 export default function handler(req, res) {
   res.status(200).json({
-    combo: ["kyb", "tokenomics_expert", "tg_leaders"],
-    date: "30-06-24"
+    combo: ["sports_integration", "hamster_youtube_channel", "hamster_youtube_gold_button"],
+    date: "1-07-24"
   });
 }
