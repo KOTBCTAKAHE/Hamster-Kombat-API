@@ -2,6 +2,29 @@
 
 Это проект на Next.js, развернутый на Vercel, который предоставляет API для получения комбо карт хомяка.
 
+![GitHub Repo Stars](https://img.shields.io/github/stars/KOTBCTAKAHE/hamster-kombo-server?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/KOTBCTAKAHE/hamster-kombo-server?style=social)
+![GitHub Issues](https://img.shields.io/github/issues/KOTBCTAKAHE/hamster-kombo-server)
+![GitHub License](https://img.shields.io/github/license/KOTBCTAKAHE/hamster-kombo-server)
+
+## Навигация
+
+- [Установка и запуск](#установка-и-запуск)
+  - [Требования](#требования)
+  - [Установка](#установка)
+  - [Запуск](#запуск)
+- [API](#api)
+  - [Получение комбо карт](#получение-комбо-карт)
+- [Примеры использования API](#примеры-использования-api)
+  - [Python](#python)
+  - [JavaScript (Node.js)](#javascript-nodejs)
+  - [Java](#java)
+  - [C#](#c)
+  - [Go](#go)
+  - [Flutter (Dart)](#flutter-dart)
+- [Статистика репозитория](#статистика-репозитория)
+- [Поддержите меня](#поддержите-меня)
+
 ## Установка и запуск
 
 ### Требования
@@ -51,9 +74,9 @@
 }
 ```
 
-### Примеры использования API
+## Примеры использования API
 
-#### Python
+### Python
 
 ```python
 import requests
@@ -71,7 +94,7 @@ else:
     print(f"Error: {response.status_code}")
 ```
 
-#### JavaScript (Node.js)
+### JavaScript (Node.js)
 
 ```javascript
 const fetch = require('node-fetch');
@@ -89,7 +112,7 @@ fetch(url)
     .catch(error => console.error('Error:', error));
 ```
 
-#### Java
+### Java
 
 ```java
 import java.net.HttpURLConnection;
@@ -126,7 +149,7 @@ public class Main {
 }
 ```
 
-#### C#
+### C#
 
 ```csharp
 using System;
@@ -155,7 +178,7 @@ class Program
 }
 ```
 
-#### Go
+### Go
 
 ```go
 package main
@@ -197,3 +220,40 @@ func main() {
 }
 ```
 
+### Flutter (Dart)
+
+```dart
+import 'package:http/http.dart' as http;
+import 'dart:convert';
+
+void fetchCombo() async {
+  final url = 'https://hamster-kombo-server.vercel.app/api/GetCombo';
+  final response = await http.get(Uri.parse(url));
+
+  if (response.statusCode == 200) {
+    final data = json.decode(response.body);
+    final combo = data['combo'];
+    final date = data['date'];
+    print('Combo: $combo');
+    print('Date: $date');
+  } else {
+    print('Error: ${response.statusCode}');
+  }
+}
+```
+
+Эти примеры демонстрируют, как сделать GET-запрос к API сервера комбо карт хомяка, обработать ответ и вывести значения `combo` и `date` на различных языках программирования.
+
+## Статистика репозитория
+
+![GitHub Repo Size](https://img.shields.io/github/repo-size/KOTBCTAKAHE/hamster-kombo-server)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/KOTBCTAKAHE/hamster-kombo-server)
+![GitHub Language Count](https://img.shields.io/github/languages/count/KOTBCTAKAHE/hamster-kombo-server)
+![GitHub Top Language](https://img.shields.io/github/languages/top/KOTBCTAKAHE/hamster-kombo-server)
+
+![GitHub Contributors](https://img.shields.io/github/contributors/KOTBCTAKAHE/hamster-kombo-server)
+![GitHub Watchers](https://img.shields.io/github/watchers/KOTBCTAKAHE/hamster-kombo-server?style=social)
+
+## Поддержите меня
+
+Если вам нравится этот проект, пожалуйста, поддержите меня, поставив звезду на [GitHub репозитории](https://github.com/KOTBCTAKAHE/hamster-kombo-server).
