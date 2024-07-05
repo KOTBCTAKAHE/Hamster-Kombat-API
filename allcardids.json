@@ -98,13 +98,13 @@
         {
             "id": "medium",
             "name": "Cointelegraph",
-            "price": 253877,
-            "profitPerHour": 1115,
+            "price": 581891,
+            "profitPerHour": 1233,
             "condition": null,
             "section": "PR&Team",
-            "level": 16,
-            "currentProfitPerHour": 1005,
-            "profitPerHourDelta": 110,
+            "level": 17,
+            "currentProfitPerHour": 1115,
+            "profitPerHourDelta": 118,
             "isAvailable": true,
             "isExpired": false
         },
@@ -297,17 +297,17 @@
         {
             "id": "antihacking_shield",
             "name": "Antihacking shield",
-            "price": 664594,
-            "profitPerHour": 2765,
+            "price": 1450726,
+            "profitPerHour": 3068,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "qa_team",
                 "level": 5
             },
             "section": "PR&Team",
-            "level": 15,
-            "currentProfitPerHour": 2481,
-            "profitPerHourDelta": 284,
+            "level": 16,
+            "currentProfitPerHour": 2765,
+            "profitPerHourDelta": 303,
             "isAvailable": true,
             "isExpired": false
         },
@@ -456,6 +456,44 @@
             "isExpired": false
         },
         {
+            "id": "development_hub_mumbai",
+            "name": "Development Hub Mumbai",
+            "releaseAt": "2024-07-02T11:00:00.000Z",
+            "price": 29906742,
+            "profitPerHour": 100516,
+            "condition": {
+                "_type": "ByUpgrade",
+                "upgradeId": "it_team",
+                "level": 15
+            },
+            "cooldownSeconds": 0,
+            "section": "PR&Team",
+            "level": 15,
+            "currentProfitPerHour": 90202,
+            "profitPerHourDelta": 10314,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "data_center_tokyo",
+            "name": "Data Сenter Tokyo",
+            "releaseAt": "2024-07-05T11:00:00.000Z",
+            "price": 200000,
+            "profitPerHour": 6500,
+            "condition": {
+                "_type": "ByUpgrade",
+                "upgradeId": "dubai_office",
+                "level": 1
+            },
+            "section": "PR&Team",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 6500,
+            "isAvailable": false,
+            "isExpired": false
+        },
+        {
             "id": "fan_tokens",
             "name": "Fan tokens",
             "price": 7253630,
@@ -578,17 +616,17 @@
         {
             "id": "meme_coins",
             "name": "Meme coins",
-            "price": 664594,
-            "profitPerHour": 2765,
+            "price": 1450726,
+            "profitPerHour": 3068,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "influencers",
                 "level": 10
             },
             "section": "Markets",
-            "level": 15,
-            "currentProfitPerHour": 2481,
-            "profitPerHourDelta": 284,
+            "level": 16,
+            "currentProfitPerHour": 2765,
+            "profitPerHourDelta": 303,
             "isAvailable": true,
             "isExpired": false
         },
@@ -1004,14 +1042,14 @@
         {
             "id": "licence_nigeria",
             "name": "Licence Nigeria",
-            "price": 1088044,
-            "profitPerHour": 4741,
+            "price": 2493818,
+            "profitPerHour": 5243,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Legal",
-            "level": 16,
-            "currentProfitPerHour": 4272,
-            "profitPerHourDelta": 469,
+            "level": 17,
+            "currentProfitPerHour": 4741,
+            "profitPerHourDelta": 502,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -1778,17 +1816,17 @@
             "id": "youtube_25_million",
             "name": "YouTube 25 Million",
             "releaseAt": "2024-06-22T11:00:00.000Z",
-            "price": 13056533,
-            "profitPerHour": 58566,
+            "price": 29925813,
+            "profitPerHour": 64766,
             "condition": {
                 "_type": "LinkWithoutCheck",
                 "link": "https://youtube.com/@hamsterkombat_official"
             },
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 16,
-            "currentProfitPerHour": 52772,
-            "profitPerHourDelta": 5794,
+            "level": 17,
+            "currentProfitPerHour": 58566,
+            "profitPerHourDelta": 6200,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -1807,6 +1845,22 @@
             "profitPerHourDelta": 5904,
             "isAvailable": true,
             "isExpired": false,
+            "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "sports_integration",
+            "name": "Sports integration",
+            "expiresAt": "2024-07-02T09:00:00.000Z",
+            "price": 25387704,
+            "profitPerHour": 83665,
+            "condition": null,
+            "cooldownSeconds": 0,
+            "section": "Specials",
+            "level": 16,
+            "currentProfitPerHour": 75388,
+            "profitPerHourDelta": 8277,
+            "isAvailable": true,
+            "isExpired": true,
             "totalCooldownSeconds": 7200
         },
         {
@@ -1845,6 +1899,22 @@
             "totalCooldownSeconds": 7200
         },
         {
+            "id": "sports_integration_0207",
+            "name": "Sports integration",
+            "expiresAt": "2024-07-03T09:00:00.000Z",
+            "price": 11630400,
+            "profitPerHour": 75388,
+            "condition": null,
+            "cooldownSeconds": 0,
+            "section": "Specials",
+            "level": 15,
+            "currentProfitPerHour": 67652,
+            "profitPerHourDelta": 7736,
+            "isAvailable": true,
+            "isExpired": true,
+            "totalCooldownSeconds": 7200
+        },
+        {
             "id": "hamster_break_records",
             "name": "Hamsters break records",
             "price": 21406518,
@@ -1864,20 +1934,72 @@
             "totalCooldownSeconds": 7200
         },
         {
-            "id": "sports_integration",
+            "id": "sports_integration_0507",
             "name": "Sports integration",
-            "expiresAt": "2024-07-02T09:00:00.000Z",
-            "price": 5594421,
-            "profitPerHour": 67652,
+            "expiresAt": "2024-07-05T09:00:00.000Z",
+            "price": 25387704,
+            "profitPerHour": 83665,
             "condition": null,
-            "cooldownSeconds": 1789,
+            "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 14,
-            "currentProfitPerHour": 60422,
-            "profitPerHourDelta": 7230,
+            "level": 16,
+            "currentProfitPerHour": 75388,
+            "profitPerHourDelta": 8277,
+            "isAvailable": true,
+            "isExpired": true,
+            "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "cx_hub_istanbul",
+            "name": "CX Hub Istanbul",
+            "releaseAt": "2024-07-03T14:00:00.000Z",
+            "price": 18276342,
+            "profitPerHour": 75388,
+            "condition": {
+                "_type": "ByUpgrade",
+                "upgradeId": "support_team",
+                "level": 12
+            },
+            "cooldownSeconds": 0,
+            "section": "Specials",
+            "level": 15,
+            "currentProfitPerHour": 67652,
+            "profitPerHourDelta": 7736,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "riyadh_masters_2024",
+            "name": "Riyadh Masters 2024",
+            "expiresAt": "2024-07-05T09:00:00.000Z",
+            "price": 25387704,
+            "profitPerHour": 83665,
+            "condition": null,
+            "cooldownSeconds": 0,
+            "section": "Specials",
+            "level": 16,
+            "currentProfitPerHour": 75388,
+            "profitPerHourDelta": 8277,
+            "isAvailable": true,
+            "isExpired": true,
+            "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "sports_integration_0607",
+            "name": "Quaterfinals are coming",
+            "expiresAt": "2024-07-06T09:00:00.000Z",
+            "price": 299500,
+            "profitPerHour": 35934,
+            "condition": null,
+            "cooldownSeconds": 90,
+            "section": "Specials",
+            "level": 9,
+            "currentProfitPerHour": 30779,
+            "profitPerHourDelta": 5155,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 3600
         }
     ],
     "sections": [
@@ -1899,11 +2021,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "sports_integration"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 52385
+        "remainSeconds": 86107
     }
 }
