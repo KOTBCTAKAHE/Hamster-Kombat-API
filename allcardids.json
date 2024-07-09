@@ -377,8 +377,8 @@
         {
             "id": "tokenomics_expert",
             "name": "Tokenomics expert",
-            "price": 3626815,
-            "profitPerHour": 13943,
+            "price": 8312726,
+            "profitPerHour": 15419,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "bisdev_team",
@@ -386,9 +386,9 @@
             },
             "cooldownSeconds": 0,
             "section": "PR&Team",
-            "level": 16,
-            "currentProfitPerHour": 12563,
-            "profitPerHourDelta": 1380,
+            "level": 17,
+            "currentProfitPerHour": 13943,
+            "profitPerHourDelta": 1476,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -1045,17 +1045,17 @@
         {
             "id": "licence_north_america",
             "name": "Licence North America",
-            "price": 7253630,
-            "profitPerHour": 26771,
+            "price": 16625452,
+            "profitPerHour": 29605,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "sec_transparancy",
                 "level": 10
             },
             "section": "Legal",
-            "level": 16,
-            "currentProfitPerHour": 24122,
-            "profitPerHourDelta": 2649,
+            "level": 17,
+            "currentProfitPerHour": 26771,
+            "profitPerHourDelta": 2834,
             "isAvailable": true,
             "isExpired": false
         },
@@ -1215,6 +1215,26 @@
             "totalCooldownSeconds": 7200
         },
         {
+            "id": "dex",
+            "name": "DEX",
+            "releaseAt": "2024-07-09T11:00:00.000Z",
+            "price": 1045402,
+            "profitPerHour": 41449,
+            "condition": {
+                "_type": "ByUpgrade",
+                "upgradeId": "btc_pairs",
+                "level": 10
+            },
+            "cooldownSeconds": 0,
+            "section": "Web3",
+            "level": 10,
+            "currentProfitPerHour": 35934,
+            "profitPerHourDelta": 5515,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 5400
+        },
+        {
             "id": "usdt_on_ton",
             "name": "USDT on TON",
             "price": 10000,
@@ -1297,17 +1317,17 @@
         {
             "id": "bogdanoff",
             "name": "Bogdanoff is calling",
-            "price": 3626815,
-            "profitPerHour": 13248,
+            "price": 8312726,
+            "profitPerHour": 14650,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "margin_trading_x50",
                 "level": 15
             },
             "section": "Specials",
-            "level": 16,
-            "currentProfitPerHour": 11937,
-            "profitPerHourDelta": 1311,
+            "level": 17,
+            "currentProfitPerHour": 13248,
+            "profitPerHourDelta": 1402,
             "isAvailable": true,
             "isExpired": false
         },
@@ -1590,7 +1610,7 @@
                 "link": "https://t.me/+BKxnK5qrA7JhN2Uy",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 5407,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 17,
             "currentProfitPerHour": 2789,
@@ -1823,7 +1843,7 @@
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 1031,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 17,
             "currentProfitPerHour": 64143,
@@ -2046,11 +2066,44 @@
             "price": 25387704,
             "profitPerHour": 83665,
             "condition": null,
-            "cooldownSeconds": 1015,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 16,
             "currentProfitPerHour": 75388,
             "profitPerHourDelta": 8277,
+            "isAvailable": true,
+            "isExpired": true,
+            "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "sports_integration_0907",
+            "name": "Semi-final Spain vs France",
+            "releaseAt": "2024-07-09T09:00:00.000Z",
+            "expiresAt": "2024-07-10T09:00:00.000Z",
+            "price": 834397,
+            "profitPerHour": 47350,
+            "condition": null,
+            "cooldownSeconds": 435,
+            "section": "Specials",
+            "level": 11,
+            "currentProfitPerHour": 41449,
+            "profitPerHourDelta": 5901,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "adv_integration_0907",
+            "name": "Percussion taps",
+            "expiresAt": "2024-07-16T09:00:00.000Z",
+            "price": 22050,
+            "profitPerHour": 3105,
+            "condition": null,
+            "cooldownSeconds": 5446,
+            "section": "Specials",
+            "level": 2,
+            "currentProfitPerHour": 1500,
+            "profitPerHourDelta": 1605,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2070,16 +2123,21 @@
             "isAvailable": false
         },
         {
+            "section": "Web3",
+            "isAvailable": true
+        },
+        {
             "section": "Specials",
             "isAvailable": true
         }
     ],
     "dailyCombo": {
         "upgradeIds": [
-            "sports_integration_0807"
+            "sports_integration_0907",
+            "dex"
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 39827
+        "remainSeconds": 70630
     }
 }
