@@ -1,8 +1,8 @@
 // pages/api/GetCombo.js
-// уснул немного
+
 export default function handler(req, res) {
   res.status(200).json({
-    combo: ["security_team", "top10_global", "sports_integration_0807"],
-    date: "08-07-24"
+    combo: ["dex", "tg_leaders", "sports_integration_0907"],
+    date: "09-07-24"
   });
 }
