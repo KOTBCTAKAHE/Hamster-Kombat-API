@@ -1218,21 +1218,41 @@
             "id": "dex",
             "name": "DEX",
             "releaseAt": "2024-07-09T11:00:00.000Z",
-            "price": 1045402,
-            "profitPerHour": 41449,
+            "price": 6054777,
+            "profitPerHour": 60422,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "btc_pairs",
                 "level": 10
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 2825,
             "section": "Web3",
-            "level": 10,
-            "currentProfitPerHour": 35934,
-            "profitPerHourDelta": 5515,
+            "level": 13,
+            "currentProfitPerHour": 53665,
+            "profitPerHourDelta": 6757,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 5400
+            "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "oracle",
+            "name": "Oracle",
+            "releaseAt": "2024-07-10T11:00:00.000Z",
+            "price": 1412781,
+            "profitPerHour": 16115,
+            "condition": {
+                "_type": "ByUpgrade",
+                "upgradeId": "web3_integration",
+                "level": 5
+            },
+            "cooldownSeconds": 2778,
+            "section": "Web3",
+            "level": 13,
+            "currentProfitPerHour": 14313,
+            "profitPerHourDelta": 1802,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 7200
         },
         {
             "id": "usdt_on_ton",
@@ -1935,7 +1955,7 @@
             "currentProfitPerHour": 27062,
             "profitPerHourDelta": 3094,
             "isAvailable": true,
-            "isExpired": false,
+            "isExpired": true,
             "totalCooldownSeconds": 7200
         },
         {
@@ -2083,11 +2103,28 @@
             "price": 834397,
             "profitPerHour": 47350,
             "condition": null,
-            "cooldownSeconds": 435,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 41449,
             "profitPerHourDelta": 5901,
+            "isAvailable": true,
+            "isExpired": true,
+            "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "sports_integration_1007",
+            "name": "Semi-final England vs Netherlands",
+            "releaseAt": "2024-07-10T09:00:00.000Z",
+            "expiresAt": "2024-07-11T09:00:00.000Z",
+            "price": 5594421,
+            "profitPerHour": 67652,
+            "condition": null,
+            "cooldownSeconds": 2764,
+            "section": "Specials",
+            "level": 14,
+            "currentProfitPerHour": 60422,
+            "profitPerHourDelta": 7230,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2096,14 +2133,14 @@
             "id": "adv_integration_0907",
             "name": "Percussion taps",
             "expiresAt": "2024-07-16T09:00:00.000Z",
-            "price": 22050,
-            "profitPerHour": 3105,
+            "price": 3196812,
+            "profitPerHour": 33826,
             "condition": null,
-            "cooldownSeconds": 5446,
+            "cooldownSeconds": 2808,
             "section": "Specials",
-            "level": 2,
-            "currentProfitPerHour": 1500,
-            "profitPerHourDelta": 1605,
+            "level": 14,
+            "currentProfitPerHour": 30211,
+            "profitPerHourDelta": 3615,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2133,11 +2170,11 @@
     ],
     "dailyCombo": {
         "upgradeIds": [
-            "sports_integration_0907",
-            "dex"
+            "sports_integration_1007",
+            "oracle"
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 70630
+        "remainSeconds": 56284
     }
 }
