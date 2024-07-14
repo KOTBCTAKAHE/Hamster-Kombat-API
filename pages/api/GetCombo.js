@@ -2,7 +2,7 @@
 
 export default function handler(req, res) {
   res.status(200).json({
-    combo: ["vesting_smartcontracts", "medium", "hamster_youtube_gold_button"],
+    combo: ["sports_integration_1407", "youtube", "anti_money_loundering"],
     date: "11-07-24"
   });
 }
