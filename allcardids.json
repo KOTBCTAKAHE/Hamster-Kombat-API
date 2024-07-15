@@ -2241,14 +2241,14 @@
             "name": "250M Hamster players",
             "releaseAt": "2024-07-13T09:00:00.000Z",
             "expiresAt": "2024-07-16T17:00:00.000Z",
-            "price": 3196812,
-            "profitPerHour": 33826,
+            "price": 6645943,
+            "profitPerHour": 37694,
             "condition": null,
-            "cooldownSeconds": 1478,
+            "cooldownSeconds": 5094,
             "section": "Specials",
-            "level": 14,
-            "currentProfitPerHour": 30211,
-            "profitPerHourDelta": 3615,
+            "level": 15,
+            "currentProfitPerHour": 33826,
+            "profitPerHourDelta": 3868,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2312,6 +2312,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 51406
+        "remainSeconds": 47804
     }
 }
