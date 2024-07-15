@@ -2241,14 +2241,14 @@
             "name": "250M Hamster players",
             "releaseAt": "2024-07-13T09:00:00.000Z",
             "expiresAt": "2024-07-16T17:00:00.000Z",
-            "price": 1614607,
-            "profitPerHour": 30211,
+            "price": 3196812,
+            "profitPerHour": 33826,
             "condition": null,
-            "cooldownSeconds": 1445,
+            "cooldownSeconds": 5081,
             "section": "Specials",
-            "level": 13,
-            "currentProfitPerHour": 26833,
-            "profitPerHourDelta": 3378,
+            "level": 14,
+            "currentProfitPerHour": 30211,
+            "profitPerHourDelta": 3615,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2271,17 +2271,17 @@
             "id": "call_btc_rise",
             "name": "Call for BTC to rise",
             "releaseAt": "2024-07-15T11:00:00.000Z",
-            "price": 9899658,
-            "profitPerHour": 28754,
+            "price": 13266489,
+            "profitPerHour": 35767,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 5,
-            "currentProfitPerHour": 22200,
-            "profitPerHourDelta": 6554,
+            "level": 6,
+            "currentProfitPerHour": 28754,
+            "profitPerHourDelta": 7013,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 60
+            "totalCooldownSeconds": 300
         }
     ],
     "sections": [
@@ -2312,6 +2312,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 58611
+        "remainSeconds": 55009
     }
 }
