@@ -742,17 +742,17 @@
         {
             "id": "margin_trading_x75",
             "name": "Margin trading x75",
-            "price": 12469089,
-            "profitPerHour": 33923,
+            "price": 30008349,
+            "profitPerHour": 37398,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "short_squeeze",
                 "level": 10
             },
             "section": "Markets",
-            "level": 17,
-            "currentProfitPerHour": 30676,
-            "profitPerHourDelta": 3247,
+            "level": 18,
+            "currentProfitPerHour": 33923,
+            "profitPerHourDelta": 3475,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2240,7 +2240,7 @@
             "id": "adv_integration_1307",
             "name": "250M Hamster players",
             "releaseAt": "2024-07-13T09:00:00.000Z",
-            "expiresAt": "2024-07-16T17:00:00.000Z",
+            "expiresAt": "2024-07-17T11:50:00.000Z",
             "price": 14507259,
             "profitPerHour": 41833,
             "condition": null,
@@ -2314,6 +2314,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 18986
+        "remainSeconds": 15384
     }
 }
