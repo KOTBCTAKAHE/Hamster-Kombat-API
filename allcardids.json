@@ -2284,6 +2284,22 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 300
+        },
+        {
+            "id": "rolex_soulmate",
+            "name": "Rolex for soulmate",
+            "releaseAt": "2024-07-16T11:00:00.000Z",
+            "price": 5516015,
+            "profitPerHour": 10261,
+            "condition": null,
+            "cooldownSeconds": 419,
+            "section": "Specials",
+            "level": 8,
+            "currentProfitPerHour": 8655,
+            "profitPerHourDelta": 1606,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 1800
         }
     ],
     "sections": [
@@ -2314,6 +2330,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 4577
+        "remainSeconds": 975
     }
 }
