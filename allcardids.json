@@ -360,17 +360,17 @@
         {
             "id": "blocking_suspicious_accounts",
             "name": "Blocking suspicious accounts",
-            "price": 12638267,
-            "profitPerHour": 5980,
+            "price": 33533086,
+            "profitPerHour": 6559,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "anonymous_transactions_ban",
                 "level": 7
             },
             "section": "PR&Team",
-            "level": 19,
-            "currentProfitPerHour": 5439,
-            "profitPerHourDelta": 541,
+            "level": 20,
+            "currentProfitPerHour": 5980,
+            "profitPerHourDelta": 579,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2328,6 +2328,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 62159
+        "remainSeconds": 58556
     }
 }
