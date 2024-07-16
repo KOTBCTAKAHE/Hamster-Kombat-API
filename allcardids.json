@@ -1252,18 +1252,18 @@
             "id": "oracle",
             "name": "Oracle",
             "releaseAt": "2024-07-10T11:00:00.000Z",
-            "price": 12693852,
-            "profitPerHour": 22313,
+            "price": 29094541,
+            "profitPerHour": 24675,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "web3_integration",
                 "level": 5
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6750,
             "section": "Web3",
-            "level": 16,
-            "currentProfitPerHour": 20106,
-            "profitPerHourDelta": 2207,
+            "level": 17,
+            "currentProfitPerHour": 22313,
+            "profitPerHourDelta": 2362,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2328,6 +2328,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 47750
+        "remainSeconds": 44147
     }
 }
