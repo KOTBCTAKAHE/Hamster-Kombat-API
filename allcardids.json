@@ -2303,7 +2303,7 @@
         },
         {
             "id": "appstore_launch",
-            "name": "Apple Appstore launch",
+            "name": "HamsterStore launch",
             "releaseAt": "2024-07-17T11:00:00.000Z",
             "price": 7669385,
             "profitPerHour": 100704,
@@ -2312,7 +2312,7 @@
                 "upgradeId": "it_team",
                 "level": 15
             },
-            "cooldownSeconds": 6445,
+            "cooldownSeconds": 2842,
             "section": "Specials",
             "level": 13,
             "currentProfitPerHour": 89443,
@@ -2325,21 +2325,21 @@
             "id": "fight_fight",
             "name": "Fight fight fight",
             "expiresAt": "2024-07-24T11:00:00.000Z",
-            "price": 5600184,
-            "profitPerHour": 86540,
+            "price": 8274023,
+            "profitPerHour": 102598,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "ceo",
                 "level": 17
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 926,
             "section": "Specials",
-            "level": 7,
-            "currentProfitPerHour": 71533,
-            "profitPerHourDelta": 15007,
+            "level": 8,
+            "currentProfitPerHour": 86540,
+            "profitPerHourDelta": 16058,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 600
+            "totalCooldownSeconds": 1800
         }
     ],
     "sections": [
@@ -2370,6 +2370,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 62102
+        "remainSeconds": 58499
     }
 }
