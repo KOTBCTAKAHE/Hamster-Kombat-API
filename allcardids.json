@@ -2287,7 +2287,7 @@
         },
         {
             "id": "rolex_soulmate",
-            "name": "Rolex for soulmate",
+            "name": "HamsterWatch for soulmate",
             "releaseAt": "2024-07-16T11:00:00.000Z",
             "price": 13938696,
             "profitPerHour": 13817,
@@ -2312,7 +2312,7 @@
                 "upgradeId": "it_team",
                 "level": 15
             },
-            "cooldownSeconds": 2842,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 13,
             "currentProfitPerHour": 89443,
@@ -2332,7 +2332,7 @@
                 "upgradeId": "ceo",
                 "level": 17
             },
-            "cooldownSeconds": 926,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 8,
             "currentProfitPerHour": 86540,
@@ -2370,6 +2370,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 58499
+        "remainSeconds": 54897
     }
 }
