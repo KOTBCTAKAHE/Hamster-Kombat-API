@@ -2115,17 +2115,17 @@
             "id": "youtube_25_million",
             "name": "YouTube 25 Million",
             "releaseAt": "2024-06-22T11:00:00.000Z",
-            "price": 13056533,
-            "profitPerHour": 58566,
+            "price": 29925813,
+            "profitPerHour": 64766,
             "condition": {
                 "_type": "LinkWithoutCheck",
                 "link": "https://youtube.com/@hamsterkombat_official"
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6849,
             "section": "Specials",
-            "level": 16,
-            "currentProfitPerHour": 52772,
-            "profitPerHourDelta": 5794,
+            "level": 17,
+            "currentProfitPerHour": 58566,
+            "profitPerHourDelta": 6200,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2328,6 +2328,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 18931
+        "remainSeconds": 15329
     }
 }
