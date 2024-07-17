@@ -2305,21 +2305,21 @@
             "id": "appstore_launch",
             "name": "Apple Appstore launch",
             "releaseAt": "2024-07-17T11:00:00.000Z",
-            "price": 812929,
-            "profitPerHour": 59891,
+            "price": 1324176,
+            "profitPerHour": 69083,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "it_team",
                 "level": 15
             },
-            "cooldownSeconds": 364,
+            "cooldownSeconds": 2188,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 51300,
-            "profitPerHourDelta": 8591,
+            "level": 10,
+            "currentProfitPerHour": 59891,
+            "profitPerHourDelta": 9192,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 3600
+            "totalCooldownSeconds": 5400
         }
     ],
     "sections": [
@@ -2345,9 +2345,11 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [],
+        "upgradeIds": [
+            "appstore_launch"
+        ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 83715
+        "remainSeconds": 80113
     }
 }
