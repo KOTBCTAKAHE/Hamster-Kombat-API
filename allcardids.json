@@ -2305,18 +2305,18 @@
             "id": "appstore_launch",
             "name": "Apple Appstore launch",
             "releaseAt": "2024-07-17T11:00:00.000Z",
-            "price": 2264791,
-            "profitPerHour": 78919,
+            "price": 4067238,
+            "profitPerHour": 89443,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "it_team",
                 "level": 15
             },
-            "cooldownSeconds": 2215,
+            "cooldownSeconds": 6414,
             "section": "Specials",
-            "level": 11,
-            "currentProfitPerHour": 69083,
-            "profitPerHourDelta": 9836,
+            "level": 12,
+            "currentProfitPerHour": 78919,
+            "profitPerHourDelta": 10524,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2325,8 +2325,8 @@
             "id": "fight_fight",
             "name": "Fight fight fight",
             "expiresAt": "2024-07-24T11:00:00.000Z",
-            "price": 3979947,
-            "profitPerHour": 71533,
+            "price": 5600184,
+            "profitPerHour": 86540,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "ceo",
@@ -2334,12 +2334,12 @@
             },
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 6,
-            "currentProfitPerHour": 57507,
-            "profitPerHourDelta": 14026,
+            "level": 7,
+            "currentProfitPerHour": 71533,
+            "profitPerHourDelta": 15007,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 300
+            "totalCooldownSeconds": 600
         }
     ],
     "sections": [
@@ -2370,6 +2370,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 72908
+        "remainSeconds": 69306
     }
 }
