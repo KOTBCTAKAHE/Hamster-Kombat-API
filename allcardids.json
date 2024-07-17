@@ -280,17 +280,17 @@
         {
             "id": "qa_team",
             "name": "QA team",
-            "price": 12891033,
-            "profitPerHour": 7101,
+            "price": 34203747,
+            "profitPerHour": 7788,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "it_team",
                 "level": 3
             },
             "section": "PR&Team",
-            "level": 19,
-            "currentProfitPerHour": 6459,
-            "profitPerHourDelta": 642,
+            "level": 20,
+            "currentProfitPerHour": 7101,
+            "profitPerHourDelta": 687,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2328,6 +2328,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 33340
+        "remainSeconds": 29738
     }
 }
