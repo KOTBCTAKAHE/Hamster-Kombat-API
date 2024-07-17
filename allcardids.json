@@ -2305,18 +2305,18 @@
             "id": "appstore_launch",
             "name": "HamsterStore launch",
             "releaseAt": "2024-07-17T11:00:00.000Z",
-            "price": 7669385,
-            "profitPerHour": 100704,
+            "price": 15184857,
+            "profitPerHour": 112753,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "it_team",
                 "level": 15
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4565,
             "section": "Specials",
-            "level": 13,
-            "currentProfitPerHour": 89443,
-            "profitPerHourDelta": 11261,
+            "level": 14,
+            "currentProfitPerHour": 100704,
+            "profitPerHourDelta": 12049,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2370,6 +2370,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 51294
+        "remainSeconds": 47691
     }
 }
