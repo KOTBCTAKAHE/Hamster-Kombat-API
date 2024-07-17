@@ -2250,24 +2250,24 @@
             "currentProfitPerHour": 37694,
             "profitPerHourDelta": 4139,
             "isAvailable": true,
-            "isExpired": false,
+            "isExpired": true,
             "totalCooldownSeconds": 7200
         },
         {
             "id": "business_jet",
             "name": "Business jet",
             "releaseAt": "2024-07-14T11:00:00.000Z",
-            "price": 13230000,
-            "profitPerHour": 6210,
+            "price": 15315379,
+            "profitPerHour": 9645,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 2,
-            "currentProfitPerHour": 3000,
-            "profitPerHourDelta": 3210,
+            "level": 3,
+            "currentProfitPerHour": 6210,
+            "profitPerHourDelta": 3435,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 10
+            "totalCooldownSeconds": 15
         },
         {
             "id": "call_btc_rise",
@@ -2305,21 +2305,21 @@
             "id": "appstore_launch",
             "name": "Apple Appstore launch",
             "releaseAt": "2024-07-17T11:00:00.000Z",
-            "price": 524021,
-            "profitPerHour": 51300,
+            "price": 812929,
+            "profitPerHour": 59891,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "it_team",
                 "level": 15
             },
-            "cooldownSeconds": 338,
+            "cooldownSeconds": 364,
             "section": "Specials",
-            "level": 8,
-            "currentProfitPerHour": 43271,
-            "profitPerHourDelta": 8029,
+            "level": 9,
+            "currentProfitPerHour": 51300,
+            "profitPerHourDelta": 8591,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 1800
+            "totalCooldownSeconds": 3600
         }
     ],
     "sections": [
@@ -2348,6 +2348,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 918
+        "remainSeconds": 83715
     }
 }
