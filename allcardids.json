@@ -2325,21 +2325,21 @@
             "id": "fight_fight",
             "name": "Fight fight fight",
             "expiresAt": "2024-07-24T11:00:00.000Z",
-            "price": 12835725,
-            "profitPerHour": 119780,
+            "price": 20908044,
+            "profitPerHour": 138165,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "ceo",
                 "level": 17
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 5028,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 102598,
-            "profitPerHourDelta": 17182,
+            "level": 10,
+            "currentProfitPerHour": 119780,
+            "profitPerHourDelta": 18385,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 3600
+            "totalCooldownSeconds": 5400
         }
     ],
     "sections": [
@@ -2370,6 +2370,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 29679
+        "remainSeconds": 26077
     }
 }
