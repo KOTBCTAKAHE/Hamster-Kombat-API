@@ -55,13 +55,13 @@
         {
             "id": "facebook_ads",
             "name": "HamsterBook",
-            "price": 13413234,
-            "profitPerHour": 2870,
+            "price": 37368769,
+            "profitPerHour": 3141,
             "condition": null,
             "section": "PR&Team",
-            "level": 20,
-            "currentProfitPerHour": 2617,
-            "profitPerHourDelta": 253,
+            "level": 21,
+            "currentProfitPerHour": 2870,
+            "profitPerHourDelta": 271,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2383,11 +2383,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "appstore_launch"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 860
+        "remainSeconds": 83657
     }
 }
