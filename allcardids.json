@@ -2312,7 +2312,7 @@
                 "upgradeId": "it_team",
                 "level": 15
             },
-            "cooldownSeconds": 962,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 100704,
@@ -2325,21 +2325,21 @@
             "id": "fight_fight",
             "name": "Fight fight fight",
             "expiresAt": "2024-07-24T11:00:00.000Z",
-            "price": 8274023,
-            "profitPerHour": 102598,
+            "price": 12835725,
+            "profitPerHour": 119780,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "ceo",
                 "level": 17
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 2191,
             "section": "Specials",
-            "level": 8,
-            "currentProfitPerHour": 86540,
-            "profitPerHourDelta": 16058,
+            "level": 9,
+            "currentProfitPerHour": 102598,
+            "profitPerHourDelta": 17182,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 1800
+            "totalCooldownSeconds": 3600
         }
     ],
     "sections": [
@@ -2370,6 +2370,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 44088
+        "remainSeconds": 40486
     }
 }
