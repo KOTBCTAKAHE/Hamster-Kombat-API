@@ -2332,7 +2332,7 @@
                 "upgradeId": "ceo",
                 "level": 17
             },
-            "cooldownSeconds": 1425,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 10,
             "currentProfitPerHour": 119780,
@@ -2370,6 +2370,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 22474
+        "remainSeconds": 18872
     }
 }
