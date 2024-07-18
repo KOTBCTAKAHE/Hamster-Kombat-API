@@ -910,13 +910,13 @@
         {
             "id": "kyb",
             "name": "KYB",
-            "price": 13413234,
-            "profitPerHour": 2461,
+            "price": 37368769,
+            "profitPerHour": 2693,
             "condition": null,
             "section": "Legal",
-            "level": 20,
-            "currentProfitPerHour": 2244,
-            "profitPerHourDelta": 217,
+            "level": 21,
+            "currentProfitPerHour": 2461,
+            "profitPerHourDelta": 232,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2386,6 +2386,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 47632
+        "remainSeconds": 44029
     }
 }
