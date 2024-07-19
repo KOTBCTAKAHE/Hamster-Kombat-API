@@ -623,17 +623,17 @@
         {
             "id": "socialfi_tokens",
             "name": "SocialFi tokens",
-            "price": 13413234,
-            "profitPerHour": 2050,
+            "price": 37368769,
+            "profitPerHour": 2243,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "gamefi_tokens",
                 "level": 11
             },
             "section": "Markets",
-            "level": 20,
-            "currentProfitPerHour": 1869,
-            "profitPerHourDelta": 181,
+            "level": 21,
+            "currentProfitPerHour": 2050,
+            "profitPerHourDelta": 193,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2358,6 +2358,22 @@
             "profitPerHourDelta": 1000,
             "isAvailable": true,
             "isExpired": false
+        },
+        {
+            "id": "google_analytics",
+            "name": "Hamster Analytics",
+            "releaseAt": "2024-07-19T11:00:00.000Z",
+            "price": 413701,
+            "profitPerHour": 20520,
+            "condition": null,
+            "cooldownSeconds": 214,
+            "section": "Specials",
+            "level": 8,
+            "currentProfitPerHour": 17308,
+            "profitPerHourDelta": 3212,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 1800
         }
     ],
     "sections": [
@@ -2386,6 +2402,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 4401
+        "remainSeconds": 799
     }
 }
