@@ -111,17 +111,17 @@
         {
             "id": "instagram",
             "name": "HamsterGram",
-            "price": 13413234,
-            "profitPerHour": 2050,
+            "price": 37368769,
+            "profitPerHour": 2243,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "youtube",
                 "level": 8
             },
             "section": "PR&Team",
-            "level": 20,
-            "currentProfitPerHour": 1869,
-            "profitPerHourDelta": 181,
+            "level": 21,
+            "currentProfitPerHour": 2050,
+            "profitPerHourDelta": 193,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2386,6 +2386,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 18812
+        "remainSeconds": 15209
     }
 }
