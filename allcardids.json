@@ -2363,14 +2363,14 @@
             "id": "google_analytics",
             "name": "Hamster Analytics",
             "releaseAt": "2024-07-19T11:00:00.000Z",
-            "price": 11988045,
-            "profitPerHour": 45101,
+            "price": 24922285,
+            "profitPerHour": 50258,
             "condition": null,
-            "cooldownSeconds": 2168,
+            "cooldownSeconds": 5777,
             "section": "Specials",
-            "level": 14,
-            "currentProfitPerHour": 40281,
-            "profitPerHourDelta": 4820,
+            "level": 15,
+            "currentProfitPerHour": 45101,
+            "profitPerHourDelta": 5157,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2404,6 +2404,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 51173
+        "remainSeconds": 47570
     }
 }
