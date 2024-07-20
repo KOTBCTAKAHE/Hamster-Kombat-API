@@ -2383,7 +2383,7 @@
             "price": 1393870,
             "profitPerHour": 48359,
             "condition": null,
-            "cooldownSeconds": 4773,
+            "cooldownSeconds": 1170,
             "section": "Specials",
             "level": 10,
             "currentProfitPerHour": 41924,
@@ -2416,11 +2416,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "google_analytics"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 3502
+        "remainSeconds": 86299
     }
 }
