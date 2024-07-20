@@ -533,17 +533,17 @@
         {
             "id": "staking",
             "name": "Staking",
-            "price": 14003896,
-            "profitPerHour": 20397,
+            "price": 35387149,
+            "profitPerHour": 22425,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "kyc",
                 "level": 7
             },
             "section": "Markets",
-            "level": 18,
-            "currentProfitPerHour": 18502,
-            "profitPerHourDelta": 1895,
+            "level": 19,
+            "currentProfitPerHour": 20397,
+            "profitPerHourDelta": 2028,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2374,6 +2374,23 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "session_australia",
+            "name": "Strategic session in Australia",
+            "releaseAt": "2024-07-20T09:00:00.000Z",
+            "expiresAt": "2024-07-22T09:00:00.000Z",
+            "price": 127628,
+            "profitPerHour": 11252,
+            "condition": null,
+            "cooldownSeconds": 0,
+            "section": "Specials",
+            "level": 3,
+            "currentProfitPerHour": 7245,
+            "profitPerHourDelta": 4007,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 15
         }
     ],
     "sections": [
@@ -2404,6 +2421,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 14309
+        "remainSeconds": 10707
     }
 }
