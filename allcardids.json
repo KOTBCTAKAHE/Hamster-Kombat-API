@@ -708,17 +708,17 @@
         {
             "id": "margin_trading_x30",
             "name": "Margin trading x30",
-            "price": 14003896,
-            "profitPerHour": 16998,
+            "price": 35387149,
+            "profitPerHour": 18688,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "legal_opinion",
                 "level": 6
             },
             "section": "Markets",
-            "level": 18,
-            "currentProfitPerHour": 15419,
-            "profitPerHourDelta": 1579,
+            "level": 19,
+            "currentProfitPerHour": 16998,
+            "profitPerHourDelta": 1690,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2383,7 +2383,7 @@
             "price": 2383990,
             "profitPerHour": 55244,
             "condition": null,
-            "cooldownSeconds": 4781,
+            "cooldownSeconds": 1178,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 48359,
@@ -2419,6 +2419,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 82697
+        "remainSeconds": 79094
     }
 }
