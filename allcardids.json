@@ -426,14 +426,14 @@
         {
             "id": "compliance_officer",
             "name": "Compliance officer",
-            "price": 14003896,
-            "profitPerHour": 4078,
+            "price": 35387149,
+            "profitPerHour": 4484,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4895,
             "section": "PR&Team",
-            "level": 18,
-            "currentProfitPerHour": 3699,
-            "profitPerHourDelta": 379,
+            "level": 19,
+            "currentProfitPerHour": 4078,
+            "profitPerHourDelta": 406,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2419,6 +2419,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 53877
+        "remainSeconds": 50274
     }
 }
