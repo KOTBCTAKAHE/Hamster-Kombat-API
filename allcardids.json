@@ -2380,17 +2380,17 @@
             "name": "Strategic session in Australia",
             "releaseAt": "2024-07-20T09:00:00.000Z",
             "expiresAt": "2024-07-22T09:00:00.000Z",
-            "price": 127628,
-            "profitPerHour": 11252,
+            "price": 855715,
+            "profitPerHour": 41924,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 2938,
             "section": "Specials",
-            "level": 3,
-            "currentProfitPerHour": 7245,
-            "profitPerHourDelta": 4007,
+            "level": 9,
+            "currentProfitPerHour": 35910,
+            "profitPerHourDelta": 6014,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 15
+            "totalCooldownSeconds": 3600
         }
     ],
     "sections": [
@@ -2421,6 +2421,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 10707
+        "remainSeconds": 7104
     }
 }
