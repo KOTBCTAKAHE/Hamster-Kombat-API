@@ -1272,18 +1272,18 @@
             "id": "vesting_smartcontracts",
             "name": "Vesting Smartcontracts",
             "releaseAt": "2024-07-11T11:00:00.000Z",
-            "price": 13624182,
-            "profitPerHour": 30156,
+            "price": 29739881,
+            "profitPerHour": 33467,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "web3_integration",
                 "level": 7
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6402,
             "section": "Web3",
-            "level": 15,
-            "currentProfitPerHour": 27062,
-            "profitPerHourDelta": 3094,
+            "level": 16,
+            "currentProfitPerHour": 30156,
+            "profitPerHourDelta": 3311,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2366,7 +2366,7 @@
             "price": 24922285,
             "profitPerHour": 50258,
             "condition": null,
-            "cooldownSeconds": 2175,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 15,
             "currentProfitPerHour": 45101,
@@ -2404,6 +2404,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 43968
+        "remainSeconds": 40366
     }
 }
