@@ -2289,17 +2289,17 @@
             "id": "rolex_soulmate",
             "name": "HamsterWatch for soulmate",
             "releaseAt": "2024-07-16T11:00:00.000Z",
-            "price": 13938696,
-            "profitPerHour": 13817,
+            "price": 23839901,
+            "profitPerHour": 15784,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6384,
             "section": "Specials",
-            "level": 10,
-            "currentProfitPerHour": 11979,
-            "profitPerHourDelta": 1838,
+            "level": 11,
+            "currentProfitPerHour": 13817,
+            "profitPerHourDelta": 1967,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 5400
+            "totalCooldownSeconds": 7200
         },
         {
             "id": "appstore_launch",
@@ -2404,6 +2404,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 29558
+        "remainSeconds": 25956
     }
 }
