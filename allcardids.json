@@ -1279,7 +1279,7 @@
                 "upgradeId": "web3_integration",
                 "level": 7
             },
-            "cooldownSeconds": 6402,
+            "cooldownSeconds": 2799,
             "section": "Web3",
             "level": 16,
             "currentProfitPerHour": 30156,
@@ -2404,6 +2404,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 40366
+        "remainSeconds": 36763
     }
 }
