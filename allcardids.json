@@ -1862,18 +1862,18 @@
         {
             "id": "bitcoin_pizza_day",
             "name": "Bitcoin Pizza Day",
-            "price": 4001113,
-            "profitPerHour": 3400,
+            "price": 10110614,
+            "profitPerHour": 3738,
             "condition": {
                 "_type": "SubscribeTelegramChannel",
                 "link": "https://t.me/+BKxnK5qrA7JhN2Uy",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4971,
             "section": "Specials",
-            "level": 18,
-            "currentProfitPerHour": 3084,
-            "profitPerHourDelta": 316,
+            "level": 19,
+            "currentProfitPerHour": 3400,
+            "profitPerHourDelta": 338,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2345,8 +2345,8 @@
             "id": "telegram_50m",
             "name": "50M Telegram channel",
             "releaseAt": "2024-07-18T11:00:00.000Z",
-            "price": 186673,
-            "profitPerHour": 8655,
+            "price": 275801,
+            "profitPerHour": 10261,
             "condition": {
                 "_type": "SubscribeTelegramChannel",
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
@@ -2354,12 +2354,12 @@
             },
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 7,
-            "currentProfitPerHour": 7154,
-            "profitPerHourDelta": 1501,
+            "level": 8,
+            "currentProfitPerHour": 8655,
+            "profitPerHourDelta": 1606,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 600
+            "totalCooldownSeconds": 1800
         },
         {
             "id": "google_analytics",
@@ -2421,6 +2421,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 14250
+        "remainSeconds": 10647
     }
 }
