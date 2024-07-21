@@ -1706,17 +1706,17 @@
         {
             "id": "special_hamster_conference",
             "name": "Special Hamster Conference",
-            "price": 8312726,
-            "profitPerHour": 27756,
+            "price": 20005566,
+            "profitPerHour": 30599,
             "condition": {
                 "_type": "SubscribeTelegramChannel",
                 "link": "https://t.me/+kK14mIuJR2hlMmNi",
                 "channelId": -1002075341442
             },
             "section": "Specials",
-            "level": 17,
-            "currentProfitPerHour": 25099,
-            "profitPerHourDelta": 2657,
+            "level": 18,
+            "currentProfitPerHour": 27756,
+            "profitPerHourDelta": 2843,
             "isAvailable": true,
             "isExpired": false
         },
@@ -1850,7 +1850,7 @@
                 "link": "https://t.me/+_uqfAor-9TFkOWNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 1739,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 17,
             "currentProfitPerHour": 33467,
@@ -1869,7 +1869,7 @@
                 "link": "https://t.me/+BKxnK5qrA7JhN2Uy",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 1751,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 18,
             "currentProfitPerHour": 3084,
@@ -2016,7 +2016,7 @@
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 1733,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 15,
             "currentProfitPerHour": 42847,
@@ -2345,8 +2345,8 @@
             "id": "telegram_50m",
             "name": "50M Telegram channel",
             "releaseAt": "2024-07-18T11:00:00.000Z",
-            "price": 98997,
-            "profitPerHour": 5751,
+            "price": 186673,
+            "profitPerHour": 8655,
             "condition": {
                 "_type": "SubscribeTelegramChannel",
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
@@ -2354,12 +2354,12 @@
             },
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 5,
-            "currentProfitPerHour": 4440,
-            "profitPerHourDelta": 1311,
+            "level": 7,
+            "currentProfitPerHour": 7154,
+            "profitPerHourDelta": 1501,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 60
+            "totalCooldownSeconds": 600
         },
         {
             "id": "google_analytics",
@@ -2421,6 +2421,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 17852
+        "remainSeconds": 14250
     }
 }
