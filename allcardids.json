@@ -2352,7 +2352,7 @@
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 4784,
+            "cooldownSeconds": 1181,
             "section": "Specials",
             "level": 12,
             "currentProfitPerHour": 15784,
@@ -2421,6 +2421,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 75432
+        "remainSeconds": 71829
     }
 }
