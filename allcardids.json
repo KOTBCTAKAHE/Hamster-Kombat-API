@@ -501,18 +501,18 @@
             "id": "leaderboards",
             "name": "Leaderboards",
             "releaseAt": "2024-07-07T11:00:00.000Z",
-            "price": 14507259,
-            "profitPerHour": 20917,
+            "price": 33250904,
+            "profitPerHour": 23131,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "kyc",
                 "level": 15
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 5220,
             "section": "PR&Team",
-            "level": 16,
-            "currentProfitPerHour": 18848,
-            "profitPerHourDelta": 2069,
+            "level": 17,
+            "currentProfitPerHour": 20917,
+            "profitPerHourDelta": 2214,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2419,6 +2419,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 39467
+        "remainSeconds": 35864
     }
 }
