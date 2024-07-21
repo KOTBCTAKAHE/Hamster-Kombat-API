@@ -508,7 +508,7 @@
                 "upgradeId": "kyc",
                 "level": 15
             },
-            "cooldownSeconds": 5220,
+            "cooldownSeconds": 1618,
             "section": "PR&Team",
             "level": 17,
             "currentProfitPerHour": 20917,
@@ -2419,6 +2419,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 35864
+        "remainSeconds": 32262
     }
 }
