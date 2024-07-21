@@ -1850,7 +1850,7 @@
                 "link": "https://t.me/+_uqfAor-9TFkOWNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 5342,
+            "cooldownSeconds": 1739,
             "section": "Specials",
             "level": 17,
             "currentProfitPerHour": 33467,
@@ -1869,7 +1869,7 @@
                 "link": "https://t.me/+BKxnK5qrA7JhN2Uy",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 5354,
+            "cooldownSeconds": 1751,
             "section": "Specials",
             "level": 18,
             "currentProfitPerHour": 3084,
@@ -2016,7 +2016,7 @@
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 5336,
+            "cooldownSeconds": 1733,
             "section": "Specials",
             "level": 15,
             "currentProfitPerHour": 42847,
@@ -2345,8 +2345,8 @@
             "id": "telegram_50m",
             "name": "50M Telegram channel",
             "releaseAt": "2024-07-18T11:00:00.000Z",
-            "price": 63814,
-            "profitPerHour": 3215,
+            "price": 98997,
+            "profitPerHour": 5751,
             "condition": {
                 "_type": "SubscribeTelegramChannel",
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
@@ -2354,12 +2354,12 @@
             },
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 3,
-            "currentProfitPerHour": 2070,
-            "profitPerHourDelta": 1145,
+            "level": 5,
+            "currentProfitPerHour": 4440,
+            "profitPerHourDelta": 1311,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 15
+            "totalCooldownSeconds": 60
         },
         {
             "id": "google_analytics",
@@ -2421,6 +2421,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 21455
+        "remainSeconds": 17852
     }
 }
