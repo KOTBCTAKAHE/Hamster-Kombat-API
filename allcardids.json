@@ -2345,18 +2345,18 @@
             "id": "telegram_50m",
             "name": "50M Telegram channel",
             "releaseAt": "2024-07-18T11:00:00.000Z",
-            "price": 2140652,
-            "profitPerHour": 17889,
+            "price": 4036518,
+            "profitPerHour": 20141,
             "condition": {
                 "_type": "SubscribeTelegramChannel",
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 1181,
+            "cooldownSeconds": 6751,
             "section": "Specials",
-            "level": 12,
-            "currentProfitPerHour": 15784,
-            "profitPerHourDelta": 2105,
+            "level": 13,
+            "currentProfitPerHour": 17889,
+            "profitPerHourDelta": 2252,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2421,6 +2421,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 71829
+        "remainSeconds": 68227
     }
 }
