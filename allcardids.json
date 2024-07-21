@@ -1862,18 +1862,18 @@
         {
             "id": "bitcoin_pizza_day",
             "name": "Bitcoin Pizza Day",
-            "price": 10110614,
-            "profitPerHour": 3738,
+            "price": 26826469,
+            "profitPerHour": 4100,
             "condition": {
                 "_type": "SubscribeTelegramChannel",
                 "link": "https://t.me/+BKxnK5qrA7JhN2Uy",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 5412,
             "section": "Specials",
-            "level": 19,
-            "currentProfitPerHour": 3400,
-            "profitPerHourDelta": 338,
+            "level": 20,
+            "currentProfitPerHour": 3738,
+            "profitPerHourDelta": 362,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2352,7 +2352,7 @@
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 6916,
+            "cooldownSeconds": 3313,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 13817,
@@ -2421,6 +2421,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 86240
+        "remainSeconds": 82637
     }
 }
