@@ -85,13 +85,13 @@
         {
             "id": "x",
             "name": "X",
-            "price": 14754558,
-            "profitPerHour": 3278,
+            "price": 41105646,
+            "profitPerHour": 3588,
             "condition": null,
             "section": "PR&Team",
-            "level": 20,
-            "currentProfitPerHour": 2989,
-            "profitPerHourDelta": 289,
+            "level": 21,
+            "currentProfitPerHour": 3278,
+            "profitPerHourDelta": 310,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2352,7 +2352,7 @@
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 6751,
+            "cooldownSeconds": 3148,
             "section": "Specials",
             "level": 13,
             "currentProfitPerHour": 17889,
@@ -2421,6 +2421,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 68227
+        "remainSeconds": 64624
     }
 }
