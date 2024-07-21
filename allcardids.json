@@ -1869,7 +1869,7 @@
                 "link": "https://t.me/+BKxnK5qrA7JhN2Uy",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 1369,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 19,
             "currentProfitPerHour": 3400,
@@ -2345,21 +2345,21 @@
             "id": "telegram_50m",
             "name": "50M Telegram channel",
             "releaseAt": "2024-07-18T11:00:00.000Z",
-            "price": 427858,
-            "profitPerHour": 11979,
+            "price": 696935,
+            "profitPerHour": 13817,
             "condition": {
                 "_type": "SubscribeTelegramChannel",
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 111,
+            "cooldownSeconds": 2558,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 10261,
-            "profitPerHourDelta": 1718,
+            "level": 10,
+            "currentProfitPerHour": 11979,
+            "profitPerHourDelta": 1838,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 3600
+            "totalCooldownSeconds": 5400
         },
         {
             "id": "google_analytics",
@@ -2421,6 +2421,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 7045
+        "remainSeconds": 3442
     }
 }
