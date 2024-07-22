@@ -1125,7 +1125,7 @@
                 "_type": "ReferralCount",
                 "referralCount": 3
             },
-            "cooldownSeconds": 425,
+            "cooldownSeconds": 0,
             "section": "Legal",
             "level": 16,
             "currentProfitPerHour": 62821,
@@ -2421,6 +2421,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 32202
+        "remainSeconds": 28600
     }
 }
