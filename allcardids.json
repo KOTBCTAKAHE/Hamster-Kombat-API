@@ -1068,14 +1068,14 @@
         {
             "id": "licence_nigeria",
             "name": "Licence Nigeria",
-            "price": 15165921,
-            "profitPerHour": 6355,
+            "price": 40239703,
+            "profitPerHour": 6970,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 5302,
             "section": "Legal",
-            "level": 19,
-            "currentProfitPerHour": 5780,
-            "profitPerHourDelta": 575,
+            "level": 20,
+            "currentProfitPerHour": 6355,
+            "profitPerHourDelta": 615,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2421,6 +2421,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 10587
+        "remainSeconds": 6984
     }
 }
