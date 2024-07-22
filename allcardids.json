@@ -1292,18 +1292,18 @@
             "id": "launchpad",
             "name": "Launchpad",
             "releaseAt": "2024-07-12T11:00:00.000Z",
-            "price": 15184857,
-            "profitPerHour": 67652,
+            "price": 31568227,
+            "profitPerHour": 75388,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "vc_labs",
                 "level": 15
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6551,
             "section": "Web3",
-            "level": 14,
-            "currentProfitPerHour": 60422,
-            "profitPerHourDelta": 7230,
+            "level": 15,
+            "currentProfitPerHour": 67652,
+            "profitPerHourDelta": 7736,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2421,6 +2421,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 68165
+        "remainSeconds": 64563
     }
 }
