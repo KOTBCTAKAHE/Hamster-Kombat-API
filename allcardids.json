@@ -1119,17 +1119,17 @@
         {
             "id": "licence_india",
             "name": "Licence India",
-            "price": 14953371,
-            "profitPerHour": 62821,
+            "price": 32641333,
+            "profitPerHour": 69719,
             "condition": {
                 "_type": "ReferralCount",
                 "referralCount": 3
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4028,
             "section": "Legal",
-            "level": 15,
-            "currentProfitPerHour": 56375,
-            "profitPerHourDelta": 6446,
+            "level": 16,
+            "currentProfitPerHour": 62821,
+            "profitPerHourDelta": 6898,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2421,6 +2421,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 39407
+        "remainSeconds": 35805
     }
 }
