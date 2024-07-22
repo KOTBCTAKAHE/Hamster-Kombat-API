@@ -1299,7 +1299,7 @@
                 "upgradeId": "vc_labs",
                 "level": 15
             },
-            "cooldownSeconds": 6551,
+            "cooldownSeconds": 2948,
             "section": "Web3",
             "level": 15,
             "currentProfitPerHour": 67652,
@@ -2421,6 +2421,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 64563
+        "remainSeconds": 60960
     }
 }
