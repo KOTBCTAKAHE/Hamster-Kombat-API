@@ -2,7 +2,7 @@
 
 export default function handler(req, res) {
   res.status(200).json({
-    combo: ["compliance_officer", "dao", "rolex_soulmate"],
+    combo: ["long_squeeze", "youtube", "fight_fight"],
     date: "21-07-24"
   });
 }
