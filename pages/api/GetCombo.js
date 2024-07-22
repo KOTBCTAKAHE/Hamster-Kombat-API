@@ -3,6 +3,6 @@
 export default function handler(req, res) {
   res.status(200).json({
     combo: ["long_squeeze", "youtube", "fight_fight"],
-    date: "21-07-24"
+    date: "22-07-24"
   });
 }
