@@ -1919,17 +1919,17 @@
         {
             "id": "hamster_youtube_channel",
             "name": "Hamster YouTube Channel",
-            "price": 15165921,
-            "profitPerHour": 9346,
+            "price": 40239703,
+            "profitPerHour": 10250,
             "condition": {
                 "_type": "LinkWithoutCheck",
                 "link": "https://youtube.com/@hamsterkombat_official"
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4696,
             "section": "Specials",
-            "level": 19,
-            "currentProfitPerHour": 8501,
-            "profitPerHourDelta": 845,
+            "level": 20,
+            "currentProfitPerHour": 9346,
+            "profitPerHourDelta": 904,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2421,6 +2421,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 24997
+        "remainSeconds": 21395
     }
 }
