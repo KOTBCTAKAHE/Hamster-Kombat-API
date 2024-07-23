@@ -521,18 +521,18 @@
             "id": "mini_game",
             "name": "Minigame",
             "releaseAt": "2024-07-23T11:00:00.000Z",
-            "price": 6393624,
-            "profitPerHour": 22551,
+            "price": 13291885,
+            "profitPerHour": 25130,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "gamefi_tokens",
                 "level": 17
             },
-            "cooldownSeconds": 1031,
+            "cooldownSeconds": 6059,
             "section": "PR&Team",
-            "level": 14,
-            "currentProfitPerHour": 20141,
-            "profitPerHourDelta": 2410,
+            "level": 15,
+            "currentProfitPerHour": 22551,
+            "profitPerHourDelta": 2579,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -745,17 +745,17 @@
         {
             "id": "margin_trading_x50",
             "name": "Margin trading x50",
-            "price": 16625452,
-            "profitPerHour": 33923,
+            "price": 40011132,
+            "profitPerHour": 37398,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "margin_trading_x30",
                 "level": 8
             },
             "section": "Markets",
-            "level": 17,
-            "currentProfitPerHour": 30676,
-            "profitPerHourDelta": 3247,
+            "level": 18,
+            "currentProfitPerHour": 33923,
+            "profitPerHourDelta": 3475,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2443,6 +2443,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 50091
+        "remainSeconds": 46488
     }
 }
