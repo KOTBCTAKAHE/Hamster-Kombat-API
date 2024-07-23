@@ -521,18 +521,18 @@
             "id": "mini_game",
             "name": "Minigame",
             "releaseAt": "2024-07-23T11:00:00.000Z",
-            "price": 953596,
-            "profitPerHour": 15784,
+            "price": 1712521,
+            "profitPerHour": 17889,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "gamefi_tokens",
                 "level": 17
             },
-            "cooldownSeconds": 947,
+            "cooldownSeconds": 4576,
             "section": "PR&Team",
-            "level": 11,
-            "currentProfitPerHour": 13817,
-            "profitPerHourDelta": 1967,
+            "level": 12,
+            "currentProfitPerHour": 15784,
+            "profitPerHourDelta": 2105,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -1514,16 +1514,16 @@
         {
             "id": "usdt_on_ton",
             "name": "USDT on TON",
-            "price": 16625452,
-            "profitPerHour": 41636,
+            "price": 40011132,
+            "profitPerHour": 45900,
             "condition": {
                 "_type": "ReferralCount",
                 "referralCount": 3
             },
             "section": "Specials",
-            "level": 17,
-            "currentProfitPerHour": 37651,
-            "profitPerHourDelta": 3985,
+            "level": 18,
+            "currentProfitPerHour": 41636,
+            "profitPerHourDelta": 4264,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2443,6 +2443,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 71706
+        "remainSeconds": 68104
     }
 }
