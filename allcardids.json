@@ -68,17 +68,17 @@
         {
             "id": "youtube",
             "name": "HamsterTube",
-            "price": 16095881,
-            "profitPerHour": 3688,
+            "price": 44842523,
+            "profitPerHour": 4036,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "facebook_ads",
                 "level": 5
             },
             "section": "PR&Team",
-            "level": 20,
-            "currentProfitPerHour": 3363,
-            "profitPerHourDelta": 325,
+            "level": 21,
+            "currentProfitPerHour": 3688,
+            "profitPerHourDelta": 348,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2418,9 +2418,11 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [],
+        "upgradeIds": [
+            "youtube"
+        ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 35743
+        "remainSeconds": 32140
     }
 }
