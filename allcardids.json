@@ -521,21 +521,21 @@
             "id": "mini_game",
             "name": "Minigame",
             "releaseAt": "2024-07-23T11:00:00.000Z",
-            "price": 106132,
-            "profitPerHour": 7154,
+            "price": 342286,
+            "profitPerHour": 11979,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "gamefi_tokens",
                 "level": 17
             },
-            "cooldownSeconds": 227,
+            "cooldownSeconds": 2704,
             "section": "PR&Team",
-            "level": 6,
-            "currentProfitPerHour": 5751,
-            "profitPerHourDelta": 1403,
+            "level": 9,
+            "currentProfitPerHour": 10261,
+            "profitPerHourDelta": 1718,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 300
+            "totalCooldownSeconds": 3600
         },
         {
             "id": "fan_tokens",
@@ -1694,16 +1694,16 @@
         {
             "id": "two_chairs",
             "name": "There are two chairs...",
-            "price": 16614856,
-            "profitPerHour": 50258,
+            "price": 36268148,
+            "profitPerHour": 55776,
             "condition": {
                 "_type": "MoreReferralsCount",
                 "moreReferralsCount": 1
             },
             "section": "Specials",
-            "level": 15,
-            "currentProfitPerHour": 45101,
-            "profitPerHourDelta": 5157,
+            "level": 16,
+            "currentProfitPerHour": 50258,
+            "profitPerHourDelta": 5518,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2438,11 +2438,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "youtube"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 3320
+        "remainSeconds": 86117
     }
 }
