@@ -1083,17 +1083,17 @@
         {
             "id": "licence_japan",
             "name": "Licence Japan",
-            "price": 16614856,
-            "profitPerHour": 65337,
+            "price": 36268148,
+            "profitPerHour": 72510,
             "condition": {
                 "_type": "MoreReferralsCount",
                 "moreReferralsCount": 1
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6530,
             "section": "Legal",
-            "level": 15,
-            "currentProfitPerHour": 58633,
-            "profitPerHourDelta": 6704,
+            "level": 16,
+            "currentProfitPerHour": 65337,
+            "profitPerHourDelta": 7173,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2423,6 +2423,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 21333
+        "remainSeconds": 17730
     }
 }
