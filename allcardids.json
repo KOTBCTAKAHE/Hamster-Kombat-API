@@ -528,7 +528,7 @@
                 "upgradeId": "gamefi_tokens",
                 "level": 17
             },
-            "cooldownSeconds": 4576,
+            "cooldownSeconds": 973,
             "section": "PR&Team",
             "level": 12,
             "currentProfitPerHour": 15784,
@@ -2443,6 +2443,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 68104
+        "remainSeconds": 64501
     }
 }
