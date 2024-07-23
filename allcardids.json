@@ -521,18 +521,18 @@
             "id": "mini_game",
             "name": "Minigame",
             "releaseAt": "2024-07-23T11:00:00.000Z",
-            "price": 3229215,
-            "profitPerHour": 20141,
+            "price": 6393624,
+            "profitPerHour": 22551,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "gamefi_tokens",
                 "level": 17
             },
-            "cooldownSeconds": 998,
+            "cooldownSeconds": 4633,
             "section": "PR&Team",
-            "level": 13,
-            "currentProfitPerHour": 17889,
-            "profitPerHourDelta": 2252,
+            "level": 14,
+            "currentProfitPerHour": 20141,
+            "profitPerHourDelta": 2410,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2443,6 +2443,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 57296
+        "remainSeconds": 53693
     }
 }
