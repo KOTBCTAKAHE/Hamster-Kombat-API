@@ -518,6 +518,26 @@
             "totalCooldownSeconds": 7200
         },
         {
+            "id": "mini_game",
+            "name": "Minigame",
+            "releaseAt": "2024-07-23T11:00:00.000Z",
+            "price": 106132,
+            "profitPerHour": 7154,
+            "condition": {
+                "_type": "ByUpgrade",
+                "upgradeId": "gamefi_tokens",
+                "level": 17
+            },
+            "cooldownSeconds": 227,
+            "section": "PR&Team",
+            "level": 6,
+            "currentProfitPerHour": 5751,
+            "profitPerHourDelta": 1403,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 300
+        },
+        {
             "id": "fan_tokens",
             "name": "Fan tokens",
             "price": 16625452,
@@ -2423,6 +2443,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 6922
+        "remainSeconds": 3320
     }
 }
