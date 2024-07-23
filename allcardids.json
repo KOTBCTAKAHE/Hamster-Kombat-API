@@ -1089,7 +1089,7 @@
                 "_type": "MoreReferralsCount",
                 "moreReferralsCount": 1
             },
-            "cooldownSeconds": 2928,
+            "cooldownSeconds": 0,
             "section": "Legal",
             "level": 16,
             "currentProfitPerHour": 65337,
@@ -2423,6 +2423,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 14128
+        "remainSeconds": 10525
     }
 }
