@@ -2115,18 +2115,18 @@
         {
             "id": "tg_leaders",
             "name": "TG Leaders",
-            "price": 15957985,
-            "profitPerHour": 64143,
+            "price": 36575994,
+            "profitPerHour": 70933,
             "condition": {
                 "_type": "SubscribeTelegramChannel",
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4345,
             "section": "Specials",
-            "level": 16,
-            "currentProfitPerHour": 57797,
-            "profitPerHourDelta": 6346,
+            "level": 17,
+            "currentProfitPerHour": 64143,
+            "profitPerHourDelta": 6790,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2418,21 +2418,21 @@
             "id": "telegram_miniapp_launch",
             "name": "Telegram Miniapp Launch",
             "releaseAt": "2024-07-24T11:00:00.000Z",
-            "price": 213929,
-            "profitPerHour": 11979,
+            "price": 348467,
+            "profitPerHour": 13817,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "it_team",
                 "level": 15
             },
-            "cooldownSeconds": 2669,
+            "cooldownSeconds": 4507,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 10261,
-            "profitPerHourDelta": 1718,
+            "level": 10,
+            "currentProfitPerHour": 11979,
+            "profitPerHourDelta": 1838,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 3600
+            "totalCooldownSeconds": 5400
         }
     ],
     "sections": [
@@ -2458,9 +2458,11 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [],
+        "upgradeIds": [
+            "telegram_miniapp_launch"
+        ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 86056
+        "remainSeconds": 82454
     }
 }
