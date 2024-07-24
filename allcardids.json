@@ -2418,18 +2418,18 @@
             "id": "telegram_miniapp_launch",
             "name": "Telegram Miniapp Launch",
             "releaseAt": "2024-07-24T11:00:00.000Z",
-            "price": 595998,
-            "profitPerHour": 15784,
+            "price": 1070326,
+            "profitPerHour": 17889,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "it_team",
                 "level": 15
             },
-            "cooldownSeconds": 949,
+            "cooldownSeconds": 4567,
             "section": "Specials",
-            "level": 11,
-            "currentProfitPerHour": 13817,
-            "profitPerHourDelta": 1967,
+            "level": 12,
+            "currentProfitPerHour": 15784,
+            "profitPerHourDelta": 2105,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2439,17 +2439,17 @@
             "name": "Kamala is calling",
             "releaseAt": "2024-07-24T11:00:00.000Z",
             "expiresAt": "2024-07-31T11:00:00.000Z",
-            "price": 427858,
-            "profitPerHour": 41924,
+            "price": 696935,
+            "profitPerHour": 48359,
             "condition": null,
-            "cooldownSeconds": 1769,
+            "cooldownSeconds": 3594,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 35910,
-            "profitPerHourDelta": 6014,
+            "level": 10,
+            "currentProfitPerHour": 41924,
+            "profitPerHourDelta": 6435,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 3600
+            "totalCooldownSeconds": 5400
         }
     ],
     "sections": [
@@ -2480,6 +2480,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 71646
+        "remainSeconds": 68043
     }
 }
