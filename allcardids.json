@@ -1071,17 +1071,17 @@
         {
             "id": "licence_north_america",
             "name": "Licence North America",
-            "price": 16625452,
-            "profitPerHour": 29605,
+            "price": 40011132,
+            "profitPerHour": 32637,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "sec_transparancy",
                 "level": 10
             },
             "section": "Legal",
-            "level": 17,
-            "currentProfitPerHour": 26771,
-            "profitPerHourDelta": 2834,
+            "level": 18,
+            "currentProfitPerHour": 29605,
+            "profitPerHourDelta": 3032,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2443,6 +2443,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 17669
+        "remainSeconds": 14066
     }
 }
