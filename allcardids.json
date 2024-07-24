@@ -2122,7 +2122,7 @@
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 742,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 17,
             "currentProfitPerHour": 64143,
@@ -2418,21 +2418,38 @@
             "id": "telegram_miniapp_launch",
             "name": "Telegram Miniapp Launch",
             "releaseAt": "2024-07-24T11:00:00.000Z",
-            "price": 348467,
-            "profitPerHour": 13817,
+            "price": 595998,
+            "profitPerHour": 15784,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "it_team",
                 "level": 15
             },
-            "cooldownSeconds": 904,
+            "cooldownSeconds": 4551,
             "section": "Specials",
-            "level": 10,
-            "currentProfitPerHour": 11979,
-            "profitPerHourDelta": 1838,
+            "level": 11,
+            "currentProfitPerHour": 13817,
+            "profitPerHourDelta": 1967,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 5400
+            "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "kamala_calling",
+            "name": "Kamala is calling",
+            "releaseAt": "2024-07-24T11:00:00.000Z",
+            "expiresAt": "2024-07-31T11:00:00.000Z",
+            "price": 275801,
+            "profitPerHour": 35910,
+            "condition": null,
+            "cooldownSeconds": 1752,
+            "section": "Specials",
+            "level": 8,
+            "currentProfitPerHour": 30290,
+            "profitPerHourDelta": 5620,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 1800
         }
     ],
     "sections": [
@@ -2463,6 +2480,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 78851
+        "remainSeconds": 75248
     }
 }
