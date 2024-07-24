@@ -2358,7 +2358,7 @@
             "currentProfitPerHour": 119780,
             "profitPerHourDelta": 18385,
             "isAvailable": true,
-            "isExpired": false,
+            "isExpired": true,
             "totalCooldownSeconds": 5400
         },
         {
@@ -2413,6 +2413,26 @@
             "isAvailable": true,
             "isExpired": true,
             "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "telegram_miniapp_launch",
+            "name": "Telegram Miniapp Launch",
+            "releaseAt": "2024-07-24T11:00:00.000Z",
+            "price": 66332,
+            "profitPerHour": 7154,
+            "condition": {
+                "_type": "ByUpgrade",
+                "upgradeId": "it_team",
+                "level": 15
+            },
+            "cooldownSeconds": 177,
+            "section": "Specials",
+            "level": 6,
+            "currentProfitPerHour": 5751,
+            "profitPerHourDelta": 1403,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 300
         }
     ],
     "sections": [
@@ -2443,6 +2463,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 6861
+        "remainSeconds": 3259
     }
 }
