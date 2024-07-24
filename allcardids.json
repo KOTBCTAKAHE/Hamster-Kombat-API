@@ -2425,7 +2425,7 @@
                 "upgradeId": "it_team",
                 "level": 15
             },
-            "cooldownSeconds": 4551,
+            "cooldownSeconds": 949,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 13817,
@@ -2439,17 +2439,17 @@
             "name": "Kamala is calling",
             "releaseAt": "2024-07-24T11:00:00.000Z",
             "expiresAt": "2024-07-31T11:00:00.000Z",
-            "price": 275801,
-            "profitPerHour": 35910,
+            "price": 427858,
+            "profitPerHour": 41924,
             "condition": null,
-            "cooldownSeconds": 1752,
+            "cooldownSeconds": 1769,
             "section": "Specials",
-            "level": 8,
-            "currentProfitPerHour": 30290,
-            "profitPerHourDelta": 5620,
+            "level": 9,
+            "currentProfitPerHour": 35910,
+            "profitPerHourDelta": 6014,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 1800
+            "totalCooldownSeconds": 3600
         }
     ],
     "sections": [
@@ -2480,6 +2480,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 75248
+        "remainSeconds": 71646
     }
 }
