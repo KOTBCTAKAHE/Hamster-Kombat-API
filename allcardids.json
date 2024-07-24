@@ -540,13 +540,13 @@
         {
             "id": "fan_tokens",
             "name": "Fan tokens",
-            "price": 16625452,
-            "profitPerHour": 29300,
+            "price": 40011132,
+            "profitPerHour": 32301,
             "condition": null,
             "section": "Markets",
-            "level": 17,
-            "currentProfitPerHour": 26495,
-            "profitPerHourDelta": 2805,
+            "level": 18,
+            "currentProfitPerHour": 29300,
+            "profitPerHourDelta": 3001,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2425,7 +2425,7 @@
                 "upgradeId": "it_team",
                 "level": 15
             },
-            "cooldownSeconds": 4567,
+            "cooldownSeconds": 965,
             "section": "Specials",
             "level": 12,
             "currentProfitPerHour": 15784,
@@ -2442,7 +2442,7 @@
             "price": 696935,
             "profitPerHour": 48359,
             "condition": null,
-            "cooldownSeconds": 3594,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 10,
             "currentProfitPerHour": 41924,
@@ -2480,6 +2480,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 68043
+        "remainSeconds": 64441
     }
 }
