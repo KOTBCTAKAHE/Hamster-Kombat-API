@@ -871,7 +871,7 @@
                 "upgradeId": "kyc",
                 "level": 7
             },
-            "cooldownSeconds": 1232,
+            "cooldownSeconds": 0,
             "section": "Markets",
             "level": 19,
             "currentProfitPerHour": 13259,
@@ -2445,7 +2445,7 @@
                 "upgradeId": "it_team",
                 "level": 16
             },
-            "cooldownSeconds": 4531,
+            "cooldownSeconds": 929,
             "section": "Specials",
             "level": 12,
             "currentProfitPerHour": 12629,
@@ -2479,7 +2479,7 @@
             "price": 2568782,
             "profitPerHour": 51877,
             "condition": null,
-            "cooldownSeconds": 4525,
+            "cooldownSeconds": 923,
             "section": "Specials",
             "level": 12,
             "currentProfitPerHour": 45773,
@@ -2518,6 +2518,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 67982
+        "remainSeconds": 64380
     }
 }
