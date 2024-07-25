@@ -864,18 +864,18 @@
         {
             "id": "p2p_trading",
             "name": "P2P trading",
-            "price": 16804676,
-            "profitPerHour": 13259,
+            "price": 42464578,
+            "profitPerHour": 14577,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "kyc",
                 "level": 7
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4835,
             "section": "Markets",
-            "level": 18,
-            "currentProfitPerHour": 12027,
-            "profitPerHourDelta": 1232,
+            "level": 19,
+            "currentProfitPerHour": 13259,
+            "profitPerHourDelta": 1318,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2445,7 +2445,7 @@
                 "upgradeId": "it_team",
                 "level": 16
             },
-            "cooldownSeconds": 4517,
+            "cooldownSeconds": 915,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 11055,
@@ -2479,7 +2479,7 @@
             "price": 1430394,
             "profitPerHour": 45773,
             "condition": null,
-            "cooldownSeconds": 4511,
+            "cooldownSeconds": 909,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 40068,
@@ -2518,6 +2518,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 75187
+        "remainSeconds": 71585
     }
 }
