@@ -871,7 +871,7 @@
                 "upgradeId": "kyc",
                 "level": 7
             },
-            "cooldownSeconds": 4835,
+            "cooldownSeconds": 1232,
             "section": "Markets",
             "level": 19,
             "currentProfitPerHour": 13259,
@@ -2438,18 +2438,18 @@
             "id": "telegram_stars_integration",
             "name": "Telegram Stars integration",
             "releaseAt": "2024-07-25T11:00:00.000Z",
-            "price": 405278,
-            "profitPerHour": 12629,
+            "price": 727822,
+            "profitPerHour": 14313,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "it_team",
                 "level": 16
             },
-            "cooldownSeconds": 915,
+            "cooldownSeconds": 4531,
             "section": "Specials",
-            "level": 11,
-            "currentProfitPerHour": 11055,
-            "profitPerHourDelta": 1574,
+            "level": 12,
+            "currentProfitPerHour": 12629,
+            "profitPerHourDelta": 1684,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2476,14 +2476,14 @@
             "name": "Bitcoin Conference 2024",
             "releaseAt": "2024-07-25T11:00:00.000Z",
             "expiresAt": "2024-08-01T11:00:00.000Z",
-            "price": 1430394,
-            "profitPerHour": 45773,
+            "price": 2568782,
+            "profitPerHour": 51877,
             "condition": null,
-            "cooldownSeconds": 909,
+            "cooldownSeconds": 4525,
             "section": "Specials",
-            "level": 11,
-            "currentProfitPerHour": 40068,
-            "profitPerHourDelta": 5705,
+            "level": 12,
+            "currentProfitPerHour": 45773,
+            "profitPerHourDelta": 6104,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2518,6 +2518,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 71585
+        "remainSeconds": 67982
     }
 }
