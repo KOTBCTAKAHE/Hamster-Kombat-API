@@ -2439,14 +2439,14 @@
             "name": "Kamala is calling",
             "releaseAt": "2024-07-24T11:00:00.000Z",
             "expiresAt": "2024-07-31T11:00:00.000Z",
-            "price": 16614856,
-            "profitPerHour": 87953,
+            "price": 36268148,
+            "profitPerHour": 97610,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6524,
             "section": "Specials",
-            "level": 15,
-            "currentProfitPerHour": 78928,
-            "profitPerHourDelta": 9025,
+            "level": 16,
+            "currentProfitPerHour": 87953,
+            "profitPerHourDelta": 9657,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2480,6 +2480,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 24813
+        "remainSeconds": 21211
     }
 }
