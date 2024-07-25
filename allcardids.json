@@ -902,14 +902,14 @@
         {
             "id": "layerzero_listing",
             "name": "LayerZero Listing",
-            "price": 16625452,
-            "profitPerHour": 27756,
+            "price": 40011132,
+            "profitPerHour": 30599,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4167,
             "section": "Markets",
-            "level": 17,
-            "currentProfitPerHour": 25099,
-            "profitPerHourDelta": 2657,
+            "level": 18,
+            "currentProfitPerHour": 27756,
+            "profitPerHourDelta": 2843,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2435,6 +2435,26 @@
             "totalCooldownSeconds": 7200
         },
         {
+            "id": "telegram_stars_integration",
+            "name": "Telegram Stars integration",
+            "releaseAt": "2024-07-25T11:00:00.000Z",
+            "price": 45106,
+            "profitPerHour": 5723,
+            "condition": {
+                "_type": "ByUpgrade",
+                "upgradeId": "it_team",
+                "level": 16
+            },
+            "cooldownSeconds": 168,
+            "section": "Specials",
+            "level": 6,
+            "currentProfitPerHour": 4601,
+            "profitPerHourDelta": 1122,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 300
+        },
+        {
             "id": "kamala_calling",
             "name": "Kamala is calling",
             "releaseAt": "2024-07-24T11:00:00.000Z",
@@ -2450,6 +2470,23 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "bitcoin_conference_2024",
+            "name": "Bitcoin Conference 2024",
+            "releaseAt": "2024-07-25T11:00:00.000Z",
+            "expiresAt": "2024-08-01T11:00:00.000Z",
+            "price": 159198,
+            "profitPerHour": 20744,
+            "condition": null,
+            "cooldownSeconds": 162,
+            "section": "Specials",
+            "level": 6,
+            "currentProfitPerHour": 16677,
+            "profitPerHourDelta": 4067,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 300
         }
     ],
     "sections": [
@@ -2480,6 +2517,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 6801
+        "remainSeconds": 3198
     }
 }
