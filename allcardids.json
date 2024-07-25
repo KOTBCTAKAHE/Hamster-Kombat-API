@@ -2438,21 +2438,21 @@
             "id": "telegram_stars_integration",
             "name": "Telegram Stars integration",
             "releaseAt": "2024-07-25T11:00:00.000Z",
-            "price": 236958,
-            "profitPerHour": 11055,
+            "price": 405278,
+            "profitPerHour": 12629,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "it_team",
                 "level": 16
             },
-            "cooldownSeconds": 905,
+            "cooldownSeconds": 4517,
             "section": "Specials",
-            "level": 10,
-            "currentProfitPerHour": 9584,
-            "profitPerHourDelta": 1471,
+            "level": 11,
+            "currentProfitPerHour": 11055,
+            "profitPerHourDelta": 1574,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 5400
+            "totalCooldownSeconds": 7200
         },
         {
             "id": "kamala_calling",
@@ -2476,17 +2476,17 @@
             "name": "Bitcoin Conference 2024",
             "releaseAt": "2024-07-25T11:00:00.000Z",
             "expiresAt": "2024-08-01T11:00:00.000Z",
-            "price": 836322,
-            "profitPerHour": 40068,
+            "price": 1430394,
+            "profitPerHour": 45773,
             "condition": null,
-            "cooldownSeconds": 899,
+            "cooldownSeconds": 4511,
             "section": "Specials",
-            "level": 10,
-            "currentProfitPerHour": 34736,
-            "profitPerHourDelta": 5332,
+            "level": 11,
+            "currentProfitPerHour": 40068,
+            "profitPerHourDelta": 5705,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 5400
+            "totalCooldownSeconds": 7200
         }
     ],
     "sections": [
@@ -2518,6 +2518,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 78790
+        "remainSeconds": 75187
     }
 }
