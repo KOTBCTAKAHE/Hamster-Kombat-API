@@ -2438,18 +2438,18 @@
             "id": "telegram_stars_integration",
             "name": "Telegram Stars integration",
             "releaseAt": "2024-07-25T11:00:00.000Z",
-            "price": 5649051,
-            "profitPerHour": 20106,
+            "price": 12331170,
+            "profitPerHour": 22313,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "it_team",
                 "level": 16
             },
-            "cooldownSeconds": 1001,
+            "cooldownSeconds": 4632,
             "section": "Specials",
-            "level": 15,
-            "currentProfitPerHour": 18043,
-            "profitPerHourDelta": 2063,
+            "level": 16,
+            "currentProfitPerHour": 20106,
+            "profitPerHourDelta": 2207,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2479,7 +2479,7 @@
             "price": 19937828,
             "profitPerHour": 72875,
             "condition": null,
-            "cooldownSeconds": 995,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 15,
             "currentProfitPerHour": 65397,
@@ -2518,6 +2518,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 42765
+        "remainSeconds": 39162
     }
 }
