@@ -399,7 +399,7 @@
             "price": 41563630,
             "profitPerHour": 46261,
             "condition": null,
-            "cooldownSeconds": 6316,
+            "cooldownSeconds": 2713,
             "section": "PR&Team",
             "level": 17,
             "currentProfitPerHour": 41833,
@@ -2493,17 +2493,17 @@
             "name": "The water is clear",
             "releaseAt": "2024-07-26T11:00:00.000Z",
             "expiresAt": "2024-07-28T04:00:00.000Z",
-            "price": 92865,
-            "profitPerHour": 21460,
+            "price": 299500,
+            "profitPerHour": 35934,
             "condition": null,
-            "cooldownSeconds": 67,
+            "cooldownSeconds": 2551,
             "section": "Specials",
-            "level": 6,
-            "currentProfitPerHour": 17252,
-            "profitPerHourDelta": 4208,
+            "level": 9,
+            "currentProfitPerHour": 30779,
+            "profitPerHourDelta": 5155,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 300
+            "totalCooldownSeconds": 3600
         }
     ],
     "sections": [
@@ -2529,12 +2529,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "bitcoin_conference_2024",
-            "telegram_stars_integration"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 3138
+        "remainSeconds": 85935
     }
 }
