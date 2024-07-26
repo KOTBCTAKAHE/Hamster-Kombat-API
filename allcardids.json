@@ -2496,7 +2496,7 @@
             "price": 487854,
             "profitPerHour": 41449,
             "condition": null,
-            "cooldownSeconds": 4375,
+            "cooldownSeconds": 772,
             "section": "Specials",
             "level": 10,
             "currentProfitPerHour": 35934,
@@ -2510,17 +2510,17 @@
             "name": "Carry it like it\u2019s hot",
             "releaseAt": "2024-07-26T11:00:00.000Z",
             "expiresAt": "2024-08-02T17:30:00.000Z",
-            "price": 132665,
-            "profitPerHour": 14307,
+            "price": 427858,
+            "profitPerHour": 23956,
             "condition": null,
-            "cooldownSeconds": 266,
+            "cooldownSeconds": 2763,
             "section": "Specials",
-            "level": 6,
-            "currentProfitPerHour": 11502,
-            "profitPerHourDelta": 2805,
+            "level": 9,
+            "currentProfitPerHour": 20520,
+            "profitPerHourDelta": 3436,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 300
+            "totalCooldownSeconds": 3600
         }
     ],
     "sections": [
@@ -2549,6 +2549,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 82333
+        "remainSeconds": 78730
     }
 }
