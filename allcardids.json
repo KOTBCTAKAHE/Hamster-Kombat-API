@@ -2496,7 +2496,7 @@
             "price": 834397,
             "profitPerHour": 47350,
             "condition": null,
-            "cooldownSeconds": 4411,
+            "cooldownSeconds": 808,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 41449,
@@ -2513,7 +2513,7 @@
             "price": 696935,
             "profitPerHour": 27633,
             "condition": null,
-            "cooldownSeconds": 4603,
+            "cooldownSeconds": 1000,
             "section": "Specials",
             "level": 10,
             "currentProfitPerHour": 23956,
@@ -2549,6 +2549,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 75128
+        "remainSeconds": 71525
     }
 }
