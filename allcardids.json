@@ -815,16 +815,16 @@
         {
             "id": "prediction_markets",
             "name": "Prediction markets",
-            "price": 17693574,
-            "profitPerHour": 12896,
+            "price": 46946320,
+            "profitPerHour": 14144,
             "condition": {
                 "_type": "ReferralCount",
                 "referralCount": 2
             },
             "section": "Markets",
-            "level": 19,
-            "currentProfitPerHour": 11730,
-            "profitPerHourDelta": 1166,
+            "level": 20,
+            "currentProfitPerHour": 12896,
+            "profitPerHourDelta": 1248,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2518,6 +2518,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 21150
+        "remainSeconds": 17548
     }
 }
