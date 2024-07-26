@@ -396,14 +396,14 @@
         {
             "id": "consensys_explorer_pass",
             "name": "Consensus Explorer pass",
-            "price": 18134074,
-            "profitPerHour": 41833,
+            "price": 41563630,
+            "profitPerHour": 46261,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6316,
             "section": "PR&Team",
-            "level": 16,
-            "currentProfitPerHour": 37694,
-            "profitPerHourDelta": 4139,
+            "level": 17,
+            "currentProfitPerHour": 41833,
+            "profitPerHourDelta": 4428,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2487,6 +2487,23 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "adv_integration_2607",
+            "name": "The water is clear",
+            "releaseAt": "2024-07-26T11:00:00.000Z",
+            "expiresAt": "2024-07-28T04:00:00.000Z",
+            "price": 92865,
+            "profitPerHour": 21460,
+            "condition": null,
+            "cooldownSeconds": 67,
+            "section": "Specials",
+            "level": 6,
+            "currentProfitPerHour": 17252,
+            "profitPerHourDelta": 4208,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 300
         }
     ],
     "sections": [
@@ -2518,6 +2535,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 6740
+        "remainSeconds": 3138
     }
 }
