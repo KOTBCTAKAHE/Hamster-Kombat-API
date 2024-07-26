@@ -2445,7 +2445,7 @@
                 "upgradeId": "it_team",
                 "level": 16
             },
-            "cooldownSeconds": 4645,
+            "cooldownSeconds": 1043,
             "section": "Specials",
             "level": 17,
             "currentProfitPerHour": 22313,
@@ -2518,6 +2518,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 31957
+        "remainSeconds": 28355
     }
 }
