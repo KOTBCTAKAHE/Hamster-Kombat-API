@@ -2231,7 +2231,7 @@
                 "upgradeId": "support_team",
                 "level": 12
             },
-            "cooldownSeconds": 6911,
+            "cooldownSeconds": 3309,
             "section": "Specials",
             "level": 16,
             "currentProfitPerHour": 75388,
@@ -2455,6 +2455,23 @@
             "totalCooldownSeconds": 7200
         },
         {
+            "id": "hamsterbank",
+            "name": "HamsterBank",
+            "releaseAt": "2024-07-27T11:00:00.000Z",
+            "price": 300000,
+            "profitPerHour": 19000,
+            "condition": {
+                "_type": "ReferralCount",
+                "referralCount": 10
+            },
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 19000,
+            "isAvailable": false,
+            "isExpired": false
+        },
+        {
             "id": "kamala_calling",
             "name": "Kamala is calling",
             "releaseAt": "2024-07-24T11:00:00.000Z",
@@ -2549,6 +2566,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 6680
+        "remainSeconds": 3078
     }
 }
