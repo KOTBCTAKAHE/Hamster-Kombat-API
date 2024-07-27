@@ -1983,8 +1983,8 @@
         {
             "id": "web3_academy_launch",
             "name": "Web3 academy launch",
-            "price": 18287997,
-            "profitPerHour": 46261,
+            "price": 44012246,
+            "profitPerHour": 50999,
             "condition": {
                 "_type": "LinksToUpgradeLevel",
                 "subscribeLink": "https://www.youtube.com/@HamsterKombat_Official?sub_confirmation=1",
@@ -1999,11 +1999,11 @@
                     "https://www.youtube.com/shorts/a_gHYwMsjh0"
                 ]
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 5144,
             "section": "Specials",
-            "level": 17,
-            "currentProfitPerHour": 41833,
-            "profitPerHourDelta": 4428,
+            "level": 18,
+            "currentProfitPerHour": 46261,
+            "profitPerHourDelta": 4738,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2566,6 +2566,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 78671
+        "remainSeconds": 75068
     }
 }
