@@ -2224,18 +2224,18 @@
             "id": "cx_hub_istanbul",
             "name": "CX Hub Istanbul",
             "releaseAt": "2024-07-03T14:00:00.000Z",
-            "price": 18276342,
-            "profitPerHour": 75388,
+            "price": 39894963,
+            "profitPerHour": 83665,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "support_team",
                 "level": 12
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6911,
             "section": "Specials",
-            "level": 15,
-            "currentProfitPerHour": 67652,
-            "profitPerHourDelta": 7736,
+            "level": 16,
+            "currentProfitPerHour": 75388,
+            "profitPerHourDelta": 8277,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2549,6 +2549,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 10283
+        "remainSeconds": 6680
     }
 }
