@@ -1999,7 +1999,7 @@
                     "https://www.youtube.com/shorts/a_gHYwMsjh0"
                 ]
             },
-            "cooldownSeconds": 5144,
+            "cooldownSeconds": 1542,
             "section": "Specials",
             "level": 18,
             "currentProfitPerHour": 46261,
@@ -2566,6 +2566,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 75068
+        "remainSeconds": 71466
     }
 }
