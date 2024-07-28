@@ -786,7 +786,7 @@
                 "upgradeId": "short_squeeze",
                 "level": 3
             },
-            "cooldownSeconds": 576,
+            "cooldownSeconds": 0,
             "section": "Markets",
             "level": 19,
             "currentProfitPerHour": 33147,
@@ -1352,21 +1352,21 @@
             "id": "grant_developers",
             "name": "Grant for Developers",
             "releaseAt": "2024-07-28T11:00:00.000Z",
-            "price": 265330,
-            "profitPerHour": 28613,
+            "price": 855715,
+            "profitPerHour": 47912,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "product_team",
                 "level": 10
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 2472,
             "section": "Web3",
-            "level": 6,
-            "currentProfitPerHour": 23003,
-            "profitPerHourDelta": 5610,
+            "level": 9,
+            "currentProfitPerHour": 41039,
+            "profitPerHourDelta": 6873,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 300
+            "totalCooldownSeconds": 3600
         },
         {
             "id": "sports_integration",
@@ -2586,6 +2586,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 3020
+        "remainSeconds": 85818
     }
 }
