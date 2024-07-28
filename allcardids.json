@@ -1003,17 +1003,17 @@
         {
             "id": "licence_europe",
             "name": "Licence Europe",
-            "price": 20005566,
-            "profitPerHour": 24480,
+            "price": 50553069,
+            "profitPerHour": 26914,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "kyc",
                 "level": 5
             },
             "section": "Legal",
-            "level": 18,
-            "currentProfitPerHour": 22206,
-            "profitPerHourDelta": 2274,
+            "level": 19,
+            "currentProfitPerHour": 24480,
+            "profitPerHourDelta": 2434,
             "isAvailable": true,
             "isExpired": false
         },
@@ -1359,7 +1359,7 @@
                 "upgradeId": "product_team",
                 "level": 10
             },
-            "cooldownSeconds": 4327,
+            "cooldownSeconds": 724,
             "section": "Web3",
             "level": 11,
             "currentProfitPerHour": 55266,
@@ -2588,6 +2588,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 75011
+        "remainSeconds": 71408
     }
 }
