@@ -2493,14 +2493,14 @@
             "name": "Bitcoin Conference 2024",
             "releaseAt": "2024-07-25T11:00:00.000Z",
             "expiresAt": "2024-08-01T11:00:00.000Z",
-            "price": 19937828,
-            "profitPerHour": 72875,
+            "price": 43521778,
+            "profitPerHour": 80876,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4535,
             "section": "Specials",
-            "level": 15,
-            "currentProfitPerHour": 65397,
-            "profitPerHourDelta": 7478,
+            "level": 16,
+            "currentProfitPerHour": 72875,
+            "profitPerHourDelta": 8001,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2566,6 +2566,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 28237
+        "remainSeconds": 24634
     }
 }
