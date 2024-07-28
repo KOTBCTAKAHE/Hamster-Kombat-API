@@ -1359,7 +1359,7 @@
                 "upgradeId": "product_team",
                 "level": 10
             },
-            "cooldownSeconds": 4344,
+            "cooldownSeconds": 741,
             "section": "Web3",
             "level": 12,
             "currentProfitPerHour": 63135,
@@ -2588,6 +2588,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 67806
+        "remainSeconds": 64203
     }
 }
