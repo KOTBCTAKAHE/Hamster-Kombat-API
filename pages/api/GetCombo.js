@@ -2,7 +2,7 @@
 
 export default function handler(req, res) {
   res.status(200).json({
-    combo: ["hamsterbank", "top10_global", "usdt_on_ton"],
-    date: "27-07-24"
+    combo: ["web3_academy_launch", "grant_developers", "apps_center_listing"],
+    date: "28-07-24"
   });
 }
