@@ -779,18 +779,18 @@
         {
             "id": "margin_trading_x100",
             "name": "Margin trading x100",
-            "price": 20005566,
-            "profitPerHour": 33147,
+            "price": 50553069,
+            "profitPerHour": 36442,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "short_squeeze",
                 "level": 3
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4179,
             "section": "Markets",
-            "level": 18,
-            "currentProfitPerHour": 30067,
-            "profitPerHourDelta": 3080,
+            "level": 19,
+            "currentProfitPerHour": 33147,
+            "profitPerHourDelta": 3295,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2566,6 +2566,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 10225
+        "remainSeconds": 6623
     }
 }
