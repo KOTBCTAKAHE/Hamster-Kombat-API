@@ -2277,17 +2277,17 @@
             "id": "business_jet",
             "name": "Business jet",
             "releaseAt": "2024-07-14T11:00:00.000Z",
-            "price": 18615939,
-            "profitPerHour": 13320,
+            "price": 23759179,
+            "profitPerHour": 17252,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 4,
-            "currentProfitPerHour": 9645,
-            "profitPerHourDelta": 3675,
+            "level": 5,
+            "currentProfitPerHour": 13320,
+            "profitPerHourDelta": 3932,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 30
+            "totalCooldownSeconds": 60
         },
         {
             "id": "call_btc_rise",
@@ -2566,6 +2566,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 46248
+        "remainSeconds": 42646
     }
 }
