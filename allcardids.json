@@ -1372,21 +1372,21 @@
             "id": "nft_metaverse",
             "name": "NFT Metaverse",
             "releaseAt": "2024-07-29T11:00:00.000Z",
-            "price": 551250,
-            "profitPerHour": 4140,
+            "price": 775664,
+            "profitPerHour": 8880,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "x",
                 "level": 7
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 18,
             "section": "Web3",
-            "level": 2,
-            "currentProfitPerHour": 2000,
-            "profitPerHourDelta": 2140,
+            "level": 4,
+            "currentProfitPerHour": 6430,
+            "profitPerHourDelta": 2450,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 10
+            "totalCooldownSeconds": 30
         },
         {
             "id": "sports_integration",
@@ -2603,9 +2603,11 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [],
+        "upgradeIds": [
+            "nft_metaverse"
+        ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 85760
+        "remainSeconds": 82157
     }
 }
