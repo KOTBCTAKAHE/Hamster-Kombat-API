@@ -1352,18 +1352,18 @@
             "id": "grant_developers",
             "name": "Grant for Developers",
             "releaseAt": "2024-07-28T11:00:00.000Z",
-            "price": 15984060,
-            "profitPerHour": 90202,
+            "price": 33229713,
+            "profitPerHour": 100516,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "product_team",
                 "level": 10
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4010,
             "section": "Web3",
-            "level": 14,
-            "currentProfitPerHour": 80563,
-            "profitPerHourDelta": 9639,
+            "level": 15,
+            "currentProfitPerHour": 90202,
+            "profitPerHourDelta": 10314,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2589,6 +2589,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 20974
+        "remainSeconds": 17372
     }
 }
