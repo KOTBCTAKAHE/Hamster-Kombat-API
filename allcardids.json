@@ -1372,21 +1372,21 @@
             "id": "nft_metaverse",
             "name": "NFT Metaverse",
             "releaseAt": "2024-07-29T11:00:00.000Z",
-            "price": 2758008,
-            "profitPerHour": 20520,
+            "price": 4278575,
+            "profitPerHour": 23956,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "x",
                 "level": 7
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 1270,
             "section": "Web3",
-            "level": 8,
-            "currentProfitPerHour": 17308,
-            "profitPerHourDelta": 3212,
+            "level": 9,
+            "currentProfitPerHour": 20520,
+            "profitPerHourDelta": 3436,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 1800
+            "totalCooldownSeconds": 3600
         },
         {
             "id": "sports_integration",
@@ -1903,18 +1903,18 @@
         {
             "id": "top10_global",
             "name": "Top 10 Global Ranking",
-            "price": 16625452,
-            "profitPerHour": 37010,
+            "price": 40011132,
+            "profitPerHour": 40801,
             "condition": {
                 "_type": "SubscribeTelegramChannel",
                 "link": "https://t.me/+_uqfAor-9TFkOWNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 7082,
             "section": "Specials",
-            "level": 17,
-            "currentProfitPerHour": 33467,
-            "profitPerHourDelta": 3543,
+            "level": 18,
+            "currentProfitPerHour": 37010,
+            "profitPerHourDelta": 3791,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2608,6 +2608,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 67747
+        "remainSeconds": 64144
     }
 }
