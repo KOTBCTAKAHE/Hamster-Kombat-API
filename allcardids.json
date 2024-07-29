@@ -1631,13 +1631,13 @@
         {
             "id": "apps_center_listing",
             "name": "Apps Center Listing",
-            "price": 24938178,
-            "profitPerHour": 30841,
+            "price": 60016698,
+            "profitPerHour": 34000,
             "condition": null,
             "section": "Specials",
-            "level": 17,
-            "currentProfitPerHour": 27889,
-            "profitPerHourDelta": 2952,
+            "level": 18,
+            "currentProfitPerHour": 30841,
+            "profitPerHourDelta": 3159,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2584,10 +2584,11 @@
     ],
     "dailyCombo": {
         "upgradeIds": [
+            "apps_center_listing",
             "grant_developers"
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 38987
+        "remainSeconds": 35384
     }
 }
