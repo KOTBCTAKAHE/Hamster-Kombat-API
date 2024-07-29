@@ -1379,7 +1379,7 @@
                 "upgradeId": "x",
                 "level": 7
             },
-            "cooldownSeconds": 3814,
+            "cooldownSeconds": 212,
             "section": "Web3",
             "level": 10,
             "currentProfitPerHour": 23956,
@@ -1910,7 +1910,7 @@
                 "link": "https://t.me/+_uqfAor-9TFkOWNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 3480,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 18,
             "currentProfitPerHour": 37010,
@@ -2608,6 +2608,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 60542
+        "remainSeconds": 56940
     }
 }
