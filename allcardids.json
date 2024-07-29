@@ -1379,7 +1379,7 @@
                 "upgradeId": "x",
                 "level": 7
             },
-            "cooldownSeconds": 3949,
+            "cooldownSeconds": 346,
             "section": "Web3",
             "level": 11,
             "currentProfitPerHour": 27633,
@@ -2608,6 +2608,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 53337
+        "remainSeconds": 49734
     }
 }
