@@ -1359,7 +1359,7 @@
                 "upgradeId": "product_team",
                 "level": 10
             },
-            "cooldownSeconds": 4010,
+            "cooldownSeconds": 407,
             "section": "Web3",
             "level": 15,
             "currentProfitPerHour": 90202,
@@ -2049,18 +2049,18 @@
         {
             "id": "consensys_piranja_pass",
             "name": "Consensus Piranha Pass",
-            "price": 16614856,
-            "profitPerHour": 47746,
+            "price": 36268148,
+            "profitPerHour": 52988,
             "condition": {
                 "_type": "SubscribeTelegramChannel",
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6517,
             "section": "Specials",
-            "level": 15,
-            "currentProfitPerHour": 42847,
-            "profitPerHourDelta": 4899,
+            "level": 16,
+            "currentProfitPerHour": 47746,
+            "profitPerHourDelta": 5242,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2589,6 +2589,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 17372
+        "remainSeconds": 13769
     }
 }
