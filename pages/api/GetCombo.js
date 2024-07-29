@@ -2,7 +2,7 @@
 
 export default function handler(req, res) {
   res.status(200).json({
-    combo: ["web3_academy_launch", "grant_developers", "apps_center_listing"],
-    date: "28-07-24"
+    combo: ["nft_metaverse", "nft_collection_launch", "hamster_green_energy"],
+    date: "29-07-24"
   });
 }
