@@ -1369,6 +1369,24 @@
             "totalCooldownSeconds": 7200
         },
         {
+            "id": "nft_metaverse",
+            "name": "NFT Metaverse",
+            "releaseAt": "2024-07-29T11:00:00.000Z",
+            "price": 500000,
+            "profitPerHour": 2000,
+            "condition": {
+                "_type": "ByUpgrade",
+                "upgradeId": "x",
+                "level": 7
+            },
+            "section": "Web3",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 2000,
+            "isAvailable": true,
+            "isExpired": false
+        },
+        {
             "id": "sports_integration",
             "name": "Sports integration",
             "expiresAt": "2024-07-02T09:00:00.000Z",
@@ -2589,6 +2607,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 6564
+        "remainSeconds": 2962
     }
 }
