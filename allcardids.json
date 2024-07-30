@@ -1399,7 +1399,7 @@
                 "upgradeId": "youtube",
                 "level": 8
             },
-            "cooldownSeconds": 3570,
+            "cooldownSeconds": 0,
             "section": "Web3",
             "level": 11,
             "currentProfitPerHour": 41449,
@@ -2607,7 +2607,7 @@
             "price": 2145591,
             "profitPerHour": 39458,
             "condition": null,
-            "cooldownSeconds": 3564,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 34540,
@@ -2645,6 +2645,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 49677
+        "remainSeconds": 46074
     }
 }
