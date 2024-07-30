@@ -1389,6 +1389,24 @@
             "totalCooldownSeconds": 7200
         },
         {
+            "id": "crypto_farming",
+            "name": "Crypto Farming",
+            "releaseAt": "2024-07-30T11:00:00.000Z",
+            "price": 150000,
+            "profitPerHour": 3000,
+            "condition": {
+                "_type": "ByUpgrade",
+                "upgradeId": "youtube",
+                "level": 8
+            },
+            "section": "Web3",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 3000,
+            "isAvailable": true,
+            "isExpired": false
+        },
+        {
             "id": "sports_integration",
             "name": "Sports integration",
             "expiresAt": "2024-07-02T09:00:00.000Z",
@@ -2608,6 +2626,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 6505
+        "remainSeconds": 2903
     }
 }
