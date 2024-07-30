@@ -1766,17 +1766,17 @@
         {
             "id": "special_hamster_conference",
             "name": "Special Hamster Conference",
-            "price": 20005566,
-            "profitPerHour": 30599,
+            "price": 50553069,
+            "profitPerHour": 33641,
             "condition": {
                 "_type": "SubscribeTelegramChannel",
                 "link": "https://t.me/+kK14mIuJR2hlMmNi",
                 "channelId": -1002075341442
             },
             "section": "Specials",
-            "level": 18,
-            "currentProfitPerHour": 27756,
-            "profitPerHourDelta": 2843,
+            "level": 19,
+            "currentProfitPerHour": 30599,
+            "profitPerHourDelta": 3042,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2608,6 +2608,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 17312
+        "remainSeconds": 13710
     }
 }
