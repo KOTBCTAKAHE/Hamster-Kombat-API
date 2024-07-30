@@ -1054,17 +1054,17 @@
         {
             "id": "licence_australia",
             "name": "Licence Australia",
-            "price": 20005566,
-            "profitPerHour": 23118,
+            "price": 50553069,
+            "profitPerHour": 25416,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "kyc",
                 "level": 5
             },
             "section": "Legal",
-            "level": 18,
-            "currentProfitPerHour": 20970,
-            "profitPerHourDelta": 2148,
+            "level": 19,
+            "currentProfitPerHour": 23118,
+            "profitPerHourDelta": 2298,
             "isAvailable": true,
             "isExpired": false
         },
@@ -1392,8 +1392,8 @@
             "id": "crypto_farming",
             "name": "Crypto Farming",
             "releaseAt": "2024-07-30T11:00:00.000Z",
-            "price": 165375,
-            "profitPerHour": 6210,
+            "price": 191442,
+            "profitPerHour": 9645,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "youtube",
@@ -1401,12 +1401,12 @@
             },
             "cooldownSeconds": 0,
             "section": "Web3",
-            "level": 2,
-            "currentProfitPerHour": 3000,
-            "profitPerHourDelta": 3210,
+            "level": 3,
+            "currentProfitPerHour": 6210,
+            "profitPerHourDelta": 3435,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 10
+            "totalCooldownSeconds": 15
         },
         {
             "id": "sports_integration",
@@ -2604,17 +2604,17 @@
             "name": "Ethereum birthday",
             "releaseAt": "2024-07-30T11:00:00.000Z",
             "expiresAt": "2024-08-06T11:00:00.000Z",
-            "price": 99225,
-            "profitPerHour": 5175,
+            "price": 114865,
+            "profitPerHour": 8037,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 2,
-            "currentProfitPerHour": 2500,
-            "profitPerHourDelta": 2675,
+            "level": 3,
+            "currentProfitPerHour": 5175,
+            "profitPerHourDelta": 2862,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 10
+            "totalCooldownSeconds": 15
         }
     ],
     "sections": [
@@ -2643,6 +2643,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 85701
+        "remainSeconds": 82098
     }
 }
