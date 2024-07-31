@@ -1412,21 +1412,21 @@
             "id": "sport_marketplace",
             "name": "Sport Collectibles Marketplace",
             "releaseAt": "2024-07-31T11:00:00.000Z",
-            "price": 209080,
-            "profitPerHour": 9673,
+            "price": 357599,
+            "profitPerHour": 11050,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "fan_tokens",
                 "level": 10
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 3743,
             "section": "Web3",
-            "level": 10,
-            "currentProfitPerHour": 8386,
-            "profitPerHourDelta": 1287,
+            "level": 11,
+            "currentProfitPerHour": 9673,
+            "profitPerHourDelta": 1377,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 5400
+            "totalCooldownSeconds": 7200
         },
         {
             "id": "sports_integration",
@@ -1674,17 +1674,17 @@
         {
             "id": "bogdanoff",
             "name": "Bogdanoff is calling",
-            "price": 20005566,
-            "profitPerHour": 16150,
+            "price": 50553069,
+            "profitPerHour": 17755,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "margin_trading_x50",
                 "level": 15
             },
             "section": "Specials",
-            "level": 18,
-            "currentProfitPerHour": 14650,
-            "profitPerHourDelta": 1500,
+            "level": 19,
+            "currentProfitPerHour": 16150,
+            "profitPerHourDelta": 1605,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2641,17 +2641,17 @@
             "name": "This is fine",
             "releaseAt": "2024-07-31T11:00:00.000Z",
             "expiresAt": "2024-08-02T11:00:00.000Z",
-            "price": 487854,
-            "profitPerHour": 41449,
+            "price": 834397,
+            "profitPerHour": 47350,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 3737,
             "section": "Specials",
-            "level": 10,
-            "currentProfitPerHour": 35934,
-            "profitPerHourDelta": 5515,
+            "level": 11,
+            "currentProfitPerHour": 41449,
+            "profitPerHourDelta": 5901,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 5400
+            "totalCooldownSeconds": 7200
         }
     ],
     "sections": [
@@ -2682,6 +2682,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 56824
+        "remainSeconds": 53222
     }
 }
