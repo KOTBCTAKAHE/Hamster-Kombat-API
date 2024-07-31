@@ -1409,6 +1409,24 @@
             "totalCooldownSeconds": 7200
         },
         {
+            "id": "sport_marketplace",
+            "name": "Sport Collectibles Marketplace",
+            "releaseAt": "2024-07-31T11:00:00.000Z",
+            "price": 15000,
+            "profitPerHour": 700,
+            "condition": {
+                "_type": "ByUpgrade",
+                "upgradeId": "fan_tokens",
+                "level": 10
+            },
+            "section": "Web3",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 700,
+            "isAvailable": true,
+            "isExpired": false
+        },
+        {
             "id": "sports_integration",
             "name": "Sports integration",
             "expiresAt": "2024-07-02T09:00:00.000Z",
@@ -2545,7 +2563,7 @@
             "currentProfitPerHour": 87953,
             "profitPerHourDelta": 9657,
             "isAvailable": true,
-            "isExpired": false,
+            "isExpired": true,
             "totalCooldownSeconds": 7200
         },
         {
@@ -2604,17 +2622,32 @@
             "name": "Ethereum birthday",
             "releaseAt": "2024-07-30T11:00:00.000Z",
             "expiresAt": "2024-08-06T11:00:00.000Z",
-            "price": 14385654,
-            "profitPerHour": 56375,
+            "price": 29906742,
+            "profitPerHour": 62821,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4180,
             "section": "Specials",
-            "level": 14,
-            "currentProfitPerHour": 50350,
-            "profitPerHourDelta": 6025,
+            "level": 15,
+            "currentProfitPerHour": 56375,
+            "profitPerHourDelta": 6446,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "adv_integration_3107",
+            "name": "This is fine",
+            "releaseAt": "2024-07-31T11:00:00.000Z",
+            "expiresAt": "2024-08-02T11:00:00.000Z",
+            "price": 35000,
+            "profitPerHour": 3000,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 3000,
+            "isAvailable": true,
+            "isExpired": false
         }
     ],
     "sections": [
@@ -2645,6 +2678,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 6448
+        "remainSeconds": 2846
     }
 }
