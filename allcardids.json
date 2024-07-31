@@ -1392,18 +1392,18 @@
             "id": "crypto_farming",
             "name": "Crypto Farming",
             "releaseAt": "2024-07-30T11:00:00.000Z",
-            "price": 6421955,
-            "profitPerHour": 53665,
+            "price": 12109555,
+            "profitPerHour": 60422,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "youtube",
                 "level": 8
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 3661,
             "section": "Web3",
-            "level": 12,
-            "currentProfitPerHour": 47350,
-            "profitPerHourDelta": 6315,
+            "level": 13,
+            "currentProfitPerHour": 53665,
+            "profitPerHourDelta": 6757,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2604,14 +2604,14 @@
             "name": "Ethereum birthday",
             "releaseAt": "2024-07-30T11:00:00.000Z",
             "expiresAt": "2024-08-06T11:00:00.000Z",
-            "price": 3853173,
-            "profitPerHour": 44720,
+            "price": 7265733,
+            "profitPerHour": 50350,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 3655,
             "section": "Specials",
-            "level": 12,
-            "currentProfitPerHour": 39458,
-            "profitPerHourDelta": 5262,
+            "level": 13,
+            "currentProfitPerHour": 44720,
+            "profitPerHourDelta": 5630,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2645,6 +2645,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 35267
+        "remainSeconds": 31665
     }
 }
