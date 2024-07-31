@@ -1412,8 +1412,8 @@
             "id": "sport_marketplace",
             "name": "Sport Collectibles Marketplace",
             "releaseAt": "2024-07-31T11:00:00.000Z",
-            "price": 16538,
-            "profitPerHour": 1449,
+            "price": 23270,
+            "profitPerHour": 3108,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "fan_tokens",
@@ -1421,12 +1421,12 @@
             },
             "cooldownSeconds": 0,
             "section": "Web3",
-            "level": 2,
-            "currentProfitPerHour": 700,
-            "profitPerHourDelta": 749,
+            "level": 4,
+            "currentProfitPerHour": 2250,
+            "profitPerHourDelta": 858,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 10
+            "totalCooldownSeconds": 30
         },
         {
             "id": "sports_integration",
@@ -2627,7 +2627,7 @@
             "price": 29906742,
             "profitPerHour": 62821,
             "condition": null,
-            "cooldownSeconds": 578,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 15,
             "currentProfitPerHour": 56375,
@@ -2641,17 +2641,17 @@
             "name": "This is fine",
             "releaseAt": "2024-07-31T11:00:00.000Z",
             "expiresAt": "2024-08-02T11:00:00.000Z",
-            "price": 38588,
-            "profitPerHour": 6210,
+            "price": 54296,
+            "profitPerHour": 13320,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 2,
-            "currentProfitPerHour": 3000,
-            "profitPerHourDelta": 3210,
+            "level": 4,
+            "currentProfitPerHour": 9645,
+            "profitPerHourDelta": 3675,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 10
+            "totalCooldownSeconds": 30
         }
     ],
     "sections": [
@@ -2680,6 +2680,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 85644
+        "remainSeconds": 82041
     }
 }
