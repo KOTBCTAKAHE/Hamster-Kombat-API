@@ -1392,18 +1392,18 @@
             "id": "crypto_farming",
             "name": "Crypto Farming",
             "releaseAt": "2024-07-30T11:00:00.000Z",
-            "price": 12109555,
-            "profitPerHour": 60422,
+            "price": 23976090,
+            "profitPerHour": 67652,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "youtube",
                 "level": 8
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 5335,
             "section": "Web3",
-            "level": 13,
-            "currentProfitPerHour": 53665,
-            "profitPerHourDelta": 6757,
+            "level": 14,
+            "currentProfitPerHour": 60422,
+            "profitPerHourDelta": 7230,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2645,6 +2645,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 17256
+        "remainSeconds": 13653
     }
 }
