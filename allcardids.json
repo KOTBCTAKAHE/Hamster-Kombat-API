@@ -384,7 +384,7 @@
                 "upgradeId": "bisdev_team",
                 "level": 3
             },
-            "cooldownSeconds": 2169,
+            "cooldownSeconds": 0,
             "section": "PR&Team",
             "level": 19,
             "currentProfitPerHour": 16998,
@@ -1419,7 +1419,7 @@
                 "upgradeId": "fan_tokens",
                 "level": 10
             },
-            "cooldownSeconds": 1839,
+            "cooldownSeconds": 0,
             "section": "Web3",
             "level": 9,
             "currentProfitPerHour": 7183,
@@ -2644,7 +2644,7 @@
             "price": 299500,
             "profitPerHour": 35934,
             "condition": null,
-            "cooldownSeconds": 1833,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 9,
             "currentProfitPerHour": 30779,
@@ -2682,6 +2682,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 67632
+        "remainSeconds": 64029
     }
 }
