@@ -1399,7 +1399,7 @@
                 "upgradeId": "youtube",
                 "level": 8
             },
-            "cooldownSeconds": 59,
+            "cooldownSeconds": 0,
             "section": "Web3",
             "level": 13,
             "currentProfitPerHour": 53665,
@@ -2604,14 +2604,14 @@
             "name": "Ethereum birthday",
             "releaseAt": "2024-07-30T11:00:00.000Z",
             "expiresAt": "2024-08-06T11:00:00.000Z",
-            "price": 7265733,
-            "profitPerHour": 50350,
+            "price": 14385654,
+            "profitPerHour": 56375,
             "condition": null,
-            "cooldownSeconds": 53,
+            "cooldownSeconds": 6901,
             "section": "Specials",
-            "level": 13,
-            "currentProfitPerHour": 44720,
-            "profitPerHourDelta": 5630,
+            "level": 14,
+            "currentProfitPerHour": 50350,
+            "profitPerHourDelta": 6025,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2645,6 +2645,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 28063
+        "remainSeconds": 24460
     }
 }
