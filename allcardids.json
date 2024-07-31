@@ -1412,19 +1412,21 @@
             "id": "sport_marketplace",
             "name": "Sport Collectibles Marketplace",
             "releaseAt": "2024-07-31T11:00:00.000Z",
-            "price": 15000,
-            "profitPerHour": 700,
+            "price": 16538,
+            "profitPerHour": 1449,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "fan_tokens",
                 "level": 10
             },
+            "cooldownSeconds": 0,
             "section": "Web3",
-            "level": 1,
-            "currentProfitPerHour": 0,
-            "profitPerHourDelta": 700,
+            "level": 2,
+            "currentProfitPerHour": 700,
+            "profitPerHourDelta": 749,
             "isAvailable": true,
-            "isExpired": false
+            "isExpired": false,
+            "totalCooldownSeconds": 10
         },
         {
             "id": "sports_integration",
@@ -2625,7 +2627,7 @@
             "price": 29906742,
             "profitPerHour": 62821,
             "condition": null,
-            "cooldownSeconds": 4180,
+            "cooldownSeconds": 578,
             "section": "Specials",
             "level": 15,
             "currentProfitPerHour": 56375,
@@ -2639,15 +2641,17 @@
             "name": "This is fine",
             "releaseAt": "2024-07-31T11:00:00.000Z",
             "expiresAt": "2024-08-02T11:00:00.000Z",
-            "price": 35000,
-            "profitPerHour": 3000,
+            "price": 38588,
+            "profitPerHour": 6210,
             "condition": null,
+            "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 1,
-            "currentProfitPerHour": 0,
-            "profitPerHourDelta": 3000,
+            "level": 2,
+            "currentProfitPerHour": 3000,
+            "profitPerHourDelta": 3210,
             "isAvailable": true,
-            "isExpired": false
+            "isExpired": false,
+            "totalCooldownSeconds": 10
         }
     ],
     "sections": [
@@ -2673,11 +2677,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "crypto_farming"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 2846
+        "remainSeconds": 85644
     }
 }
