@@ -986,17 +986,17 @@
         {
             "id": "licence_uae",
             "name": "Licence UAE",
-            "price": 20005566,
-            "profitPerHour": 19039,
+            "price": 50553069,
+            "profitPerHour": 20932,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "kyc",
                 "level": 5
             },
             "section": "Legal",
-            "level": 18,
-            "currentProfitPerHour": 17270,
-            "profitPerHourDelta": 1769,
+            "level": 19,
+            "currentProfitPerHour": 19039,
+            "profitPerHourDelta": 1893,
             "isAvailable": true,
             "isExpired": false
         },
@@ -1399,7 +1399,7 @@
                 "upgradeId": "youtube",
                 "level": 8
             },
-            "cooldownSeconds": 5386,
+            "cooldownSeconds": 1784,
             "section": "Web3",
             "level": 12,
             "currentProfitPerHour": 47350,
@@ -2607,7 +2607,7 @@
             "price": 3853173,
             "profitPerHour": 44720,
             "condition": null,
-            "cooldownSeconds": 5380,
+            "cooldownSeconds": 1778,
             "section": "Specials",
             "level": 12,
             "currentProfitPerHour": 39458,
@@ -2645,6 +2645,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 42472
+        "remainSeconds": 38870
     }
 }
