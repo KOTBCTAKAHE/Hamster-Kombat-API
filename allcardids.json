@@ -1412,18 +1412,18 @@
             "id": "sport_marketplace",
             "name": "Sport Collectibles Marketplace",
             "releaseAt": "2024-07-31T11:00:00.000Z",
-            "price": 357599,
-            "profitPerHour": 11050,
+            "price": 642196,
+            "profitPerHour": 12523,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "fan_tokens",
                 "level": 10
             },
-            "cooldownSeconds": 140,
+            "cooldownSeconds": 5236,
             "section": "Web3",
-            "level": 11,
-            "currentProfitPerHour": 9673,
-            "profitPerHourDelta": 1377,
+            "level": 12,
+            "currentProfitPerHour": 11050,
+            "profitPerHourDelta": 1473,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2641,14 +2641,14 @@
             "name": "This is fine",
             "releaseAt": "2024-07-31T11:00:00.000Z",
             "expiresAt": "2024-08-02T11:00:00.000Z",
-            "price": 834397,
-            "profitPerHour": 47350,
+            "price": 1498456,
+            "profitPerHour": 53665,
             "condition": null,
-            "cooldownSeconds": 134,
+            "cooldownSeconds": 5230,
             "section": "Specials",
-            "level": 11,
-            "currentProfitPerHour": 41449,
-            "profitPerHourDelta": 5901,
+            "level": 12,
+            "currentProfitPerHour": 47350,
+            "profitPerHourDelta": 6315,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2682,6 +2682,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 49619
+        "remainSeconds": 46017
     }
 }
