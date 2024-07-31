@@ -384,7 +384,7 @@
                 "upgradeId": "bisdev_team",
                 "level": 3
             },
-            "cooldownSeconds": 5771,
+            "cooldownSeconds": 2169,
             "section": "PR&Team",
             "level": 19,
             "currentProfitPerHour": 16998,
@@ -1412,21 +1412,21 @@
             "id": "sport_marketplace",
             "name": "Sport Collectibles Marketplace",
             "releaseAt": "2024-07-31T11:00:00.000Z",
-            "price": 82740,
-            "profitPerHour": 7183,
+            "price": 128357,
+            "profitPerHour": 8386,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "fan_tokens",
                 "level": 10
             },
-            "cooldownSeconds": 365,
+            "cooldownSeconds": 1839,
             "section": "Web3",
-            "level": 8,
-            "currentProfitPerHour": 6059,
-            "profitPerHourDelta": 1124,
+            "level": 9,
+            "currentProfitPerHour": 7183,
+            "profitPerHourDelta": 1203,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 1800
+            "totalCooldownSeconds": 3600
         },
         {
             "id": "sports_integration",
@@ -2641,17 +2641,17 @@
             "name": "This is fine",
             "releaseAt": "2024-07-31T11:00:00.000Z",
             "expiresAt": "2024-08-02T11:00:00.000Z",
-            "price": 193061,
-            "profitPerHour": 30779,
+            "price": 299500,
+            "profitPerHour": 35934,
             "condition": null,
-            "cooldownSeconds": 359,
+            "cooldownSeconds": 1833,
             "section": "Specials",
-            "level": 8,
-            "currentProfitPerHour": 25962,
-            "profitPerHourDelta": 4817,
+            "level": 9,
+            "currentProfitPerHour": 30779,
+            "profitPerHourDelta": 5155,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 1800
+            "totalCooldownSeconds": 3600
         }
     ],
     "sections": [
@@ -2682,6 +2682,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 71234
+        "remainSeconds": 67632
     }
 }
