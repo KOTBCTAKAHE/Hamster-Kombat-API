@@ -377,18 +377,18 @@
         {
             "id": "tokenomics_expert",
             "name": "Tokenomics expert",
-            "price": 20005566,
-            "profitPerHour": 16998,
+            "price": 50553069,
+            "profitPerHour": 18688,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "bisdev_team",
                 "level": 3
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 5771,
             "section": "PR&Team",
-            "level": 18,
-            "currentProfitPerHour": 15419,
-            "profitPerHourDelta": 1579,
+            "level": 19,
+            "currentProfitPerHour": 16998,
+            "profitPerHourDelta": 1690,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -1412,21 +1412,21 @@
             "id": "sport_marketplace",
             "name": "Sport Collectibles Marketplace",
             "releaseAt": "2024-07-31T11:00:00.000Z",
-            "price": 39799,
-            "profitPerHour": 5008,
+            "price": 82740,
+            "profitPerHour": 7183,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "fan_tokens",
                 "level": 10
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 365,
             "section": "Web3",
-            "level": 6,
-            "currentProfitPerHour": 4026,
-            "profitPerHourDelta": 982,
+            "level": 8,
+            "currentProfitPerHour": 6059,
+            "profitPerHourDelta": 1124,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 300
+            "totalCooldownSeconds": 1800
         },
         {
             "id": "sports_integration",
@@ -2641,17 +2641,17 @@
             "name": "This is fine",
             "releaseAt": "2024-07-31T11:00:00.000Z",
             "expiresAt": "2024-08-02T11:00:00.000Z",
-            "price": 92865,
-            "profitPerHour": 21460,
+            "price": 193061,
+            "profitPerHour": 30779,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 359,
             "section": "Specials",
-            "level": 6,
-            "currentProfitPerHour": 17252,
-            "profitPerHourDelta": 4208,
+            "level": 8,
+            "currentProfitPerHour": 25962,
+            "profitPerHourDelta": 4817,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 300
+            "totalCooldownSeconds": 1800
         }
     ],
     "sections": [
@@ -2677,9 +2677,11 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [],
+        "upgradeIds": [
+            "tokenomics_expert"
+        ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 74837
+        "remainSeconds": 71234
     }
 }
