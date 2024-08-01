@@ -1419,7 +1419,7 @@
                 "upgradeId": "fan_tokens",
                 "level": 10
             },
-            "cooldownSeconds": 6637,
+            "cooldownSeconds": 3035,
             "section": "Web3",
             "level": 13,
             "currentProfitPerHour": 12523,
@@ -2284,18 +2284,18 @@
         {
             "id": "hamster_break_records",
             "name": "Hamsters break records",
-            "price": 21406518,
-            "profitPerHour": 49194,
+            "price": 40365183,
+            "profitPerHour": 55388,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "tg_leaders",
                 "level": 1
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6623,
             "section": "Specials",
-            "level": 12,
-            "currentProfitPerHour": 43406,
-            "profitPerHourDelta": 5788,
+            "level": 13,
+            "currentProfitPerHour": 49194,
+            "profitPerHourDelta": 6194,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2644,7 +2644,7 @@
             "price": 2825563,
             "profitPerHour": 60422,
             "condition": null,
-            "cooldownSeconds": 6631,
+            "cooldownSeconds": 3029,
             "section": "Specials",
             "level": 13,
             "currentProfitPerHour": 53665,
@@ -2682,6 +2682,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 38812
+        "remainSeconds": 35210
     }
 }
