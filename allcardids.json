@@ -1419,7 +1419,7 @@
                 "upgradeId": "fan_tokens",
                 "level": 10
             },
-            "cooldownSeconds": 3035,
+            "cooldownSeconds": 0,
             "section": "Web3",
             "level": 13,
             "currentProfitPerHour": 12523,
@@ -2291,7 +2291,7 @@
                 "upgradeId": "tg_leaders",
                 "level": 1
             },
-            "cooldownSeconds": 6623,
+            "cooldownSeconds": 3021,
             "section": "Specials",
             "level": 13,
             "currentProfitPerHour": 49194,
@@ -2644,7 +2644,7 @@
             "price": 2825563,
             "profitPerHour": 60422,
             "condition": null,
-            "cooldownSeconds": 3029,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 13,
             "currentProfitPerHour": 53665,
@@ -2682,6 +2682,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 35210
+        "remainSeconds": 31608
     }
 }
