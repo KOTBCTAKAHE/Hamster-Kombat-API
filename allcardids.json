@@ -1412,21 +1412,39 @@
             "id": "sport_marketplace",
             "name": "Sport Collectibles Marketplace",
             "releaseAt": "2024-07-31T11:00:00.000Z",
-            "price": 10880444,
-            "profitPerHour": 19523,
+            "price": 24938178,
+            "profitPerHour": 21590,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "fan_tokens",
                 "level": 10
             },
-            "cooldownSeconds": 585,
+            "cooldownSeconds": 4948,
             "section": "Web3",
-            "level": 16,
-            "currentProfitPerHour": 17592,
-            "profitPerHourDelta": 1931,
+            "level": 17,
+            "currentProfitPerHour": 19523,
+            "profitPerHourDelta": 2067,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "market_making",
+            "name": "Market Making",
+            "releaseAt": "2024-08-01T11:00:00.000Z",
+            "price": 17000,
+            "profitPerHour": 600,
+            "condition": {
+                "_type": "ByUpgrade",
+                "upgradeId": "prediction_markets",
+                "level": 12
+            },
+            "section": "Web3",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 600,
+            "isAvailable": true,
+            "isExpired": false
         },
         {
             "id": "sports_integration",
@@ -2582,7 +2600,7 @@
             "currentProfitPerHour": 72875,
             "profitPerHourDelta": 8001,
             "isAvailable": true,
-            "isExpired": false,
+            "isExpired": true,
             "totalCooldownSeconds": 7200
         },
         {
@@ -2644,7 +2662,7 @@
             "price": 25387704,
             "profitPerHour": 83665,
             "condition": null,
-            "cooldownSeconds": 579,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 16,
             "currentProfitPerHour": 75388,
@@ -2682,6 +2700,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 6391
+        "remainSeconds": 2789
     }
 }
