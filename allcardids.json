@@ -1432,8 +1432,8 @@
             "id": "market_making",
             "name": "Market Making",
             "releaseAt": "2024-08-01T11:00:00.000Z",
-            "price": 21697,
-            "profitPerHour": 1929,
+            "price": 26373,
+            "profitPerHour": 2664,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "prediction_markets",
@@ -1441,12 +1441,12 @@
             },
             "cooldownSeconds": 0,
             "section": "Web3",
-            "level": 3,
-            "currentProfitPerHour": 1242,
-            "profitPerHourDelta": 687,
+            "level": 4,
+            "currentProfitPerHour": 1929,
+            "profitPerHourDelta": 735,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 15
+            "totalCooldownSeconds": 30
         },
         {
             "id": "sports_integration",
@@ -2700,6 +2700,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 81984
+        "remainSeconds": 78381
     }
 }
