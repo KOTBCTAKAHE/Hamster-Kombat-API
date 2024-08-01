@@ -1419,7 +1419,7 @@
                 "upgradeId": "fan_tokens",
                 "level": 10
             },
-            "cooldownSeconds": 4948,
+            "cooldownSeconds": 1345,
             "section": "Web3",
             "level": 17,
             "currentProfitPerHour": 19523,
@@ -1432,19 +1432,21 @@
             "id": "market_making",
             "name": "Market Making",
             "releaseAt": "2024-08-01T11:00:00.000Z",
-            "price": 17000,
-            "profitPerHour": 600,
+            "price": 18743,
+            "profitPerHour": 1242,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "prediction_markets",
                 "level": 12
             },
+            "cooldownSeconds": 0,
             "section": "Web3",
-            "level": 1,
-            "currentProfitPerHour": 0,
-            "profitPerHourDelta": 600,
+            "level": 2,
+            "currentProfitPerHour": 600,
+            "profitPerHourDelta": 642,
             "isAvailable": true,
-            "isExpired": false
+            "isExpired": false,
+            "totalCooldownSeconds": 10
         },
         {
             "id": "sports_integration",
@@ -2695,11 +2697,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "tokenomics_expert"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 2789
+        "remainSeconds": 85586
     }
 }
