@@ -1432,8 +1432,8 @@
             "id": "market_making",
             "name": "Market Making",
             "releaseAt": "2024-08-01T11:00:00.000Z",
-            "price": 45106,
-            "profitPerHour": 4292,
+            "price": 63469,
+            "profitPerHour": 5192,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "prediction_markets",
@@ -1441,12 +1441,12 @@
             },
             "cooldownSeconds": 0,
             "section": "Web3",
-            "level": 6,
-            "currentProfitPerHour": 3450,
-            "profitPerHourDelta": 842,
+            "level": 7,
+            "currentProfitPerHour": 4292,
+            "profitPerHourDelta": 900,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 300
+            "totalCooldownSeconds": 600
         },
         {
             "id": "sports_integration",
@@ -1724,16 +1724,16 @@
         {
             "id": "villa_for_dev_team",
             "name": "Villa for the DEV team",
-            "price": 20221228,
-            "profitPerHour": 16818,
+            "price": 53652937,
+            "profitPerHour": 18445,
             "condition": {
                 "_type": "ReferralCount",
                 "referralCount": 5
             },
             "section": "Specials",
-            "level": 19,
-            "currentProfitPerHour": 15297,
-            "profitPerHourDelta": 1521,
+            "level": 20,
+            "currentProfitPerHour": 16818,
+            "profitPerHourDelta": 1627,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2700,6 +2700,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 74779
+        "remainSeconds": 71177
     }
 }
