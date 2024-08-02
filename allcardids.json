@@ -162,17 +162,17 @@
         {
             "id": "influencers",
             "name": "Influencers",
-            "price": 25276535,
-            "profitPerHour": 10093,
+            "price": 67066171,
+            "profitPerHour": 11069,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "x",
                 "level": 5
             },
             "section": "PR&Team",
-            "level": 19,
-            "currentProfitPerHour": 9180,
-            "profitPerHourDelta": 913,
+            "level": 20,
+            "currentProfitPerHour": 10093,
+            "profitPerHourDelta": 976,
             "isAvailable": true,
             "isExpired": false
         },
@@ -297,17 +297,17 @@
         {
             "id": "antihacking_shield",
             "name": "Antihacking shield",
-            "price": 20221228,
-            "profitPerHour": 4112,
+            "price": 53652937,
+            "profitPerHour": 4510,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "qa_team",
                 "level": 5
             },
             "section": "PR&Team",
-            "level": 19,
-            "currentProfitPerHour": 3740,
-            "profitPerHourDelta": 372,
+            "level": 20,
+            "currentProfitPerHour": 4112,
+            "profitPerHourDelta": 398,
             "isAvailable": true,
             "isExpired": false
         },
@@ -426,14 +426,14 @@
         {
             "id": "compliance_officer",
             "name": "Compliance officer",
-            "price": 35387149,
-            "profitPerHour": 4484,
+            "price": 93892640,
+            "profitPerHour": 4918,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 5663,
             "section": "PR&Team",
-            "level": 19,
-            "currentProfitPerHour": 4078,
-            "profitPerHourDelta": 406,
+            "level": 20,
+            "currentProfitPerHour": 4484,
+            "profitPerHourDelta": 434,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2715,9 +2715,13 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [],
+        "upgradeIds": [
+            "influencers",
+            "antihacking_shield",
+            "compliance_officer"
+        ],
         "bonusCoins": 5000000,
-        "isClaimed": false,
-        "remainSeconds": 85527
+        "isClaimed": true,
+        "remainSeconds": 81924
     }
 }
