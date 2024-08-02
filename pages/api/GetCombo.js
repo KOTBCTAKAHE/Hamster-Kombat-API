@@ -2,8 +2,8 @@
 
 export default function handler(req, res) {
   const data = {
-    combo: ["adv_integration_3107", "twitter_10_million", "top10_global"],
-    date: "01-08-24"
+    combo: ["compliance_officer", "antihacking_shield", "influencers"],
+    date: "02-08-24"
   };
 
   res.setHeader('Content-Type', 'application/json');
