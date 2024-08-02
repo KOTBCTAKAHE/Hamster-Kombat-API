@@ -1449,6 +1449,24 @@
             "totalCooldownSeconds": 1800
         },
         {
+            "id": "web3_advertising",
+            "name": "Web3 Advertising Platform",
+            "releaseAt": "2024-08-02T11:00:00.000Z",
+            "price": 13000,
+            "profitPerHour": 400,
+            "condition": {
+                "_type": "ByUpgrade",
+                "upgradeId": "influencers",
+                "level": 10
+            },
+            "section": "Web3",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 400,
+            "isAvailable": true,
+            "isExpired": false
+        },
+        {
             "id": "sports_integration",
             "name": "Sports integration",
             "expiresAt": "2024-07-02T09:00:00.000Z",
@@ -2670,7 +2688,7 @@
             "currentProfitPerHour": 75388,
             "profitPerHourDelta": 8277,
             "isAvailable": true,
-            "isExpired": false,
+            "isExpired": true,
             "totalCooldownSeconds": 7200
         }
     ],
@@ -2700,6 +2718,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 6332
+        "remainSeconds": 2729
     }
 }
