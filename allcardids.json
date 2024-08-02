@@ -429,7 +429,7 @@
             "price": 93892640,
             "profitPerHour": 4918,
             "condition": null,
-            "cooldownSeconds": 5663,
+            "cooldownSeconds": 2061,
             "section": "PR&Team",
             "level": 20,
             "currentProfitPerHour": 4484,
@@ -2722,6 +2722,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": true,
-        "remainSeconds": 81924
+        "remainSeconds": 78322
     }
 }
