@@ -2747,13 +2747,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "influencers",
-            "antihacking_shield",
-            "compliance_officer"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
-        "isClaimed": true,
-        "remainSeconds": 2669
+        "isClaimed": false,
+        "remainSeconds": 85466
     }
 }
