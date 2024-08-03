@@ -2704,6 +2704,24 @@
             "profitPerHourDelta": 3000,
             "isAvailable": true,
             "isExpired": false
+        },
+        {
+            "id": "hamstergpt",
+            "name": "HamsterGPT",
+            "releaseAt": "2024-08-03T11:00:00.000Z",
+            "price": 55000,
+            "profitPerHour": 1800,
+            "condition": {
+                "_type": "ByUpgrade",
+                "upgradeId": "security_team",
+                "level": 15
+            },
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 1800,
+            "isAvailable": true,
+            "isExpired": false
         }
     ],
     "sections": [
@@ -2736,6 +2754,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": true,
-        "remainSeconds": 6271
+        "remainSeconds": 2669
     }
 }
