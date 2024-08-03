@@ -2690,6 +2690,20 @@
             "isAvailable": true,
             "isExpired": true,
             "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "adv_integration_0308",
+            "name": "Games in Paris",
+            "expiresAt": "2024-08-06T20:59:00.000Z",
+            "price": 35000,
+            "profitPerHour": 3000,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 3000,
+            "isAvailable": true,
+            "isExpired": false
         }
     ],
     "sections": [
@@ -2722,6 +2736,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": true,
-        "remainSeconds": 20681
+        "remainSeconds": 17079
     }
 }
