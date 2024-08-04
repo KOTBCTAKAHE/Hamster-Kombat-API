@@ -42,13 +42,13 @@
         {
             "id": "support_team",
             "name": "Support team",
-            "price": 20119851,
-            "profitPerHour": 2870,
+            "price": 56053153,
+            "profitPerHour": 3141,
             "condition": null,
             "section": "PR&Team",
-            "level": 20,
-            "currentProfitPerHour": 2617,
-            "profitPerHourDelta": 253,
+            "level": 21,
+            "currentProfitPerHour": 2870,
+            "profitPerHourDelta": 271,
             "isAvailable": true,
             "isExpired": false
         },
@@ -890,7 +890,7 @@
                 "upgradeId": "it_team",
                 "level": 9
             },
-            "cooldownSeconds": 6921,
+            "cooldownSeconds": 3319,
             "section": "Markets",
             "level": 20,
             "currentProfitPerHour": 7289,
@@ -1379,7 +1379,7 @@
                 "upgradeId": "x",
                 "level": 7
             },
-            "cooldownSeconds": 6841,
+            "cooldownSeconds": 3239,
             "section": "Web3",
             "level": 13,
             "currentProfitPerHour": 35777,
@@ -1432,41 +1432,41 @@
             "id": "market_making",
             "name": "Market Making",
             "releaseAt": "2024-08-01T11:00:00.000Z",
-            "price": 145472,
-            "profitPerHour": 7186,
+            "price": 236958,
+            "profitPerHour": 8289,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "prediction_markets",
                 "level": 12
             },
-            "cooldownSeconds": 3222,
+            "cooldownSeconds": 5109,
             "section": "Web3",
-            "level": 9,
-            "currentProfitPerHour": 6155,
-            "profitPerHourDelta": 1031,
+            "level": 10,
+            "currentProfitPerHour": 7186,
+            "profitPerHourDelta": 1103,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 3600
+            "totalCooldownSeconds": 5400
         },
         {
             "id": "web3_advertising",
             "name": "Web3 Advertising Platform",
             "releaseAt": "2024-08-02T11:00:00.000Z",
-            "price": 25739,
-            "profitPerHour": 2300,
+            "price": 34493,
+            "profitPerHour": 2861,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "influencers",
                 "level": 10
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 2,
             "section": "Web3",
-            "level": 5,
-            "currentProfitPerHour": 1776,
-            "profitPerHourDelta": 524,
+            "level": 6,
+            "currentProfitPerHour": 2300,
+            "profitPerHourDelta": 561,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 60
+            "totalCooldownSeconds": 300
         },
         {
             "id": "sports_integration",
@@ -2700,7 +2700,7 @@
             "price": 38588,
             "profitPerHour": 6210,
             "condition": null,
-            "cooldownSeconds": 6804,
+            "cooldownSeconds": 3202,
             "section": "Specials",
             "level": 2,
             "currentProfitPerHour": 3000,
@@ -2713,8 +2713,8 @@
             "id": "hamstergpt",
             "name": "HamsterGPT",
             "releaseAt": "2024-08-03T11:00:00.000Z",
-            "price": 108896,
-            "profitPerHour": 10351,
+            "price": 145931,
+            "profitPerHour": 12876,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "security_team",
@@ -2722,12 +2722,12 @@
             },
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 5,
-            "currentProfitPerHour": 7992,
-            "profitPerHourDelta": 2359,
+            "level": 6,
+            "currentProfitPerHour": 10351,
+            "profitPerHourDelta": 2525,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 60
+            "totalCooldownSeconds": 300
         }
     ],
     "sections": [
@@ -2758,6 +2758,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 24225
+        "remainSeconds": 20623
     }
 }
