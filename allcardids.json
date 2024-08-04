@@ -1439,7 +1439,7 @@
                 "upgradeId": "prediction_markets",
                 "level": 12
             },
-            "cooldownSeconds": 2492,
+            "cooldownSeconds": 0,
             "section": "Web3",
             "level": 15,
             "currentProfitPerHour": 13529,
@@ -1459,7 +1459,7 @@
                 "upgradeId": "influencers",
                 "level": 10
             },
-            "cooldownSeconds": 6369,
+            "cooldownSeconds": 2767,
             "section": "Web3",
             "level": 14,
             "currentProfitPerHour": 8055,
@@ -2700,7 +2700,7 @@
             "price": 130671,
             "profitPerHour": 25962,
             "condition": null,
-            "cooldownSeconds": 2485,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 7,
             "currentProfitPerHour": 21460,
@@ -2720,7 +2720,7 @@
                 "upgradeId": "security_team",
                 "level": 15
             },
-            "cooldownSeconds": 6362,
+            "cooldownSeconds": 2760,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 36253,
@@ -2756,6 +2756,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 60193
+        "remainSeconds": 56591
     }
 }
