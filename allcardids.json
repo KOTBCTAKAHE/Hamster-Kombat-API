@@ -1439,7 +1439,7 @@
                 "upgradeId": "prediction_markets",
                 "level": 12
             },
-            "cooldownSeconds": 6094,
+            "cooldownSeconds": 2492,
             "section": "Web3",
             "level": 15,
             "currentProfitPerHour": 13529,
@@ -1452,18 +1452,18 @@
             "id": "web3_advertising",
             "name": "Web3 Advertising Platform",
             "releaseAt": "2024-08-02T11:00:00.000Z",
-            "price": 1049495,
-            "profitPerHour": 8055,
+            "price": 2077928,
+            "profitPerHour": 9019,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "influencers",
                 "level": 10
             },
-            "cooldownSeconds": 858,
+            "cooldownSeconds": 6369,
             "section": "Web3",
-            "level": 13,
-            "currentProfitPerHour": 7154,
-            "profitPerHourDelta": 901,
+            "level": 14,
+            "currentProfitPerHour": 8055,
+            "profitPerHourDelta": 964,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2700,7 +2700,7 @@
             "price": 130671,
             "profitPerHour": 25962,
             "condition": null,
-            "cooldownSeconds": 6087,
+            "cooldownSeconds": 2485,
             "section": "Specials",
             "level": 7,
             "currentProfitPerHour": 21460,
@@ -2713,18 +2713,18 @@
             "id": "hamstergpt",
             "name": "HamsterGPT",
             "releaseAt": "2024-08-03T11:00:00.000Z",
-            "price": 4440170,
-            "profitPerHour": 36253,
+            "price": 8791233,
+            "profitPerHour": 40591,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "security_team",
                 "level": 15
             },
-            "cooldownSeconds": 852,
+            "cooldownSeconds": 6362,
             "section": "Specials",
-            "level": 13,
-            "currentProfitPerHour": 32199,
-            "profitPerHourDelta": 4054,
+            "level": 14,
+            "currentProfitPerHour": 36253,
+            "profitPerHourDelta": 4338,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2756,6 +2756,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 63795
+        "remainSeconds": 60193
     }
 }
