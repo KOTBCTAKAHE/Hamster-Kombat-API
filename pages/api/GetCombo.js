@@ -2,8 +2,8 @@
 
 export default function handler(req, res) {
   const data = {
-    combo: ["youtube_25_million", "two_factor_authentication", "hamstergpt"],
-    date: "03-08-24"
+    combo: ["defi2.0_tokens", "x", "derivatives"],
+    date: "04-08-24"
   };
 
   res.setHeader('Content-Type', 'application/json');
