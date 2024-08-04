@@ -1439,7 +1439,7 @@
                 "upgradeId": "prediction_markets",
                 "level": 12
             },
-            "cooldownSeconds": 1506,
+            "cooldownSeconds": 0,
             "section": "Web3",
             "level": 10,
             "currentProfitPerHour": 7186,
@@ -1452,8 +1452,8 @@
             "id": "web3_advertising",
             "name": "Web3 Advertising Platform",
             "releaseAt": "2024-08-02T11:00:00.000Z",
-            "price": 48535,
-            "profitPerHour": 3461,
+            "price": 71708,
+            "profitPerHour": 4103,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "influencers",
@@ -1461,12 +1461,12 @@
             },
             "cooldownSeconds": 0,
             "section": "Web3",
-            "level": 7,
-            "currentProfitPerHour": 2861,
-            "profitPerHourDelta": 600,
+            "level": 8,
+            "currentProfitPerHour": 3461,
+            "profitPerHourDelta": 642,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 600
+            "totalCooldownSeconds": 1800
         },
         {
             "id": "sports_integration",
@@ -2697,14 +2697,14 @@
             "id": "adv_integration_0308",
             "name": "Games in Paris",
             "expiresAt": "2024-08-06T20:59:00.000Z",
-            "price": 38588,
-            "profitPerHour": 6210,
+            "price": 44670,
+            "profitPerHour": 9645,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 5077,
             "section": "Specials",
-            "level": 2,
-            "currentProfitPerHour": 3000,
-            "profitPerHourDelta": 3210,
+            "level": 3,
+            "currentProfitPerHour": 6210,
+            "profitPerHourDelta": 3435,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2713,8 +2713,8 @@
             "id": "hamstergpt",
             "name": "HamsterGPT",
             "releaseAt": "2024-08-03T11:00:00.000Z",
-            "price": 205340,
-            "profitPerHour": 15577,
+            "price": 303381,
+            "profitPerHour": 18467,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "security_team",
@@ -2722,12 +2722,12 @@
             },
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 7,
-            "currentProfitPerHour": 12876,
-            "profitPerHourDelta": 2701,
+            "level": 8,
+            "currentProfitPerHour": 15577,
+            "profitPerHourDelta": 2890,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 600
+            "totalCooldownSeconds": 1800
         }
     ],
     "sections": [
@@ -2758,6 +2758,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 17020
+        "remainSeconds": 13418
     }
 }
