@@ -1432,18 +1432,18 @@
             "id": "market_making",
             "name": "Market Making",
             "releaseAt": "2024-08-01T11:00:00.000Z",
-            "price": 405278,
-            "profitPerHour": 9469,
+            "price": 727822,
+            "profitPerHour": 10732,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "prediction_markets",
                 "level": 12
             },
-            "cooldownSeconds": 852,
+            "cooldownSeconds": 4653,
             "section": "Web3",
-            "level": 11,
-            "currentProfitPerHour": 8289,
-            "profitPerHourDelta": 1180,
+            "level": 12,
+            "currentProfitPerHour": 9469,
+            "profitPerHourDelta": 1263,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -1459,7 +1459,7 @@
                 "upgradeId": "influencers",
                 "level": 10
             },
-            "cooldownSeconds": 3123,
+            "cooldownSeconds": 0,
             "section": "Web3",
             "level": 10,
             "currentProfitPerHour": 4790,
@@ -2697,14 +2697,14 @@
             "id": "adv_integration_0308",
             "name": "Games in Paris",
             "expiresAt": "2024-08-06T20:59:00.000Z",
-            "price": 44670,
-            "profitPerHour": 9645,
+            "price": 54296,
+            "profitPerHour": 13320,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4647,
             "section": "Specials",
-            "level": 3,
-            "currentProfitPerHour": 6210,
-            "profitPerHourDelta": 3435,
+            "level": 4,
+            "currentProfitPerHour": 9645,
+            "profitPerHourDelta": 3675,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2720,7 +2720,7 @@
                 "upgradeId": "security_team",
                 "level": 15
             },
-            "cooldownSeconds": 3117,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 10,
             "currentProfitPerHour": 21560,
@@ -2758,6 +2758,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 6214
+        "remainSeconds": 2611
     }
 }
