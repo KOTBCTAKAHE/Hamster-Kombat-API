@@ -1452,18 +1452,18 @@
             "id": "web3_advertising",
             "name": "Web3 Advertising Platform",
             "releaseAt": "2024-08-02T11:00:00.000Z",
-            "price": 21613087,
-            "profitPerHour": 12335,
+            "price": 52014472,
+            "profitPerHour": 13599,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "influencers",
                 "level": 10
             },
-            "cooldownSeconds": 2897,
+            "cooldownSeconds": 6980,
             "section": "Web3",
-            "level": 17,
-            "currentProfitPerHour": 11154,
-            "profitPerHourDelta": 1181,
+            "level": 18,
+            "currentProfitPerHour": 12335,
+            "profitPerHourDelta": 1264,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2697,14 +2697,14 @@
             "id": "adv_integration_0308",
             "name": "Games in Paris",
             "expiresAt": "2024-08-06T20:59:00.000Z",
-            "price": 487854,
-            "profitPerHour": 41449,
+            "price": 834397,
+            "profitPerHour": 47350,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6974,
             "section": "Specials",
-            "level": 10,
-            "currentProfitPerHour": 35934,
-            "profitPerHourDelta": 5515,
+            "level": 11,
+            "currentProfitPerHour": 41449,
+            "profitPerHourDelta": 5901,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2756,6 +2756,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 27773
+        "remainSeconds": 24171
     }
 }
