@@ -2697,14 +2697,14 @@
             "id": "adv_integration_0308",
             "name": "Games in Paris",
             "expiresAt": "2024-08-06T20:59:00.000Z",
-            "price": 11630400,
-            "profitPerHour": 75388,
+            "price": 25387704,
+            "profitPerHour": 83665,
             "condition": null,
-            "cooldownSeconds": 1227,
+            "cooldownSeconds": 5234,
             "section": "Specials",
-            "level": 15,
-            "currentProfitPerHour": 67652,
-            "profitPerHourDelta": 7736,
+            "level": 16,
+            "currentProfitPerHour": 75388,
+            "profitPerHourDelta": 8277,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2733,17 +2733,17 @@
             "id": "sleeping_hamster",
             "name": "Sleeping hamster",
             "releaseAt": "2024-08-05T11:00:00.000Z",
-            "price": 29699,
-            "profitPerHour": 3450,
+            "price": 39799,
+            "profitPerHour": 4292,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 5,
-            "currentProfitPerHour": 2664,
-            "profitPerHourDelta": 786,
+            "level": 6,
+            "currentProfitPerHour": 3450,
+            "profitPerHourDelta": 842,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 60
+            "totalCooldownSeconds": 300
         }
     ],
     "sections": [
@@ -2772,6 +2772,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 70944
+        "remainSeconds": 67342
     }
 }
