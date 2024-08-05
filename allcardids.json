@@ -1459,7 +1459,7 @@
                 "upgradeId": "influencers",
                 "level": 10
             },
-            "cooldownSeconds": 6980,
+            "cooldownSeconds": 3377,
             "section": "Web3",
             "level": 18,
             "currentProfitPerHour": 12335,
@@ -2700,7 +2700,7 @@
             "price": 834397,
             "profitPerHour": 47350,
             "condition": null,
-            "cooldownSeconds": 6974,
+            "cooldownSeconds": 3371,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 41449,
@@ -2756,6 +2756,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 24171
+        "remainSeconds": 20568
     }
 }
