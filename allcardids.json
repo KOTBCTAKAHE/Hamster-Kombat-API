@@ -2697,14 +2697,14 @@
             "id": "adv_integration_0308",
             "name": "Games in Paris",
             "expiresAt": "2024-08-06T20:59:00.000Z",
-            "price": 1498456,
-            "profitPerHour": 53665,
+            "price": 2825563,
+            "profitPerHour": 60422,
             "condition": null,
-            "cooldownSeconds": 337,
+            "cooldownSeconds": 4174,
             "section": "Specials",
-            "level": 12,
-            "currentProfitPerHour": 47350,
-            "profitPerHourDelta": 6315,
+            "level": 13,
+            "currentProfitPerHour": 53665,
+            "profitPerHourDelta": 6757,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2756,6 +2756,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 9762
+        "remainSeconds": 6159
     }
 }
