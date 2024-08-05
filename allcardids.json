@@ -1452,18 +1452,18 @@
             "id": "web3_advertising",
             "name": "Web3 Advertising Platform",
             "releaseAt": "2024-08-02T11:00:00.000Z",
-            "price": 9429718,
-            "profitPerHour": 11154,
+            "price": 21613087,
+            "profitPerHour": 12335,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "influencers",
                 "level": 10
             },
-            "cooldownSeconds": 408,
+            "cooldownSeconds": 6499,
             "section": "Web3",
-            "level": 16,
-            "currentProfitPerHour": 10050,
-            "profitPerHourDelta": 1104,
+            "level": 17,
+            "currentProfitPerHour": 11154,
+            "profitPerHourDelta": 1181,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2700,7 +2700,7 @@
             "price": 487854,
             "profitPerHour": 41449,
             "condition": null,
-            "cooldownSeconds": 6986,
+            "cooldownSeconds": 3384,
             "section": "Specials",
             "level": 10,
             "currentProfitPerHour": 35934,
@@ -2720,7 +2720,7 @@
                 "upgradeId": "security_team",
                 "level": 15
             },
-            "cooldownSeconds": 402,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 16,
             "currentProfitPerHour": 45232,
@@ -2756,6 +2756,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 34977
+        "remainSeconds": 31375
     }
 }
