@@ -1439,7 +1439,7 @@
                 "upgradeId": "prediction_markets",
                 "level": 12
             },
-            "cooldownSeconds": 475,
+            "cooldownSeconds": 0,
             "section": "Web3",
             "level": 17,
             "currentProfitPerHour": 16731,
@@ -1459,7 +1459,7 @@
                 "upgradeId": "influencers",
                 "level": 10
             },
-            "cooldownSeconds": 4010,
+            "cooldownSeconds": 408,
             "section": "Web3",
             "level": 16,
             "currentProfitPerHour": 10050,
@@ -2697,14 +2697,14 @@
             "id": "adv_integration_0308",
             "name": "Games in Paris",
             "expiresAt": "2024-08-06T20:59:00.000Z",
-            "price": 299500,
-            "profitPerHour": 35934,
+            "price": 487854,
+            "profitPerHour": 41449,
             "condition": null,
-            "cooldownSeconds": 469,
+            "cooldownSeconds": 6986,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 30779,
-            "profitPerHourDelta": 5155,
+            "level": 10,
+            "currentProfitPerHour": 35934,
+            "profitPerHourDelta": 5515,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2720,7 +2720,7 @@
                 "upgradeId": "security_team",
                 "level": 15
             },
-            "cooldownSeconds": 4004,
+            "cooldownSeconds": 402,
             "section": "Specials",
             "level": 16,
             "currentProfitPerHour": 45232,
@@ -2756,6 +2756,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 38579
+        "remainSeconds": 34977
     }
 }
