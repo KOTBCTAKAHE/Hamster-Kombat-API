@@ -2749,17 +2749,17 @@
             "id": "healthy_hamster",
             "name": "Healthy nutrition hamster",
             "releaseAt": "2024-08-06T11:00:00.000Z",
-            "price": 145472,
-            "profitPerHour": 9584,
+            "price": 236958,
+            "profitPerHour": 11055,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4322,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 8209,
-            "profitPerHourDelta": 1375,
+            "level": 10,
+            "currentProfitPerHour": 9584,
+            "profitPerHourDelta": 1471,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 3600
+            "totalCooldownSeconds": 5400
         }
     ],
     "sections": [
@@ -2790,6 +2790,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 63683
+        "remainSeconds": 60081
     }
 }
