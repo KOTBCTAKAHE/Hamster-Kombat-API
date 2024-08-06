@@ -2733,14 +2733,14 @@
             "id": "sleeping_hamster",
             "name": "Sleeping hamster",
             "releaseAt": "2024-08-05T11:00:00.000Z",
-            "price": 357599,
-            "profitPerHour": 9469,
+            "price": 642196,
+            "profitPerHour": 10732,
             "condition": null,
-            "cooldownSeconds": 528,
+            "cooldownSeconds": 4270,
             "section": "Specials",
-            "level": 11,
-            "currentProfitPerHour": 8289,
-            "profitPerHourDelta": 1180,
+            "level": 12,
+            "currentProfitPerHour": 9469,
+            "profitPerHourDelta": 1263,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2772,6 +2772,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 38523
+        "remainSeconds": 34921
     }
 }
