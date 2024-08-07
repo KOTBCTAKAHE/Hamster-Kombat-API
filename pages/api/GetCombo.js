@@ -2,8 +2,8 @@
 
 export default function handler(req, res) {
   const data = {
-    combo: ["sleeping_hamster", "bisdev_team", "hamster_youtube_channel"],
-    date: "06-08-24"
+    combo: ["healthy_hamster", "hamster_youtube_gold_button", "partnership_program"],
+    date: "07-08-24"
   };
 
   res.setHeader('Content-Type', 'application/json');
