@@ -1157,17 +1157,17 @@
         {
             "id": "licence_bangladesh",
             "name": "Licence Bangladesh",
-            "price": 23260799,
-            "profitPerHour": 87953,
+            "price": 50775407,
+            "profitPerHour": 97610,
             "condition": {
                 "_type": "ReferralCount",
                 "referralCount": 4
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4189,
             "section": "Legal",
-            "level": 15,
-            "currentProfitPerHour": 78928,
-            "profitPerHourDelta": 9025,
+            "level": 16,
+            "currentProfitPerHour": 87953,
+            "profitPerHourDelta": 9657,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2767,14 +2767,14 @@
             "toggle": {
                 "enableAt": "2024-08-07T11:00:00.000Z"
             },
-            "price": 286079,
-            "profitPerHour": 7891,
+            "price": 513756,
+            "profitPerHour": 8943,
             "condition": null,
-            "cooldownSeconds": 139,
+            "cooldownSeconds": 4182,
             "section": "Specials",
-            "level": 11,
-            "currentProfitPerHour": 6907,
-            "profitPerHourDelta": 984,
+            "level": 12,
+            "currentProfitPerHour": 7891,
+            "profitPerHourDelta": 1052,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2808,6 +2808,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 52816
+        "remainSeconds": 49214
     }
 }
