@@ -2765,17 +2765,17 @@
             "id": "gym_hamster",
             "name": "Gym hamster",
             "releaseAt": "2024-08-07T11:00:00.000Z",
-            "price": 31840,
-            "profitPerHour": 3576,
+            "price": 44801,
+            "profitPerHour": 4326,
             "condition": null,
-            "cooldownSeconds": 203,
+            "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 6,
-            "currentProfitPerHour": 2875,
-            "profitPerHourDelta": 701,
+            "level": 7,
+            "currentProfitPerHour": 3576,
+            "profitPerHourDelta": 750,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 300
+            "totalCooldownSeconds": 600
         }
     ],
     "sections": [
@@ -2806,6 +2806,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 78034
+        "remainSeconds": 74431
     }
 }
