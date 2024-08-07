@@ -2749,14 +2749,14 @@
             "id": "healthy_hamster",
             "name": "Healthy nutrition hamster",
             "releaseAt": "2024-08-06T11:00:00.000Z",
-            "price": 12331170,
-            "profitPerHour": 22313,
+            "price": 28263268,
+            "profitPerHour": 24675,
             "condition": null,
-            "cooldownSeconds": 2046,
+            "cooldownSeconds": 7182,
             "section": "Specials",
-            "level": 16,
-            "currentProfitPerHour": 20106,
-            "profitPerHourDelta": 2207,
+            "level": 17,
+            "currentProfitPerHour": 22313,
+            "profitPerHourDelta": 2362,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2765,15 +2765,17 @@
             "id": "gym_hamster",
             "name": "Gym hamster",
             "releaseAt": "2024-08-07T11:00:00.000Z",
-            "price": 12000,
-            "profitPerHour": 500,
+            "price": 15315,
+            "profitPerHour": 1607,
             "condition": null,
+            "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 1,
-            "currentProfitPerHour": 0,
-            "profitPerHourDelta": 500,
+            "level": 3,
+            "currentProfitPerHour": 1035,
+            "profitPerHourDelta": 572,
             "isAvailable": true,
-            "isExpired": false
+            "isExpired": false,
+            "totalCooldownSeconds": 15
         }
     ],
     "sections": [
@@ -2800,10 +2802,10 @@
     ],
     "dailyCombo": {
         "upgradeIds": [
-            "sleeping_hamster"
+            "healthy_hamster"
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 2441
+        "remainSeconds": 85239
     }
 }
