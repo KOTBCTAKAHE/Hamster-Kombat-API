@@ -2767,14 +2767,14 @@
             "toggle": {
                 "enableAt": "2024-08-07T11:00:00.000Z"
             },
-            "price": 19950542,
-            "profitPerHour": 15419,
+            "price": 48013359,
+            "profitPerHour": 16998,
             "condition": null,
-            "cooldownSeconds": 424,
+            "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 17,
-            "currentProfitPerHour": 13943,
-            "profitPerHourDelta": 1476,
+            "level": 18,
+            "currentProfitPerHour": 15419,
+            "profitPerHourDelta": 1579,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2786,17 +2786,17 @@
                 "enableAt": "2024-08-08T10:00:00.000Z"
             },
             "expiresAt": "2024-08-15T10:00:00.000Z",
-            "price": 114865,
-            "profitPerHour": 8037,
+            "price": 496441,
+            "profitPerHour": 25649,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 1590,
             "section": "Specials",
-            "level": 3,
-            "currentProfitPerHour": 5175,
-            "profitPerHourDelta": 2862,
+            "level": 8,
+            "currentProfitPerHour": 21635,
+            "profitPerHourDelta": 4014,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 15
+            "totalCooldownSeconds": 1800
         },
         {
             "id": "university_hamster",
@@ -2804,17 +2804,17 @@
             "toggle": {
                 "enableAt": "2024-08-08T11:00:00.000Z"
             },
-            "price": 25358,
-            "profitPerHour": 2277,
+            "price": 85869,
+            "profitPerHour": 9520,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 384,
             "section": "Specials",
-            "level": 2,
-            "currentProfitPerHour": 1100,
-            "profitPerHourDelta": 1177,
+            "level": 7,
+            "currentProfitPerHour": 7869,
+            "profitPerHourDelta": 1651,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 10
+            "totalCooldownSeconds": 600
         }
     ],
     "sections": [
@@ -2841,10 +2841,10 @@
     ],
     "dailyCombo": {
         "upgradeIds": [
-            "healthy_hamster"
+            "gym_hamster"
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 2383
+        "remainSeconds": 70771
     }
 }
