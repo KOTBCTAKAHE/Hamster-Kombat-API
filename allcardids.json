@@ -1163,7 +1163,7 @@
                 "_type": "ReferralCount",
                 "referralCount": 4
             },
-            "cooldownSeconds": 586,
+            "cooldownSeconds": 0,
             "section": "Legal",
             "level": 16,
             "currentProfitPerHour": 87953,
@@ -2767,14 +2767,14 @@
             "toggle": {
                 "enableAt": "2024-08-07T11:00:00.000Z"
             },
-            "price": 513756,
-            "profitPerHour": 8943,
+            "price": 968764,
+            "profitPerHour": 10069,
             "condition": null,
-            "cooldownSeconds": 579,
+            "cooldownSeconds": 4295,
             "section": "Specials",
-            "level": 12,
-            "currentProfitPerHour": 7891,
-            "profitPerHourDelta": 1052,
+            "level": 13,
+            "currentProfitPerHour": 8943,
+            "profitPerHourDelta": 1126,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2808,6 +2808,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 45611
+        "remainSeconds": 42009
     }
 }
