@@ -1,9 +1,13 @@
 // pages/api/GetCombo.js
+import 'dotenv/config';
 
 export default function handler(req, res) {
+  const combo = process.env.COMBO ? process.env.COMBO.split(',') : [];
+  const date = process.env.DATE || 'Unknown date';
+
   const data = {
-    combo: ["healthy_hamster", "hamster_youtube_gold_button", "partnership_program"],
-    date: "07-08-24"
+    combo: combo,
+    date: date,
   };
 
   res.setHeader('Content-Type', 'application/json');
