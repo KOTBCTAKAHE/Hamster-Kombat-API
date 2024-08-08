@@ -2786,17 +2786,17 @@
                 "enableAt": "2024-08-08T10:00:00.000Z"
             },
             "expiresAt": "2024-08-15T10:00:00.000Z",
-            "price": 770144,
-            "profitPerHour": 29944,
+            "price": 1254483,
+            "profitPerHour": 34540,
             "condition": null,
-            "cooldownSeconds": 2044,
+            "cooldownSeconds": 3855,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 25649,
-            "profitPerHourDelta": 4295,
+            "level": 10,
+            "currentProfitPerHour": 29944,
+            "profitPerHourDelta": 4596,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 3600
+            "totalCooldownSeconds": 5400
         },
         {
             "id": "university_hamster",
@@ -2804,17 +2804,17 @@
             "toggle": {
                 "enableAt": "2024-08-08T11:00:00.000Z"
             },
-            "price": 126868,
-            "profitPerHour": 11286,
+            "price": 196814,
+            "profitPerHour": 13176,
             "condition": null,
-            "cooldownSeconds": 238,
+            "cooldownSeconds": 2049,
             "section": "Specials",
-            "level": 8,
-            "currentProfitPerHour": 9520,
-            "profitPerHourDelta": 1766,
+            "level": 9,
+            "currentProfitPerHour": 11286,
+            "profitPerHourDelta": 1890,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 1800
+            "totalCooldownSeconds": 3600
         }
     ],
     "sections": [
@@ -2845,6 +2845,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 67168
+        "remainSeconds": 63566
     }
 }
