@@ -2767,17 +2767,34 @@
             "toggle": {
                 "enableAt": "2024-08-07T11:00:00.000Z"
             },
-            "price": 8704356,
-            "profitPerHour": 13943,
+            "price": 19950542,
+            "profitPerHour": 15419,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4027,
             "section": "Specials",
-            "level": 16,
-            "currentProfitPerHour": 12563,
-            "profitPerHourDelta": 1380,
+            "level": 17,
+            "currentProfitPerHour": 13943,
+            "profitPerHourDelta": 1476,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "ton_listing",
+            "name": "TON listing on Binance",
+            "toggle": {
+                "enableAt": "2024-08-08T10:00:00.000Z"
+            },
+            "expiresAt": "2024-08-15T10:00:00.000Z",
+            "price": 90000,
+            "profitPerHour": 2500,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 2500,
+            "isAvailable": true,
+            "isExpired": false
         }
     ],
     "sections": [
@@ -2808,6 +2825,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 9588
+        "remainSeconds": 5986
     }
 }
