@@ -1232,18 +1232,18 @@
             "id": "licence_philippines",
             "name": "Licence Philippines",
             "releaseAt": "2024-06-27T11:00:00.000Z",
-            "price": 23976090,
-            "profitPerHour": 146579,
+            "price": 49844569,
+            "profitPerHour": 163339,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "top10_global",
                 "level": 3
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 5738,
             "section": "Legal",
-            "level": 14,
-            "currentProfitPerHour": 130915,
-            "profitPerHourDelta": 15664,
+            "level": 15,
+            "currentProfitPerHour": 146579,
+            "profitPerHourDelta": 16760,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -1392,18 +1392,18 @@
             "id": "crypto_farming",
             "name": "Crypto Farming",
             "releaseAt": "2024-07-30T11:00:00.000Z",
-            "price": 23976090,
-            "profitPerHour": 67652,
+            "price": 49844569,
+            "profitPerHour": 75388,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "youtube",
                 "level": 8
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 5744,
             "section": "Web3",
-            "level": 14,
-            "currentProfitPerHour": 60422,
-            "profitPerHourDelta": 7230,
+            "level": 15,
+            "currentProfitPerHour": 67652,
+            "profitPerHourDelta": 7736,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2171,7 +2171,7 @@
             "price": 42813036,
             "profitPerHour": 89443,
             "condition": null,
-            "cooldownSeconds": 6044,
+            "cooldownSeconds": 2441,
             "section": "Specials",
             "level": 12,
             "currentProfitPerHour": 78919,
@@ -2223,7 +2223,7 @@
                 "_type": "MoreReferralsCount",
                 "moreReferralsCount": 1
             },
-            "cooldownSeconds": 6037,
+            "cooldownSeconds": 2434,
             "section": "Specials",
             "level": 12,
             "currentProfitPerHour": 118376,
@@ -2432,7 +2432,7 @@
             "price": 42813036,
             "profitPerHour": 17889,
             "condition": null,
-            "cooldownSeconds": 6050,
+            "cooldownSeconds": 2447,
             "section": "Specials",
             "level": 12,
             "currentProfitPerHour": 15784,
@@ -2822,17 +2822,17 @@
             "toggle": {
                 "enableAt": "2024-08-09T11:00:00.000Z"
             },
-            "price": 33601,
-            "profitPerHour": 5192,
+            "price": 49644,
+            "profitPerHour": 6155,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 332,
             "section": "Specials",
-            "level": 7,
-            "currentProfitPerHour": 4292,
-            "profitPerHourDelta": 900,
+            "level": 8,
+            "currentProfitPerHour": 5192,
+            "profitPerHourDelta": 963,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 600
+            "totalCooldownSeconds": 1800
         },
         {
             "id": "adv_integration_0908",
@@ -2844,7 +2844,7 @@
             "price": 55125,
             "profitPerHour": 8280,
             "condition": null,
-            "cooldownSeconds": 6025,
+            "cooldownSeconds": 2422,
             "section": "Specials",
             "level": 2,
             "currentProfitPerHour": 4000,
@@ -2880,6 +2880,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 67111
+        "remainSeconds": 63508
     }
 }
