@@ -1,6 +1,7 @@
 import { sql } from "@vercel/postgres";
 import { JSDOM } from "jsdom";
 import { DateTime } from "luxon";
+import iconv from 'iconv-lite'; // Импортируем библиотеку iconv-lite
 
 export default async function handler(req, res) {
     const cardIds = require('../../allcardids.json');
@@ -35,10 +36,12 @@ export default async function handler(req, res) {
         // Проверка, нужно ли обновлять данные
         if (apiDate.day != date.day) {
             let url = `https://www.cybersport.ru/tags/games/kombo-karty-v-hamster-kombat-khomiak-na-${day}-${day + 1}-${monthName}-2024-goda`;
-            
+
             const response = await fetch(url, { mode: 'no-cors' });
-            const html = await response.text();
-            const dom = new JSDOM(html);
+            const buffer = await response.arrayBuffer();
+            const decodedHtml = iconv.decode(Buffer.from(buffer), 'utf-8'); // Декодируем в UTF-8
+
+            const dom = new JSDOM(decodedHtml);
             const tagLiList = dom.window.document.getElementsByTagName("li");
 
             let comboArr = [];
