@@ -1,7 +1,7 @@
 import { sql } from "@vercel/postgres";
 import { JSDOM } from "jsdom";
 import { DateTime } from "luxon";
-import iconv from 'iconv-lite'; // Импортируем библиотеку iconv-lite
+import iconv from 'iconv-lite';
 
 export default async function handler(req, res) {
     const cardIds = require('../../allcardids.json');
@@ -49,7 +49,7 @@ export default async function handler(req, res) {
             let notFoundCards = [];
             
             for (let i = 0; i < tagLiList.length; i++) {
-                let cardName = tagLiList[i].textContent?.slice(0, -1);  // Защита от undefined
+                let cardName = tagLiList[i].textContent?.trim();  // Убираем лишние пробелы
                 if (typeof cardName === 'string') {
                     let found = false;
                     cardIds.upgradesForBuy.forEach(card => {
