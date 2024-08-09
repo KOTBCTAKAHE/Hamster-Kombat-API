@@ -1,61 +1,80 @@
-export default function handler(req, res) {
-    const jsdom = require("jsdom");
-    const { JSDOM } = jsdom;
-    const { DateTime } = require("luxon");
-    const fs = require('node:fs');
+import { sql } from "@vercel/postgres";
+import { JSDOM } from "jsdom";
+import { DateTime } from "luxon";
 
-    const apiData = require('../../json/combo.json');
+export default async function handler(req, res) {
     const cardIds = require('../../allcardids.json');
 
-    let currentDateTime = DateTime.now().setZone('UTC');  
-    let targetDate = currentDateTime.hour < 12 ? currentDateTime.minus({ days: 1 }) : currentDateTime;
+    // Получаем текущее время в UTC
+    const now = DateTime.now().toUTC();
+    
+    // Если текущее время до 12:00, используем вчерашнюю дату
+    const referenceHour = 12;
+    let date;
+    if (now.hour < referenceHour) {
+        date = now.minus({ days: 1 }).startOf('day');
+    } else {
+        date = now.startOf('day');
+    }
 
     const months = ["yanvarya", "fevralya", "marta", "aprelya", "maya", "iyunya", 
                     "iyulya", "avgusta", "sentyabrya", "oktyabrya", "noyabrya", "dekabrya"];
-    let monthName = months[targetDate.month - 1];
-    let day = targetDate.day;
+    const monthName = months[date.month - 1];
+    const day = date.day;
 
-    let apiDate = DateTime.fromFormat(apiData.date, "dd-MM-yy");
+    try {
+        // Получаем последнюю запись из таблицы combo
+        const { rows } = await sql`SELECT * FROM combo ORDER BY date DESC LIMIT 1`;
+        let apiData = rows[0];
 
-    if (apiDate.day != targetDate.day) {  // Проверка даты
-        let url = `https://www.cybersport.ru/tags/games/kombo-karty-v-hamster-kombat-khomiak-na-${day}-${day + 1}-${monthName}-2024-goda`;
-        fetch(url, { mode: 'no-cors'})
-            .then(response => response.text())
-            .then(html => new JSDOM(html))
-            .then(dom => {
-                let tagLiList = dom.window.document.getElementsByTagName("li");
+        // Проверка на случай, если записи не найдено
+        if (!apiData) {
+            apiData = {
+                combo: [],
+                date: "01-01-70" // дата, которая точно будет меньше текущей
+            };
+        }
 
-                let comboArr = new Array();
-                for(let i = 0; i < tagLiList.length; i++) {
-                    cardIds.upgradesForBuy.forEach(card => {
-                        if (card.name == tagLiList[i].textContent.slice(0, -1)) {
-                            comboArr.push(card.id);
-                        }
-                    });
-                }
+        let apiDate = DateTime.fromFormat(apiData.date, "dd-MM-yy");
 
-                if (comboArr.length != 3) {
-                    res.status(500).send(`Failed. Found ${comboArr.length} cards of 3`);
-                    return;  // Завершаем выполнение, если не найдено 3 карты
-                }
+        // Проверяем, нужно ли обновить данные
+        if (apiDate.toISODate() !== date.toISODate()) {
+            let url = `https://www.cybersport.ru/tags/games/kombo-karty-v-hamster-kombat-khomiak-na-${day}-${day + 1}-${monthName}-2024-goda`;
 
-                let newComboJson = {
-                    combo: comboArr,
-                    date: targetDate.toFormat("dd-MM-yy")
-                };
+            const response = await fetch(url, { mode: 'no-cors' });
+            const html = await response.text();
+            const dom = new JSDOM(html);
+            const tagLiList = dom.window.document.getElementsByTagName("li");
 
-                fs.writeFile("./json/combo.json", JSON.stringify(newComboJson), function(err) {
-                    if (err) {
-                        console.log(err);
-                        res.status(500).send('Error: ' + err);
-                    } else {
-                        res.status(200).send("Success");
+            let comboArr = [];
+            for (let i = 0; i < tagLiList.length; i++) {
+                cardIds.upgradesForBuy.forEach(card => {
+                    if (card.name === tagLiList[i].textContent.slice(0, -1)) {
+                        comboArr.push(card.id);
                     }
                 });
+            }
 
-            })
-            .catch(err => res.status(500).send('Error: ' + err));
-    } else {
-        res.status(200).send("Already updated");
+            if (comboArr.length !== 3) {
+                return res.status(500).send(`Failed. Found ${comboArr.length} cards of 3`);
+            }
+
+            // Обновляем данные в базе данных
+            const newComboData = {
+                combo: comboArr,
+                date: date.toFormat("dd-MM-yy")
+            };
+
+            await sql`INSERT INTO combo (combo, date) VALUES (${comboArr}, ${newComboData.date})`;
+
+            res.status(200).send("Success");
+
+        } else {
+            res.status(200).send("Already updated");
+        }
+
+    } catch (error) {
+        console.error('Error:', error);
+        res.status(500).send('Error: ' + error.message);
     }
 }
