@@ -1,7 +1,6 @@
 import { sql } from "@vercel/postgres";
 import { JSDOM } from "jsdom";
 import { DateTime } from "luxon";
-import iconv from 'iconv-lite';
 
 export default async function handler(req, res) {
     const cardIds = require('../../allcardids.json');
@@ -36,37 +35,27 @@ export default async function handler(req, res) {
         // Проверка, нужно ли обновлять данные
         if (apiDate.day != date.day) {
             let url = `https://www.cybersport.ru/tags/games/kombo-karty-v-hamster-kombat-khomiak-na-${day}-${day + 1}-${monthName}-2024-goda`;
-
+            
             const response = await fetch(url, { mode: 'no-cors' });
-            const buffer = await response.arrayBuffer();
-            const decodedHtml = iconv.decode(Buffer.from(buffer), 'utf-8'); // Декодируем в UTF-8
-
-            const dom = new JSDOM(decodedHtml);
+            const html = await response.text();
+            const dom = new JSDOM(html);
             const tagLiList = dom.window.document.getElementsByTagName("li");
 
             let comboArr = [];
-            let foundCards = [];
-            let notFoundCards = [];
-            
             for (let i = 0; i < tagLiList.length; i++) {
-                let cardName = tagLiList[i].textContent?.trim();  // Убираем лишние пробелы
+                // Очищаем текст от лишних символов и пробелов
+                let cardName = tagLiList[i].textContent?.replace(/\s/g, '').replace(/&nbsp;/g, ' ').trim();
                 if (typeof cardName === 'string') {
-                    let found = false;
                     cardIds.upgradesForBuy.forEach(card => {
                         if (card.name === cardName) {
                             comboArr.push(card.id);
-                            foundCards.push(cardName);
-                            found = true;
                         }
                     });
-                    if (!found) {
-                        notFoundCards.push(cardName);
-                    }
                 }
             }
 
             if (comboArr.length !== 3) {
-                return res.status(500).send(`Failed. Found ${comboArr.length} cards of 3. Found cards: ${foundCards.join(', ')}. Missing cards: ${notFoundCards.join(', ')}`);
+                return res.status(500).send(`Failed. Found ${comboArr.length} cards of 3`);
             }
 
             // Обновление данных в базе данных
