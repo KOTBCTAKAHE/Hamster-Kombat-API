@@ -1,76 +1,35 @@
-import { sql } from "@vercel/postgres";
-import { JSDOM } from "jsdom";
-import { DateTime } from "luxon";
+export default function handler(req, res) {
+    const jsdom = require("jsdom");
+    const { JSDOM } = jsdom;
+    const { DateTime } = require("luxon");
+    const fs = require('node:fs');
 
-export default async function handler(req, res) {
+    const apiData = require('../../json/combo.json');
     const cardIds = require('../../allcardids.json');
 
-    let date = DateTime.now();
-    const months = ["yanvarya", "fevralya", "marta", "aprelya", "maya", "iyunya", 
-                    "iyulya", "avgusta", "sentyabrya", "oktyabrya", "noyabrya", "dekabrya"];
-    let monthName = months[date.month - 1];
-    let day = date.day;
+    let url = `https://www.cybersport.ru/tags/games/kombo-karty-v-hamster-kombat-khomiak-na-8-9-avgusta-2024-goda`;
+    
+    fetch(url, { mode: 'no-cors'})
+        .then(response => response.text())
+        .then(html => new JSDOM(html))
+        .then(dom => {
+            let tagLiList = dom.window.document.getElementsByTagName("li");
 
-    try {
-        // Получаем последнюю запись из таблицы combo
-        const { rows } = await sql`SELECT * FROM combo ORDER BY date DESC LIMIT 1`;
-        let apiData = rows[0];
-
-        // Проверка на случай, если записи не найдено
-        if (!apiData) {
-            apiData = {
-                combo: [],
-                date: "01-01-70" // дата, которая точно будет меньше текущей
-            };
-        }
-
-        let apiDate = DateTime.fromFormat(apiData.date, "dd-MM-yy");
-
-        // Проверяем, нужно ли обновить данные
-        if (apiDate.day !== date.day) {
-            let url = `https://www.cybersport.ru/tags/games/kombo-karty-v-hamster-kombat-khomiak-na-${day}-${day + 1}-${monthName}-2024-goda`;
-
-            const response = await fetch(url, { mode: 'no-cors' });
-            const html = await response.text();
-
-            // Выводим загруженный HTML-код для отладки
-            console.log("Loaded HTML:", html);
-
-            const dom = new JSDOM(html);
-            const tagLiList = dom.window.document.getElementsByTagName("li");
-
-            // Проверяем, сколько элементов найдено
-            console.log("Found <li> elements:", tagLiList.length);
-
-            let comboArr = [];
-            for (let i = 0; i < tagLiList.length; i++) {
+            let comboArr = new Array();
+            for(let i = 0; i < tagLiList.length; i++) {
                 cardIds.upgradesForBuy.forEach(card => {
-                    if (card.name === tagLiList[i].textContent.slice(0, -1)) {
+                    if (card.name == tagLiList[i].textContent.slice(0, -1)) {
                         comboArr.push(card.id);
                     }
                 });
             }
 
-            if (comboArr.length !== 3) {
-                return res.status(500).send(`Failed. Found ${comboArr.length} cards of 3`);
+            if (comboArr.length != 3) {
+                res.status(500).send(`Failed. Found ${comboArr.length} cards of 3`);
+            } else {
+                res.status(200).send("Success");
             }
 
-            // Обновляем данные в базе данных
-            const newComboData = {
-                combo: comboArr,
-                date: date.toFormat("dd-MM-yy")
-            };
-
-            await sql`INSERT INTO combo (combo, date) VALUES (${comboArr}, ${newComboData.date})`;
-
-            res.status(200).send("Success");
-
-        } else {
-            res.status(200).send("Already updated");
-        }
-
-    } catch (error) {
-        console.error('Error:', error);
-        res.status(500).send('Error: ' + error.message);
-    }
+        })
+        .catch(err => res.status(500).send('Error: ' + err));
 }
