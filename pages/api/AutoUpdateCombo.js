@@ -5,49 +5,36 @@ import { DateTime } from "luxon";
 export default async function handler(req, res) {
     const cardIds = require('../../allcardids.json');
 
-    // Получаем текущее время в UTC
-    const now = DateTime.now().toUTC();
-    
-    // Если текущее время до 12:00, используем вчерашнюю дату
-    const referenceHour = 12;
-    let date;
-    if (now.hour < referenceHour) {
-        date = now.minus({ days: 1 }).startOf('day');
-    } else {
-        date = now.startOf('day');
+    // Получаем текущее время по UTC
+    let date = DateTime.now().setZone('utc');
+
+    // Если время еще не 12:00 по UTC, используем вчерашнюю дату
+    if (date.hour < 12) {
+        date = date.minus({ days: 1 });
     }
 
     const months = ["yanvarya", "fevralya", "marta", "aprelya", "maya", "iyunya", 
                     "iyulya", "avgusta", "sentyabrya", "oktyabrya", "noyabrya", "dekabrya"];
-    const monthName = months[date.month - 1];
-    const day = date.day;
+    let monthName = months[date.month - 1];
+    let day = date.day;
 
     try {
-        // Получаем последнюю запись из таблицы combo
+        // Подключение к базе данных и получение последней записи
         const { rows } = await sql`SELECT * FROM combo ORDER BY date DESC LIMIT 1`;
         let apiData = rows[0];
-
-        // Проверка на случай, если записи не найдено
-        if (!apiData) {
-            apiData = {
-                combo: [],
-                date: "01-01-70" // дата, которая точно будет меньше текущей
-            };
-        }
-
         let apiDate = DateTime.fromFormat(apiData.date, "dd-MM-yy");
 
-        // Проверяем, нужно ли обновить данные
-        if (apiDate.toISODate() !== date.toISODate()) {
+        // Проверка, нужно ли обновлять данные
+        if (apiDate.day != date.day) {
             let url = `https://www.cybersport.ru/tags/games/kombo-karty-v-hamster-kombat-khomiak-na-${day}-${day + 1}-${monthName}-2024-goda`;
-
+            
             const response = await fetch(url, { mode: 'no-cors' });
             const html = await response.text();
             const dom = new JSDOM(html);
             const tagLiList = dom.window.document.getElementsByTagName("li");
 
             let comboArr = [];
-            for (let i = 0; i < tagLiList.length; i++) {
+            for(let i = 0; i < tagLiList.length; i++) {
                 cardIds.upgradesForBuy.forEach(card => {
                     if (card.name === tagLiList[i].textContent.slice(0, -1)) {
                         comboArr.push(card.id);
@@ -59,7 +46,7 @@ export default async function handler(req, res) {
                 return res.status(500).send(`Failed. Found ${comboArr.length} cards of 3`);
             }
 
-            // Обновляем данные в базе данных
+            // Обновление данных в базе данных
             const newComboData = {
                 combo: comboArr,
                 date: date.toFormat("dd-MM-yy")
