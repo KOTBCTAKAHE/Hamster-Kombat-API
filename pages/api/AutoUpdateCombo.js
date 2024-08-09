@@ -43,8 +43,9 @@ export default async function handler(req, res) {
 
             let comboArr = [];
             for (let i = 0; i < tagLiList.length; i++) {
-                // Очищаем текст от лишних символов и пробелов
-                let cardName = tagLiList[i].textContent?.replace(/\s/g, '').replace(/&nbsp;/g, ' ').trim();
+                let cardName = tagLiList[i].textContent
+                    ?.replace(/[\u00A0\u200B-\u200D\uFEFF]/g, '') // Убираем неразрывные пробелы и невидимые символы
+                    .slice(0, -1);  // Убираем последний символ
                 if (typeof cardName === 'string') {
                     cardIds.upgradesForBuy.forEach(card => {
                         if (card.name === cardName) {
