@@ -45,7 +45,9 @@ export default async function handler(req, res) {
             const tagLiList = dom.window.document.getElementsByTagName("li");
 
             let comboArr = [];
+            let foundCards = [];
             let notFoundCards = [];
+            
             for (let i = 0; i < tagLiList.length; i++) {
                 let cardName = tagLiList[i].textContent?.slice(0, -1);  // Защита от undefined
                 if (typeof cardName === 'string') {
@@ -53,6 +55,7 @@ export default async function handler(req, res) {
                     cardIds.upgradesForBuy.forEach(card => {
                         if (card.name === cardName) {
                             comboArr.push(card.id);
+                            foundCards.push(cardName);
                             found = true;
                         }
                     });
@@ -63,7 +66,7 @@ export default async function handler(req, res) {
             }
 
             if (comboArr.length !== 3) {
-                return res.status(500).send(`Failed. Found ${comboArr.length} cards of 3. Missing cards: ${notFoundCards.join(', ')}`);
+                return res.status(500).send(`Failed. Found ${comboArr.length} cards of 3. Found cards: ${foundCards.join(', ')}. Missing cards: ${notFoundCards.join(', ')}`);
             }
 
             // Обновление данных в базе данных
