@@ -48,9 +48,13 @@ export default async function handler(req, res) {
                 // Убираем HTML сущности
                 cardName = cardName.replace(/&[^\;]*;/g, "");
 
+                console.log("Parsed card name:", cardName);  // Debugging line
+
                 if (typeof cardName === 'string') {
                     cardIds.upgradesForBuy.forEach(card => {
-                        if (card.name === cardName) {
+                        // Используем includes() для более гибкого соответствия
+                        if (cardName.includes(card.name)) {
+                            console.log(`Match found: ${cardName} matches ${card.name}`);  // Debugging line
                             comboArr.push(card.id);
                         }
                     });
