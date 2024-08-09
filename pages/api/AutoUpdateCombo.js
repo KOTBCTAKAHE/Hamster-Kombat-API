@@ -20,7 +20,7 @@ export default async function handler(req, res) {
 
     try {
         // Подключение к базе данных и получение последней записи
-        const { rows } = await sql`SELECT * FROM combo ORDER BY date DESC LIMIT 1`;
+        const { rows } = await sql`SELECT combo, TO_CHAR(date, 'DD-MM-YY') as formatted_date FROM combo ORDER BY date DESC LIMIT 1`;
         
         // Проверка, есть ли данные в базе
         if (rows.length === 0) {
@@ -29,12 +29,8 @@ export default async function handler(req, res) {
 
         let apiData = rows[0];
         
-        // Убедимся, что date - это строка
-        if (typeof apiData.date !== 'string') {
-            return res.status(500).send("Invalid data format in the database.");
-        }
-
-        let apiDate = DateTime.fromFormat(apiData.date, "dd-MM-yy");
+        // Получаем дату из базы данных в виде строки
+        let apiDate = DateTime.fromFormat(apiData.formatted_date, "dd-MM-yy");
 
         // Проверка, нужно ли обновлять данные
         if (apiDate.day != date.day) {
@@ -64,7 +60,7 @@ export default async function handler(req, res) {
             // Обновление данных в базе данных
             const newComboData = {
                 combo: comboArr,
-                date: date.toFormat("dd-MM-yy")
+                date: date.toFormat("yyyy-MM-dd") // Сохраняем в формате 'yyyy-MM-dd' для совместимости с типом DATE
             };
 
             await sql`INSERT INTO combo (combo, date) VALUES (${newComboData.combo}, ${newComboData.date})`;
