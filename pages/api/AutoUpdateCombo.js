@@ -43,17 +43,20 @@ export default async function handler(req, res) {
 
             let comboArr = [];
             for (let i = 0; i < tagLiList.length; i++) {
-                // Очищаем текст от HTML-сущностей и лишних пробелов
-                let cardName = tagLiList[i].textContent?.replace(/&nbsp;/g, '').trim(); 
+                let cardName = tagLiList[i].textContent?.replace(/&[^;]+;/g, '').trim(); 
+                console.log(`Parsed card name: ${cardName}`); // Выводим имя карты
+                
                 if (typeof cardName === 'string') {
                     cardIds.upgradesForBuy.forEach(card => {
                         if (card.name === cardName) {
+                            console.log(`Found matching card: ${card.name}`);
                             comboArr.push(card.id);
                         }
                     });
                 }
             }
 
+            console.log(`Total found cards: ${comboArr.length}`);
             if (comboArr.length !== 3) {
                 return res.status(500).send(`Failed. Found ${comboArr.length} cards of 3`);
             }
