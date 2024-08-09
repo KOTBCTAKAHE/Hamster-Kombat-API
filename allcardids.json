@@ -1239,7 +1239,7 @@
                 "upgradeId": "top10_global",
                 "level": 3
             },
-            "cooldownSeconds": 2136,
+            "cooldownSeconds": 0,
             "section": "Legal",
             "level": 15,
             "currentProfitPerHour": 146579,
@@ -1399,7 +1399,7 @@
                 "upgradeId": "youtube",
                 "level": 8
             },
-            "cooldownSeconds": 2142,
+            "cooldownSeconds": 0,
             "section": "Web3",
             "level": 15,
             "currentProfitPerHour": 67652,
@@ -2822,17 +2822,17 @@
             "toggle": {
                 "enableAt": "2024-08-09T11:00:00.000Z"
             },
-            "price": 77014,
-            "profitPerHour": 7186,
+            "price": 125448,
+            "profitPerHour": 8289,
             "condition": null,
-            "cooldownSeconds": 776,
+            "cooldownSeconds": 3698,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 6155,
-            "profitPerHourDelta": 1031,
+            "level": 10,
+            "currentProfitPerHour": 7186,
+            "profitPerHourDelta": 1103,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 3600
+            "totalCooldownSeconds": 5400
         },
         {
             "id": "adv_integration_0908",
@@ -2844,7 +2844,7 @@
             "price": 63814,
             "profitPerHour": 12860,
             "condition": null,
-            "cooldownSeconds": 6921,
+            "cooldownSeconds": 3318,
             "section": "Specials",
             "level": 3,
             "currentProfitPerHour": 8280,
@@ -2880,6 +2880,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 59906
+        "remainSeconds": 56303
     }
 }
