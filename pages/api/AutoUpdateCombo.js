@@ -44,6 +44,10 @@ export default async function handler(req, res) {
             let comboArr = [];
             for (let i = 0; i < tagLiList.length; i++) {
                 let cardName = tagLiList[i].textContent?.slice(0, -1);  // Защита от undefined
+                
+                // Убираем HTML сущности
+                cardName = cardName.replace(/&[^\;]*;/g, "");
+
                 if (typeof cardName === 'string') {
                     cardIds.upgradesForBuy.forEach(card => {
                         if (card.name === cardName) {
