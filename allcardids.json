@@ -2804,17 +2804,33 @@
             "toggle": {
                 "enableAt": "2024-08-08T11:00:00.000Z"
             },
-            "price": 16683348,
-            "profitPerHour": 30676,
+            "price": 38238539,
+            "profitPerHour": 33923,
             "condition": null,
-            "cooldownSeconds": 1387,
+            "cooldownSeconds": 5762,
             "section": "Specials",
-            "level": 16,
-            "currentProfitPerHour": 27641,
-            "profitPerHourDelta": 3035,
+            "level": 17,
+            "currentProfitPerHour": 30676,
+            "profitPerHourDelta": 3247,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "vipassana_hamster",
+            "name": "Vipassana hamster",
+            "toggle": {
+                "enableAt": "2024-08-09T11:00:00.000Z"
+            },
+            "price": 9000,
+            "profitPerHour": 600,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 600,
+            "isAvailable": true,
+            "isExpired": false
         }
     ],
     "sections": [
@@ -2845,6 +2861,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 5930
+        "remainSeconds": 2327
     }
 }
