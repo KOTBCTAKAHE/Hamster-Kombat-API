@@ -1,16 +1,9 @@
-const mysql = require('mysql2/promise');
-const { JSDOM } = require("jsdom");
-const { DateTime } = require("luxon");
-const cardIds = require('../../allcardids.json');
+import { sql } from "@vercel/postgres";
+import { JSDOM } from "jsdom";
+import { DateTime } from "luxon";
 
 export default async function handler(req, res) {
-    
-    const connection = await mysql.createConnection({
-        host: process.env.MYSQL_HOST,
-        user: process.env.MYSQL_USER,
-        password: process.env.MYSQL_PASSWORD,
-        database: process.env.MYSQL_DATABASE
-    });
+    const cardIds = require('../../allcardids.json');
 
     let date = DateTime.now();
     const months = ["yanvarya", "fevralya", "marta", "aprelya", "maya", "iyunya", 
@@ -18,47 +11,50 @@ export default async function handler(req, res) {
     let monthName = months[date.month - 1];
     let day = date.day;
 
+    try {
+        // Подключение к базе данных и получение последней записи
+        const { rows } = await sql`SELECT * FROM combo ORDER BY date DESC LIMIT 1`;
+        let apiData = rows[0];
+        let apiDate = DateTime.fromFormat(apiData.date, "dd-MM-yy");
 
-    const [rows] = await connection.execute('SELECT * FROM combos ORDER BY id DESC LIMIT 1');
-    let apiDate = rows.length ? DateTime.fromFormat(rows[0].date, "dd-MM-yy") : null;
+        // Проверка, нужно ли обновлять данные
+        if (apiDate.day != date.day) {
+            let url = `https://www.cybersport.ru/tags/games/kombo-karty-v-hamster-kombat-khomiak-na-${day}-${day + 1}-${monthName}-2024-goda`;
+            
+            const response = await fetch(url, { mode: 'no-cors' });
+            const html = await response.text();
+            const dom = new JSDOM(html);
+            const tagLiList = dom.window.document.getElementsByTagName("li");
 
-    if (!apiDate || apiDate.day != date.day) {
-        let url = `https://www.cybersport.ru/tags/games/kombo-karty-v-hamster-kombat-khomiak-na-${day}-${day + 1}-${monthName}-2024-goda`;
-        fetch(url, { mode: 'no-cors'})
-            .then(response => response.text())
-            .then(html => new JSDOM(html))
-            .then(dom => {
-                let tagLiList = dom.window.document.getElementsByTagName("li");
-
-                let comboArr = [];
-                for(let i = 0; i < tagLiList.length; i++) {
-                    cardIds.upgradesForBuy.forEach(card => {
-                        if (card.name == tagLiList[i].textContent.slice(0, -1)) {
-                            comboArr.push(card.id);
-                        }
-                    });
-                }
-
-                if (comboArr.length != 3) {
-                    return res.status(500).send(`Failed. Found ${comboArr.length} cards of 3`);
-                }
-
-                
-                connection.execute(
-                    'INSERT INTO combos (combo, date) VALUES (?, ?)',
-                    [JSON.stringify(comboArr), date.toFormat("dd-MM-yy")]
-                ).then(() => {
-                    res.status(200).send("Success");
-                }).catch(err => {
-                    res.status(500).send('Error: ' + err);
+            let comboArr = [];
+            for(let i = 0; i < tagLiList.length; i++) {
+                cardIds.upgradesForBuy.forEach(card => {
+                    if (card.name === tagLiList[i].textContent.slice(0, -1)) {
+                        comboArr.push(card.id);
+                    }
                 });
+            }
 
-            })
-            .catch(err => res.status(500).send('Error: ' + err));
-    } else {
-        res.status(200).send("Already updated");
+            if (comboArr.length !== 3) {
+                return res.status(500).send(`Failed. Found ${comboArr.length} cards of 3`);
+            }
+
+            // Обновление данных в базе данных
+            const newComboData = {
+                combo: comboArr,
+                date: date.toFormat("dd-MM-yy")
+            };
+
+            await sql`INSERT INTO combo (combo, date) VALUES (${comboArr}, ${newComboData.date})`;
+
+            res.status(200).send("Success");
+
+        } else {
+            res.status(200).send("Already updated");
+        }
+
+    } catch (error) {
+        console.error('Error:', error);
+        res.status(500).send('Error: ' + error.message);
     }
-
-    
-    connection.end();
 }
