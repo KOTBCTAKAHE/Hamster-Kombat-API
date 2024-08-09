@@ -21,6 +21,12 @@ export default async function handler(req, res) {
     try {
         // Подключение к базе данных и получение последней записи
         const { rows } = await sql`SELECT * FROM combo ORDER BY date DESC LIMIT 1`;
+        
+        // Проверка, есть ли данные в базе
+        if (rows.length === 0) {
+            return res.status(500).send("No data found in the database.");
+        }
+
         let apiData = rows[0];
         let apiDate = DateTime.fromFormat(apiData.date, "dd-MM-yy");
 
@@ -34,7 +40,7 @@ export default async function handler(req, res) {
             const tagLiList = dom.window.document.getElementsByTagName("li");
 
             let comboArr = [];
-            for(let i = 0; i < tagLiList.length; i++) {
+            for (let i = 0; i < tagLiList.length; i++) {
                 cardIds.upgradesForBuy.forEach(card => {
                     if (card.name === tagLiList[i].textContent.slice(0, -1)) {
                         comboArr.push(card.id);
