@@ -1,33 +1,28 @@
-const mongoose = require('mongoose');
-
-mongoose.connect(process.env.MONGODB_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-});
-
-const comboSchema = new mongoose.Schema({
-    combo: [String],
-    date: String
-});
-
-const Combo = mongoose.model('Combo', comboSchema);
+const mysql = require('mysql2/promise');
+const { JSDOM } = require("jsdom");
+const { DateTime } = require("luxon");
+const cardIds = require('../../allcardids.json');
 
 export default async function handler(req, res) {
-    const jsdom = require("jsdom");
-    const { JSDOM } = jsdom;
-    const { DateTime } = require("luxon");
-
-    const cardIds = require('../../allcardids.json');
+    
+    const connection = await mysql.createConnection({
+        host: process.env.MYSQL_HOST,
+        user: process.env.MYSQL_USER,
+        password: process.env.MYSQL_PASSWORD,
+        database: process.env.MYSQL_DATABASE
+    });
 
     let date = DateTime.now();
-    let apiDate = DateTime.fromFormat(apiData.date, "dd-MM-yy");
-
     const months = ["yanvarya", "fevralya", "marta", "aprelya", "maya", "iyunya", 
                     "iyulya", "avgusta", "sentyabrya", "oktyabrya", "noyabrya", "dekabrya"];
     let monthName = months[date.month - 1];
     let day = date.day;
 
-    if (apiDate.day != date.day) {
+
+    const [rows] = await connection.execute('SELECT * FROM combos ORDER BY id DESC LIMIT 1');
+    let apiDate = rows.length ? DateTime.fromFormat(rows[0].date, "dd-MM-yy") : null;
+
+    if (!apiDate || apiDate.day != date.day) {
         let url = `https://www.cybersport.ru/tags/games/kombo-karty-v-hamster-kombat-khomiak-na-${day}-${day + 1}-${monthName}-2024-goda`;
         fetch(url, { mode: 'no-cors'})
             .then(response => response.text())
@@ -48,16 +43,14 @@ export default async function handler(req, res) {
                     return res.status(500).send(`Failed. Found ${comboArr.length} cards of 3`);
                 }
 
-                const newCombo = new Combo({
-                    combo: comboArr,
-                    date: date.toFormat("dd-MM-yy")
-                });
-
-                newCombo.save(function(err) {
-                    if (err) {
-                        return res.status(500).send('Error: ' + err);
-                    }
+                
+                connection.execute(
+                    'INSERT INTO combos (combo, date) VALUES (?, ?)',
+                    [JSON.stringify(comboArr), date.toFormat("dd-MM-yy")]
+                ).then(() => {
                     res.status(200).send("Success");
+                }).catch(err => {
+                    res.status(500).send('Error: ' + err);
                 });
 
             })
@@ -65,4 +58,7 @@ export default async function handler(req, res) {
     } else {
         res.status(200).send("Already updated");
     }
+
+    
+    connection.end();
 }
