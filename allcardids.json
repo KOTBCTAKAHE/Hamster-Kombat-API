@@ -2168,14 +2168,14 @@
         {
             "id": "partner_announce",
             "name": "TON + Hamster Kombat = Success",
-            "price": 23839901,
-            "profitPerHour": 78919,
+            "price": 42813036,
+            "profitPerHour": 89443,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6044,
             "section": "Specials",
-            "level": 11,
-            "currentProfitPerHour": 69083,
-            "profitPerHourDelta": 9836,
+            "level": 12,
+            "currentProfitPerHour": 78919,
+            "profitPerHourDelta": 10524,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2217,17 +2217,17 @@
         {
             "id": "premarket_launch",
             "name": "Premarket Launch",
-            "price": 23839901,
-            "profitPerHour": 118376,
+            "price": 42813036,
+            "profitPerHour": 134162,
             "condition": {
                 "_type": "MoreReferralsCount",
                 "moreReferralsCount": 1
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6037,
             "section": "Specials",
-            "level": 11,
-            "currentProfitPerHour": 103622,
-            "profitPerHourDelta": 14754,
+            "level": 12,
+            "currentProfitPerHour": 118376,
+            "profitPerHourDelta": 15786,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2429,14 +2429,14 @@
             "id": "rolex_soulmate",
             "name": "HamsterWatch for soulmate",
             "releaseAt": "2024-07-16T11:00:00.000Z",
-            "price": 23839901,
-            "profitPerHour": 15784,
+            "price": 42813036,
+            "profitPerHour": 17889,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6050,
             "section": "Specials",
-            "level": 11,
-            "currentProfitPerHour": 13817,
-            "profitPerHourDelta": 1967,
+            "level": 12,
+            "currentProfitPerHour": 15784,
+            "profitPerHourDelta": 2105,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2822,17 +2822,36 @@
             "toggle": {
                 "enableAt": "2024-08-09T11:00:00.000Z"
             },
-            "price": 23880,
-            "profitPerHour": 4292,
+            "price": 33601,
+            "profitPerHour": 5192,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 6,
-            "currentProfitPerHour": 3450,
-            "profitPerHourDelta": 842,
+            "level": 7,
+            "currentProfitPerHour": 4292,
+            "profitPerHourDelta": 900,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 300
+            "totalCooldownSeconds": 600
+        },
+        {
+            "id": "adv_integration_0908",
+            "name": "Finals are approaching",
+            "toggle": {
+                "enableAt": "2024-08-09T16:33:00.000Z"
+            },
+            "expiresAt": "2024-08-12T20:00:00.000Z",
+            "price": 55125,
+            "profitPerHour": 8280,
+            "condition": null,
+            "cooldownSeconds": 6025,
+            "section": "Specials",
+            "level": 2,
+            "currentProfitPerHour": 4000,
+            "profitPerHourDelta": 4280,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 7200
         }
     ],
     "sections": [
@@ -2861,6 +2880,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 70714
+        "remainSeconds": 67111
     }
 }
