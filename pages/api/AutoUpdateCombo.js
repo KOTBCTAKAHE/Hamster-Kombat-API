@@ -32,8 +32,15 @@ export default async function handler(req, res) {
 
             const response = await fetch(url, { mode: 'no-cors' });
             const html = await response.text();
+
+            // Выводим загруженный HTML-код для отладки
+            console.log("Loaded HTML:", html);
+
             const dom = new JSDOM(html);
             const tagLiList = dom.window.document.getElementsByTagName("li");
+
+            // Проверяем, сколько элементов найдено
+            console.log("Found <li> elements:", tagLiList.length);
 
             let comboArr = [];
             for (let i = 0; i < tagLiList.length; i++) {
