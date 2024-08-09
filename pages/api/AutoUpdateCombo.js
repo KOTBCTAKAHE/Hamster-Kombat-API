@@ -28,6 +28,12 @@ export default async function handler(req, res) {
         }
 
         let apiData = rows[0];
+        
+        // Убедимся, что date - это строка
+        if (typeof apiData.date !== 'string') {
+            return res.status(500).send("Invalid data format in the database.");
+        }
+
         let apiDate = DateTime.fromFormat(apiData.date, "dd-MM-yy");
 
         // Проверка, нужно ли обновлять данные
@@ -41,11 +47,14 @@ export default async function handler(req, res) {
 
             let comboArr = [];
             for (let i = 0; i < tagLiList.length; i++) {
-                cardIds.upgradesForBuy.forEach(card => {
-                    if (card.name === tagLiList[i].textContent.slice(0, -1)) {
-                        comboArr.push(card.id);
-                    }
-                });
+                let cardName = tagLiList[i].textContent?.slice(0, -1);  // Защита от undefined
+                if (typeof cardName === 'string') {
+                    cardIds.upgradesForBuy.forEach(card => {
+                        if (card.name === cardName) {
+                            comboArr.push(card.id);
+                        }
+                    });
+                }
             }
 
             if (comboArr.length !== 3) {
@@ -58,7 +67,7 @@ export default async function handler(req, res) {
                 date: date.toFormat("dd-MM-yy")
             };
 
-            await sql`INSERT INTO combo (combo, date) VALUES (${comboArr}, ${newComboData.date})`;
+            await sql`INSERT INTO combo (combo, date) VALUES (${newComboData.combo}, ${newComboData.date})`;
 
             res.status(200).send("Success");
 
