@@ -2825,7 +2825,7 @@
             "price": 36010019,
             "profitPerHour": 20397,
             "condition": null,
-            "cooldownSeconds": 269,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 18,
             "currentProfitPerHour": 18502,
@@ -2841,14 +2841,14 @@
                 "enableAt": "2024-08-09T16:33:00.000Z"
             },
             "expiresAt": "2024-08-12T20:00:00.000Z",
-            "price": 1191995,
-            "profitPerHour": 63135,
+            "price": 2140652,
+            "profitPerHour": 71554,
             "condition": null,
-            "cooldownSeconds": 263,
+            "cooldownSeconds": 5915,
             "section": "Specials",
-            "level": 11,
-            "currentProfitPerHour": 55266,
-            "profitPerHourDelta": 7869,
+            "level": 12,
+            "currentProfitPerHour": 63135,
+            "profitPerHourDelta": 8419,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2859,17 +2859,17 @@
             "toggle": {
                 "enableAt": "2024-08-10T11:00:00.000Z"
             },
-            "price": 170996,
-            "profitPerHour": 20520,
+            "price": 265272,
+            "profitPerHour": 23956,
             "condition": null,
-            "cooldownSeconds": 1192,
+            "cooldownSeconds": 2309,
             "section": "Specials",
-            "level": 8,
-            "currentProfitPerHour": 17308,
-            "profitPerHourDelta": 3212,
+            "level": 9,
+            "currentProfitPerHour": 20520,
+            "profitPerHourDelta": 3436,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 1800
+            "totalCooldownSeconds": 3600
         }
     ],
     "sections": [
@@ -2902,6 +2902,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": true,
-        "remainSeconds": 74259
+        "remainSeconds": 70657
     }
 }
