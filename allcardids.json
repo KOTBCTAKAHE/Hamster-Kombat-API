@@ -2822,14 +2822,14 @@
             "toggle": {
                 "enableAt": "2024-08-09T11:00:00.000Z"
             },
-            "price": 6528267,
-            "profitPerHour": 16731,
+            "price": 14962907,
+            "profitPerHour": 18502,
             "condition": null,
-            "cooldownSeconds": 2413,
+            "cooldownSeconds": 6349,
             "section": "Specials",
-            "level": 16,
-            "currentProfitPerHour": 15076,
-            "profitPerHourDelta": 1655,
+            "level": 17,
+            "currentProfitPerHour": 16731,
+            "profitPerHourDelta": 1771,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2841,17 +2841,35 @@
                 "enableAt": "2024-08-09T16:33:00.000Z"
             },
             "expiresAt": "2024-08-12T20:00:00.000Z",
-            "price": 427858,
-            "profitPerHour": 47912,
+            "price": 696935,
+            "profitPerHour": 55266,
             "condition": null,
-            "cooldownSeconds": 2407,
+            "cooldownSeconds": 6343,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 41039,
-            "profitPerHourDelta": 6873,
+            "level": 10,
+            "currentProfitPerHour": 47912,
+            "profitPerHourDelta": 7354,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "hamster_helps_whales",
+            "name": "Hamster helps whales",
+            "toggle": {
+                "enableAt": "2024-08-10T11:00:00.000Z"
+            },
+            "price": 39565,
+            "profitPerHour": 6430,
+            "condition": null,
+            "cooldownSeconds": 0,
+            "section": "Specials",
+            "level": 3,
+            "currentProfitPerHour": 4140,
+            "profitPerHourDelta": 2290,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 15
         }
     ],
     "sections": [
@@ -2880,6 +2898,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 5871
+        "remainSeconds": 2269
     }
 }
