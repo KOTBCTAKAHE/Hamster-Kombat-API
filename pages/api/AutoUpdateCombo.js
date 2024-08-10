@@ -46,7 +46,7 @@ export default async function handler(req, res) {
                 let cardName = tagLiList[i].textContent?.slice(0, -1);  // Защита от undefined
                 
 
-                cardName = cardName.replace(/&[^\;]*;/g, " ");
+                cardName = cardName.replace(/&[^\;]*;/g, "");
 
                 console.log("Parsed card name:", cardName);  // Debugging line
 
