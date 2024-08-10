@@ -2274,14 +2274,14 @@
             "id": "hamster_green_energy",
             "name": "Hamster Green energy",
             "releaseAt": "2024-06-24T11:00:00.000Z",
-            "price": 28263268,
-            "profitPerHour": 61680,
+            "price": 68018925,
+            "profitPerHour": 67998,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6797,
             "section": "Specials",
-            "level": 17,
-            "currentProfitPerHour": 55776,
-            "profitPerHourDelta": 5904,
+            "level": 18,
+            "currentProfitPerHour": 61680,
+            "profitPerHourDelta": 6318,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2825,7 +2825,7 @@
             "price": 14962907,
             "profitPerHour": 18502,
             "condition": null,
-            "cooldownSeconds": 6349,
+            "cooldownSeconds": 2747,
             "section": "Specials",
             "level": 17,
             "currentProfitPerHour": 16731,
@@ -2844,7 +2844,7 @@
             "price": 696935,
             "profitPerHour": 55266,
             "condition": null,
-            "cooldownSeconds": 6343,
+            "cooldownSeconds": 2741,
             "section": "Specials",
             "level": 10,
             "currentProfitPerHour": 47912,
@@ -2859,17 +2859,17 @@
             "toggle": {
                 "enableAt": "2024-08-10T11:00:00.000Z"
             },
-            "price": 39565,
-            "profitPerHour": 6430,
+            "price": 48091,
+            "profitPerHour": 8880,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 3,
-            "currentProfitPerHour": 4140,
-            "profitPerHourDelta": 2290,
+            "level": 4,
+            "currentProfitPerHour": 6430,
+            "profitPerHourDelta": 2450,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 15
+            "totalCooldownSeconds": 30
         }
     ],
     "sections": [
@@ -2895,9 +2895,11 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [],
+        "upgradeIds": [
+            "hamster_green_energy"
+        ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 2269
+        "remainSeconds": 85067
     }
 }
