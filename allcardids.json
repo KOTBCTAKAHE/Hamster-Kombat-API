@@ -2277,7 +2277,7 @@
             "price": 68018925,
             "profitPerHour": 67998,
             "condition": null,
-            "cooldownSeconds": 3194,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 18,
             "currentProfitPerHour": 61680,
@@ -2822,14 +2822,14 @@
             "toggle": {
                 "enableAt": "2024-08-09T11:00:00.000Z"
             },
-            "price": 14962907,
-            "profitPerHour": 18502,
+            "price": 36010019,
+            "profitPerHour": 20397,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 3872,
             "section": "Specials",
-            "level": 17,
-            "currentProfitPerHour": 16731,
-            "profitPerHourDelta": 1771,
+            "level": 18,
+            "currentProfitPerHour": 18502,
+            "profitPerHourDelta": 1895,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2841,14 +2841,14 @@
                 "enableAt": "2024-08-09T16:33:00.000Z"
             },
             "expiresAt": "2024-08-12T20:00:00.000Z",
-            "price": 696935,
-            "profitPerHour": 55266,
+            "price": 1191995,
+            "profitPerHour": 63135,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 3866,
             "section": "Specials",
-            "level": 10,
-            "currentProfitPerHour": 47912,
-            "profitPerHourDelta": 7354,
+            "level": 11,
+            "currentProfitPerHour": 55266,
+            "profitPerHourDelta": 7869,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2859,17 +2859,17 @@
             "toggle": {
                 "enableAt": "2024-08-10T11:00:00.000Z"
             },
-            "price": 61378,
-            "profitPerHour": 11502,
+            "price": 115737,
+            "profitPerHour": 17308,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 280,
             "section": "Specials",
-            "level": 5,
-            "currentProfitPerHour": 8880,
-            "profitPerHourDelta": 2622,
+            "level": 7,
+            "currentProfitPerHour": 14307,
+            "profitPerHourDelta": 3001,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 60
+            "totalCooldownSeconds": 600
         }
     ],
     "sections": [
@@ -2896,10 +2896,11 @@
     ],
     "dailyCombo": {
         "upgradeIds": [
-            "hamster_green_energy"
+            "hamster_green_energy",
+            "vipassana_hamster"
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 81464
+        "remainSeconds": 77862
     }
 }
