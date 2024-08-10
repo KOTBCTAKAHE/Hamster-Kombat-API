@@ -1054,17 +1054,17 @@
         {
             "id": "licence_australia",
             "name": "Licence Australia",
-            "price": 50553069,
-            "profitPerHour": 25416,
+            "price": 134132343,
+            "profitPerHour": 27875,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "kyc",
                 "level": 5
             },
             "section": "Legal",
-            "level": 19,
-            "currentProfitPerHour": 23118,
-            "profitPerHourDelta": 2298,
+            "level": 20,
+            "currentProfitPerHour": 25416,
+            "profitPerHourDelta": 2459,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2825,7 +2825,7 @@
             "price": 36010019,
             "profitPerHour": 20397,
             "condition": null,
-            "cooldownSeconds": 3872,
+            "cooldownSeconds": 269,
             "section": "Specials",
             "level": 18,
             "currentProfitPerHour": 18502,
@@ -2844,7 +2844,7 @@
             "price": 1191995,
             "profitPerHour": 63135,
             "condition": null,
-            "cooldownSeconds": 3866,
+            "cooldownSeconds": 263,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 55266,
@@ -2859,17 +2859,17 @@
             "toggle": {
                 "enableAt": "2024-08-10T11:00:00.000Z"
             },
-            "price": 115737,
-            "profitPerHour": 17308,
+            "price": 170996,
+            "profitPerHour": 20520,
             "condition": null,
-            "cooldownSeconds": 280,
+            "cooldownSeconds": 1192,
             "section": "Specials",
-            "level": 7,
-            "currentProfitPerHour": 14307,
-            "profitPerHourDelta": 3001,
+            "level": 8,
+            "currentProfitPerHour": 17308,
+            "profitPerHourDelta": 3212,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 600
+            "totalCooldownSeconds": 1800
         }
     ],
     "sections": [
@@ -2896,11 +2896,12 @@
     ],
     "dailyCombo": {
         "upgradeIds": [
+            "licence_australia",
             "hamster_green_energy",
             "vipassana_hamster"
         ],
         "bonusCoins": 5000000,
-        "isClaimed": false,
-        "remainSeconds": 77862
+        "isClaimed": true,
+        "remainSeconds": 74259
     }
 }
