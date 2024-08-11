@@ -1259,7 +1259,7 @@
                 "upgradeId": "btc_pairs",
                 "level": 10
             },
-            "cooldownSeconds": 4361,
+            "cooldownSeconds": 759,
             "section": "Web3",
             "level": 16,
             "currentProfitPerHour": 75388,
@@ -2862,7 +2862,7 @@
             "price": 22486252,
             "profitPerHour": 55776,
             "condition": null,
-            "cooldownSeconds": 4355,
+            "cooldownSeconds": 753,
             "section": "Specials",
             "level": 16,
             "currentProfitPerHour": 50258,
@@ -2902,6 +2902,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": true,
-        "remainSeconds": 13019
+        "remainSeconds": 9417
     }
 }
