@@ -1419,7 +1419,7 @@
                 "upgradeId": "fan_tokens",
                 "level": 10
             },
-            "cooldownSeconds": 5516,
+            "cooldownSeconds": 1914,
             "section": "Web3",
             "level": 18,
             "currentProfitPerHour": 21590,
@@ -2880,7 +2880,7 @@
             "price": 119200,
             "profitPerHour": 4735,
             "condition": null,
-            "cooldownSeconds": 2750,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 4145,
@@ -2916,6 +2916,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 52588
+        "remainSeconds": 48986
     }
 }
