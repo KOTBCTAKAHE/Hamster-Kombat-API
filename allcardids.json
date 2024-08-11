@@ -144,7 +144,7 @@
         },
         {
             "id": "reddit",
-            "name": "Сoindesk",
+            "name": "\u0421oindesk",
             "price": 26826469,
             "profitPerHour": 3278,
             "condition": {
@@ -479,7 +479,7 @@
         },
         {
             "id": "data_center_tokyo",
-            "name": "Data Сenter Tokyo",
+            "name": "Data \u0421enter Tokyo",
             "releaseAt": "2024-07-05T11:00:00.000Z",
             "price": 31968120,
             "profitPerHour": 146579,
@@ -2644,7 +2644,7 @@
         },
         {
             "id": "welcome_to_ogames",
-            "name": "Carry it like it’s hot",
+            "name": "Carry it like it\u2019s hot",
             "releaseAt": "2024-07-26T11:00:00.000Z",
             "expiresAt": "2024-08-02T17:30:00.000Z",
             "price": 36268148,
@@ -2880,7 +2880,7 @@
             "price": 69693,
             "profitPerHour": 4145,
             "condition": null,
-            "cooldownSeconds": 2198,
+            "cooldownSeconds": 2068,
             "section": "Specials",
             "level": 10,
             "currentProfitPerHour": 3593,
@@ -2916,6 +2916,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 59923
+        "remainSeconds": 59793
     }
 }
