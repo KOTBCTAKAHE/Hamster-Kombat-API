@@ -2859,14 +2859,14 @@
             "toggle": {
                 "enableAt": "2024-08-10T11:00:00.000Z"
             },
-            "price": 22486252,
-            "profitPerHour": 55776,
+            "price": 51538901,
+            "profitPerHour": 61680,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 3785,
             "section": "Specials",
-            "level": 16,
-            "currentProfitPerHour": 50258,
-            "profitPerHourDelta": 5518,
+            "level": 17,
+            "currentProfitPerHour": 55776,
+            "profitPerHourDelta": 5904,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2877,15 +2877,17 @@
             "toggle": {
                 "enableAt": "2024-08-11T11:00:00.000Z"
             },
-            "price": 5000,
-            "profitPerHour": 300,
+            "price": 5513,
+            "profitPerHour": 621,
             "condition": null,
+            "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 1,
-            "currentProfitPerHour": 0,
-            "profitPerHourDelta": 300,
+            "level": 2,
+            "currentProfitPerHour": 300,
+            "profitPerHourDelta": 321,
             "isAvailable": true,
-            "isExpired": false
+            "isExpired": false,
+            "totalCooldownSeconds": 10
         }
     ],
     "sections": [
@@ -2911,13 +2913,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "licence_australia",
-            "hamster_green_energy",
-            "vipassana_hamster"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
-        "isClaimed": true,
-        "remainSeconds": 2212
+        "isClaimed": false,
+        "remainSeconds": 85009
     }
 }
