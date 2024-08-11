@@ -2870,6 +2870,22 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "hamster_with_friends",
+            "name": "Hamster with friends",
+            "toggle": {
+                "enableAt": "2024-08-11T11:00:00.000Z"
+            },
+            "price": 5000,
+            "profitPerHour": 300,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 300,
+            "isAvailable": true,
+            "isExpired": false
         }
     ],
     "sections": [
@@ -2902,6 +2918,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": true,
-        "remainSeconds": 5814
+        "remainSeconds": 2212
     }
 }
