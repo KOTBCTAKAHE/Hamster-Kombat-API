@@ -2877,14 +2877,14 @@
             "toggle": {
                 "enableAt": "2024-08-11T11:00:00.000Z"
             },
-            "price": 799203,
-            "profitPerHour": 6765,
+            "price": 1661486,
+            "profitPerHour": 7539,
             "condition": null,
-            "cooldownSeconds": 1935,
+            "cooldownSeconds": 6124,
             "section": "Specials",
-            "level": 14,
-            "currentProfitPerHour": 6042,
-            "profitPerHourDelta": 723,
+            "level": 15,
+            "currentProfitPerHour": 6765,
+            "profitPerHourDelta": 774,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2916,6 +2916,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 23770
+        "remainSeconds": 20168
     }
 }
