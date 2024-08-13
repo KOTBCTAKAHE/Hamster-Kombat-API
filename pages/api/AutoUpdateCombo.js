@@ -44,15 +44,22 @@ export default async function handler(req, res) {
                 console.log("Parsed card name:", cardName);  // Debugging line
 
                 if (typeof cardName === 'string') {
+                    let found = false;
                     cardIds.upgradesForBuy.forEach(card => {
                         // Используем includes() для более гибкого соответствия
                         if (cardName.includes(card.name)) {
                             console.log(`Match found: ${cardName} matches ${card.name}`);  // Debugging line
                             comboArr.push(card.id);
+                            found = true;
                         }
                     });
+                    if (!found) {
+                        console.log(`No match found for: ${cardName}`);
+                    }
                 }
             }
+
+            console.log(`Total cards found: ${comboArr.length}`);
 
             if (comboArr.length !== 3) {
                 return res.status(500).send(`Failed. Found ${comboArr.length} cards of 3`);
