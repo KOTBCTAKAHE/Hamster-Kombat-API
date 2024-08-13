@@ -39,24 +39,19 @@ export default async function handler(req, res) {
                 let cardName = tagLiList[i].textContent?.trim();
 
                 // Удаление всех неразрывных пробелов, точек и других специальных символов
-                cardName = cardName.replace(/&[^\;]*;/g, " ")
-                                   .replace(/\u00A0/g, " ")
-                                   .trim()
-                                   .replace(/\.$/, '');
+                cardName = cardName.replace(/&[^\;]*;/g, " ").replace(/\u00A0/g, " ").trim().replace(/\.$/, '');
 
                 console.log("Parsed card name:", cardName);
 
                 if (typeof cardName === 'string') {
                     let found = false;
                     cardIds.upgradesForBuy.forEach(card => {
-                        // Приводим обе строки к нормальной форме Unicode и нижнему регистру
-                        const cleanCardName = cardName.normalize('NFKD').toLowerCase();
-                        const cleanCardInList = card.name.normalize('NFKD').toLowerCase();
+                        const cleanCardInList = card.name;
 
                         // Выводим обе строки, которые сравниваем
-                        console.log(`Comparing: "${cleanCardName}" with "${cleanCardInList}"`);
+                        console.log(`Comparing: "${cardName}" with "${cleanCardInList}"`);
 
-                        if (cleanCardName === cleanCardInList) {
+                        if (cardName === cleanCardInList) {
                             console.log(`Match found: ${cardName} matches ${card.name}`);
                             comboArr.push(card.id);
                             found = true;
