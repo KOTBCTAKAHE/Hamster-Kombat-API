@@ -36,19 +36,21 @@ export default async function handler(req, res) {
 
             let comboArr = [];
             for (let i = 0; i < tagLiList.length; i++) {
-                let cardName = tagLiList[i].textContent?.trim();  // Удаление пробелов в начале и конце
+                let cardName = tagLiList[i].textContent?.trim();
 
-                // Заменяем все спецсимволы на пробелы
-                cardName = cardName.replace(/&[^\;]*;/g, " ").trim();
+                // Заменяем все спецсимволы на пробелы и удаляем точки в конце
+                cardName = cardName.replace(/&[^\;]*;/g, " ").trim().replace(/\.$/, '');
 
-                console.log("Parsed card name:", cardName);  // Debugging line
+                console.log("Parsed card name:", cardName);
 
                 if (typeof cardName === 'string') {
                     let found = false;
                     cardIds.upgradesForBuy.forEach(card => {
-                        // Используем includes() для более гибкого соответствия
-                        if (cardName.includes(card.name)) {
-                            console.log(`Match found: ${cardName} matches ${card.name}`);  // Debugging line
+                        // Приводим оба названия к нижнему регистру и удаляем точки в конце
+                        const cleanCardInList = card.name.toLowerCase().replace(/\.$/, '');
+
+                        if (cardName.toLowerCase().includes(cleanCardInList)) {
+                            console.log(`Match found: ${cardName} matches ${card.name}`);
                             comboArr.push(card.id);
                             found = true;
                         }
