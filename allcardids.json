@@ -3,13 +3,13 @@
         {
             "id": "ceo",
             "name": "CEO",
-            "price": 26826469,
-            "profitPerHour": 4100,
+            "price": 74737538,
+            "profitPerHour": 4487,
             "condition": null,
             "section": "PR&Team",
-            "level": 20,
-            "currentProfitPerHour": 3738,
-            "profitPerHourDelta": 362,
+            "level": 21,
+            "currentProfitPerHour": 4100,
+            "profitPerHourDelta": 387,
             "isAvailable": true,
             "isExpired": false
         },
@@ -98,13 +98,13 @@
         {
             "id": "medium",
             "name": "Cointelegraph",
-            "price": 26158138,
-            "profitPerHour": 1794,
+            "price": 76519374,
+            "profitPerHour": 1960,
             "condition": null,
             "section": "PR&Team",
-            "level": 21,
-            "currentProfitPerHour": 1639,
-            "profitPerHourDelta": 155,
+            "level": 22,
+            "currentProfitPerHour": 1794,
+            "profitPerHourDelta": 166,
             "isAvailable": true,
             "isExpired": false
         },
@@ -1332,18 +1332,18 @@
             "id": "nft_marketplace",
             "name": "NFT Marketplace",
             "releaseAt": "2024-07-13T11:00:00.000Z",
-            "price": 56578311,
-            "profitPerHour": 55776,
+            "price": 129678525,
+            "profitPerHour": 61680,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "nft_collection_launch",
                 "level": 5
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 5367,
             "section": "Web3",
-            "level": 16,
-            "currentProfitPerHour": 50258,
-            "profitPerHourDelta": 5518,
+            "level": 17,
+            "currentProfitPerHour": 55776,
+            "profitPerHourDelta": 5904,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -1372,18 +1372,18 @@
             "id": "nft_metaverse",
             "name": "NFT Metaverse",
             "releaseAt": "2024-07-29T11:00:00.000Z",
-            "price": 40365183,
-            "profitPerHour": 40281,
+            "price": 79920300,
+            "profitPerHour": 45101,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "x",
                 "level": 7
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 5361,
             "section": "Web3",
-            "level": 13,
-            "currentProfitPerHour": 35777,
-            "profitPerHourDelta": 4504,
+            "level": 14,
+            "currentProfitPerHour": 40281,
+            "profitPerHourDelta": 4820,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2913,9 +2913,13 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [],
+        "upgradeIds": [
+            "medium",
+            "ceo",
+            "nft_marketplace"
+        ],
         "bonusCoins": 5000000,
-        "isClaimed": false,
-        "remainSeconds": 52474
+        "isClaimed": true,
+        "remainSeconds": 48872
     }
 }
