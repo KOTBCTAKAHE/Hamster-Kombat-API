@@ -2913,11 +2913,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "hamster_with_friends"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 2098
+        "remainSeconds": 84896
     }
 }
