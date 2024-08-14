@@ -694,34 +694,34 @@
         {
             "id": "margin_trading_x10",
             "name": "Margin trading x10",
-            "price": 25276535,
-            "profitPerHour": 10281,
+            "price": 67066171,
+            "profitPerHour": 11276,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "shit_coins",
                 "level": 5
             },
             "section": "Markets",
-            "level": 19,
-            "currentProfitPerHour": 9352,
-            "profitPerHourDelta": 929,
+            "level": 20,
+            "currentProfitPerHour": 10281,
+            "profitPerHourDelta": 995,
             "isAvailable": true,
             "isExpired": false
         },
         {
             "id": "margin_trading_x20",
             "name": "Margin trading x20",
-            "price": 25276535,
-            "profitPerHour": 13083,
+            "price": 67066171,
+            "profitPerHour": 14349,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "margin_trading_x10",
                 "level": 5
             },
             "section": "Markets",
-            "level": 19,
-            "currentProfitPerHour": 11900,
-            "profitPerHourDelta": 1183,
+            "level": 20,
+            "currentProfitPerHour": 13083,
+            "profitPerHourDelta": 1266,
             "isAvailable": true,
             "isExpired": false
         },
@@ -798,17 +798,17 @@
         {
             "id": "derivatives",
             "name": "Derivatives",
-            "price": 25276535,
-            "profitPerHour": 18504,
+            "price": 67066171,
+            "profitPerHour": 20294,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "margin_trading_x20",
                 "level": 9
             },
             "section": "Markets",
-            "level": 19,
-            "currentProfitPerHour": 16831,
-            "profitPerHourDelta": 1673,
+            "level": 20,
+            "currentProfitPerHour": 18504,
+            "profitPerHourDelta": 1790,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2077,8 +2077,8 @@
         {
             "id": "hamster_youtube_gold_button",
             "name": "YouTube Gold Button",
-            "price": 25276535,
-            "profitPerHour": 10281,
+            "price": 67066171,
+            "profitPerHour": 11276,
             "condition": {
                 "_type": "LinksToUpgradeLevel",
                 "subscribeLink": "https://www.youtube.com/@HamsterKombat_Official?sub_confirmation=1",
@@ -2091,11 +2091,11 @@
                     "https://www.youtube.com/shorts/825u1acydv4"
                 ]
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6269,
             "section": "Specials",
-            "level": 19,
-            "currentProfitPerHour": 9352,
-            "profitPerHourDelta": 929,
+            "level": 20,
+            "currentProfitPerHour": 10281,
+            "profitPerHourDelta": 995,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2893,17 +2893,17 @@
             "id": "telegram_11_years",
             "name": "11 years Telegram",
             "expiresAt": "2024-08-21T13:00:00.000Z",
-            "price": 141667,
-            "profitPerHour": 35364,
+            "price": 172197,
+            "profitPerHour": 48839,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 3,
-            "currentProfitPerHour": 22770,
-            "profitPerHourDelta": 12594,
+            "level": 4,
+            "currentProfitPerHour": 35364,
+            "profitPerHourDelta": 13475,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 15
+            "totalCooldownSeconds": 30
         }
     ],
     "sections": [
@@ -2932,6 +2932,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 70430
+        "remainSeconds": 66828
     }
 }
