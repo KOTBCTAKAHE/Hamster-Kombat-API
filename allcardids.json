@@ -2913,13 +2913,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "medium",
-            "ceo",
-            "nft_marketplace"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
-        "isClaimed": true,
-        "remainSeconds": 2042
+        "isClaimed": false,
+        "remainSeconds": 84840
     }
 }
