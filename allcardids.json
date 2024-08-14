@@ -1127,7 +1127,7 @@
                 "_type": "ReferralCount",
                 "referralCount": 2
             },
-            "cooldownSeconds": 5574,
+            "cooldownSeconds": 1972,
             "section": "Legal",
             "level": 17,
             "currentProfitPerHour": 50198,
@@ -1830,16 +1830,16 @@
         {
             "id": "short_squeeze",
             "name": "Short squeeze",
-            "price": 25387704,
-            "profitPerHour": 27889,
+            "price": 58189082,
+            "profitPerHour": 30841,
             "condition": {
                 "_type": "MoreReferralsCount",
                 "moreReferralsCount": 3
             },
             "section": "Specials",
-            "level": 16,
-            "currentProfitPerHour": 25130,
-            "profitPerHourDelta": 2759,
+            "level": 17,
+            "currentProfitPerHour": 27889,
+            "profitPerHourDelta": 2952,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2091,7 +2091,7 @@
                     "https://www.youtube.com/shorts/825u1acydv4"
                 ]
             },
-            "cooldownSeconds": 2666,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 20,
             "currentProfitPerHour": 10281,
@@ -2893,17 +2893,17 @@
             "id": "telegram_11_years",
             "name": "11 years Telegram",
             "expiresAt": "2024-08-21T13:00:00.000Z",
-            "price": 219772,
-            "profitPerHour": 63258,
+            "price": 414414,
+            "profitPerHour": 95194,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 355,
             "section": "Specials",
-            "level": 5,
-            "currentProfitPerHour": 48839,
-            "profitPerHourDelta": 14419,
+            "level": 7,
+            "currentProfitPerHour": 78686,
+            "profitPerHourDelta": 16508,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 60
+            "totalCooldownSeconds": 600
         }
     ],
     "sections": [
@@ -2932,6 +2932,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 63225
+        "remainSeconds": 59623
     }
 }
