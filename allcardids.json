@@ -1339,7 +1339,7 @@
                 "upgradeId": "nft_collection_launch",
                 "level": 5
             },
-            "cooldownSeconds": 1764,
+            "cooldownSeconds": 0,
             "section": "Web3",
             "level": 17,
             "currentProfitPerHour": 55776,
@@ -1379,7 +1379,7 @@
                 "upgradeId": "x",
                 "level": 7
             },
-            "cooldownSeconds": 1758,
+            "cooldownSeconds": 0,
             "section": "Web3",
             "level": 14,
             "currentProfitPerHour": 40281,
@@ -2920,6 +2920,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": true,
-        "remainSeconds": 45269
+        "remainSeconds": 41667
     }
 }
