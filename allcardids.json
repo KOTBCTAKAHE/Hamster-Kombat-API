@@ -2888,6 +2888,22 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "telegram_11_years",
+            "name": "11 years Telegram",
+            "expiresAt": "2024-08-21T13:00:00.000Z",
+            "price": 122378,
+            "profitPerHour": 22770,
+            "condition": null,
+            "cooldownSeconds": 0,
+            "section": "Specials",
+            "level": 2,
+            "currentProfitPerHour": 11000,
+            "profitPerHourDelta": 11770,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 10
         }
     ],
     "sections": [
@@ -2916,6 +2932,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 77635
+        "remainSeconds": 74033
     }
 }
