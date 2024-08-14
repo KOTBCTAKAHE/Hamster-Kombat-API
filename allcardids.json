@@ -1127,7 +1127,7 @@
                 "_type": "ReferralCount",
                 "referralCount": 2
             },
-            "cooldownSeconds": 1972,
+            "cooldownSeconds": 0,
             "section": "Legal",
             "level": 17,
             "currentProfitPerHour": 50198,
@@ -2893,17 +2893,17 @@
             "id": "telegram_11_years",
             "name": "11 years Telegram",
             "expiresAt": "2024-08-21T13:00:00.000Z",
-            "price": 414414,
-            "profitPerHour": 95194,
+            "price": 612278,
+            "profitPerHour": 112858,
             "condition": null,
-            "cooldownSeconds": 355,
+            "cooldownSeconds": 825,
             "section": "Specials",
-            "level": 7,
-            "currentProfitPerHour": 78686,
-            "profitPerHourDelta": 16508,
+            "level": 8,
+            "currentProfitPerHour": 95194,
+            "profitPerHourDelta": 17664,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 600
+            "totalCooldownSeconds": 1800
         }
     ],
     "sections": [
@@ -2932,6 +2932,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 59623
+        "remainSeconds": 56021
     }
 }
