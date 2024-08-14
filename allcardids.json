@@ -1121,17 +1121,17 @@
         {
             "id": "licence_ethiopia",
             "name": "Licence Ethiopia",
-            "price": 25387704,
-            "profitPerHour": 50198,
+            "price": 58189082,
+            "profitPerHour": 55512,
             "condition": {
                 "_type": "ReferralCount",
                 "referralCount": 2
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 5574,
             "section": "Legal",
-            "level": 16,
-            "currentProfitPerHour": 45232,
-            "profitPerHourDelta": 4966,
+            "level": 17,
+            "currentProfitPerHour": 50198,
+            "profitPerHourDelta": 5314,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2091,7 +2091,7 @@
                     "https://www.youtube.com/shorts/825u1acydv4"
                 ]
             },
-            "cooldownSeconds": 6269,
+            "cooldownSeconds": 2666,
             "section": "Specials",
             "level": 20,
             "currentProfitPerHour": 10281,
@@ -2893,17 +2893,17 @@
             "id": "telegram_11_years",
             "name": "11 years Telegram",
             "expiresAt": "2024-08-21T13:00:00.000Z",
-            "price": 172197,
-            "profitPerHour": 48839,
+            "price": 219772,
+            "profitPerHour": 63258,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 4,
-            "currentProfitPerHour": 35364,
-            "profitPerHourDelta": 13475,
+            "level": 5,
+            "currentProfitPerHour": 48839,
+            "profitPerHourDelta": 14419,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 30
+            "totalCooldownSeconds": 60
         }
     ],
     "sections": [
@@ -2932,6 +2932,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 66828
+        "remainSeconds": 63225
     }
 }
