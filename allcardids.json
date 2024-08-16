@@ -2912,17 +2912,17 @@
                 "enableAt": "2024-08-16T09:00:00.000Z"
             },
             "expiresAt": "2024-08-18T08:59:00.000Z",
-            "price": 130671,
-            "profitPerHour": 25962,
+            "price": 193061,
+            "profitPerHour": 30779,
             "condition": null,
-            "cooldownSeconds": 90,
+            "cooldownSeconds": 490,
             "section": "Specials",
-            "level": 7,
-            "currentProfitPerHour": 21460,
-            "profitPerHourDelta": 4502,
+            "level": 8,
+            "currentProfitPerHour": 25962,
+            "profitPerHourDelta": 4817,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 600
+            "totalCooldownSeconds": 1800
         }
     ],
     "sections": [
@@ -2951,6 +2951,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 78818
+        "remainSeconds": 75216
     }
 }
