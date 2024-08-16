@@ -2904,6 +2904,23 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "adv_integration_1608",
+            "name": "Investing in gold",
+            "toggle": {
+                "enableAt": "2024-08-16T09:00:00.000Z"
+            },
+            "expiresAt": "2024-08-18T08:59:00.000Z",
+            "price": 35000,
+            "profitPerHour": 3000,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 3000,
+            "isAvailable": true,
+            "isExpired": false
         }
     ],
     "sections": [
@@ -2932,6 +2949,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 14033
+        "remainSeconds": 10430
     }
 }
