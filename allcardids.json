@@ -411,14 +411,14 @@
         {
             "id": "vc_labs",
             "name": "VC Labs",
-            "price": 25769450,
-            "profitPerHour": 15419,
+            "price": 62017255,
+            "profitPerHour": 16998,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "PR&Team",
-            "level": 17,
-            "currentProfitPerHour": 13943,
-            "profitPerHourDelta": 1476,
+            "level": 18,
+            "currentProfitPerHour": 15419,
+            "profitPerHourDelta": 1579,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -831,17 +831,17 @@
         {
             "id": "web3_integration",
             "name": "Web3 integration",
-            "price": 26007236,
-            "profitPerHour": 26859,
+            "price": 65718990,
+            "profitPerHour": 29529,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "anti_money_loundering",
                 "level": 8
             },
             "section": "Markets",
-            "level": 18,
-            "currentProfitPerHour": 24364,
-            "profitPerHourDelta": 2495,
+            "level": 19,
+            "currentProfitPerHour": 26859,
+            "profitPerHourDelta": 2670,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2795,7 +2795,7 @@
             "currentProfitPerHour": 56375,
             "profitPerHourDelta": 6446,
             "isAvailable": true,
-            "isExpired": false,
+            "isExpired": true,
             "totalCooldownSeconds": 7200
         },
         {
@@ -2893,17 +2893,17 @@
             "id": "telegram_11_years",
             "name": "11 years Telegram",
             "expiresAt": "2024-08-21T13:00:00.000Z",
-            "price": 1547195,
-            "profitPerHour": 151981,
+            "price": 36884981,
+            "profitPerHour": 276419,
             "condition": null,
-            "cooldownSeconds": 3893,
+            "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 10,
-            "currentProfitPerHour": 131758,
-            "profitPerHourDelta": 20223,
+            "level": 15,
+            "currentProfitPerHour": 248055,
+            "profitPerHourDelta": 28364,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 5400
+            "totalCooldownSeconds": 7200
         }
     ],
     "sections": [
@@ -2932,6 +2932,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 48816
+        "remainSeconds": 14033
     }
 }
