@@ -54,8 +54,8 @@ export default async function handler(req, res) {
             dailyComboCards.forEach(dailyCard => {
                 const cardName = dailyCard.card_name;
                 
-                // Находим соответствующий ID карты из allcardids.json
-                const matchedCard = cardIds.upgradesForBuy.find(card => card.name === cardName);
+                // Более гибкий поиск соответствующего ID карты из allcardids.json
+                const matchedCard = cardIds.upgradesForBuy.find(card => cardName.includes(card.name));
                 
                 if (matchedCard) {
                     comboArr.push(matchedCard.id);
