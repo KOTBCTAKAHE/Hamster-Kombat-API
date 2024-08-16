@@ -1,12 +1,13 @@
 import { sql } from "@vercel/postgres";
-import { JSDOM } from "jsdom";
 import { DateTime } from "luxon";
 
 export default async function handler(req, res) {
     const cardIds = require('../../allcardids.json');
 
+    // Получаем текущее время по UTC
     let date = DateTime.now().setZone('utc');
 
+    // Если время еще не 12:00 по UTC, используем вчерашнюю дату
     if (date.hour < 12) {
         date = date.minus({ days: 1 });
     }
@@ -17,66 +18,63 @@ export default async function handler(req, res) {
     let day = date.day;
 
     try {
+        // Подключение к базе данных и получение последней записи
         const { rows } = await sql`SELECT combo, TO_CHAR(date, 'DD-MM-YY') as formatted_date FROM combo ORDER BY date DESC LIMIT 1`;
-
+        
+        // Проверка, есть ли данные в базе
         if (rows.length === 0) {
             return res.status(500).send("No data found in the database.");
         }
 
         let apiData = rows[0];
+        
+        // Получаем дату из базы данных в виде строки
         let apiDate = DateTime.fromFormat(apiData.formatted_date, "dd-MM-yy");
 
+        // Проверка, нужно ли обновлять данные
         if (apiDate.day != date.day) {
-            let url = `https://www.cybersport.ru/tags/games/kombo-karty-v-hamster-kombat-khomiak-na-${day}-${day + 1}-${monthName}-2024-goda`;
-
-            const response = await fetch(url, { mode: 'no-cors' });
-            const html = await response.text();
-            const dom = new JSDOM(html);
-            const tagLiList = dom.window.document.getElementsByTagName("li");
-
-            let comboArr = [];
-            for (let i = 0; i < tagLiList.length; i++) {
-                let cardName = tagLiList[i].textContent?.trim();
-
-                // Удаление всех неразрывных пробелов, точек и других специальных символов
-                cardName = cardName.replace(/&[^\;]*;/g, " ").replace(/\u00A0/g, " ").trim().replace(/\.$/, '');
-
-                console.log("Parsed card name:", cardName);
-
-                if (typeof cardName === 'string') {
-                    let found = false;
-                    cardIds.upgradesForBuy.forEach(card => {
-                        const cleanCardInList = card.name;
-
-                        // Выводим обе строки, которые сравниваем
-                        console.log(`Comparing: "${cardName}" with "${cleanCardInList}"`);
-
-                        if (cardName === cleanCardInList) {
-                            console.log(`Match found: ${cardName} matches ${card.name}`);
-                            comboArr.push(card.id);
-                            found = true;
-                        }
-                    });
-                    if (!found) {
-                        console.log(`No match found for: ${cardName}`);
-                    }
-                }
+            // Отправка POST запроса на API для получения списка карт
+            const response = await fetch("https://hamstercombos.com/hamstercombos/public/api/hamster-kombat-card-list", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ /* any necessary payload */ }),
+            });
+            
+            const result = await response.json();
+            if (!result.status) {
+                return res.status(500).send("Failed to fetch cards from API.");
             }
 
-            console.log(`Total cards found: ${comboArr.length}`);
+            let comboArr = [];
+            const dailyComboCards = result.data.dailyComboCards;
+
+            dailyComboCards.forEach(dailyCard => {
+                const cardName = dailyCard.card_name;
+                
+                // Находим соответствующий ID карты из allcardids.json
+                const matchedCard = cardIds.upgradesForBuy.find(card => card.name === cardName);
+                
+                if (matchedCard) {
+                    comboArr.push(matchedCard.id);
+                }
+            });
 
             if (comboArr.length !== 3) {
                 return res.status(500).send(`Failed. Found ${comboArr.length} cards of 3`);
             }
 
+            // Обновление данных в базе данных
             const newComboData = {
                 combo: comboArr,
-                date: date.toFormat("yyyy-MM-dd")
+                date: date.toFormat("yyyy-MM-dd") // Сохраняем в формате 'yyyy-MM-dd' для совместимости с типом DATE
             };
 
             await sql`INSERT INTO combo (combo, date) VALUES (${newComboData.combo}, ${newComboData.date})`;
 
             res.status(200).send("Success");
+
         } else {
             res.status(200).send("Already updated");
         }
