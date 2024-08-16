@@ -27,7 +27,8 @@ export default async function handler(req, res) {
         }
 
         let apiData = rows[0];
-        
+        let currentCombo = apiData.combo; // Сохраняем текущую комбинацию карт
+
         // Получаем дату из базы данных в виде строки
         let apiDate = DateTime.fromFormat(apiData.formatted_date, "dd-MM-yy");
 
@@ -60,6 +61,14 @@ export default async function handler(req, res) {
                     comboArr.push(matchedCard.id);
                 }
             });
+
+            // Сравнение текущих карт с новыми
+            const isSameCombo = comboArr.length === currentCombo.length && 
+                                comboArr.every((val, index) => val === currentCombo[index]);
+
+            if (isSameCombo) {
+                return res.status(200).send("Combo has not changed, no update needed.");
+            }
 
             if (comboArr.length !== 3) {
                 return res.status(500).send(`Failed. Found ${comboArr.length} cards of 3`);
