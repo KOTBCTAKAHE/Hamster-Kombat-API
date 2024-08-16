@@ -1,15 +1,13 @@
 import { sql } from "@vercel/postgres";
 import { DateTime } from "luxon";
-import fetch from "node-fetch";
-import cheerio from "cheerio";
 
 export default async function handler(req, res) {
     const cardIds = require('../../allcardids.json');
 
-    
+    // Получаем текущее время по UTC
     let date = DateTime.now().setZone('utc');
 
-   
+    // Если время еще не 12:00 по UTC, используем вчерашнюю дату
     if (date.hour < 12) {
         date = date.minus({ days: 1 });
     }
@@ -20,22 +18,23 @@ export default async function handler(req, res) {
     let day = date.day;
 
     try {
-       
+        // Подключение к базе данных и получение последней записи
         const { rows } = await sql`SELECT combo, TO_CHAR(date, 'DD-MM-YY') as formatted_date FROM combo ORDER BY date DESC LIMIT 1`;
-
-       
+        
+        // Проверка, есть ли данные в базе
         if (rows.length === 0) {
             return res.status(500).send("No data found in the database.");
         }
 
         let apiData = rows[0];
-        let currentCombo = apiData.combo; 
+        let currentCombo = apiData.combo; // Сохраняем текущую комбинацию карт
 
-       
+        // Получаем дату из базы данных в виде строки
         let apiDate = DateTime.fromFormat(apiData.formatted_date, "dd-MM-yy");
 
-        
+        // Проверка, нужно ли обновлять данные
         if (apiDate.day != date.day) {
+            // Отправка POST запроса на API для получения списка карт
             const response = await fetch("https://hamstercombos.com/hamstercombos/public/api/hamster-kombat-card-list", {
                 method: "POST",
                 headers: {
@@ -43,51 +42,27 @@ export default async function handler(req, res) {
                 },
                 body: JSON.stringify({ /* any necessary payload */ }),
             });
+            
+            const result = await response.json();
+            if (!result.status) {
+                return res.status(500).send("Failed to fetch cards from API.");
+            }
 
             let comboArr = [];
+            const dailyComboCards = result.data.dailyComboCards;
 
-            if (response.ok) {
-                const result = await response.json();
-                if (!result.status) {
-                    return res.status(500).send("Failed to fetch cards from API.");
-                }
-
-                const dailyComboCards = result.data.dailyComboCards;
-
-                dailyComboCards.forEach(dailyCard => {
-                    const cardName = dailyCard.card_name;
-                    const matchedCard = cardIds.upgradesForBuy.find(card => card.name === cardName);
-
-                    if (matchedCard) {
-                        comboArr.push(matchedCard.id);
-                    }
-                });
-
-            } else {
+            dailyComboCards.forEach(dailyCard => {
+                const cardName = dailyCard.card_name;
                 
-                const pageUrl = `https://www.cybersport.ru/tags/games/kombo-karty-v-hamster-kombat-khomiak-na-${day}-${day + 1}-${monthName}-2024-goda`;
-                const pageResponse = await fetch(pageUrl);
-                const pageHtml = await pageResponse.text();
+                // Находим соответствующий ID карты из allcardids.json
+                const matchedCard = cardIds.upgradesForBuy.find(card => card.name === cardName);
+                
+                if (matchedCard) {
+                    comboArr.push(matchedCard.id);
+                }
+            });
 
-                const $ = cheerio.load(pageHtml);
-                const liElements = $('ul li');
-
-                liElements.each((index, element) => {
-                    let cardName = $(element).text().replace(/[\n\t]/g, '').replace(/&nbsp;/g, ' ').replace(/;/g, '').trim();
-                    const matchedCard = cardIds.upgradesForBuy.find(card => card.name === cardName);
-
-                    if (matchedCard) {
-                        comboArr.push(matchedCard.id);
-                    }
-                });
-            }
-
-            
-            if (comboArr.length !== 3) {
-                return res.status(500).send(`Failed. Found ${comboArr.length} cards of 3`);
-            }
-
-            
+            // Сравнение текущих карт с новыми
             const isSameCombo = comboArr.length === currentCombo.length && 
                                 comboArr.every((val, index) => val === currentCombo[index]);
 
@@ -95,10 +70,14 @@ export default async function handler(req, res) {
                 return res.status(200).send("Combo has not changed, no update needed.");
             }
 
-            
+            if (comboArr.length !== 3) {
+                return res.status(500).send(`Failed. Found ${comboArr.length} cards of 3`);
+            }
+
+            // Обновление данных в базе данных
             const newComboData = {
                 combo: comboArr,
-                date: date.toFormat("yyyy-MM-dd")
+                date: date.toFormat("yyyy-MM-dd") // Сохраняем в формате 'yyyy-MM-dd' для совместимости с типом DATE
             };
 
             await sql`INSERT INTO combo (combo, date) VALUES (${newComboData.combo}, ${newComboData.date})`;
