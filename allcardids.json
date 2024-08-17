@@ -145,17 +145,17 @@
         {
             "id": "reddit",
             "name": "\u0421oindesk",
-            "price": 26826469,
-            "profitPerHour": 3278,
+            "price": 74737538,
+            "profitPerHour": 3588,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "medium",
                 "level": 10
             },
             "section": "PR&Team",
-            "level": 20,
-            "currentProfitPerHour": 2989,
-            "profitPerHourDelta": 289,
+            "level": 21,
+            "currentProfitPerHour": 3278,
+            "profitPerHourDelta": 310,
             "isAvailable": true,
             "isExpired": false
         },
@@ -196,17 +196,17 @@
         {
             "id": "product_team",
             "name": "Product team",
-            "price": 26826469,
-            "profitPerHour": 4100,
+            "price": 74737538,
+            "profitPerHour": 4487,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "ceo",
                 "level": 2
             },
             "section": "PR&Team",
-            "level": 20,
-            "currentProfitPerHour": 3738,
-            "profitPerHourDelta": 362,
+            "level": 21,
+            "currentProfitPerHour": 4100,
+            "profitPerHourDelta": 387,
             "isAvailable": true,
             "isExpired": false
         },
@@ -230,16 +230,16 @@
         {
             "id": "two_factor_authentication",
             "name": "Two factor authentication",
-            "price": 26826469,
-            "profitPerHour": 5125,
+            "price": 74737538,
+            "profitPerHour": 5609,
             "condition": {
                 "_type": "MoreReferralsCount",
                 "moreReferralsCount": 1
             },
             "section": "PR&Team",
-            "level": 20,
-            "currentProfitPerHour": 4673,
-            "profitPerHourDelta": 452,
+            "level": 21,
+            "currentProfitPerHour": 5125,
+            "profitPerHourDelta": 484,
             "isAvailable": true,
             "isExpired": false
         },
@@ -263,17 +263,17 @@
         {
             "id": "security_team",
             "name": "Security team",
-            "price": 26826469,
-            "profitPerHour": 8199,
+            "price": 74737538,
+            "profitPerHour": 8973,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "two_factor_authentication",
                 "level": 13
             },
             "section": "PR&Team",
-            "level": 20,
-            "currentProfitPerHour": 7476,
-            "profitPerHourDelta": 723,
+            "level": 21,
+            "currentProfitPerHour": 8199,
+            "profitPerHourDelta": 774,
             "isAvailable": true,
             "isExpired": false
         },
@@ -596,13 +596,13 @@
         {
             "id": "top_10_cmc_pairs",
             "name": "Top 10 cmc pairs",
-            "price": 26826469,
-            "profitPerHour": 3278,
+            "price": 74737538,
+            "profitPerHour": 3588,
             "condition": null,
             "section": "Markets",
-            "level": 20,
-            "currentProfitPerHour": 2989,
-            "profitPerHourDelta": 289,
+            "level": 21,
+            "currentProfitPerHour": 3278,
+            "profitPerHourDelta": 310,
             "isAvailable": true,
             "isExpired": false
         },
@@ -848,16 +848,16 @@
         {
             "id": "dao",
             "name": "DAO",
-            "price": 26826469,
-            "profitPerHour": 9428,
+            "price": 74737538,
+            "profitPerHour": 10318,
             "condition": {
                 "_type": "ReferralCount",
                 "referralCount": 4
             },
             "section": "Markets",
-            "level": 20,
-            "currentProfitPerHour": 8596,
-            "profitPerHourDelta": 832,
+            "level": 21,
+            "currentProfitPerHour": 9428,
+            "profitPerHourDelta": 890,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2002,18 +2002,18 @@
         {
             "id": "bitcoin_pizza_day",
             "name": "Bitcoin Pizza Day",
-            "price": 26826469,
-            "profitPerHour": 4100,
+            "price": 74737538,
+            "profitPerHour": 4487,
             "condition": {
                 "_type": "SubscribeTelegramChannel",
                 "link": "https://t.me/+BKxnK5qrA7JhN2Uy",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4796,
             "section": "Specials",
-            "level": 20,
-            "currentProfitPerHour": 3738,
-            "profitPerHourDelta": 362,
+            "level": 21,
+            "currentProfitPerHour": 4100,
+            "profitPerHourDelta": 387,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2912,14 +2912,14 @@
                 "enableAt": "2024-08-16T09:00:00.000Z"
             },
             "expiresAt": "2024-08-18T08:59:00.000Z",
-            "price": 11630400,
-            "profitPerHour": 75388,
+            "price": 25387704,
+            "profitPerHour": 83665,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4772,
             "section": "Specials",
-            "level": 15,
-            "currentProfitPerHour": 67652,
-            "profitPerHourDelta": 7736,
+            "level": 16,
+            "currentProfitPerHour": 75388,
+            "profitPerHourDelta": 8277,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2951,6 +2951,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 17580
+        "remainSeconds": 13977
     }
 }
