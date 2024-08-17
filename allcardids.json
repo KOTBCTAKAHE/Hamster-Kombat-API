@@ -2009,7 +2009,7 @@
                 "link": "https://t.me/+BKxnK5qrA7JhN2Uy",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 1194,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 21,
             "currentProfitPerHour": 4100,
@@ -2915,7 +2915,7 @@
             "price": 25387704,
             "profitPerHour": 83665,
             "condition": null,
-            "cooldownSeconds": 1170,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 16,
             "currentProfitPerHour": 75388,
@@ -2953,6 +2953,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 10375
+        "remainSeconds": 6773
     }
 }
