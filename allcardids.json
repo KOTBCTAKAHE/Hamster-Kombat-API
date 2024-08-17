@@ -2948,11 +2948,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "marketing"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 3170
+        "remainSeconds": 85968
     }
 }
