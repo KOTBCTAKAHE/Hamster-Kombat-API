@@ -1,4 +1,4 @@
-// pages/api/Games.js
+// pages/api/game.js
 
 export default function handler(req, res) {
   const data = {
@@ -10,12 +10,12 @@ export default function handler(req, res) {
     "61308365-9d16-4040-8bb0-2f4a4c69074c": "61308365-9d16-4040-8bb0-2f4a4c69074c"
   };
 
-  const promoids = Object.keys(data);
-  const tokens = Object.values(data);
+  const response = Object.entries(data).map(([promoId, appToken], index) => ({
+    appToken: appToken,
+    promoId: promoId,
+    minWaitAfterLogin: [10, 25, 125, 125][index] || 125  // Custom values for first few, default 125 for the rest
+  }));
 
   res.setHeader('Content-Type', 'application/json');
-  res.status(200).json({
-    promoids: promoids,
-    tokens: tokens
-  });
+  res.status(200).json(response);
 }
