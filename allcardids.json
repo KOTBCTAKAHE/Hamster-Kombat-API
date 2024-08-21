@@ -2902,7 +2902,7 @@
             "currentProfitPerHour": 248055,
             "profitPerHourDelta": 28364,
             "isAvailable": true,
-            "isExpired": false,
+            "isExpired": true,
             "totalCooldownSeconds": 7200
         },
         {
@@ -3000,6 +3000,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 85747
+        "remainSeconds": 82144
     }
 }
