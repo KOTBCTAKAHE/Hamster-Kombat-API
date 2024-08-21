@@ -7,13 +7,14 @@ export default function handler(req, res) {
     "c4480ac7-e178-4973-8061-9ed5b2e17954": "82647f43-3f87-402d-88dd-09a90025313f",
     "43e35910-c168-4634-ad4f-52fd764a843f": "d28721be-fd2d-4b45-869e-9f253b554e50",
     "dc128d28-c45b-411c-98ff-ac7726fbaea4": "8d1cc2ad-e097-4b86-90ef-7a27e19fb833",
-    "61308365-9d16-4040-8bb0-2f4a4c69074c": "61308365-9d16-4040-8bb0-2f4a4c69074c"
+    "61308365-9d16-4040-8bb0-2f4a4c69074c": "61308365-9d16-4040-8bb0-2f4a4c69074c",
+    "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71": "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71" // Новое значение
   };
 
   const response = Object.entries(data).map(([promoId, appToken], index) => ({
     appToken: appToken,
     promoId: promoId,
-    minWaitAfterLogin: [10, 25, 125, 125][index] || 125  // Custom values for first few, default 125 for the rest
+    minWaitAfterLogin: [10, 25, 125, 125, 120][index] || 125  // Добавлено 120 для нового значения
   }));
 
   res.setHeader('Content-Type', 'application/json');
