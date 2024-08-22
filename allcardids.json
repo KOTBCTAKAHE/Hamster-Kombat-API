@@ -2972,6 +2972,22 @@
             "profitPerHourDelta": 800,
             "isAvailable": true,
             "isExpired": false
+        },
+        {
+            "id": "negotiations_partners",
+            "name": "Negotiations with partners",
+            "toggle": {
+                "enableAt": "2024-08-22T11:00:00.000Z"
+            },
+            "price": 45000,
+            "profitPerHour": 2000,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 2000,
+            "isAvailable": true,
+            "isExpired": false
         }
     ],
     "sections": [
@@ -3000,6 +3016,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 6495
+        "remainSeconds": 2893
     }
 }
