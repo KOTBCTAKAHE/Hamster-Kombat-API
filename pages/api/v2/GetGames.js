@@ -44,15 +44,16 @@ export default function handler(req, res) {
         }
     };
 
-    // Формируем массив объектов с только promoId и appToken
     const result = Object.keys(apps).map(key => {
         return {
             appName: key,
             appToken: apps[key].appToken,
-            promoId: apps[key].promoId
+            promoId: apps[key].promoId,
+            interval: apps[key].interval,
+            eventCount: apps[key].eventCount
         };
     });
 
-    // Отправляем отформатированный JSON с отступами
+    res.setHeader('Content-Type', 'application/json');
     res.status(200).send(JSON.stringify(result, null, 2));
 }
