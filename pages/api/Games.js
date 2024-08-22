@@ -14,7 +14,7 @@ export default function handler(req, res) {
   const response = Object.entries(data).map(([promoId, appToken], index) => ({
     appToken: appToken,
     promoId: promoId,
-    minWaitAfterLogin: [10, 25, 125, 125, 120, 125, 120][index] || 125  // Установлено 120 для нового значения
+    minWaitAfterLogin: [121, 21, 121, 21, 21, 21, 31][index] || 125  // Установлено 120 для нового значения
   }));
 
   res.setHeader('Content-Type', 'application/json');
