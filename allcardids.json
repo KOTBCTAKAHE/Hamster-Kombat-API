@@ -2988,6 +2988,22 @@
             "profitPerHourDelta": 2000,
             "isAvailable": true,
             "isExpired": false
+        },
+        {
+            "id": "speaking_tv_show",
+            "name": "Speaking on a TV show",
+            "toggle": {
+                "enableAt": "2024-08-23T11:00:00.000Z"
+            },
+            "price": 20000,
+            "profitPerHour": 900,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 900,
+            "isAvailable": true,
+            "isExpired": false
         }
     ],
     "sections": [
@@ -3016,6 +3032,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 6440
+        "remainSeconds": 2838
     }
 }
