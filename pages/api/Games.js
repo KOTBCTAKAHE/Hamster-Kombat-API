@@ -8,8 +8,8 @@ export default function handler(req, res) {
     { promoId: "dc128d28-c45b-411c-98ff-ac7726fbaea4", appToken: "8d1cc2ad-e097-4b86-90ef-7a27e19fb833", minWaitAfterLogin: 21 },
     { promoId: "61308365-9d16-4040-8bb0-2f4a4c69074c", appToken: "61308365-9d16-4040-8bb0-2f4a4c69074c", minWaitAfterLogin: 21 },
     { promoId: "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71", appToken: "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71", minWaitAfterLogin: 31 }, // Новое значение
-    { promoId: "8814a785-97fb-4177-9193-ca4180ff9da8", appToken: "8814a785-97fb-4177-9193-ca4180ff9da8", minWaitAfterLogin: 120 }, // Новый токен
-    { promoId: "ef319a80-949a-492e-8ee0-424fb5fc20a6", appToken: "ef319a80-949a-492e-8ee0-424fb5fc20a6", minWaitAfterLogin: 120 }  // Новый токен
+    { promoId: "8814a785-97fb-4177-9193-ca4180ff9da8", appToken: "8814a785-97fb-4177-9193-ca4180ff9da8", minWaitAfterLogin: 31 }, // Новый токен
+    { promoId: "ef319a80-949a-492e-8ee0-424fb5fc20a6", appToken: "ef319a80-949a-492e-8ee0-424fb5fc20a6", minWaitAfterLogin: 31 }  // Новый токен
   ];
 
   res.setHeader('Content-Type', 'application/json');
