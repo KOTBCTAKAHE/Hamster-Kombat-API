@@ -1,22 +1,17 @@
-// pages/api/game.js
-
 export default function handler(req, res) {
-  const data = {
-    "fe693b26-b342-4159-8808-15e3ff7f8767": "74ee0b5b-775e-4bee-974f-63e7f4d5bacb",
-    "b4170868-cef0-424f-8eb9-be0622e8e8e3": "d1690a07-3780-4068-810f-9b5bbf2931b2",
-    "c4480ac7-e178-4973-8061-9ed5b2e17954": "82647f43-3f87-402d-88dd-09a90025313f",
-    "43e35910-c168-4634-ad4f-52fd764a843f": "d28721be-fd2d-4b45-869e-9f253b554e50",
-    "dc128d28-c45b-411c-98ff-ac7726fbaea4": "8d1cc2ad-e097-4b86-90ef-7a27e19fb833",
-    "61308365-9d16-4040-8bb0-2f4a4c69074c": "61308365-9d16-4040-8bb0-2f4a4c69074c",
-    "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71": "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71" // Новое значение
-  };
-
-  const response = Object.entries(data).map(([promoId, appToken], index) => ({
-    appToken: appToken,
-    promoId: promoId,
-    minWaitAfterLogin: [121, 21, 121, 21, 21, 21, 31][index] || 125  // Установлено 120 для нового значения
-  }));
+  // Массив объектов, каждый объект содержит promoId, appToken и minWaitAfterLogin
+  const data = [
+    { promoId: "fe693b26-b342-4159-8808-15e3ff7f8767", appToken: "74ee0b5b-775e-4bee-974f-63e7f4d5bacb", minWaitAfterLogin: 121 },
+    { promoId: "b4170868-cef0-424f-8eb9-be0622e8e8e3", appToken: "d1690a07-3780-4068-810f-9b5bbf2931b2", minWaitAfterLogin: 21 },
+    { promoId: "c4480ac7-e178-4973-8061-9ed5b2e17954", appToken: "82647f43-3f87-402d-88dd-09a90025313f", minWaitAfterLogin: 121 },
+    { promoId: "43e35910-c168-4634-ad4f-52fd764a843f", appToken: "d28721be-fd2d-4b45-869e-9f253b554e50", minWaitAfterLogin: 21 },
+    { promoId: "dc128d28-c45b-411c-98ff-ac7726fbaea4", appToken: "8d1cc2ad-e097-4b86-90ef-7a27e19fb833", minWaitAfterLogin: 21 },
+    { promoId: "61308365-9d16-4040-8bb0-2f4a4c69074c", appToken: "61308365-9d16-4040-8bb0-2f4a4c69074c", minWaitAfterLogin: 21 },
+    { promoId: "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71", appToken: "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71", minWaitAfterLogin: 31 }, // Новое значение
+    { promoId: "8814a785-97fb-4177-9193-ca4180ff9da8", appToken: "8814a785-97fb-4177-9193-ca4180ff9da8", minWaitAfterLogin: 120 }, // Новый токен
+    { promoId: "ef319a80-949a-492e-8ee0-424fb5fc20a6", appToken: "ef319a80-949a-492e-8ee0-424fb5fc20a6", minWaitAfterLogin: 120 }  // Новый токен
+  ];
 
   res.setHeader('Content-Type', 'application/json');
-  res.status(200).json(response);
+  res.status(200).json(data);
 }
