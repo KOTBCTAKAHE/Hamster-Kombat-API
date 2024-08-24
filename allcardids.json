@@ -3004,6 +3004,22 @@
             "profitPerHourDelta": 900,
             "isAvailable": true,
             "isExpired": false
+        },
+        {
+            "id": "electric_car",
+            "name": "Electric car production",
+            "toggle": {
+                "enableAt": "2024-08-24T11:00:00.000Z"
+            },
+            "price": 75000,
+            "profitPerHour": 2000,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 2000,
+            "isAvailable": true,
+            "isExpired": false
         }
     ],
     "sections": [
@@ -3032,6 +3048,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 6384
+        "remainSeconds": 2781
     }
 }
