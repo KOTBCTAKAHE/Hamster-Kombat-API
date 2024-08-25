@@ -3036,6 +3036,23 @@
             "profitPerHourDelta": 3000,
             "isAvailable": true,
             "isExpired": false
+        },
+        {
+            "id": "free_durov",
+            "name": "Privacy is not a crime",
+            "toggle": {
+                "enableAt": "2024-08-25T12:15:00.000Z"
+            },
+            "price": 0,
+            "profitPerHour": 0,
+            "maxLevel": 1,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0,
+            "isAvailable": true,
+            "isExpired": false
         }
     ],
     "sections": [
@@ -3064,6 +3081,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 85525
+        "remainSeconds": 81923
     }
 }
