@@ -3020,6 +3020,22 @@
             "profitPerHourDelta": 2000,
             "isAvailable": true,
             "isExpired": false
+        },
+        {
+            "id": "rocket_to_mars",
+            "name": "Launching a rocket to Mars",
+            "toggle": {
+                "enableAt": "2024-08-25T11:00:00.000Z"
+            },
+            "price": 150000,
+            "profitPerHour": 3000,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 3000,
+            "isAvailable": true,
+            "isExpired": false
         }
     ],
     "sections": [
@@ -3048,6 +3064,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 6329
+        "remainSeconds": 2727
     }
 }
