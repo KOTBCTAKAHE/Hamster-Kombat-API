@@ -3048,7 +3048,7 @@
             "maxLevel": 1,
             "condition": null,
             "section": "Specials",
-            "level": 1,
+            "level": 2,
             "currentProfitPerHour": 0,
             "profitPerHourDelta": 0,
             "isAvailable": true,
@@ -3081,6 +3081,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 74718
+        "remainSeconds": 71116
     }
 }
