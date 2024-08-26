@@ -2939,7 +2939,7 @@
             "currentProfitPerHour": 0,
             "profitPerHourDelta": 20000,
             "isAvailable": true,
-            "isExpired": false
+            "isExpired": true
         },
         {
             "id": "communication_mentor",
@@ -3038,6 +3038,23 @@
             "isExpired": false
         },
         {
+            "id": "adv_integration_2608",
+            "name": "A whole world of crypto",
+            "toggle": {
+                "enableAt": "2024-08-26T09:00:00.000Z"
+            },
+            "expiresAt": "2024-09-02T08:59:00.000Z",
+            "price": 150000,
+            "profitPerHour": 20000,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 20000,
+            "isAvailable": true,
+            "isExpired": false
+        },
+        {
             "id": "free_durov",
             "name": "Privacy is not a crime",
             "toggle": {
@@ -3081,6 +3098,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 13480
+        "remainSeconds": 9877
     }
 }
