@@ -2925,6 +2925,26 @@
             "totalCooldownSeconds": 7200
         },
         {
+            "id": "promo_hamster_legends",
+            "name": "undefined",
+            "toggle": {
+                "client": {
+                    "enabled": false
+                }
+            },
+            "price": 0,
+            "profitPerHour": 0,
+            "condition": {
+                "_type": "Custom"
+            },
+            "section": "Custom",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0,
+            "isAvailable": false,
+            "isExpired": false
+        },
+        {
             "id": "adv_integration_1908",
             "name": "Energy investments",
             "toggle": {
@@ -3114,6 +3134,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 78266
+        "remainSeconds": 74664
     }
 }
