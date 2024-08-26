@@ -3070,6 +3070,22 @@
             "profitPerHourDelta": 0,
             "isAvailable": true,
             "isExpired": false
+        },
+        {
+            "id": "vintage_cars",
+            "name": "Collection of vintage cars",
+            "toggle": {
+                "enableAt": "2024-08-26T11:00:00.000Z"
+            },
+            "price": 55000,
+            "profitPerHour": 2000,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 2000,
+            "isAvailable": true,
+            "isExpired": false
         }
     ],
     "sections": [
@@ -3098,6 +3114,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 6275
+        "remainSeconds": 2673
     }
 }
