@@ -3122,6 +3122,22 @@
             "profitPerHourDelta": 4000,
             "isAvailable": true,
             "isExpired": false
+        },
+        {
+            "id": "speaking_employees",
+            "name": "Speaking to employees",
+            "toggle": {
+                "enableAt": "2024-08-28T11:00:00.000Z"
+            },
+            "price": 10000,
+            "profitPerHour": 400,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 400,
+            "isAvailable": true,
+            "isExpired": false
         }
     ],
     "sections": [
@@ -3150,6 +3166,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 6164
+        "remainSeconds": 2562
     }
 }
