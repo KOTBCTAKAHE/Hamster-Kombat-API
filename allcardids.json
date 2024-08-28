@@ -3076,7 +3076,7 @@
         },
         {
             "id": "adv_integration_2608",
-            "name": "A whole world of crypto",
+            "name": "Business skills",
             "toggle": {
                 "enableAt": "2024-08-26T09:00:00.000Z"
             },
@@ -3150,6 +3150,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 13369
+        "remainSeconds": 9767
     }
 }
