@@ -2584,17 +2584,17 @@
             "id": "twitter_10_million",
             "name": "X Network 10 Million",
             "releaseAt": "2024-06-26T11:00:00.000Z",
-            "price": 28007793,
-            "profitPerHour": 13599,
+            "price": 70774297,
+            "profitPerHour": 14951,
             "condition": {
                 "_type": "LinkWithoutCheck",
                 "link": "http://twitter.com/hamster_kombat"
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 7083,
             "section": "Specials",
-            "level": 18,
-            "currentProfitPerHour": 12335,
-            "profitPerHourDelta": 1264,
+            "level": 19,
+            "currentProfitPerHour": 13599,
+            "profitPerHourDelta": 1352,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2967,17 +2967,17 @@
             "toggle": {
                 "enableAt": "2024-08-20T11:00:00.000Z"
             },
-            "price": 213929,
-            "profitPerHour": 11979,
+            "price": 348467,
+            "profitPerHour": 13817,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 2497,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 10261,
-            "profitPerHourDelta": 1718,
+            "level": 10,
+            "currentProfitPerHour": 11979,
+            "profitPerHourDelta": 1838,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 3600
+            "totalCooldownSeconds": 5400
         },
         {
             "id": "company_planning",
@@ -2985,17 +2985,17 @@
             "toggle": {
                 "enableAt": "2024-08-21T11:00:00.000Z"
             },
-            "price": 209080,
-            "profitPerHour": 11055,
+            "price": 357599,
+            "profitPerHour": 12629,
             "condition": null,
-            "cooldownSeconds": 2658,
+            "cooldownSeconds": 7064,
             "section": "Specials",
-            "level": 10,
-            "currentProfitPerHour": 9584,
-            "profitPerHourDelta": 1471,
+            "level": 11,
+            "currentProfitPerHour": 11055,
+            "profitPerHourDelta": 1574,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 5400
+            "totalCooldownSeconds": 7200
         },
         {
             "id": "negotiations_partners",
@@ -3003,17 +3003,17 @@
             "toggle": {
                 "enableAt": "2024-08-22T11:00:00.000Z"
             },
-            "price": 385072,
-            "profitPerHour": 23956,
+            "price": 627241,
+            "profitPerHour": 27633,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 2491,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 20520,
-            "profitPerHourDelta": 3436,
+            "level": 10,
+            "currentProfitPerHour": 23956,
+            "profitPerHourDelta": 3677,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 3600
+            "totalCooldownSeconds": 5400
         },
         {
             "id": "speaking_tv_show",
@@ -3021,17 +3021,17 @@
             "toggle": {
                 "enableAt": "2024-08-23T11:00:00.000Z"
             },
-            "price": 278774,
-            "profitPerHour": 12435,
+            "price": 476798,
+            "profitPerHour": 14205,
             "condition": null,
-            "cooldownSeconds": 2664,
+            "cooldownSeconds": 7070,
             "section": "Specials",
-            "level": 10,
-            "currentProfitPerHour": 10780,
-            "profitPerHourDelta": 1655,
+            "level": 11,
+            "currentProfitPerHour": 12435,
+            "profitPerHourDelta": 1770,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 5400
+            "totalCooldownSeconds": 7200
         },
         {
             "id": "electric_car",
@@ -3039,17 +3039,17 @@
             "toggle": {
                 "enableAt": "2024-08-24T11:00:00.000Z"
             },
-            "price": 641786,
-            "profitPerHour": 23956,
+            "price": 1045402,
+            "profitPerHour": 27633,
             "condition": null,
-            "cooldownSeconds": 877,
+            "cooldownSeconds": 5276,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 20520,
-            "profitPerHourDelta": 3436,
+            "level": 10,
+            "currentProfitPerHour": 23956,
+            "profitPerHourDelta": 3677,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 3600
+            "totalCooldownSeconds": 5400
         },
         {
             "id": "rocket_to_mars",
@@ -3057,17 +3057,17 @@
             "toggle": {
                 "enableAt": "2024-08-25T11:00:00.000Z"
             },
-            "price": 827402,
-            "profitPerHour": 30779,
+            "price": 1283573,
+            "profitPerHour": 35934,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 716,
             "section": "Specials",
-            "level": 8,
-            "currentProfitPerHour": 25962,
-            "profitPerHourDelta": 4817,
+            "level": 9,
+            "currentProfitPerHour": 30779,
+            "profitPerHourDelta": 5155,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 1800
+            "totalCooldownSeconds": 3600
         },
         {
             "id": "free_durov",
@@ -3096,7 +3096,7 @@
             "price": 165375,
             "profitPerHour": 41400,
             "condition": null,
-            "cooldownSeconds": 30251,
+            "cooldownSeconds": 26648,
             "section": "Specials",
             "level": 2,
             "currentProfitPerHour": 20000,
@@ -3111,17 +3111,17 @@
             "toggle": {
                 "enableAt": "2024-08-26T11:00:00.000Z"
             },
-            "price": 470643,
-            "profitPerHour": 23956,
+            "price": 766628,
+            "profitPerHour": 27633,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 2510,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 20520,
-            "profitPerHourDelta": 3436,
+            "level": 10,
+            "currentProfitPerHour": 23956,
+            "profitPerHourDelta": 3677,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 3600
+            "totalCooldownSeconds": 5400
         },
         {
             "id": "investments_in_farming",
@@ -3129,17 +3129,17 @@
             "toggle": {
                 "enableAt": "2024-08-27T11:00:00.000Z"
             },
-            "price": 836322,
-            "profitPerHour": 55266,
+            "price": 1430394,
+            "profitPerHour": 63135,
             "condition": null,
-            "cooldownSeconds": 2652,
+            "cooldownSeconds": 7058,
             "section": "Specials",
-            "level": 10,
-            "currentProfitPerHour": 47912,
-            "profitPerHourDelta": 7354,
+            "level": 11,
+            "currentProfitPerHour": 55266,
+            "profitPerHourDelta": 7869,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 5400
+            "totalCooldownSeconds": 7200
         },
         {
             "id": "speaking_employees",
@@ -3147,17 +3147,17 @@
             "toggle": {
                 "enableAt": "2024-08-28T11:00:00.000Z"
             },
-            "price": 85572,
-            "profitPerHour": 4790,
+            "price": 139387,
+            "profitPerHour": 5525,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 2503,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 4103,
-            "profitPerHourDelta": 687,
+            "level": 10,
+            "currentProfitPerHour": 4790,
+            "profitPerHourDelta": 735,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 3600
+            "totalCooldownSeconds": 5400
         }
     ],
     "sections": [
@@ -3188,6 +3188,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 16909
+        "remainSeconds": 13306
     }
 }
