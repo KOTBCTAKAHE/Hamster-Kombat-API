@@ -2590,7 +2590,7 @@
                 "_type": "LinkWithoutCheck",
                 "link": "http://twitter.com/hamster_kombat"
             },
-            "cooldownSeconds": 7083,
+            "cooldownSeconds": 3481,
             "section": "Specials",
             "level": 19,
             "currentProfitPerHour": 13599,
@@ -2967,17 +2967,17 @@
             "toggle": {
                 "enableAt": "2024-08-20T11:00:00.000Z"
             },
-            "price": 348467,
-            "profitPerHour": 13817,
+            "price": 595998,
+            "profitPerHour": 15784,
             "condition": null,
-            "cooldownSeconds": 2497,
+            "cooldownSeconds": 6706,
             "section": "Specials",
-            "level": 10,
-            "currentProfitPerHour": 11979,
-            "profitPerHourDelta": 1838,
+            "level": 11,
+            "currentProfitPerHour": 13817,
+            "profitPerHourDelta": 1967,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 5400
+            "totalCooldownSeconds": 7200
         },
         {
             "id": "company_planning",
@@ -2988,7 +2988,7 @@
             "price": 357599,
             "profitPerHour": 12629,
             "condition": null,
-            "cooldownSeconds": 7064,
+            "cooldownSeconds": 3462,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 11055,
@@ -3003,17 +3003,17 @@
             "toggle": {
                 "enableAt": "2024-08-22T11:00:00.000Z"
             },
-            "price": 627241,
-            "profitPerHour": 27633,
+            "price": 1072796,
+            "profitPerHour": 31567,
             "condition": null,
-            "cooldownSeconds": 2491,
+            "cooldownSeconds": 6700,
             "section": "Specials",
-            "level": 10,
-            "currentProfitPerHour": 23956,
-            "profitPerHourDelta": 3677,
+            "level": 11,
+            "currentProfitPerHour": 27633,
+            "profitPerHourDelta": 3934,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 5400
+            "totalCooldownSeconds": 7200
         },
         {
             "id": "speaking_tv_show",
@@ -3024,7 +3024,7 @@
             "price": 476798,
             "profitPerHour": 14205,
             "condition": null,
-            "cooldownSeconds": 7070,
+            "cooldownSeconds": 3468,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 12435,
@@ -3042,7 +3042,7 @@
             "price": 1045402,
             "profitPerHour": 27633,
             "condition": null,
-            "cooldownSeconds": 5276,
+            "cooldownSeconds": 1674,
             "section": "Specials",
             "level": 10,
             "currentProfitPerHour": 23956,
@@ -3057,17 +3057,17 @@
             "toggle": {
                 "enableAt": "2024-08-25T11:00:00.000Z"
             },
-            "price": 1283573,
-            "profitPerHour": 35934,
+            "price": 2090804,
+            "profitPerHour": 41449,
             "condition": null,
-            "cooldownSeconds": 716,
+            "cooldownSeconds": 4924,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 30779,
-            "profitPerHourDelta": 5155,
+            "level": 10,
+            "currentProfitPerHour": 35934,
+            "profitPerHourDelta": 5515,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 3600
+            "totalCooldownSeconds": 5400
         },
         {
             "id": "free_durov",
@@ -3096,7 +3096,7 @@
             "price": 165375,
             "profitPerHour": 41400,
             "condition": null,
-            "cooldownSeconds": 26648,
+            "cooldownSeconds": 23046,
             "section": "Specials",
             "level": 2,
             "currentProfitPerHour": 20000,
@@ -3111,17 +3111,17 @@
             "toggle": {
                 "enableAt": "2024-08-26T11:00:00.000Z"
             },
-            "price": 766628,
-            "profitPerHour": 27633,
+            "price": 1311195,
+            "profitPerHour": 31567,
             "condition": null,
-            "cooldownSeconds": 2510,
+            "cooldownSeconds": 6718,
             "section": "Specials",
-            "level": 10,
-            "currentProfitPerHour": 23956,
-            "profitPerHourDelta": 3677,
+            "level": 11,
+            "currentProfitPerHour": 27633,
+            "profitPerHourDelta": 3934,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 5400
+            "totalCooldownSeconds": 7200
         },
         {
             "id": "investments_in_farming",
@@ -3132,7 +3132,7 @@
             "price": 1430394,
             "profitPerHour": 63135,
             "condition": null,
-            "cooldownSeconds": 7058,
+            "cooldownSeconds": 3456,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 55266,
@@ -3147,17 +3147,17 @@
             "toggle": {
                 "enableAt": "2024-08-28T11:00:00.000Z"
             },
-            "price": 139387,
-            "profitPerHour": 5525,
+            "price": 238399,
+            "profitPerHour": 6312,
             "condition": null,
-            "cooldownSeconds": 2503,
+            "cooldownSeconds": 6712,
             "section": "Specials",
-            "level": 10,
-            "currentProfitPerHour": 4790,
-            "profitPerHourDelta": 735,
+            "level": 11,
+            "currentProfitPerHour": 5525,
+            "profitPerHourDelta": 787,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 5400
+            "totalCooldownSeconds": 7200
         }
     ],
     "sections": [
@@ -3188,6 +3188,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 13306
+        "remainSeconds": 9704
     }
 }
