@@ -1,5 +1,4 @@
 export default function handler(req, res) {
-  // Массив объектов, каждый объект содержит promoId, appToken и minWaitAfterLogin
   const data = [
     { promoId: "c4480ac7-e178-4973-8061-9ed5b2e17954", appToken: "82647f43-3f87-402d-88dd-09a90025313f", minWaitAfterLogin: 121 },    // Name: BIKE
     { promoId: "fe693b26-b342-4159-8808-15e3ff7f8767", appToken: "74ee0b5b-775e-4bee-974f-63e7f4d5bacb", minWaitAfterLogin: 121 },    // Name: CLONE
@@ -10,11 +9,10 @@ export default function handler(req, res) {
     { promoId: "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71", appToken: "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71", minWaitAfterLogin: 31 },     // Name: POLY
     { promoId: "8814a785-97fb-4177-9193-ca4180ff9da8", appToken: "8814a785-97fb-4177-9193-ca4180ff9da8", minWaitAfterLogin: 31 },     // Name: RACE
     { promoId: "ef319a80-949a-492e-8ee0-424fb5fc20a6", appToken: "ef319a80-949a-492e-8ee0-424fb5fc20a6", minWaitAfterLogin: 31 },     // Name: TRIM
-    { promoId: "bc0971b8-04df-4e72-8a3e-ec4dc663cd11", appToken: "bc0971b8-04df-4e72-8a3e-ec4dc663cd11", minWaitAfterLogin: 31 }      // Name: CafeDash New!
+    { promoId: "bc0971b8-04df-4e72-8a3e-ec4dc663cd11", appToken: "bc0971b8-04df-4e72-8a3e-ec4dc663cd11", minWaitAfterLogin: 31 }      // Name: CafeDash    New!
   ];
 
-  // Установить заголовок для поддержки форматирования JSON в браузере
-  res.setHeader('Content-Type', 'application/json; charset=utf-8');
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.status(200).json(data);
+  // Устанавливаем заголовок для JSON и форматируем с отступами
+  res.setHeader('Content-Type', 'application/json');
+  res.status(200).send(JSON.stringify(data, null, 2)); // Отступ в 2 пробела
 }
