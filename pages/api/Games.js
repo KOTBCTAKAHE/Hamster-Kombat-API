@@ -10,9 +10,11 @@ export default function handler(req, res) {
     { promoId: "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71", appToken: "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71", minWaitAfterLogin: 31 },     // Name: POLY
     { promoId: "8814a785-97fb-4177-9193-ca4180ff9da8", appToken: "8814a785-97fb-4177-9193-ca4180ff9da8", minWaitAfterLogin: 31 },     // Name: RACE
     { promoId: "ef319a80-949a-492e-8ee0-424fb5fc20a6", appToken: "ef319a80-949a-492e-8ee0-424fb5fc20a6", minWaitAfterLogin: 31 },     // Name: TRIM
-    { promoId: "bc0971b8-04df-4e72-8a3e-ec4dc663cd11", appToken: "bc0971b8-04df-4e72-8a3e-ec4dc663cd11", minWaitAfterLogin: 31 }      // Name: CafeDash    New!
+    { promoId: "bc0971b8-04df-4e72-8a3e-ec4dc663cd11", appToken: "bc0971b8-04df-4e72-8a3e-ec4dc663cd11", minWaitAfterLogin: 31 }      // Name: CafeDash New!
   ];
 
-  res.setHeader('Content-Type', 'application/json');
+  // Установить заголовок для поддержки форматирования JSON в браузере
+  res.setHeader('Content-Type', 'application/json; charset=utf-8');
+  res.setHeader('Access-Control-Allow-Origin', '*');
   res.status(200).json(data);
 }
