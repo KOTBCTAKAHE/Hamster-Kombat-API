@@ -3093,14 +3093,14 @@
                 "enableAt": "2024-08-26T09:00:00.000Z"
             },
             "expiresAt": "2024-09-02T08:59:00.000Z",
-            "price": 232699,
-            "profitPerHour": 88799,
+            "price": 296990,
+            "profitPerHour": 115015,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 42426,
             "section": "Specials",
-            "level": 4,
-            "currentProfitPerHour": 64298,
-            "profitPerHourDelta": 24501,
+            "level": 5,
+            "currentProfitPerHour": 88799,
+            "profitPerHourDelta": 26216,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 43200
@@ -3165,14 +3165,14 @@
             "toggle": {
                 "enableAt": "2024-08-29T11:00:00.000Z"
             },
-            "price": 5649051,
-            "profitPerHour": 20106,
+            "price": 12331170,
+            "profitPerHour": 22313,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6441,
             "section": "Specials",
-            "level": 15,
-            "currentProfitPerHour": 18043,
-            "profitPerHourDelta": 2063,
+            "level": 16,
+            "currentProfitPerHour": 20106,
+            "profitPerHourDelta": 2207,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -3183,15 +3183,17 @@
             "toggle": {
                 "enableAt": "2024-08-30T11:00:00.000Z"
             },
-            "price": 35000,
-            "profitPerHour": 1500,
+            "price": 38588,
+            "profitPerHour": 3105,
             "condition": null,
+            "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 1,
-            "currentProfitPerHour": 0,
-            "profitPerHourDelta": 1500,
+            "level": 2,
+            "currentProfitPerHour": 1500,
+            "profitPerHourDelta": 1605,
             "isAvailable": true,
-            "isExpired": false
+            "isExpired": false,
+            "totalCooldownSeconds": 10
         }
     ],
     "sections": [
@@ -3217,9 +3219,11 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [],
+        "upgradeIds": [
+            "business_processes"
+        ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 60024
+        "remainSeconds": 56422
     }
 }
