@@ -3096,7 +3096,7 @@
             "price": 232699,
             "profitPerHour": 88799,
             "condition": null,
-            "cooldownSeconds": 18005,
+            "cooldownSeconds": 14403,
             "section": "Specials",
             "level": 4,
             "currentProfitPerHour": 64298,
@@ -3217,11 +3217,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "speaking_employees"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 2444
+        "remainSeconds": 85242
     }
 }
