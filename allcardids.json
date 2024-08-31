@@ -3194,6 +3194,22 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 10
+        },
+        {
+            "id": "hotel_construction",
+            "name": "Hotel construction",
+            "toggle": {
+                "enableAt": "2024-08-31T11:00:00.000Z"
+            },
+            "price": 45000,
+            "profitPerHour": 3500,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 3500,
+            "isAvailable": true,
+            "isExpired": false
         }
     ],
     "sections": [
@@ -3224,6 +3240,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 5988
+        "remainSeconds": 2386
     }
 }
