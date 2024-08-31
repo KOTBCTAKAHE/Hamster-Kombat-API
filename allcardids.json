@@ -230,16 +230,16 @@
         {
             "id": "two_factor_authentication",
             "name": "Two factor authentication",
-            "price": 74737538,
-            "profitPerHour": 5609,
+            "price": 218626784,
+            "profitPerHour": 6127,
             "condition": {
                 "_type": "MoreReferralsCount",
                 "moreReferralsCount": 1
             },
             "section": "PR&Team",
-            "level": 21,
-            "currentProfitPerHour": 5125,
-            "profitPerHourDelta": 484,
+            "level": 22,
+            "currentProfitPerHour": 5609,
+            "profitPerHourDelta": 518,
             "isAvailable": true,
             "isExpired": false
         },
@@ -831,17 +831,17 @@
         {
             "id": "web3_integration",
             "name": "Web3 integration",
-            "price": 65718990,
-            "profitPerHour": 29529,
+            "price": 174372046,
+            "profitPerHour": 32386,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "anti_money_loundering",
                 "level": 8
             },
             "section": "Markets",
-            "level": 19,
-            "currentProfitPerHour": 26859,
-            "profitPerHourDelta": 2670,
+            "level": 20,
+            "currentProfitPerHour": 29529,
+            "profitPerHourDelta": 2857,
             "isAvailable": true,
             "isExpired": false
         },
@@ -3096,7 +3096,7 @@
             "price": 397995,
             "profitPerHour": 143066,
             "condition": null,
-            "cooldownSeconds": 13576,
+            "cooldownSeconds": 9973,
             "section": "Specials",
             "level": 6,
             "currentProfitPerHour": 115015,
@@ -3111,14 +3111,14 @@
             "toggle": {
                 "enableAt": "2024-08-26T11:00:00.000Z"
             },
-            "price": 39894963,
-            "profitPerHour": 55776,
+            "price": 91439985,
+            "profitPerHour": 61680,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4841,
             "section": "Specials",
-            "level": 16,
-            "currentProfitPerHour": 50258,
-            "profitPerHourDelta": 5518,
+            "level": 17,
+            "currentProfitPerHour": 55776,
+            "profitPerHourDelta": 5904,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -3237,9 +3237,13 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [],
+        "upgradeIds": [
+            "two_factor_authentication",
+            "web3_integration",
+            "vintage_cars"
+        ],
         "bonusCoins": 5000000,
-        "isClaimed": false,
-        "remainSeconds": 52762
+        "isClaimed": true,
+        "remainSeconds": 49159
     }
 }
