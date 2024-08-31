@@ -1292,18 +1292,18 @@
             "id": "vesting_smartcontracts",
             "name": "Vesting Smartcontracts",
             "releaseAt": "2024-07-11T11:00:00.000Z",
-            "price": 29739881,
-            "profitPerHour": 33467,
+            "price": 68164353,
+            "profitPerHour": 37010,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "web3_integration",
                 "level": 7
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6439,
             "section": "Web3",
-            "level": 16,
-            "currentProfitPerHour": 30156,
-            "profitPerHourDelta": 3311,
+            "level": 17,
+            "currentProfitPerHour": 33467,
+            "profitPerHourDelta": 3543,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -3093,14 +3093,14 @@
                 "enableAt": "2024-08-26T09:00:00.000Z"
             },
             "expiresAt": "2024-09-02T08:59:00.000Z",
-            "price": 296990,
-            "profitPerHour": 115015,
+            "price": 397995,
+            "profitPerHour": 143066,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 42395,
             "section": "Specials",
-            "level": 5,
-            "currentProfitPerHour": 88799,
-            "profitPerHourDelta": 26216,
+            "level": 6,
+            "currentProfitPerHour": 115015,
+            "profitPerHourDelta": 28051,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 43200
@@ -3165,14 +3165,14 @@
             "toggle": {
                 "enableAt": "2024-08-29T11:00:00.000Z"
             },
-            "price": 12331170,
-            "profitPerHour": 22313,
+            "price": 28263268,
+            "profitPerHour": 24675,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6413,
             "section": "Specials",
-            "level": 16,
-            "currentProfitPerHour": 20106,
-            "profitPerHourDelta": 2207,
+            "level": 17,
+            "currentProfitPerHour": 22313,
+            "profitPerHourDelta": 2362,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -3183,17 +3183,17 @@
             "toggle": {
                 "enableAt": "2024-08-30T11:00:00.000Z"
             },
-            "price": 38588,
-            "profitPerHour": 3105,
+            "price": 54296,
+            "profitPerHour": 6660,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 2,
-            "currentProfitPerHour": 1500,
-            "profitPerHourDelta": 1605,
+            "level": 4,
+            "currentProfitPerHour": 4822,
+            "profitPerHourDelta": 1838,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 10
+            "totalCooldownSeconds": 30
         },
         {
             "id": "hotel_construction",
@@ -3201,15 +3201,17 @@
             "toggle": {
                 "enableAt": "2024-08-31T11:00:00.000Z"
             },
-            "price": 45000,
-            "profitPerHour": 3500,
+            "price": 69810,
+            "profitPerHour": 15540,
             "condition": null,
+            "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 1,
-            "currentProfitPerHour": 0,
-            "profitPerHourDelta": 3500,
+            "level": 4,
+            "currentProfitPerHour": 11252,
+            "profitPerHourDelta": 4288,
             "isAvailable": true,
-            "isExpired": false
+            "isExpired": false,
+            "totalCooldownSeconds": 30
         }
     ],
     "sections": [
@@ -3238,6 +3240,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 85183
+        "remainSeconds": 81581
     }
 }
