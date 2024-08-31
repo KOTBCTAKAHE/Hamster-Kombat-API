@@ -1299,7 +1299,7 @@
                 "upgradeId": "web3_integration",
                 "level": 7
             },
-            "cooldownSeconds": 2837,
+            "cooldownSeconds": 0,
             "section": "Web3",
             "level": 17,
             "currentProfitPerHour": 33467,
@@ -3096,7 +3096,7 @@
             "price": 397995,
             "profitPerHour": 143066,
             "condition": null,
-            "cooldownSeconds": 38793,
+            "cooldownSeconds": 35190,
             "section": "Specials",
             "level": 6,
             "currentProfitPerHour": 115015,
@@ -3168,7 +3168,7 @@
             "price": 28263268,
             "profitPerHour": 24675,
             "condition": null,
-            "cooldownSeconds": 2811,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 17,
             "currentProfitPerHour": 22313,
@@ -3240,6 +3240,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 77979
+        "remainSeconds": 74376
     }
 }
