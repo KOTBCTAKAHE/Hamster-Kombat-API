@@ -3235,11 +3235,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "business_processes"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 2386
+        "remainSeconds": 85183
     }
 }
