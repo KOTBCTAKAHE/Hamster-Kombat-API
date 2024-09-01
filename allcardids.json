@@ -3093,14 +3093,14 @@
                 "enableAt": "2024-08-26T09:00:00.000Z"
             },
             "expiresAt": "2024-09-02T08:59:00.000Z",
-            "price": 560018,
-            "profitPerHour": 173081,
+            "price": 827402,
+            "profitPerHour": 205197,
             "condition": null,
-            "cooldownSeconds": 2090,
+            "cooldownSeconds": 43101,
             "section": "Specials",
-            "level": 7,
-            "currentProfitPerHour": 143066,
-            "profitPerHourDelta": 30015,
+            "level": 8,
+            "currentProfitPerHour": 173081,
+            "profitPerHourDelta": 32116,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 43200
@@ -3183,17 +3183,17 @@
             "toggle": {
                 "enableAt": "2024-08-30T11:00:00.000Z"
             },
-            "price": 487854,
-            "profitPerHour": 20725,
+            "price": 834397,
+            "profitPerHour": 23676,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 7108,
             "section": "Specials",
-            "level": 10,
-            "currentProfitPerHour": 17967,
-            "profitPerHourDelta": 2758,
+            "level": 11,
+            "currentProfitPerHour": 20725,
+            "profitPerHourDelta": 2951,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 5400
+            "totalCooldownSeconds": 7200
         },
         {
             "id": "hotel_construction",
@@ -3201,17 +3201,17 @@
             "toggle": {
                 "enableAt": "2024-08-31T11:00:00.000Z"
             },
-            "price": 627241,
-            "profitPerHour": 48359,
+            "price": 1072796,
+            "profitPerHour": 55244,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 7094,
             "section": "Specials",
-            "level": 10,
-            "currentProfitPerHour": 41924,
-            "profitPerHourDelta": 6435,
+            "level": 11,
+            "currentProfitPerHour": 48359,
+            "profitPerHourDelta": 6885,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 5400
+            "totalCooldownSeconds": 7200
         }
     ],
     "sections": [
@@ -3242,6 +3242,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 67113
+        "remainSeconds": 63511
     }
 }
