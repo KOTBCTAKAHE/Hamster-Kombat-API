@@ -468,7 +468,7 @@
                 "upgradeId": "it_team",
                 "level": 15
             },
-            "cooldownSeconds": 4888,
+            "cooldownSeconds": 1286,
             "section": "PR&Team",
             "level": 16,
             "currentProfitPerHour": 100516,
@@ -2555,7 +2555,7 @@
                 "_type": "LinkWithoutCheck",
                 "link": "https://youtube.com/@hamsterkombat_official"
             },
-            "cooldownSeconds": 4895,
+            "cooldownSeconds": 1293,
             "section": "Specials",
             "level": 18,
             "currentProfitPerHour": 64766,
@@ -3096,7 +3096,7 @@
             "price": 397995,
             "profitPerHour": 143066,
             "condition": null,
-            "cooldownSeconds": 2769,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 6,
             "currentProfitPerHour": 115015,
@@ -3168,7 +3168,7 @@
             "price": 68018925,
             "profitPerHour": 27202,
             "condition": null,
-            "cooldownSeconds": 4907,
+            "cooldownSeconds": 1305,
             "section": "Specials",
             "level": 18,
             "currentProfitPerHour": 24675,
@@ -3244,6 +3244,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": true,
-        "remainSeconds": 41955
+        "remainSeconds": 38353
     }
 }
