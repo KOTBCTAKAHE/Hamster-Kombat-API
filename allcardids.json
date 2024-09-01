@@ -448,7 +448,7 @@
                 "upgradeId": "usdt_on_ton",
                 "level": 3
             },
-            "cooldownSeconds": 5715,
+            "cooldownSeconds": 2112,
             "section": "PR&Team",
             "level": 20,
             "currentProfitPerHour": 12147,
@@ -2499,7 +2499,7 @@
             "price": 80479406,
             "profitPerHour": 4100,
             "condition": null,
-            "cooldownSeconds": 5727,
+            "cooldownSeconds": 2124,
             "section": "Specials",
             "level": 20,
             "currentProfitPerHour": 3738,
@@ -3096,7 +3096,7 @@
             "price": 560018,
             "profitPerHour": 173081,
             "condition": null,
-            "cooldownSeconds": 16500,
+            "cooldownSeconds": 12897,
             "section": "Specials",
             "level": 7,
             "currentProfitPerHour": 143066,
@@ -3186,7 +3186,7 @@
             "price": 299500,
             "profitPerHour": 17967,
             "condition": null,
-            "cooldownSeconds": 2109,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 9,
             "currentProfitPerHour": 15390,
@@ -3204,7 +3204,7 @@
             "price": 385072,
             "profitPerHour": 41924,
             "condition": null,
-            "cooldownSeconds": 2103,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 9,
             "currentProfitPerHour": 35910,
@@ -3242,6 +3242,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 81523
+        "remainSeconds": 77920
     }
 }
