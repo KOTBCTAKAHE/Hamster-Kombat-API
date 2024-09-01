@@ -3096,7 +3096,7 @@
             "price": 560018,
             "profitPerHour": 173081,
             "condition": null,
-            "cooldownSeconds": 23704,
+            "cooldownSeconds": 20102,
             "section": "Specials",
             "level": 7,
             "currentProfitPerHour": 143066,
@@ -3186,7 +3186,7 @@
             "price": 193061,
             "profitPerHour": 15390,
             "condition": null,
-            "cooldownSeconds": 1212,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 8,
             "currentProfitPerHour": 12981,
@@ -3204,7 +3204,7 @@
             "price": 248221,
             "profitPerHour": 35910,
             "condition": null,
-            "cooldownSeconds": 1206,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 8,
             "currentProfitPerHour": 30290,
@@ -3237,13 +3237,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "two_factor_authentication",
-            "web3_integration",
-            "vintage_cars"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
-        "isClaimed": true,
-        "remainSeconds": 2327
+        "isClaimed": false,
+        "remainSeconds": 85125
     }
 }
