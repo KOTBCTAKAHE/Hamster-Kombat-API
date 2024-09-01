@@ -461,18 +461,18 @@
             "id": "development_hub_mumbai",
             "name": "Development Hub Mumbai",
             "releaseAt": "2024-07-02T11:00:00.000Z",
-            "price": 29906742,
-            "profitPerHour": 100516,
+            "price": 65282666,
+            "profitPerHour": 111552,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "it_team",
                 "level": 15
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4888,
             "section": "PR&Team",
-            "level": 15,
-            "currentProfitPerHour": 90202,
-            "profitPerHourDelta": 10314,
+            "level": 16,
+            "currentProfitPerHour": 100516,
+            "profitPerHourDelta": 11036,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -762,17 +762,17 @@
         {
             "id": "margin_trading_x75",
             "name": "Margin trading x75",
-            "price": 30008349,
-            "profitPerHour": 37398,
+            "price": 75829604,
+            "profitPerHour": 41116,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "short_squeeze",
                 "level": 10
             },
             "section": "Markets",
-            "level": 18,
-            "currentProfitPerHour": 33923,
-            "profitPerHourDelta": 3475,
+            "level": 19,
+            "currentProfitPerHour": 37398,
+            "profitPerHourDelta": 3718,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2549,17 +2549,17 @@
             "id": "youtube_25_million",
             "name": "YouTube 25 Million",
             "releaseAt": "2024-06-22T11:00:00.000Z",
-            "price": 29925813,
-            "profitPerHour": 64766,
+            "price": 72020038,
+            "profitPerHour": 71400,
             "condition": {
                 "_type": "LinkWithoutCheck",
                 "link": "https://youtube.com/@hamsterkombat_official"
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4895,
             "section": "Specials",
-            "level": 17,
-            "currentProfitPerHour": 58566,
-            "profitPerHourDelta": 6200,
+            "level": 18,
+            "currentProfitPerHour": 64766,
+            "profitPerHourDelta": 6634,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -3096,7 +3096,7 @@
             "price": 397995,
             "profitPerHour": 143066,
             "condition": null,
-            "cooldownSeconds": 6371,
+            "cooldownSeconds": 2769,
             "section": "Specials",
             "level": 6,
             "currentProfitPerHour": 115015,
@@ -3114,7 +3114,7 @@
             "price": 91439985,
             "profitPerHour": 61680,
             "condition": null,
-            "cooldownSeconds": 1239,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 17,
             "currentProfitPerHour": 55776,
@@ -3165,14 +3165,14 @@
             "toggle": {
                 "enableAt": "2024-08-29T11:00:00.000Z"
             },
-            "price": 28263268,
-            "profitPerHour": 24675,
+            "price": 68018925,
+            "profitPerHour": 27202,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 4907,
             "section": "Specials",
-            "level": 17,
-            "currentProfitPerHour": 22313,
-            "profitPerHourDelta": 2362,
+            "level": 18,
+            "currentProfitPerHour": 24675,
+            "profitPerHourDelta": 2527,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -3183,17 +3183,17 @@
             "toggle": {
                 "enableAt": "2024-08-30T11:00:00.000Z"
             },
-            "price": 54296,
-            "profitPerHour": 6660,
+            "price": 69298,
+            "profitPerHour": 8626,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 4,
-            "currentProfitPerHour": 4822,
-            "profitPerHourDelta": 1838,
+            "level": 5,
+            "currentProfitPerHour": 6660,
+            "profitPerHourDelta": 1966,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 30
+            "totalCooldownSeconds": 60
         },
         {
             "id": "hotel_construction",
@@ -3201,17 +3201,17 @@
             "toggle": {
                 "enableAt": "2024-08-31T11:00:00.000Z"
             },
-            "price": 69810,
-            "profitPerHour": 15540,
+            "price": 89097,
+            "profitPerHour": 20128,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 4,
-            "currentProfitPerHour": 11252,
-            "profitPerHourDelta": 4288,
+            "level": 5,
+            "currentProfitPerHour": 15540,
+            "profitPerHourDelta": 4588,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 30
+            "totalCooldownSeconds": 60
         }
     ],
     "sections": [
@@ -3244,6 +3244,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": true,
-        "remainSeconds": 45557
+        "remainSeconds": 41955
     }
 }
