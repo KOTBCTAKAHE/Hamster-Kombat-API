@@ -3096,7 +3096,7 @@
             "price": 560018,
             "profitPerHour": 173081,
             "condition": null,
-            "cooldownSeconds": 27307,
+            "cooldownSeconds": 23704,
             "section": "Specials",
             "level": 7,
             "currentProfitPerHour": 143066,
@@ -3183,17 +3183,17 @@
             "toggle": {
                 "enableAt": "2024-08-30T11:00:00.000Z"
             },
-            "price": 130671,
-            "profitPerHour": 12981,
+            "price": 193061,
+            "profitPerHour": 15390,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 1212,
             "section": "Specials",
-            "level": 7,
-            "currentProfitPerHour": 10730,
-            "profitPerHourDelta": 2251,
+            "level": 8,
+            "currentProfitPerHour": 12981,
+            "profitPerHourDelta": 2409,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 600
+            "totalCooldownSeconds": 1800
         },
         {
             "id": "hotel_construction",
@@ -3201,17 +3201,17 @@
             "toggle": {
                 "enableAt": "2024-08-31T11:00:00.000Z"
             },
-            "price": 168006,
-            "profitPerHour": 30290,
+            "price": 248221,
+            "profitPerHour": 35910,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 1206,
             "section": "Specials",
-            "level": 7,
-            "currentProfitPerHour": 25037,
-            "profitPerHourDelta": 5253,
+            "level": 8,
+            "currentProfitPerHour": 30290,
+            "profitPerHourDelta": 5620,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 600
+            "totalCooldownSeconds": 1800
         }
     ],
     "sections": [
@@ -3244,6 +3244,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": true,
-        "remainSeconds": 5930
+        "remainSeconds": 2327
     }
 }
