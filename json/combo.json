@@ -1,1 +1,9 @@
-{"combo": ["two_factor_authentication", "web3_integration", "vintage_cars"], "date": "31-08-24"}
+{
+    "combo": [
+        "gym_hamster",
+        "hiring_employees",
+        "dex"
+    ],
+    "date": "01-09-24",
+    "expires": 1725278400
+}
