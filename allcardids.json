@@ -3096,7 +3096,7 @@
             "price": 560018,
             "profitPerHour": 173081,
             "condition": null,
-            "cooldownSeconds": 38114,
+            "cooldownSeconds": 34511,
             "section": "Specials",
             "level": 7,
             "currentProfitPerHour": 143066,
@@ -3183,17 +3183,17 @@
             "toggle": {
                 "enableAt": "2024-08-30T11:00:00.000Z"
             },
-            "price": 92865,
-            "profitPerHour": 10730,
+            "price": 130671,
+            "profitPerHour": 12981,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 6,
-            "currentProfitPerHour": 8626,
-            "profitPerHourDelta": 2104,
+            "level": 7,
+            "currentProfitPerHour": 10730,
+            "profitPerHourDelta": 2251,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 300
+            "totalCooldownSeconds": 600
         },
         {
             "id": "hotel_construction",
@@ -3201,17 +3201,17 @@
             "toggle": {
                 "enableAt": "2024-08-31T11:00:00.000Z"
             },
-            "price": 119398,
-            "profitPerHour": 25037,
+            "price": 168006,
+            "profitPerHour": 30290,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 6,
-            "currentProfitPerHour": 20128,
-            "profitPerHourDelta": 4909,
+            "level": 7,
+            "currentProfitPerHour": 25037,
+            "profitPerHourDelta": 5253,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 300
+            "totalCooldownSeconds": 600
         }
     ],
     "sections": [
@@ -3244,6 +3244,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": true,
-        "remainSeconds": 16737
+        "remainSeconds": 13134
     }
 }
