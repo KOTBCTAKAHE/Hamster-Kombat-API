@@ -331,13 +331,13 @@
         {
             "id": "security_audition",
             "name": "Security Audition",
-            "price": 30331842,
-            "profitPerHour": 3738,
+            "price": 80479406,
+            "profitPerHour": 4100,
             "condition": null,
             "section": "PR&Team",
-            "level": 19,
-            "currentProfitPerHour": 3400,
-            "profitPerHourDelta": 338,
+            "level": 20,
+            "currentProfitPerHour": 3738,
+            "profitPerHourDelta": 362,
             "isAvailable": true,
             "isExpired": false
         },
@@ -441,18 +441,18 @@
         {
             "id": "money_20_20",
             "name": "Welcome to Amsterdam",
-            "price": 30331842,
-            "profitPerHour": 12147,
+            "price": 80479406,
+            "profitPerHour": 13322,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "usdt_on_ton",
                 "level": 3
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 5715,
             "section": "PR&Team",
-            "level": 19,
-            "currentProfitPerHour": 11049,
-            "profitPerHourDelta": 1098,
+            "level": 20,
+            "currentProfitPerHour": 12147,
+            "profitPerHourDelta": 1175,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -973,13 +973,13 @@
         {
             "id": "anti_money_loundering",
             "name": "Anti money loundering",
-            "price": 30331842,
-            "profitPerHour": 10468,
+            "price": 80479406,
+            "profitPerHour": 11481,
             "condition": null,
             "section": "Legal",
-            "level": 19,
-            "currentProfitPerHour": 9522,
-            "profitPerHourDelta": 946,
+            "level": 20,
+            "currentProfitPerHour": 10468,
+            "profitPerHourDelta": 1013,
             "isAvailable": true,
             "isExpired": false
         },
@@ -2496,14 +2496,14 @@
         {
             "id": "hamster_drop",
             "name": "Hamster Kombat merch",
-            "price": 30331842,
-            "profitPerHour": 3738,
+            "price": 80479406,
+            "profitPerHour": 4100,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 5727,
             "section": "Specials",
-            "level": 19,
-            "currentProfitPerHour": 3400,
-            "profitPerHourDelta": 338,
+            "level": 20,
+            "currentProfitPerHour": 3738,
+            "profitPerHourDelta": 362,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -3096,7 +3096,7 @@
             "price": 560018,
             "profitPerHour": 173081,
             "condition": null,
-            "cooldownSeconds": 20102,
+            "cooldownSeconds": 16500,
             "section": "Specials",
             "level": 7,
             "currentProfitPerHour": 143066,
@@ -3183,17 +3183,17 @@
             "toggle": {
                 "enableAt": "2024-08-30T11:00:00.000Z"
             },
-            "price": 193061,
-            "profitPerHour": 15390,
+            "price": 299500,
+            "profitPerHour": 17967,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 2109,
             "section": "Specials",
-            "level": 8,
-            "currentProfitPerHour": 12981,
-            "profitPerHourDelta": 2409,
+            "level": 9,
+            "currentProfitPerHour": 15390,
+            "profitPerHourDelta": 2577,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 1800
+            "totalCooldownSeconds": 3600
         },
         {
             "id": "hotel_construction",
@@ -3201,17 +3201,17 @@
             "toggle": {
                 "enableAt": "2024-08-31T11:00:00.000Z"
             },
-            "price": 248221,
-            "profitPerHour": 35910,
+            "price": 385072,
+            "profitPerHour": 41924,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 2103,
             "section": "Specials",
-            "level": 8,
-            "currentProfitPerHour": 30290,
-            "profitPerHourDelta": 5620,
+            "level": 9,
+            "currentProfitPerHour": 35910,
+            "profitPerHourDelta": 6014,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 1800
+            "totalCooldownSeconds": 3600
         }
     ],
     "sections": [
@@ -3237,9 +3237,11 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [],
+        "upgradeIds": [
+            "hiring_employees"
+        ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 85125
+        "remainSeconds": 81523
     }
 }
