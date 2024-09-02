@@ -2609,7 +2609,7 @@
                 "upgradeId": "tg_leaders",
                 "level": 1
             },
-            "cooldownSeconds": 6855,
+            "cooldownSeconds": 3253,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 55388,
@@ -3096,7 +3096,7 @@
             "price": 1283573,
             "profitPerHour": 239561,
             "condition": null,
-            "cooldownSeconds": 13073,
+            "cooldownSeconds": 9471,
             "section": "Specials",
             "level": 9,
             "currentProfitPerHour": 205197,
@@ -3186,7 +3186,7 @@
             "price": 11630400,
             "profitPerHour": 37694,
             "condition": null,
-            "cooldownSeconds": 2306,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 15,
             "currentProfitPerHour": 33826,
@@ -3201,14 +3201,14 @@
             "toggle": {
                 "enableAt": "2024-08-31T11:00:00.000Z"
             },
-            "price": 14953371,
-            "profitPerHour": 87953,
+            "price": 32641333,
+            "profitPerHour": 97610,
             "condition": null,
-            "cooldownSeconds": 2300,
+            "cooldownSeconds": 7008,
             "section": "Specials",
-            "level": 15,
-            "currentProfitPerHour": 78928,
-            "profitPerHourDelta": 9025,
+            "level": 16,
+            "currentProfitPerHour": 87953,
+            "profitPerHourDelta": 9657,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -3242,6 +3242,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 74262
+        "remainSeconds": 70660
     }
 }
