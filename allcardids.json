@@ -488,7 +488,7 @@
                 "upgradeId": "dubai_office",
                 "level": 1
             },
-            "cooldownSeconds": 2305,
+            "cooldownSeconds": 0,
             "section": "PR&Team",
             "level": 15,
             "currentProfitPerHour": 146579,
@@ -1109,7 +1109,7 @@
                 "_type": "MoreReferralsCount",
                 "moreReferralsCount": 1
             },
-            "cooldownSeconds": 2391,
+            "cooldownSeconds": 0,
             "section": "Legal",
             "level": 17,
             "currentProfitPerHour": 72510,
@@ -1145,7 +1145,7 @@
                 "_type": "ReferralCount",
                 "referralCount": 3
             },
-            "cooldownSeconds": 2370,
+            "cooldownSeconds": 0,
             "section": "Legal",
             "level": 17,
             "currentProfitPerHour": 69719,
@@ -1181,7 +1181,7 @@
                 "_type": "ReferralCount",
                 "referralCount": 4
             },
-            "cooldownSeconds": 2319,
+            "cooldownSeconds": 0,
             "section": "Legal",
             "level": 16,
             "currentProfitPerHour": 125646,
@@ -1239,7 +1239,7 @@
                 "upgradeId": "top10_global",
                 "level": 3
             },
-            "cooldownSeconds": 2333,
+            "cooldownSeconds": 0,
             "section": "Legal",
             "level": 16,
             "currentProfitPerHour": 163339,
@@ -1319,7 +1319,7 @@
                 "upgradeId": "vc_labs",
                 "level": 15
             },
-            "cooldownSeconds": 2362,
+            "cooldownSeconds": 0,
             "section": "Web3",
             "level": 16,
             "currentProfitPerHour": 75388,
@@ -1359,7 +1359,7 @@
                 "upgradeId": "product_team",
                 "level": 10
             },
-            "cooldownSeconds": 2341,
+            "cooldownSeconds": 0,
             "section": "Web3",
             "level": 16,
             "currentProfitPerHour": 100516,
@@ -1399,7 +1399,7 @@
                 "upgradeId": "youtube",
                 "level": 8
             },
-            "cooldownSeconds": 2413,
+            "cooldownSeconds": 0,
             "section": "Web3",
             "level": 16,
             "currentProfitPerHour": 75388,
@@ -2484,7 +2484,7 @@
             "price": 80730365,
             "profitPerHour": 100704,
             "condition": null,
-            "cooldownSeconds": 2355,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 13,
             "currentProfitPerHour": 89443,
@@ -2517,7 +2517,7 @@
                 "_type": "MoreReferralsCount",
                 "moreReferralsCount": 1
             },
-            "cooldownSeconds": 2326,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 13,
             "currentProfitPerHour": 134162,
@@ -2536,7 +2536,7 @@
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 2399,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 18,
             "currentProfitPerHour": 70933,
@@ -2629,7 +2629,7 @@
                 "upgradeId": "support_team",
                 "level": 12
             },
-            "cooldownSeconds": 2377,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 17,
             "currentProfitPerHour": 83665,
@@ -2661,7 +2661,7 @@
             "price": 69693481,
             "profitPerHour": 69083,
             "condition": null,
-            "cooldownSeconds": 584,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 10,
             "currentProfitPerHour": 59891,
@@ -2697,7 +2697,7 @@
                 "upgradeId": "it_team",
                 "level": 15
             },
-            "cooldownSeconds": 2312,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 16,
             "currentProfitPerHour": 125646,
@@ -3006,7 +3006,7 @@
             "price": 74814534,
             "profitPerHour": 61680,
             "condition": null,
-            "cooldownSeconds": 2406,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 17,
             "currentProfitPerHour": 55776,
@@ -3096,13 +3096,13 @@
             "price": 1283573,
             "profitPerHour": 239561,
             "condition": null,
-            "cooldownSeconds": 38290,
+            "cooldownSeconds": 34687,
             "section": "Specials",
             "level": 9,
             "currentProfitPerHour": 205197,
             "profitPerHourDelta": 34364,
             "isAvailable": true,
-            "isExpired": false,
+            "isExpired": true,
             "totalCooldownSeconds": 43200
         },
         {
@@ -3132,7 +3132,7 @@
             "price": 99752711,
             "profitPerHour": 123361,
             "condition": null,
-            "cooldownSeconds": 2348,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 17,
             "currentProfitPerHour": 111552,
@@ -3186,7 +3186,7 @@
             "price": 2825563,
             "profitPerHour": 30211,
             "condition": null,
-            "cooldownSeconds": 2297,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 13,
             "currentProfitPerHour": 26833,
@@ -3204,7 +3204,7 @@
             "price": 3632866,
             "profitPerHour": 70494,
             "condition": null,
-            "cooldownSeconds": 2282,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 13,
             "currentProfitPerHour": 62611,
@@ -3242,6 +3242,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 13079
+        "remainSeconds": 9476
     }
 }
