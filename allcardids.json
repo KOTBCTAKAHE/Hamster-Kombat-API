@@ -2642,17 +2642,17 @@
             "id": "business_jet",
             "name": "Business jet",
             "releaseAt": "2024-07-14T11:00:00.000Z",
-            "price": 31839572,
-            "profitPerHour": 21460,
+            "price": 44801476,
+            "profitPerHour": 25962,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 6,
-            "currentProfitPerHour": 17252,
-            "profitPerHourDelta": 4208,
+            "level": 7,
+            "currentProfitPerHour": 21460,
+            "profitPerHourDelta": 4502,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 300
+            "totalCooldownSeconds": 600
         },
         {
             "id": "call_btc_rise",
@@ -3096,7 +3096,7 @@
             "price": 1283573,
             "profitPerHour": 239561,
             "condition": null,
-            "cooldownSeconds": 27483,
+            "cooldownSeconds": 23880,
             "section": "Specials",
             "level": 9,
             "currentProfitPerHour": 205197,
@@ -3186,7 +3186,7 @@
             "price": 5594421,
             "profitPerHour": 33826,
             "condition": null,
-            "cooldownSeconds": 1324,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 30211,
@@ -3204,7 +3204,7 @@
             "price": 7192827,
             "profitPerHour": 78928,
             "condition": null,
-            "cooldownSeconds": 1317,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 70494,
@@ -3237,11 +3237,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "hiring_employees"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 2272
+        "remainSeconds": 85069
     }
 }
