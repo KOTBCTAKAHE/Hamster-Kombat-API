@@ -3096,7 +3096,7 @@
             "price": 1283573,
             "profitPerHour": 239561,
             "condition": null,
-            "cooldownSeconds": 20278,
+            "cooldownSeconds": 16676,
             "section": "Specials",
             "level": 9,
             "currentProfitPerHour": 205197,
@@ -3183,14 +3183,14 @@
             "toggle": {
                 "enableAt": "2024-08-30T11:00:00.000Z"
             },
-            "price": 5594421,
-            "profitPerHour": 33826,
+            "price": 11630400,
+            "profitPerHour": 37694,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 5909,
             "section": "Specials",
-            "level": 14,
-            "currentProfitPerHour": 30211,
-            "profitPerHourDelta": 3615,
+            "level": 15,
+            "currentProfitPerHour": 33826,
+            "profitPerHourDelta": 3868,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -3201,14 +3201,14 @@
             "toggle": {
                 "enableAt": "2024-08-31T11:00:00.000Z"
             },
-            "price": 7192827,
-            "profitPerHour": 78928,
+            "price": 14953371,
+            "profitPerHour": 87953,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 5903,
             "section": "Specials",
-            "level": 14,
-            "currentProfitPerHour": 70494,
-            "profitPerHourDelta": 8434,
+            "level": 15,
+            "currentProfitPerHour": 78928,
+            "profitPerHourDelta": 9025,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -3237,9 +3237,11 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [],
+        "upgradeIds": [
+            "hotel_construction"
+        ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 81467
+        "remainSeconds": 77865
     }
 }
