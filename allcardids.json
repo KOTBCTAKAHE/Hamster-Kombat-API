@@ -3183,14 +3183,14 @@
             "toggle": {
                 "enableAt": "2024-08-30T11:00:00.000Z"
             },
-            "price": 25387704,
-            "profitPerHour": 41833,
+            "price": 58189082,
+            "profitPerHour": 46261,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 3616,
             "section": "Specials",
-            "level": 16,
-            "currentProfitPerHour": 37694,
-            "profitPerHourDelta": 4139,
+            "level": 17,
+            "currentProfitPerHour": 41833,
+            "profitPerHourDelta": 4428,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -3242,6 +3242,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 52648
+        "remainSeconds": 49046
     }
 }
