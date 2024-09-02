@@ -2135,6 +2135,25 @@
             "isExpired": true
         },
         {
+            "id": "adv_integration_2608",
+            "name": "Business skills",
+            "toggle": {
+                "enableAt": "2024-08-26T09:00:00.000Z"
+            },
+            "expiresAt": "2024-09-02T08:59:00.000Z",
+            "price": 1283573,
+            "profitPerHour": 239561,
+            "condition": null,
+            "cooldownSeconds": 2266,
+            "section": "Specials",
+            "level": 9,
+            "currentProfitPerHour": 205197,
+            "profitPerHourDelta": 34364,
+            "isAvailable": true,
+            "isExpired": true,
+            "totalCooldownSeconds": 43200
+        },
+        {
             "id": "dubai_office",
             "name": "Dubai office",
             "maxLevel": 1,
@@ -3087,25 +3106,6 @@
             "isExpired": false
         },
         {
-            "id": "adv_integration_2608",
-            "name": "Business skills",
-            "toggle": {
-                "enableAt": "2024-08-26T09:00:00.000Z"
-            },
-            "expiresAt": "2024-09-02T08:59:00.000Z",
-            "price": 1283573,
-            "profitPerHour": 239561,
-            "condition": null,
-            "cooldownSeconds": 5868,
-            "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 205197,
-            "profitPerHourDelta": 34364,
-            "isAvailable": true,
-            "isExpired": true,
-            "totalCooldownSeconds": 43200
-        },
-        {
             "id": "vintage_cars",
             "name": "Collection of vintage cars",
             "toggle": {
@@ -3186,7 +3186,7 @@
             "price": 25387704,
             "profitPerHour": 41833,
             "condition": null,
-            "cooldownSeconds": 6128,
+            "cooldownSeconds": 2526,
             "section": "Specials",
             "level": 16,
             "currentProfitPerHour": 37694,
@@ -3204,7 +3204,7 @@
             "price": 32641333,
             "profitPerHour": 97610,
             "condition": null,
-            "cooldownSeconds": 3405,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 16,
             "currentProfitPerHour": 87953,
@@ -3242,6 +3242,6 @@
         ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 67057
+        "remainSeconds": 63455
     }
 }
