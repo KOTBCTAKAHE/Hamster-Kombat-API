@@ -508,7 +508,7 @@
                 "upgradeId": "kyc",
                 "level": 15
             },
-            "cooldownSeconds": 2530,
+            "cooldownSeconds": 0,
             "section": "PR&Team",
             "level": 18,
             "currentProfitPerHour": 23131,
@@ -3220,17 +3220,17 @@
                 "enableAt": "2024-09-03T15:00:00.000Z"
             },
             "expiresAt": "2024-09-10T15:00:00.000Z",
-            "price": 59398,
-            "profitPerHour": 7476,
+            "price": 79599,
+            "profitPerHour": 9299,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 5,
-            "currentProfitPerHour": 5772,
-            "profitPerHourDelta": 1704,
+            "level": 6,
+            "currentProfitPerHour": 7476,
+            "profitPerHourDelta": 1823,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 60
+            "totalCooldownSeconds": 300
         }
     ],
     "sections": [
@@ -3259,6 +3259,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 63398
+        "remainSeconds": 59796
     }
 }
