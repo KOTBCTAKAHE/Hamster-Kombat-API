@@ -508,7 +508,7 @@
                 "upgradeId": "kyc",
                 "level": 15
             },
-            "cooldownSeconds": 6132,
+            "cooldownSeconds": 2530,
             "section": "PR&Team",
             "level": 18,
             "currentProfitPerHour": 23131,
@@ -2488,7 +2488,7 @@
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 80,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 17,
             "currentProfitPerHour": 52988,
@@ -3220,17 +3220,17 @@
                 "enableAt": "2024-09-03T15:00:00.000Z"
             },
             "expiresAt": "2024-09-10T15:00:00.000Z",
-            "price": 46540,
-            "profitPerHour": 5772,
+            "price": 59398,
+            "profitPerHour": 7476,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 4,
-            "currentProfitPerHour": 4179,
-            "profitPerHourDelta": 1593,
+            "level": 5,
+            "currentProfitPerHour": 5772,
+            "profitPerHourDelta": 1704,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 30
+            "totalCooldownSeconds": 60
         }
     ],
     "sections": [
@@ -3259,6 +3259,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 67000
+        "remainSeconds": 63398
     }
 }
