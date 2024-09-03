@@ -2303,16 +2303,16 @@
         {
             "id": "two_chairs",
             "name": "There are two chairs...",
-            "price": 36268148,
-            "profitPerHour": 55776,
+            "price": 83127259,
+            "profitPerHour": 61680,
             "condition": {
                 "_type": "MoreReferralsCount",
                 "moreReferralsCount": 1
             },
             "section": "Specials",
-            "level": 16,
-            "currentProfitPerHour": 50258,
-            "profitPerHourDelta": 5518,
+            "level": 17,
+            "currentProfitPerHour": 55776,
+            "profitPerHourDelta": 5904,
             "isAvailable": true,
             "isExpired": false
         },
@@ -3237,11 +3237,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "hotel_construction"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 2215
+        "remainSeconds": 85012
     }
 }
