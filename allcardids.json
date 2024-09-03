@@ -3212,6 +3212,23 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "largest_diamond",
+            "name": "Largest diamond",
+            "toggle": {
+                "enableAt": "2024-09-03T15:00:00.000Z"
+            },
+            "expiresAt": "2024-09-10T15:00:00.000Z",
+            "price": 30000,
+            "profitPerHour": 1300,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 1300,
+            "isAvailable": true,
+            "isExpired": false
         }
     ],
     "sections": [
@@ -3240,6 +3257,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 77808
+        "remainSeconds": 74206
     }
 }
