@@ -2481,18 +2481,18 @@
         {
             "id": "consensys_piranja_pass",
             "name": "Consensus Piranha Pass",
-            "price": 36268148,
-            "profitPerHour": 52988,
+            "price": 83127259,
+            "profitPerHour": 58597,
             "condition": {
                 "_type": "SubscribeTelegramChannel",
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 3683,
             "section": "Specials",
-            "level": 16,
-            "currentProfitPerHour": 47746,
-            "profitPerHourDelta": 5242,
+            "level": 17,
+            "currentProfitPerHour": 52988,
+            "profitPerHourDelta": 5609,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -3220,15 +3220,17 @@
                 "enableAt": "2024-09-03T15:00:00.000Z"
             },
             "expiresAt": "2024-09-10T15:00:00.000Z",
-            "price": 30000,
-            "profitPerHour": 1300,
+            "price": 38288,
+            "profitPerHour": 4179,
             "condition": null,
+            "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 1,
-            "currentProfitPerHour": 0,
-            "profitPerHourDelta": 1300,
+            "level": 3,
+            "currentProfitPerHour": 2691,
+            "profitPerHourDelta": 1488,
             "isAvailable": true,
-            "isExpired": false
+            "isExpired": false,
+            "totalCooldownSeconds": 15
         }
     ],
     "sections": [
@@ -3257,6 +3259,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 74206
+        "remainSeconds": 70603
     }
 }
