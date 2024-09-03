@@ -501,18 +501,18 @@
             "id": "leaderboards",
             "name": "Leaderboards",
             "releaseAt": "2024-07-07T11:00:00.000Z",
-            "price": 33250904,
-            "profitPerHour": 23131,
+            "price": 80022265,
+            "profitPerHour": 25500,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "kyc",
                 "level": 15
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 6132,
             "section": "PR&Team",
-            "level": 17,
-            "currentProfitPerHour": 20917,
-            "profitPerHourDelta": 2214,
+            "level": 18,
+            "currentProfitPerHour": 23131,
+            "profitPerHourDelta": 2369,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2488,7 +2488,7 @@
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
                 "channelId": -1002075341442
             },
-            "cooldownSeconds": 3683,
+            "cooldownSeconds": 80,
             "section": "Specials",
             "level": 17,
             "currentProfitPerHour": 52988,
@@ -3220,17 +3220,17 @@
                 "enableAt": "2024-09-03T15:00:00.000Z"
             },
             "expiresAt": "2024-09-10T15:00:00.000Z",
-            "price": 38288,
-            "profitPerHour": 4179,
+            "price": 46540,
+            "profitPerHour": 5772,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 3,
-            "currentProfitPerHour": 2691,
-            "profitPerHourDelta": 1488,
+            "level": 4,
+            "currentProfitPerHour": 4179,
+            "profitPerHourDelta": 1593,
             "isAvailable": true,
             "isExpired": false,
-            "totalCooldownSeconds": 15
+            "totalCooldownSeconds": 30
         }
     ],
     "sections": [
@@ -3259,6 +3259,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 70603
+        "remainSeconds": 67000
     }
 }
