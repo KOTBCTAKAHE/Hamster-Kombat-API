@@ -5,6 +5,8 @@
   { "promoId": "61308365-9d16-4040-8bb0-2f4a4c69074c", "appToken": "61308365-9d16-4040-8bb0-2f4a4c69074c", "minWaitAfterLogin": 21, "name": "TWERK" },
   { "promoId": "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71", "appToken": "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71", "minWaitAfterLogin": 31, "name": "POLY" },
   { "promoId": "ef319a80-949a-492e-8ee0-424fb5fc20a6", "appToken": "ef319a80-949a-492e-8ee0-424fb5fc20a6", "minWaitAfterLogin": 31, "name": "TRIM" },
-  { "promoId": "b2436c89-e0aa-4aed-8046-9b0515e1c46b", "appToken": "b2436c89-e0aa-4aed-8046-9b0515e1c46b", "minWaitAfterLogin": 21, "name": "Zoopolis" }
+  { "promoId": "b2436c89-e0aa-4aed-8046-9b0515e1c46b", "appToken": "b2436c89-e0aa-4aed-8046-9b0515e1c46b", "minWaitAfterLogin": 21, "name": "Zoopolis" },
+  { "promoId": "112887b0-a8af-4eb2-ac63-d82df78283d9", "appToken": "112887b0-a8af-4eb2-ac63-d82df78283d9", "minWaitAfterLogin": 31, "name": "Fluff Crusade" },
+  { "promoId": "e68b39d2-4880-4a31-b3aa-0393e7df10c7", "appToken": "e68b39d2-4880-4a31-b3aa-0393e7df10c7", "minWaitAfterLogin": 31, "name": "Tile Trio" }
 ]
 
