@@ -144,7 +144,7 @@
         },
         {
             "id": "reddit",
-            "name": "\u0421oindesk",
+            "name": "Сoindesk",
             "price": 74737538,
             "profitPerHour": 3588,
             "condition": {
@@ -479,7 +479,7 @@
         },
         {
             "id": "data_center_tokyo",
-            "name": "Data \u0421enter Tokyo",
+            "name": "Data Сenter Tokyo",
             "releaseAt": "2024-07-05T11:00:00.000Z",
             "price": 66459426,
             "profitPerHour": 163339,
@@ -1979,7 +1979,7 @@
         },
         {
             "id": "welcome_to_ogames",
-            "name": "Carry it like it\u2019s hot",
+            "name": "Carry it like it’s hot",
             "releaseAt": "2024-07-26T11:00:00.000Z",
             "expiresAt": "2024-08-02T17:30:00.000Z",
             "price": 36268148,
@@ -3231,6 +3231,43 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 300
+        },
+        {
+            "id": "adv_integration_0409",
+            "name": "CEOs moves confidently",
+            "toggle": {
+                "enableAt": "2024-09-04T11:00:00.000Z"
+            },
+            "expiresAt": "2024-09-07T09:00:00.000Z",
+            "price": 35000,
+            "profitPerHour": 3000,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 3000,
+            "isAvailable": true,
+            "isExpired": false
+        },
+        {
+            "id": "telegram_top_ever",
+            "name": "Telegram top ever",
+            "toggle": {
+                "enableAt": "2024-09-05T11:00:00.000Z"
+            },
+            "price": 53000,
+            "profitPerHour": 3000,
+            "condition": {
+                "_type": "SubscribeTelegramChannel",
+                "link": "https://t.me/+e52PfDAw_w1lMzNi",
+                "channelId": -1002075341442
+            },
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 3000,
+            "isAvailable": true,
+            "isExpired": false
         }
     ],
     "sections": [
@@ -3259,6 +3296,6 @@
         "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 59796
+        "remainSeconds": 61470
     }
 }
