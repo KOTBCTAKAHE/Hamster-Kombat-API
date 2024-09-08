@@ -553,17 +553,17 @@
         {
             "id": "staking",
             "name": "Staking",
-            "price": 35387149,
-            "profitPerHour": 22425,
+            "price": 93892640,
+            "profitPerHour": 24595,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "kyc",
                 "level": 7
             },
             "section": "Markets",
-            "level": 19,
-            "currentProfitPerHour": 20397,
-            "profitPerHourDelta": 2028,
+            "level": 20,
+            "currentProfitPerHour": 22425,
+            "profitPerHourDelta": 2170,
             "isAvailable": true,
             "isExpired": false
         },
@@ -728,17 +728,17 @@
         {
             "id": "margin_trading_x30",
             "name": "Margin trading x30",
-            "price": 35387149,
-            "profitPerHour": 18688,
+            "price": 93892640,
+            "profitPerHour": 20496,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "legal_opinion",
                 "level": 6
             },
             "section": "Markets",
-            "level": 19,
-            "currentProfitPerHour": 16998,
-            "profitPerHourDelta": 1690,
+            "level": 20,
+            "currentProfitPerHour": 18688,
+            "profitPerHourDelta": 1808,
             "isAvailable": true,
             "isExpired": false
         },
@@ -3239,16 +3239,16 @@
                 "enableAt": "2024-09-04T11:00:00.000Z"
             },
             "expiresAt": "2024-09-07T09:00:00.000Z",
-            "price": 25387704,
-            "profitPerHour": 83665,
+            "price": 58189082,
+            "profitPerHour": 92521,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 16,
-            "currentProfitPerHour": 75388,
-            "profitPerHourDelta": 8277,
+            "level": 17,
+            "currentProfitPerHour": 83665,
+            "profitPerHourDelta": 8856,
             "isAvailable": true,
-            "isExpired": false,
+            "isExpired": true,
             "totalCooldownSeconds": 7200
         },
         {
@@ -3257,8 +3257,8 @@
             "toggle": {
                 "enableAt": "2024-09-05T11:00:00.000Z"
             },
-            "price": 38444237,
-            "profitPerHour": 83665,
+            "price": 88114895,
+            "profitPerHour": 92521,
             "condition": {
                 "_type": "SubscribeTelegramChannel",
                 "link": "https://t.me/+e52PfDAw_w1lMzNi",
@@ -3266,9 +3266,9 @@
             },
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 16,
-            "currentProfitPerHour": 75388,
-            "profitPerHourDelta": 8277,
+            "level": 17,
+            "currentProfitPerHour": 83665,
+            "profitPerHourDelta": 8856,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -3297,11 +3297,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "top10_global"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 19893
+        "remainSeconds": 20526
     }
 }
