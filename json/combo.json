@@ -1,9 +1,9 @@
 {
     "combo": [
-        "influencers",
-        "vc_labs",
-        "gym_hamster"
+        "web3_integration",
+        "oracle",
+        "telegram_top_ever"
     ],
-    "date": "09-09-24",
-    "expires": 1725969600
+    "date": "10-09-24",
+    "expires": 1726056000
 }
