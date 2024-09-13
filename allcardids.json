@@ -815,16 +815,16 @@
         {
             "id": "prediction_markets",
             "name": "Prediction markets",
-            "price": 46946320,
-            "profitPerHour": 14144,
+            "price": 130790691,
+            "profitPerHour": 15479,
             "condition": {
                 "_type": "ReferralCount",
                 "referralCount": 2
             },
             "section": "Markets",
-            "level": 20,
-            "currentProfitPerHour": 12896,
-            "profitPerHourDelta": 1248,
+            "level": 21,
+            "currentProfitPerHour": 14144,
+            "profitPerHourDelta": 1335,
             "isAvailable": true,
             "isExpired": false
         },
@@ -864,8 +864,8 @@
         {
             "id": "p2p_trading",
             "name": "P2P trading",
-            "price": 42464578,
-            "profitPerHour": 14577,
+            "price": 112671168,
+            "profitPerHour": 15987,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "kyc",
@@ -873,9 +873,9 @@
             },
             "cooldownSeconds": 0,
             "section": "Markets",
-            "level": 19,
-            "currentProfitPerHour": 13259,
-            "profitPerHourDelta": 1318,
+            "level": 20,
+            "currentProfitPerHour": 14577,
+            "profitPerHourDelta": 1410,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2154,6 +2154,80 @@
             "totalCooldownSeconds": 43200
         },
         {
+            "id": "largest_diamond",
+            "name": "Largest diamond",
+            "toggle": {
+                "enableAt": "2024-09-03T15:00:00.000Z"
+            },
+            "expiresAt": "2024-09-10T15:00:00.000Z",
+            "price": 120033397,
+            "profitPerHour": 44199,
+            "condition": null,
+            "cooldownSeconds": 0,
+            "section": "Specials",
+            "level": 18,
+            "currentProfitPerHour": 40093,
+            "profitPerHourDelta": 4106,
+            "isAvailable": true,
+            "isExpired": true,
+            "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "adv_integration_0409",
+            "name": "CEOs moves confidently",
+            "toggle": {
+                "enableAt": "2024-09-04T11:00:00.000Z"
+            },
+            "expiresAt": "2024-09-07T09:00:00.000Z",
+            "price": 58189082,
+            "profitPerHour": 92521,
+            "condition": null,
+            "cooldownSeconds": 0,
+            "section": "Specials",
+            "level": 17,
+            "currentProfitPerHour": 83665,
+            "profitPerHourDelta": 8856,
+            "isAvailable": true,
+            "isExpired": true,
+            "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "adv_integration_0909",
+            "name": "Hamster on vacation",
+            "toggle": {
+                "enableAt": "2024-09-09T09:00:00.000Z"
+            },
+            "expiresAt": "2024-09-11T09:00:00.000Z",
+            "price": 35000,
+            "profitPerHour": 3000,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 3000,
+            "isAvailable": true,
+            "isExpired": true
+        },
+        {
+            "id": "adv_integration_1109",
+            "name": "Hamster Investor",
+            "toggle": {
+                "enableAt": "2024-09-11T09:00:00.000Z"
+            },
+            "expiresAt": "2024-09-12T09:00:00.000Z",
+            "price": 1045402,
+            "profitPerHour": 96714,
+            "condition": null,
+            "cooldownSeconds": 0,
+            "section": "Specials",
+            "level": 10,
+            "currentProfitPerHour": 83845,
+            "profitPerHourDelta": 12869,
+            "isAvailable": true,
+            "isExpired": true,
+            "totalCooldownSeconds": 5400
+        },
+        {
             "id": "dubai_office",
             "name": "Dubai office",
             "maxLevel": 1,
@@ -2693,14 +2767,14 @@
             "id": "rolex_soulmate",
             "name": "HamsterWatch for soulmate",
             "releaseAt": "2024-07-16T11:00:00.000Z",
-            "price": 42813036,
-            "profitPerHour": 17889,
+            "price": 80730365,
+            "profitPerHour": 20141,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 12,
-            "currentProfitPerHour": 15784,
-            "profitPerHourDelta": 2105,
+            "level": 13,
+            "currentProfitPerHour": 17889,
+            "profitPerHourDelta": 2252,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2765,8 +2839,8 @@
             "id": "telegram_miniapp_launch",
             "name": "Telegram Miniapp Launch",
             "releaseAt": "2024-07-24T11:00:00.000Z",
-            "price": 41563630,
-            "profitPerHour": 30841,
+            "price": 100027831,
+            "profitPerHour": 34000,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "it_team",
@@ -2774,9 +2848,9 @@
             },
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 17,
-            "currentProfitPerHour": 27889,
-            "profitPerHourDelta": 2952,
+            "level": 18,
+            "currentProfitPerHour": 30841,
+            "profitPerHourDelta": 3159,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2876,14 +2950,14 @@
             "toggle": {
                 "enableAt": "2024-08-07T11:00:00.000Z"
             },
-            "price": 48013359,
-            "profitPerHour": 16998,
+            "price": 121327366,
+            "profitPerHour": 18688,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 18,
-            "currentProfitPerHour": 15419,
-            "profitPerHourDelta": 1579,
+            "level": 19,
+            "currentProfitPerHour": 16998,
+            "profitPerHourDelta": 1690,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -2912,14 +2986,14 @@
             "toggle": {
                 "enableAt": "2024-08-09T11:00:00.000Z"
             },
-            "price": 36010019,
-            "profitPerHour": 20397,
+            "price": 90995525,
+            "profitPerHour": 22425,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 18,
-            "currentProfitPerHour": 18502,
-            "profitPerHourDelta": 1895,
+            "level": 19,
+            "currentProfitPerHour": 20397,
+            "profitPerHourDelta": 2028,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -3147,14 +3221,14 @@
             "toggle": {
                 "enableAt": "2024-08-28T11:00:00.000Z"
             },
-            "price": 40011132,
-            "profitPerHour": 13599,
+            "price": 101106139,
+            "profitPerHour": 14951,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 18,
-            "currentProfitPerHour": 12335,
-            "profitPerHourDelta": 1264,
+            "level": 19,
+            "currentProfitPerHour": 13599,
+            "profitPerHourDelta": 1352,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 7200
@@ -3214,44 +3288,6 @@
             "totalCooldownSeconds": 7200
         },
         {
-            "id": "largest_diamond",
-            "name": "Largest diamond",
-            "toggle": {
-                "enableAt": "2024-09-03T15:00:00.000Z"
-            },
-            "expiresAt": "2024-09-10T15:00:00.000Z",
-            "price": 120033397,
-            "profitPerHour": 44199,
-            "condition": null,
-            "cooldownSeconds": 0,
-            "section": "Specials",
-            "level": 18,
-            "currentProfitPerHour": 40093,
-            "profitPerHourDelta": 4106,
-            "isAvailable": true,
-            "isExpired": true,
-            "totalCooldownSeconds": 7200
-        },
-        {
-            "id": "adv_integration_0409",
-            "name": "CEOs moves confidently",
-            "toggle": {
-                "enableAt": "2024-09-04T11:00:00.000Z"
-            },
-            "expiresAt": "2024-09-07T09:00:00.000Z",
-            "price": 58189082,
-            "profitPerHour": 92521,
-            "condition": null,
-            "cooldownSeconds": 0,
-            "section": "Specials",
-            "level": 17,
-            "currentProfitPerHour": 83665,
-            "profitPerHourDelta": 8856,
-            "isAvailable": true,
-            "isExpired": true,
-            "totalCooldownSeconds": 7200
-        },
-        {
             "id": "telegram_top_ever",
             "name": "Telegram top ever",
             "toggle": {
@@ -3274,55 +3310,23 @@
             "totalCooldownSeconds": 7200
         },
         {
-            "id": "adv_integration_0909",
-            "name": "Hamster on vacation",
-            "toggle": {
-                "enableAt": "2024-09-09T09:00:00.000Z"
-            },
-            "expiresAt": "2024-09-11T09:00:00.000Z",
-            "price": 35000,
-            "profitPerHour": 3000,
-            "condition": null,
-            "section": "Specials",
-            "level": 1,
-            "currentProfitPerHour": 0,
-            "profitPerHourDelta": 3000,
-            "isAvailable": true,
-            "isExpired": true
-        },
-        {
             "id": "hamsterphone_16",
             "name": "HamsterPhone 16",
             "toggle": {
                 "enableAt": "2024-09-10T12:00:00.000Z"
             },
             "expiresAt": "2024-09-17T11:00:00.000Z",
-            "price": 160000,
-            "profitPerHour": 5000,
+            "price": 53167541,
+            "profitPerHour": 125646,
             "condition": null,
+            "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 1,
-            "currentProfitPerHour": 0,
-            "profitPerHourDelta": 5000,
+            "level": 15,
+            "currentProfitPerHour": 112753,
+            "profitPerHourDelta": 12893,
             "isAvailable": true,
-            "isExpired": false
-        },
-        {
-            "id": "adv_integration_1109",
-            "name": "Hamster Investor",
-            "toggle": {
-                "enableAt": "2024-09-11T09:00:00.000Z"
-            },
-            "expiresAt": "2024-09-12T09:00:00.000Z",
-            "price": 75000,
-            "profitPerHour": 7000,
-            "condition": null,
-            "section": "Specials",
-            "level": 1,
-            "currentProfitPerHour": 0,
-            "profitPerHourDelta": 7000,
-            "isAvailable": true,
-            "isExpired": false
+            "isExpired": false,
+            "totalCooldownSeconds": 7200
         },
         {
             "id": "hodl_btc_100k",
@@ -3344,6 +3348,97 @@
             "isAvailable": false,
             "isExpired": false,
             "totalCooldownSeconds": 0
+        },
+        {
+            "id": "youtube_1b",
+            "name": "Youtube 1B views",
+            "toggle": {
+                "enableAt": "2024-09-12T11:00:00.000Z"
+            },
+            "expiresAt": "2024-09-19T11:00:00.000Z",
+            "price": 33229713,
+            "profitPerHour": 75388,
+            "condition": {
+                "_type": "LinkWithoutCheck",
+                "link": "https://youtube.com/@hamsterkombat_official"
+            },
+            "cooldownSeconds": 7144,
+            "section": "Specials",
+            "level": 15,
+            "currentProfitPerHour": 67652,
+            "profitPerHourDelta": 7736,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "adv_integration_1209",
+            "name": "Best Restaurant",
+            "toggle": {
+                "enableAt": "2024-09-12T09:00:00.000Z"
+            },
+            "expiresAt": "2024-09-15T09:00:00.000Z",
+            "price": 11630400,
+            "profitPerHour": 75388,
+            "condition": null,
+            "cooldownSeconds": 0,
+            "section": "Specials",
+            "level": 15,
+            "currentProfitPerHour": 67652,
+            "profitPerHourDelta": 7736,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "okx_listing",
+            "name": "OKX listing",
+            "toggle": {
+                "enableAt": "2024-09-13T12:00:00.000Z"
+            },
+            "price": 75000,
+            "profitPerHour": 3500,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 3500,
+            "isAvailable": true,
+            "isExpired": false
+        },
+        {
+            "id": "bybit_listing",
+            "name": "Bybit listing",
+            "toggle": {
+                "enableAt": "2024-09-13T12:00:00.000Z"
+            },
+            "price": 75000,
+            "profitPerHour": 3500,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 3500,
+            "isAvailable": true,
+            "isExpired": false
+        },
+        {
+            "id": "binance_listing",
+            "name": "Binance listing",
+            "toggle": {
+                "enableAt": "2024-09-13T12:00:00.000Z"
+            },
+            "price": 82688,
+            "profitPerHour": 7245,
+            "condition": null,
+            "cooldownSeconds": 0,
+            "section": "Specials",
+            "level": 2,
+            "currentProfitPerHour": 3500,
+            "profitPerHourDelta": 3745,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 10
         }
     ],
     "sections": [
@@ -3369,9 +3464,11 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [],
+        "upgradeIds": [
+            "binance_listing"
+        ],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 58820
+        "remainSeconds": 65566
     }
 }
