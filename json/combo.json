@@ -1,9 +1,9 @@
 {
     "combo": [
-        "okx_listing",
-        "bybit_listing",
-        "binance_listing"
+        "telegram_miniapp_launch",
+        "special_hamster_conference",
+        "twitter_10_million"
     ],
-    "date": "13-09-24",
-    "expires": 1726315200
+    "date": "14-09-24",
+    "expires": 1726401600
 }
