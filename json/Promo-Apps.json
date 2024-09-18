@@ -10,6 +10,8 @@
   { "promoId": "e68b39d2-4880-4a31-b3aa-0393e7df10c7", "appToken": "e68b39d2-4880-4a31-b3aa-0393e7df10c7", "minWaitAfterLogin": 31, "name": "Tile Trio" },
   { "promoId": "04ebd6de-69b7-43d1-9c4b-04a6ca3305af", "appToken": "04ebd6de-69b7-43d1-9c4b-04a6ca3305af", "minWaitAfterLogin": 31, "name": "Stone Age" },
   { "promoId": "bc72d3b9-8e91-4884-9c33-f72482f0db37", "appToken": "bc72d3b9-8e91-4884-9c33-f72482f0db37", "minWaitAfterLogin": 21, "name": "Bouncemasters" },
-  { "promoId": "4bf4966c-4d22-439b-8ff2-dc5ebca1a600", "appToken": "4bf4966c-4d22-439b-8ff2-dc5ebca1a600", "minWaitAfterLogin": 21, "name": "Hide Ball" }
+  { "promoId": "4bf4966c-4d22-439b-8ff2-dc5ebca1a600", "appToken": "4bf4966c-4d22-439b-8ff2-dc5ebca1a600", "minWaitAfterLogin": 21, "name": "Hide Ball" },
+  { "promoId": "4bdc17da-2601-449b-948e-f8c7bd376553", "appToken": "4bdc17da-2601-449b-948e-f8c7bd376553", "minWaitAfterLogin": 31, "name": "Count Masters" },
+  { "promoId": "d2378baf-d617-417a-9d99-d685824335f0", "appToken": "d2378baf-d617-417a-9d99-d685824335f0", "minWaitAfterLogin": 21, "name": "Pin Out Master" }
 ]
 
