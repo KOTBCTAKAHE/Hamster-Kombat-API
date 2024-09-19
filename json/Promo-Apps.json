@@ -14,6 +14,7 @@
   { "promoId": "4bdc17da-2601-449b-948e-f8c7bd376553", "appToken": "4bdc17da-2601-449b-948e-f8c7bd376553", "minWaitAfterLogin": 31, "name": "Count Masters" },
   { "promoId": "d2378baf-d617-417a-9d99-d685824335f0", "appToken": "d2378baf-d617-417a-9d99-d685824335f0", "minWaitAfterLogin": 21, "name": "Pin Out Master" },
   { "promoId": "eb518c4b-e448-4065-9d33-06f3039f0fcb", "appToken": "eb518c4b-e448-4065-9d33-06f3039f0fcb", "minWaitAfterLogin": 21, "name": "Infected Frontier" },
-  { "promoId": "daab8f83-8ea2-4ad0-8dd5-d33363129640", "appToken": "daab8f83-8ea2-4ad0-8dd5-d33363129640", "minWaitAfterLogin": 31, "name": "Among Water" }
+  { "promoId": "daab8f83-8ea2-4ad0-8dd5-d33363129640", "appToken": "daab8f83-8ea2-4ad0-8dd5-d33363129640", "minWaitAfterLogin": 31, "name": "Among Water" },
+  { "promoId": "d02fc404-8985-4305-87d8-32bd4e66bb16", "appToken": "d02fc404-8985-4305-87d8-32bd4e66bb16", "minWaitAfterLogin": 31, "name": "Factory World " }
 ]
 
