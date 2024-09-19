@@ -28,7 +28,7 @@ jobs:
         run: npm run build
 
       - name: Run tests
-        run: npm run test  # Запустите ваши тесты
+        run: npm run 
 
       - name: Deploy to Vercel
         run: |
