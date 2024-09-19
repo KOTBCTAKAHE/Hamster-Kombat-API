@@ -1,9 +1,9 @@
 {
     "combo": [
-        "compliance_officer",
-        "web3_integration",
-        "telegram_miniapp_launch"
+        "security_audition",
+        "staking",
+        "licence_japan"
     ],
-    "date": "18-09-24",
-    "expires": 1726747200
+    "date": "19-09-24",
+    "expires": 1726833600
 }
