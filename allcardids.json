@@ -3325,7 +3325,7 @@
             "currentProfitPerHour": 112753,
             "profitPerHourDelta": 12893,
             "isAvailable": true,
-            "isExpired": false,
+            "isExpired": true,
             "totalCooldownSeconds": 7200
         },
         {
@@ -3356,19 +3356,19 @@
                 "enableAt": "2024-09-12T11:00:00.000Z"
             },
             "expiresAt": "2024-09-19T11:00:00.000Z",
-            "price": 33229713,
-            "profitPerHour": 75388,
+            "price": 72536296,
+            "profitPerHour": 83665,
             "condition": {
                 "_type": "LinkWithoutCheck",
                 "link": "https://youtube.com/@hamsterkombat_official"
             },
-            "cooldownSeconds": 7144,
+            "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 15,
-            "currentProfitPerHour": 67652,
-            "profitPerHourDelta": 7736,
+            "level": 16,
+            "currentProfitPerHour": 75388,
+            "profitPerHourDelta": 8277,
             "isAvailable": true,
-            "isExpired": false,
+            "isExpired": true,
             "totalCooldownSeconds": 7200
         },
         {
@@ -3387,7 +3387,7 @@
             "currentProfitPerHour": 67652,
             "profitPerHourDelta": 7736,
             "isAvailable": true,
-            "isExpired": false,
+            "isExpired": true,
             "totalCooldownSeconds": 7200
         },
         {
@@ -3396,15 +3396,17 @@
             "toggle": {
                 "enableAt": "2024-09-13T12:00:00.000Z"
             },
-            "price": 75000,
-            "profitPerHour": 3500,
+            "price": 54402222,
+            "profitPerHour": 97610,
             "condition": null,
+            "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 1,
-            "currentProfitPerHour": 0,
-            "profitPerHourDelta": 3500,
+            "level": 16,
+            "currentProfitPerHour": 87953,
+            "profitPerHourDelta": 9657,
             "isAvailable": true,
-            "isExpired": false
+            "isExpired": false,
+            "totalCooldownSeconds": 7200
         },
         {
             "id": "bybit_listing",
@@ -3412,15 +3414,17 @@
             "toggle": {
                 "enableAt": "2024-09-13T12:00:00.000Z"
             },
-            "price": 75000,
-            "profitPerHour": 3500,
+            "price": 54402222,
+            "profitPerHour": 97610,
             "condition": null,
+            "cooldownSeconds": 0,
             "section": "Specials",
-            "level": 1,
-            "currentProfitPerHour": 0,
-            "profitPerHourDelta": 3500,
+            "level": 16,
+            "currentProfitPerHour": 87953,
+            "profitPerHourDelta": 9657,
             "isAvailable": true,
-            "isExpired": false
+            "isExpired": false,
+            "totalCooldownSeconds": 7200
         },
         {
             "id": "binance_listing",
@@ -3428,14 +3432,67 @@
             "toggle": {
                 "enableAt": "2024-09-13T12:00:00.000Z"
             },
-            "price": 82688,
-            "profitPerHour": 7245,
+            "price": 124690889,
+            "profitPerHour": 107943,
+            "condition": null,
+            "cooldownSeconds": 4080,
+            "section": "Specials",
+            "level": 17,
+            "currentProfitPerHour": 97610,
+            "profitPerHourDelta": 10333,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "adv_integration_1509",
+            "name": "Chihuahua pet",
+            "toggle": {
+                "enableAt": "2024-09-15T09:00:00.000Z"
+            },
+            "expiresAt": "2024-09-18T09:00:00.000Z",
+            "price": 58189082,
+            "profitPerHour": 92521,
+            "condition": null,
+            "cooldownSeconds": 0,
+            "section": "Specials",
+            "level": 17,
+            "currentProfitPerHour": 83665,
+            "profitPerHourDelta": 8856,
+            "isAvailable": true,
+            "isExpired": true,
+            "totalCooldownSeconds": 7200
+        },
+        {
+            "id": "feat_star",
+            "name": "Feat with a star",
+            "toggle": {
+                "enableAt": "2024-09-19T10:00:00.000Z"
+            },
+            "price": 15000,
+            "profitPerHour": 500,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 500,
+            "isAvailable": true,
+            "isExpired": false
+        },
+        {
+            "id": "water_mars",
+            "name": "Water on Mars",
+            "toggle": {
+                "enableAt": "2024-09-19T10:00:00.000Z"
+            },
+            "price": 13230,
+            "profitPerHour": 621,
             "condition": null,
             "cooldownSeconds": 0,
             "section": "Specials",
             "level": 2,
-            "currentProfitPerHour": 3500,
-            "profitPerHourDelta": 3745,
+            "currentProfitPerHour": 300,
+            "profitPerHourDelta": 321,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 10
@@ -3464,11 +3521,9 @@
         }
     ],
     "dailyCombo": {
-        "upgradeIds": [
-            "binance_listing"
-        ],
+        "upgradeIds": [],
         "bonusCoins": 5000000,
         "isClaimed": false,
-        "remainSeconds": 65566
+        "remainSeconds": 84980
     }
 }
