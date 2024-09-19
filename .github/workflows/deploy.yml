@@ -26,6 +26,10 @@ jobs:
           mkdir -p public
           cp json/* public/
 
+      - name: Create redirect for combo
+        run: |
+          echo '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Redirecting...</title><script>window.location.href="combo.json";</script></head><body><p>Redirecting to <a href="combo.json">combo.json</a>...</p></body></html>' > public/combo
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
