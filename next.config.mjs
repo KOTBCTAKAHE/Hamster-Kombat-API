@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',  // Добавляем статический экспорт
+  output: 'standalone',  // Добавляем статический экспорт
 };
 
 export default nextConfig;
