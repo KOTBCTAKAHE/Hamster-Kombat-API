@@ -1,0 +1,39 @@
+name: Deploy Next.js App
+
+on:
+  push:
+    branches:
+      - main  # Запускать при пуше в ветку main
+  pull_request:
+    branches:
+      - main  # Запускать при создании pull request в ветку main
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'  # Убедитесь, что версия соответствует Next.js
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the app
+        run: npm run build
+
+      - name: Run tests
+        run: npm run test  # Запустите ваши тесты
+
+      - name: Deploy to Vercel
+        run: |
+          npm install -g vercel
+          vercel --prod --token=$VERCEL_TOKEN
+
+    env:
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}  # Убедитесь, что токен Vercel добавлен в секреты репозитория
