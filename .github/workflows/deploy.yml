@@ -1,13 +1,14 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Runs on push to the main branch
   push:
     branches:
       - main
-
-  # Allows to manually trigger the workflow from GitHub Actions tab
   workflow_dispatch:
+
+permissions:
+  pages: write
+  id-token: write
 
 jobs:
   deploy:
@@ -15,10 +16,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v3
 
       - name: Copy files to public folder
         run: |
@@ -26,4 +27,4 @@ jobs:
           cp -r json/* public/
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v3
