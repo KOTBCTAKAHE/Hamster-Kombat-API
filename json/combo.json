@@ -1,9 +1,9 @@
 {
     "combo": [
-        "support_team",
-        "dao",
-        "telegram_50m"
+        "none",
+        "none",
+        "none"
     ],
-    "date": "20-09-24",
-    "expires": 1726920000
+    "date": "none",
+    "expires": none
 }
