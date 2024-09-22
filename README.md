@@ -10,7 +10,7 @@
 **Запрос:**
 
 ```http
-GET https://api21.datavibe.top/Games
+GET https://api21.datavibe.top/api/Games
 ```
 
 **Ответ:**
@@ -32,7 +32,7 @@ API возвращает JSON-массив, содержащий следующ�
     "appToken": "d1690a07-3780-4068-810f-9b5bbf2931b2",
     "minWaitAfterLogin": 21,
     "name": "Chain Cube 2048",
-    "image_url": "https://cdn.hamsterkombat.io/chain_cube_2048/image.webp"
+    "image_url": "https://cdn.hamsterkombat.io/chain_cube/image.webp"
   },
   {
     "promoId": "c4480ac7-e178-4973-8061-9ed5b2e17954",
