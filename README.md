@@ -1,259 +1,54 @@
-# Сервер комбо карт хомяка
 
-Это проект на Next.js, развернутый на Vercel, который предоставляет API для получения комбо карт хомяка.
+# API Игр
 
-![GitHub Repo Stars](https://img.shields.io/github/stars/KOTBCTAKAHE/hamster-kombo-server?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/KOTBCTAKAHE/hamster-kombo-server?style=social)
-![GitHub Issues](https://img.shields.io/github/issues/KOTBCTAKAHE/hamster-kombo-server)
-![GitHub License](https://img.shields.io/github/license/KOTBCTAKAHE/hamster-kombo-server)
+Этот репозиторий пока что предоставляет API для получения списка игр. В будущем, если будут комбо, то комбо также будет предоставлятся.
 
-## Навигация
+## Эндпоинт API
 
-- [Установка и запуск](#установка-и-запуск)
-  - [Требования](#требования)
-  - [Установка](#установка)
-  - [Запуск](#запуск)
-- [API](#api)
-  - [Получение комбо карт](#получение-комбо-карт)
-- [Примеры использования API](#примеры-использования-api)
-  - [Python](#python)
-  - [JavaScript (Node.js)](#javascript-nodejs)
-  - [Java](#java)
-  - [C#](#c)
-  - [Go](#go)
-  - [Flutter (Dart)](#flutter-dart)
-- [Статистика репозитория](#статистика-репозитория)
-- [Поддержите меня](#поддержите-меня)
+### Получить список игр
 
-## Установка и запуск
+**Запрос:**
 
-### Требования
+```http
+GET https://api21.datavibe.top/Games
+```
 
-- Node.js (версия 12.x или выше)
-- npm (версия 6.x или выше)
+**Ответ:**
 
-### Установка
+API возвращает JSON-массив, содержащий следующие поля для каждой игры:
 
-1. Клонируйте репозиторий:
-
-    ```bash
-    git clone https://github.com/KOTBCTAKAHE/hamster-kombo-server
-    cd hamster-kombo-server
-    ```
-
-2. Установите зависимости:
-
-    ```bash
-    npm install
-    ```
-
-### Запуск 
-
-1. Запустите сервер разработки:
-
-    ```bash
-    npm run dev
-    ```
-
-2. Откройте [http://localhost:3000](http://localhost:3000) в браузере.
-
-## API
-
-### Получение комбо карт
-
-**URL:** `/api/GetCombo`
-
-**Метод:** `GET`
+- `promoId`: Уникальный идентификатор игры.
+- `appToken`: Токен для доступа к игре.
+- `minWaitAfterLogin`: Минимальное время ожидания после входа в систему (в секундах).
+- `name`: Название игры.
+- `image_url`: URL изображения игры.
 
 **Пример ответа:**
 
 ```json
-{
-  "combo": ["card1", "card2", "card3"],
-  "date": "dd-mm-yy"
-}
+[
+  {
+    "promoId": "b4170868-cef0-424f-8eb9-be0622e8e8e3",
+    "appToken": "d1690a07-3780-4068-810f-9b5bbf2931b2",
+    "minWaitAfterLogin": 21,
+    "name": "Chain Cube 2048",
+    "image_url": "https://cdn.hamsterkombat.io/chain_cube_2048/image.webp"
+  },
+  {
+    "promoId": "c4480ac7-e178-4973-8061-9ed5b2e17954",
+    "appToken": "82647f43-3f87-402d-88dd-09a90025313f",
+    "minWaitAfterLogin": 21,
+    "name": "Train Miner",
+    "image_url": "https://cdn.hamsterkombat.io/train_miner/image.webp"
+  },
+  ...
+]
 ```
 
-## Примеры использования API
+## Использование
 
-### Python
+Чтобы получить список игр, просто отправьте GET-запрос на указанный выше эндпоинт. Ответ будет содержать информацию обо всех доступных играх.
 
-```python
-import requests
+## Лицензия
 
-url = "https://hamster-kombo-server.vercel.app/api/GetCombo"
-response = requests.get(url)
-
-if response.status_code == 200:
-    data = response.json()
-    combo = data["combo"]
-    date = data["date"]
-    print(f"Combo: {combo}")
-    print(f"Date: {date}")
-else:
-    print(f"Error: {response.status_code}")
-```
-
-### JavaScript (Node.js)
-
-```javascript
-const fetch = require('node-fetch');
-
-const url = 'https://hamster-kombo-server.vercel.app/api/GetCombo';
-
-fetch(url)
-    .then(response => response.json())
-    .then(data => {
-        const combo = data.combo;
-        const date = data.date;
-        console.log(`Combo: ${combo}`);
-        console.log(`Date: ${date}`);
-    })
-    .catch(error => console.error('Error:', error));
-```
-
-### Java
-
-```java
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
-
-public class Main {
-    public static void main(String[] args) {
-        try {
-            URL url = new URL("https://hamster-kombo-server.vercel.app/api/GetCombo");
-            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-            conn.setRequestMethod("GET");
-
-            BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-            String inputLine;
-            StringBuffer content = new StringBuffer();
-            while ((inputLine = in.readLine()) != null) {
-                content.append(inputLine);
-            }
-            in.close();
-
-            JsonObject json = JsonParser.parseString(content.toString()).getAsJsonObject();
-            String combo = json.getAsJsonArray("combo").toString();
-            String date = json.get("date").getAsString();
-            System.out.println("Combo: " + combo);
-            System.out.println("Date: " + date);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### C#
-
-```csharp
-using System;
-using System.Net.Http;
-using System.Threading.Tasks;
-using Newtonsoft.Json.Linq;
-
-class Program
-{
-    private static async Task Main(string[] args)
-    {
-        using (HttpClient client = new HttpClient())
-        {
-            HttpResponseMessage response = await client.GetAsync("https://hamster-kombo-server.vercel.app/api/GetCombo");
-            response.EnsureSuccessStatusCode();
-            string responseBody = await response.Content.ReadAsStringAsync();
-
-            JObject data = JObject.Parse(responseBody);
-            JArray combo = (JArray)data["combo"];
-            string date = (string)data["date"];
-
-            Console.WriteLine($"Combo: {combo}");
-            Console.WriteLine($"Date: {date}");
-        }
-    }
-}
-```
-
-### Go
-
-```go
-package main
-
-import (
-    "encoding/json"
-    "fmt"
-    "io/ioutil"
-    "net/http"
-)
-
-type Response struct {
-    Combo []string `json:"combo"`
-    Date  string   `json:"date"`
-}
-
-func main() {
-    resp, err := http.Get("https://hamster-kombo-server.vercel.app/api/GetCombo")
-    if err != nil {
-        fmt.Println("Error:", err)
-        return
-    }
-    defer resp.Body.Close()
-
-    body, err := ioutil.ReadAll(resp.Body)
-    if err != nil {
-        fmt.Println("Error:", err)
-        return
-    }
-
-    var data Response
-    if err := json.Unmarshal(body, &data); err != nil {
-        fmt.Println("Error:", err)
-        return
-    }
-
-    fmt.Printf("Combo: %v\n", data.Combo)
-    fmt.Printf("Date: %s\n", data.Date)
-}
-```
-
-### Flutter (Dart)
-
-```dart
-import 'package:http/http.dart' as http;
-import 'dart:convert';
-
-void fetchCombo() async {
-  final url = 'https://hamster-kombo-server.vercel.app/api/GetCombo';
-  final response = await http.get(Uri.parse(url));
-
-  if (response.statusCode == 200) {
-    final data = json.decode(response.body);
-    final combo = data['combo'];
-    final date = data['date'];
-    print('Combo: $combo');
-    print('Date: $date');
-  } else {
-    print('Error: ${response.statusCode}');
-  }
-}
-```
-
-Эти примеры демонстрируют, как сделать GET-запрос к API сервера комбо карт хомяка, обработать ответ и вывести значения `combo` и `date` на различных языках программирования.
-
-## Статистика репозитория
-
-![GitHub Repo Size](https://img.shields.io/github/repo-size/KOTBCTAKAHE/hamster-kombo-server)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/KOTBCTAKAHE/hamster-kombo-server)
-![GitHub Language Count](https://img.shields.io/github/languages/count/KOTBCTAKAHE/hamster-kombo-server)
-![GitHub Top Language](https://img.shields.io/github/languages/top/KOTBCTAKAHE/hamster-kombo-server)
-
-![GitHub Contributors](https://img.shields.io/github/contributors/KOTBCTAKAHE/hamster-kombo-server)
-![GitHub Watchers](https://img.shields.io/github/watchers/KOTBCTAKAHE/hamster-kombo-server?style=social)
-
-## Поддержите меня
-
-Если вам нравится этот проект, пожалуйста, поддержите меня, поставив звезду на [GitHub репозитории](https://github.com/KOTBCTAKAHE/hamster-kombo-server).
+Этот проект лицензирован по лицензии Beerware. Если вам нравится этот проект, купите мне пиво!
