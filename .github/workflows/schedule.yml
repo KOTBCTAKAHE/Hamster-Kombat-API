@@ -1,20 +1,40 @@
+name: Fetch Data and Commit JSON
+
+# Запуск каждые 15 минут
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+
 jobs:
   fetch_and_commit:
     runs-on: ubuntu-latest
 
     steps:
+    # Шаг для получения кода из репозитория
     - name: Checkout Repository
       uses: actions/checkout@v3
 
+    # Шаг для установки Node.js
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
         node-version: '18'
 
+    # Шаг для установки зависимостей (если они есть)
     - name: Install Dependencies
       run: npm install
 
+    # Запуск скрипта для получения данных
     - name: Run Fetch Script
       run: node fetchData.js
       env:
         TOKEN: ${{ secrets.TOKEN }}  # Устанавливаем переменную окружения
+
+    # Добавление и коммит изменений в файл json/all_card_ids.json
+    - name: Commit changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add json/all_card_ids.json
+        git commit -m "Update all_card_ids.json"
+        git push
