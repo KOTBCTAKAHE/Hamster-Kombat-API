@@ -1,6 +1,7 @@
-import fs from 'fs';
-import path from 'path';
-import cloudflareScraper from 'cloudflare-scraper'; // Используем import
+require('dotenv').config();
+const https = require('https');
+const fs = require('fs');
+const path = require('path');
 
 // Получаем токен из переменной окружения
 const authorizationToken = process.env.AUTHORIZATION_TOKEN || process.env.TOKEN;
@@ -10,8 +11,10 @@ if (!authorizationToken) {
   process.exit(1);
 }
 
+// Определяем заголовки запроса
 const options = {
-  uri: 'https://api.hamsterkombatgame.io/interlude/upgrades-for-buy',
+  hostname: 'api.hamsterkombatgame.io',
+  path: '/interlude/upgrades-for-buy',
   method: 'POST',
   headers: {
     'authority': 'api.hamsterkombatgame.io',
@@ -29,22 +32,32 @@ const options = {
   }
 };
 
-async function main() {
-  try {
-    // Делаем запрос с использованием cloudflare-scraper
-    const response = await cloudflareScraper.request(options);
+const request = https.request(options, (res) => {
+  let data = '';
 
-    const filePath = path.join(path.resolve(), 'json', 'all_card_ids.json');
+  // Получаем ответ
+  res.on('data', (chunk) => {
+    data += chunk;
+  });
 
+  res.on('end', () => {
+    // Путь к json-файлу
+    const filePath = path.join(__dirname, 'json', 'all_card_ids.json');
+
+    // Проверяем, существует ли директория
     if (!fs.existsSync(path.dirname(filePath))) {
       fs.mkdirSync(path.dirname(filePath), { recursive: true });
     }
 
-    fs.writeFileSync(filePath, response, 'utf-8');
+    // Записываем данные в файл
+    fs.writeFileSync(filePath, data, 'utf-8');
     console.log('Data saved to json/all_card_ids.json');
-  } catch (error) {
-    console.error(`Error making request: ${error.message}`);
-  }
-}
+  });
+});
 
-main();
+request.on('error', (e) => {
+  console.error(`Problem with request: ${e.message}`);
+});
+
+// Завершаем запрос
+request.end();
