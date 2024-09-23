@@ -1,7 +1,7 @@
 require('dotenv').config();
-const https = require('https');
 const fs = require('fs');
 const path = require('path');
+const cloudflareScraper = require('cloudflare-scraper');
 
 // Получаем токен из переменной окружения
 const authorizationToken = process.env.AUTHORIZATION_TOKEN || process.env.TOKEN;
@@ -13,8 +13,7 @@ if (!authorizationToken) {
 
 // Определяем заголовки запроса
 const options = {
-  hostname: 'api.hamsterkombatgame.io',
-  path: '/interlude/upgrades-for-buy',
+  uri: 'https://api.hamsterkombatgame.io/interlude/upgrades-for-buy',
   method: 'POST',
   headers: {
     'authority': 'api.hamsterkombatgame.io',
@@ -32,15 +31,9 @@ const options = {
   }
 };
 
-const request = https.request(options, (res) => {
-  let data = '';
-
-  // Получаем ответ
-  res.on('data', (chunk) => {
-    data += chunk;
-  });
-
-  res.on('end', () => {
+// Делаем запрос с использованием cloudflare-scraper
+cloudflareScraper.request(options)
+  .then((response) => {
     // Путь к json-файлу
     const filePath = path.join(__dirname, 'json', 'all_card_ids.json');
 
@@ -50,14 +43,9 @@ const request = https.request(options, (res) => {
     }
 
     // Записываем данные в файл
-    fs.writeFileSync(filePath, data, 'utf-8');
+    fs.writeFileSync(filePath, response, 'utf-8');
     console.log('Data saved to json/all_card_ids.json');
+  })
+  .catch((error) => {
+    console.error(`Error making request: ${error.message}`);
   });
-});
-
-request.on('error', (e) => {
-  console.error(`Problem with request: ${e.message}`);
-});
-
-// Завершаем запрос
-request.end();
