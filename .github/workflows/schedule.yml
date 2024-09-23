@@ -45,4 +45,4 @@ jobs:
         git commit -m "Update all_card_ids.json"
         git push
       env:
-        GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}  # Используем токен GitHub для пуша
+        REPO_ACCESS_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}  # Используем новый секрет
