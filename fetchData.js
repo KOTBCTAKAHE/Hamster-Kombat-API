@@ -36,7 +36,7 @@ async function main() {
 
   try {
     // Делаем запрос с использованием cloudflare-scraper
-    const response = await cloudflareScraper.default.request(options);
+    const response = await cloudflareScraper.request(options);
 
     // Путь к json-файлу
     const filePath = path.join(__dirname, 'json', 'all_card_ids.json');
