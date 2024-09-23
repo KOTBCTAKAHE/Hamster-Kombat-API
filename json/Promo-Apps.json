@@ -2,7 +2,6 @@
   { "promoId": "b4170868-cef0-424f-8eb9-be0622e8e8e3", "appToken": "d1690a07-3780-4068-810f-9b5bbf2931b2", "minWaitAfterLogin": 21, "name": "Chain Cube 2048", "image_url": "https://cdn.hamsterkombat.io/chain_cube/image.webp" },
   { "promoId": "c4480ac7-e178-4973-8061-9ed5b2e17954", "appToken": "82647f43-3f87-402d-88dd-09a90025313f", "minWaitAfterLogin": 21, "name": "Train Miner", "image_url": "https://cdn.hamsterkombat.io/train_miner/image.webp" },
   { "promoId": "dc128d28-c45b-411c-98ff-ac7726fbaea4", "appToken": "8d1cc2ad-e097-4b86-90ef-7a27e19fb833", "minWaitAfterLogin": 21, "name": "Merge Away", "image_url": "https://cdn.hamsterkombat.io/merge_away/image.webp" },
-  { "promoId": "61308365-9d16-4040-8bb0-2f4a4c69074c", "appToken": "61308365-9d16-4040-8bb0-2f4a4c69074c", "minWaitAfterLogin": 21, "name": "Twerk Race 3D", "image_url": "https://cdn.hamsterkombat.io/twerk_race_3d/image.webp" },
   { "promoId": "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71", "appToken": "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71", "minWaitAfterLogin": 31, "name": "Polysphere", "image_url": "https://cdn.hamsterkombat.io/polysphere/image.webp" },
   { "promoId": "ef319a80-949a-492e-8ee0-424fb5fc20a6", "appToken": "ef319a80-949a-492e-8ee0-424fb5fc20a6", "minWaitAfterLogin": 31, "name": "Mow and Trim", "image_url": "https://cdn.hamsterkombat.io/mow_and_trim/image.webp" },
   { "promoId": "b2436c89-e0aa-4aed-8046-9b0515e1c46b", "appToken": "b2436c89-e0aa-4aed-8046-9b0515e1c46b", "minWaitAfterLogin": 21, "name": "Zoopolis", "image_url": "https://cdn.hamsterkombat.io/zoopolis/image.webp" },
