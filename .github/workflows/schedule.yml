@@ -33,5 +33,11 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add json/all_card_ids.json
-        git commit -m "Update all_card_ids.json"
-        git push https://x-access-token:${{ secrets.REPO_ACCESS_TOKEN }}@github.com/KOTBCTAKAHE/Hamster-Kombat-API.git
+
+        # Проверка наличия изменений перед коммитом
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Update all_card_ids.json"
+          git push https://x-access-token:${{ secrets.REPO_ACCESS_TOKEN }}@github.com/KOTBCTAKAHE/Hamster-Kombat-API.git
+        fi
