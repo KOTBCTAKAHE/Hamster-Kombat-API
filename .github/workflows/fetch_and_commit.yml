@@ -37,8 +37,5 @@ jobs:
         git add json/all_card_ids.json
 
         # Проверка наличия изменений перед коммитом
-        if git diff --cached --quiet; then
-          echo "No changes to commit"
-        else
-          git commit -m "Update all_card_ids.json"
-          git push https://x-access-token:${{ secrets.REPO_ACCESS_TOKEN }}@github.com/KOTBCTAKAHE/Hamster-Kombat-API.git
+        git diff --cached --quiet || git commit -m "Update all_card_ids.json"
+        git push https://x-access-token:${{ secrets.REPO_ACCESS_TOKEN }}@github.com/KOTBCTAKAHE/Hamster-Kombat-API.git
