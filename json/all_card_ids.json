@@ -1,1 +1,125 @@
-<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;max-width:60rem;padding-left:1.5rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{font-size:1.5rem;font-weight:500;line-height:2.25rem}@media (width <= 720px){.h2{font-size:1.25rem;line-height:1.5rem}}#challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+);background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme:dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv="refresh" content="390"></head><body class="no-js"><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt={cvId: '3',cZone: "api.hamsterkombatgame.io",cType: 'managed',cNounce: '58942',cRay: '8c7be06fe8216459',cHash: 'c49641e01d1cc77',cUPMDTk: "\/interlude\/upgrades-for-buy?__cf_chl_tk=lHzwADpcY685kzXNZ1vA5W4iwiJdoMuFWQF1UgJI9KM-1727108579-0.0.1.1-2600",cFPWv: 'g',cTTimeMs: '1000',cMTimeMs: '390000',cTplV: 5,cTplB: 'cf',cK: "",fa: "\/interlude\/upgrades-for-buy?__cf_chl_f_tk=lHzwADpcY685kzXNZ1vA5W4iwiJdoMuFWQF1UgJI9KM-1727108579-0.0.1.1-2600",md: "mcOHB.gOntpSwMdM8TMiUTz_6zWO6QWPdg8sGB3DdBo-1727108579-1.1.1.1-GjEkrh5rumeCETKsQfncuYSRejfgDFQ7yDEr.M_ArEv3Kq6seb7qj.Knf7C86k3Upok5sFxk4wOB1Sl8pKUSxggzUZTPe0igJYdaM573_z1J.YvGBh6Dz87CmQnmqkrYVPIjn2nU5J_zlvCAKdhckLAcWpDY5N_fzw5UpcjNROrlwBG0fR74Ff46yQzOd0RCkG4q9z71pPzw.qO0_PWmOtqFcI8JS2XPKOWzVcX5SBqpLZzgYCFOA3vehqhyJmDJXfEwHaygvOl8ZjXmht9PyM5Fr87mLOB.91TbtkPok9htokFdCtLAEUQAqZ84q0oWg5BbKkVWIoy.kmlGLF7jYnWCpv8hJYayu54Ud32IB7NdHKWCJBznNzGvpcuDmZRAevwM63E83q0i5vd6j98bSxULMrUVpIyR8pF52bXwED2__oBZYmhUq2FST5T1_ojgY1Vf2fhZpQ3ov_SqPxBnR_IZ5IwJnUQoMQMcKdP4Rq6pEk3puk5eJKSGAJGgbJMQ2rGgvyeITLfqpRsC9LKsimUwwlr94RkE.0hE94V78Jv4TBWVQD9aArpAHE9R83XUqnw5LXYc5R5wfMQlwVvjcAemSmt7uJp5V2xSEHjoZwH1CpWgf8u0qEz17KN991eqK_WzPkrfok_GYFJdmC6q2GxhElWBPDEfBF8sduZru6vuDbM3SmV4thzMJftNjqD0u8UJm8_uQ9lztg6n_IuK5iBC4wB06pgiSXTbMTTEJ39EQMD4ygWw9pfIKmmcFtLxGJH9kE5tu4J32_HYfffC3qb.NSSrqPnuhLpngXdJTfwaCgmHGI0JfPrIjYiQkhprx_qR3s0XXRkwGsDS.5yBDcOH28P4nD48nKcpV9f0vU7ULDqhKPTlTE9RC_qKvb8c9gZMCr74f_9o43H_mdeOom1JLJQcLbA6rdgcu3mHPmyFPXDF1Ik6CdskdOArLPap69nAq1AblaILbeqGaIP_GYt0qK2ZE.jR7y1pJ3Nk72THjR4gt8iTyGaCUvnTGftUuERC.yS5annkgUXYBWQ1i3PIFX58N8moHlQCZfMqJjFp17vvSeXvXCg2in0rK8hueOsnItF6aZmqcnUG8OgiyQauRWcpE0_J8rOL3UIMf2pWY0dm9hKf3SZSahmI1gFUJ_FwNbBXmdxELp.H8vfz71MGO5_JcbpztMF8r_77YhWLHxWHilut9Qcsqt9XwfKEhsh2gcOGc8TR5P_M9Sm4ccPdWqbo0rceWqqQ9Vdqft76j9iU3cnQ_e_sDGnD5QV1t7LBAEk.YQlUNnhkbhWjmuzPxU5cATNl6o8JUoAXdeKBV062bY2geXE_kudlFF64v08t0hfV6.nSrSf3ZxLnVqPrZ4MhFIZ778QJWQmGnS69.BuiJmqb3HgPYi9MryaPYAKE1jwei2wN588fhQLaQH9vnkxV.diqGxgjC5K_LMJwFZPhF01.RkfVPd1Y2XEWyx2rSd2ZfHOUuVBgq3Iwzyto3B3g57sr9nqUHQyBrSl9xxt7xMWLZnH09yJ_Z_VCrqR7qAEGPLV5GWfvYyQMA6Rx5u_ai8zfIQVIBzbADemBfsOWEZM1pofw02AKkCMbUDvucx7AbIAZiEPzBCTPSe7HqShA_jKEjPITfuUrcGSXrnFJzD7AVa2Pn5.w7.vJyNrgHlOAqZ8pxEF3xP3DmzN0_L.dkzVJMOMuAvsECpSuWGVP9aB1mdm6bp.dIdQA.AO3O9gXziH2zIyVBeSR76thWGwoDKm28ssnKuhj3KKB8JnrroY.1A_emV6nCRea9Qsch_5sxTPlKjE.96ROT9A9hdxULw80u0Gt4Ly7ynZJV7YTOdBjR8jTFnIoxzoUeX3lMtu9vgrQMvYkzprtlkVbuveF.tVBDm.MKnW3hxm6NmmpsuYFXd_gIV9rSfGPchmPipL1DfeidsqA0LU7CFb.Nv3b9FDc7ZOvhD6fFxGyA82VEV05ZHAVf3cNHJ_deGi_1nTIEf7KLRizoygwweNDNBOcAU0pHrxnjjFp89mjRv76avJ25OxXHMv8oMwpWa70P2iMizA1zqjnPT4mzPCPSKakrp08qKed2YM7TNMsbyp5jLAzWj9UmrynjDWTtzaT_jD2QrVSuNcK7B_b147We8oN6gVY6p5jxcbG0h5SCrSebrN90m9kzadDFGNYOmiRpllYcMsA13eMt_Y0i1fVq7UrsnAWN3ZpjjOfSa.Ix0RenKSPjsci281kyk.ej4mYKhHriH3Y1qG4.TysJYk5Gv9SAn8_EDWuyxQF.Bpo6UUWo3mJ9hcv9VOP.nGwIJLe.eWVRLyTvdVHMVN5d9x26ZCySJRXPrBZTJETth6HQ_Y_F5VhMDU_fGRWPSgOl775gaquqaZGkSF0imjMfrlL9eikxxQ38vmdm6NFjHy1ur2zSp9Vjs8kjptI3mrJD.Fz3ehcuGDQEoDX3ZOeXgQGXPxKQsPuj2xQ0Q.xKFI",mdrd: "UPW7Ip61Wrd7RTQTXMfQ0KbwUXMRz5TG6VFNsYWQ25U-1727108579-0.1.1.1",cRq: {ru: 'aHR0cHM6Ly9hcGkuaGFtc3RlcmtvbWJhdGdhbWUuaW8vaW50ZXJsdWRlL3VwZ3JhZGVzLWZvci1idXk=',ra: 'TW96aWxsYS81LjAgKExpbnV4OyBBbmRyb2lkIDEwOyBLKSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTI0LjAuMC4wIE1vYmlsZSBTYWZhcmkvNTM3LjM2',d: 'x/5r0kdF6znV4UE/5EvmYv67/lWzPcarhSprgfs3kCQ/P5oetTWxSBg083WbOD4SjD9/UGS+AHX8v51TwM9+QNuuHrCaO4SCRvPLF5oo1TL+mO1fFPL4fvAnbTiabmXHMOMkqjSM+D2K89P/Euqub0siLoxgPJQ4nRUFP8x8ECt2h+4w3eC91R9UKaanlCYRJ5sYn+9OS4IR/VSeOGB/5C6/ieohTpKzF1aN4onq49ARHryc76LdI4fFic32Bbst69nQRD0KsbLiT1xMEKeZvwl0taVACdLY/sSuT1mdWQ/M7nFZmw6XAV/dF3m48/LYEfR+7jhtzd+YIoIaEdmdEE1EPZgPYnrpOKwe5i4zIL3t51cevJMOl/ohhTvwBJ/DQPMwc7Dw/fRIDL3sZAAhk6hHPfT+fhs7TZx6ITE5XTucgkyxGCqSr3M3WgySDRq61+FupSMs06iMlnH+rjOXHCPwvSbJra0aENE5aaESskQLeAm+nQyQ9SWJ3AM8v3axHGv75ZzUO4j//NEvO6OLDoS6QQ6FusYQPPo9uwWSYfEeu++e6MyRgYHyPG84aNUr',t: 'MTcyNzEwODU3OS4wMDAwMDA=',cT: Math.floor(Date.now() / 1000),m: 'FUuhzBbX7E2k5KHPyGTr35tamXckqI+b3Sj4PXBdLQU=',i1: 'q5HimZ/owCoOR2Pm2DpA3A==',i2: 'STezMAJ8rsFL+eC0ClPclg==',zh: 'dhhwvaLkhQoQGsTRTv50LRgu00apCIBT1/RgCUZ77W0=',uh: 'mSs/5lONlz8yLyl1SkqCnQaENIORJgsjDO0OHJ35zaA=',hh: 'LaJTt0W0XGIiEuHrUkn/U6PVoHJoBH5xlt8YAxqjVGA=',}};var cpo = document.createElement('script');cpo.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=8c7be06fe8216459';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null, "\/interlude\/upgrades-for-buy?__cf_chl_rt_tk=lHzwADpcY685kzXNZ1vA5W4iwiJdoMuFWQF1UgJI9KM-1727108579-0.0.1.1-2600" + window._cf_chl_opt.cOgUHash);cpo.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(cpo);}());</script></body></html>
+{
+    "upgradesForBuy": [
+        {
+            "id": "int_business_units",
+            "name": "Business units",
+            "price": 17.11,
+            "profitPerHour": 1.198,
+            "condition": null,
+            "cooldownSeconds": 18626,
+            "section": "Specials",
+            "level": 9,
+            "currentProfitPerHour": 1.026,
+            "profitPerHourDelta": 0.172,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 21600
+        },
+        {
+            "id": "int_startup_acquisition",
+            "name": "Startup acquisition",
+            "price": 17.11,
+            "profitPerHour": 1.198,
+            "condition": null,
+            "cooldownSeconds": 18621,
+            "section": "Specials",
+            "level": 9,
+            "currentProfitPerHour": 1.026,
+            "profitPerHourDelta": 0.172,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 21600
+        },
+        {
+            "id": "int_time_for_savings",
+            "name": "Time for savings",
+            "price": 8.56,
+            "profitPerHour": 0.599,
+            "condition": null,
+            "cooldownSeconds": 18624,
+            "section": "Specials",
+            "level": 9,
+            "currentProfitPerHour": 0.513,
+            "profitPerHourDelta": 0.086,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 21600
+        },
+        {
+            "id": "int_dev_culture",
+            "name": "Dev culture",
+            "price": 8.56,
+            "profitPerHour": 0.599,
+            "condition": null,
+            "cooldownSeconds": 18619,
+            "section": "Specials",
+            "level": 9,
+            "currentProfitPerHour": 0.513,
+            "profitPerHourDelta": 0.086,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 21600
+        },
+        {
+            "id": "int_year_strategy",
+            "name": "Year strategy",
+            "price": 0,
+            "profitPerHour": 0.358,
+            "condition": null,
+            "cooldownSeconds": 0,
+            "section": "Specials",
+            "maxLevel": 5,
+            "level": 6,
+            "currentProfitPerHour": 0.28800000000000003,
+            "profitPerHourDelta": 0.07,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 21600
+        },
+        {
+            "id": "adv_integration_1809",
+            "name": "New hairstyle",
+            "toggle": {
+                "enableAt": "2024-09-21T09:00:00.000Z"
+            },
+            "expiresAt": "2024-09-24T09:00:00.000Z",
+            "price": 3.73,
+            "profitPerHour": 0.865,
+            "condition": null,
+            "cooldownSeconds": 18622,
+            "section": "Specials",
+            "level": 7,
+            "currentProfitPerHour": 0.715,
+            "profitPerHourDelta": 0.15,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 21600
+        },
+        {
+            "id": "int_hamster_racer",
+            "name": "Hamster racer",
+            "price": 1.2,
+            "profitPerHour": 0.07,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.07,
+            "isAvailable": true,
+            "isExpired": false
+        },
+        {
+            "id": "int_visiting_a_zoo",
+            "name": "Visiting a zoo",
+            "price": 1.2,
+            "profitPerHour": 0.07,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.07,
+            "isAvailable": true,
+            "isExpired": false
+        }
+    ]
+}
