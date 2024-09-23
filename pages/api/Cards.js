@@ -1,6 +1,6 @@
 export default function handler(req, res) {
   // Импортируем данные из JSON-файла
-  const data = require('../../json/Promo-Apps.json');
+  const data = require('../../json/all_card_ids.json');
 
   // Устанавливаем заголовок для JSON
   res.setHeader('Content-Type', 'application/json');
