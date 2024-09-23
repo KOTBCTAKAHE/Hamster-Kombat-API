@@ -1,4 +1,4 @@
-name: Fetch Data and Commit JSON #
+name: Fetch Data and Commit JSON ##
 
 on:
   push:
