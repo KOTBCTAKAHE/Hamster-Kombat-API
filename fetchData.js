@@ -1,11 +1,9 @@
 require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
+const cloudflareScraper = require('cloudflare-scraper'); // Возвращаем require
 
 async function main() {
-  // Динамический импорт cloudflare-scraper
-  const cloudflareScraper = await import('cloudflare-scraper');
-
   // Получаем токен из переменной окружения
   const authorizationToken = process.env.AUTHORIZATION_TOKEN || process.env.TOKEN;
 
