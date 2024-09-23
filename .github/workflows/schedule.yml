@@ -1,13 +1,9 @@
 name: Fetch Data and Commit JSON
 
-# Триггеры для запуска workflow
 on:
-  # Запуск при коммите в основную ветку (например, main)
   push:
     branches:
       - main
-
-  # Запуск по расписанию каждые 15 минут
   schedule:
     - cron: '*/15 * * * *'
 
@@ -16,33 +12,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # Шаг для получения кода из репозитория
     - name: Checkout Repository
       uses: actions/checkout@v3
 
-    # Установка Node.js
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
         node-version: '18'
 
-    # Установка зависимостей, включая dotenv
     - name: Install Dependencies
       run: npm install dotenv
 
-    # Запуск скрипта для получения данных
     - name: Run Fetch Script
       run: node fetchData.js
       env:
-        TOKEN: ${{ secrets.TOKEN }}  # Устанавливаем переменную окружения
+        TOKEN: ${{ secrets.TOKEN }}
 
-    # Добавление и коммит изменений в файл json/all_card_ids.json
     - name: Commit changes
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add json/all_card_ids.json
         git commit -m "Update all_card_ids.json"
-        git push
-      env:
-        REPO_ACCESS_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}  # Используем новый секрет
+        git push https://x-access-token:${{ secrets.REPO_ACCESS_TOKEN }}@github.com/KOTBCTAKAHE/Hamster-Kombat-API.git
