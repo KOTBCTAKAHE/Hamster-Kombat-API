@@ -20,15 +20,15 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v3
 
-    # Шаг для установки Node.js
+    # Установка Node.js
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
         node-version: '18'
 
-    # Шаг для установки зависимостей (если они есть)
+    # Установка зависимостей, включая dotenv
     - name: Install Dependencies
-      run: npm install
+      run: npm install dotenv
 
     # Запуск скрипта для получения данных
     - name: Run Fetch Script
