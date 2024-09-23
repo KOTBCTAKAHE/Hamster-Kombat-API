@@ -1,7 +1,13 @@
 name: Fetch Data and Commit JSON
 
-# Запуск каждые 15 минут
+# Триггеры для запуска workflow
 on:
+  # Запуск при коммите в основную ветку (например, main)
+  push:
+    branches:
+      - main
+
+  # Запуск по расписанию каждые 15 минут
   schedule:
     - cron: '*/15 * * * *'
 
