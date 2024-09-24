@@ -6,7 +6,7 @@
             "price": 47.68,
             "profitPerHour": 1.579,
             "condition": null,
-            "cooldownSeconds": 10922,
+            "cooldownSeconds": 9594,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 1.382,
@@ -21,7 +21,7 @@
             "price": 47.68,
             "profitPerHour": 1.579,
             "condition": null,
-            "cooldownSeconds": 10919,
+            "cooldownSeconds": 9591,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 1.382,
@@ -36,7 +36,7 @@
             "price": 23.84,
             "profitPerHour": 0.789,
             "condition": null,
-            "cooldownSeconds": 10917,
+            "cooldownSeconds": 9589,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 0.691,
@@ -51,7 +51,7 @@
             "price": 23.84,
             "profitPerHour": 0.789,
             "condition": null,
-            "cooldownSeconds": 10916,
+            "cooldownSeconds": 9588,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 0.691,
@@ -86,13 +86,13 @@
             "price": 8.56,
             "profitPerHour": 1.198,
             "condition": null,
-            "cooldownSeconds": 10910,
+            "cooldownSeconds": 9582,
             "section": "Specials",
             "level": 9,
             "currentProfitPerHour": 1.026,
             "profitPerHourDelta": 0.172,
             "isAvailable": true,
-            "isExpired": false,
+            "isExpired": true,
             "totalCooldownSeconds": 21600
         },
         {
@@ -101,7 +101,7 @@
             "price": 1.53,
             "profitPerHour": 0.225,
             "condition": null,
-            "cooldownSeconds": 10912,
+            "cooldownSeconds": 9584,
             "section": "Specials",
             "level": 3,
             "currentProfitPerHour": 0.14500000000000002,
@@ -116,7 +116,7 @@
             "price": 1.53,
             "profitPerHour": 0.225,
             "condition": null,
-            "cooldownSeconds": 10909,
+            "cooldownSeconds": 9581,
             "section": "Specials",
             "level": 3,
             "currentProfitPerHour": 0.14500000000000002,
@@ -124,6 +124,23 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
+        },
+        {
+            "id": "adv_integration_2409",
+            "name": "Cycling in Amsterdam",
+            "toggle": {
+                "enableAt": "2024-09-24T09:00:00.000Z"
+            },
+            "expiresAt": "2024-09-26T09:00:00.000Z",
+            "price": 1,
+            "profitPerHour": 0.1,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.1,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
