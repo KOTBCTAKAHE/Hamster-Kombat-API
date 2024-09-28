@@ -143,6 +143,22 @@
             "isAvailable": true,
             "isExpired": true,
             "totalCooldownSeconds": 21600
+        },
+        {
+            "id": "int_dyor",
+            "name": "DYOR",
+            "toggle": {
+                "enableAt": "2024-09-28T11:00:00.000Z"
+            },
+            "price": 2,
+            "profitPerHour": 0.1,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.1,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
