@@ -150,15 +150,17 @@
             "toggle": {
                 "enableAt": "2024-09-28T11:00:00.000Z"
             },
-            "price": 2,
-            "profitPerHour": 0.1,
+            "price": 2.21,
+            "profitPerHour": 0.207,
             "condition": null,
+            "cooldownSeconds": 21577,
             "section": "Specials",
-            "level": 1,
-            "currentProfitPerHour": 0,
-            "profitPerHourDelta": 0.1,
+            "level": 2,
+            "currentProfitPerHour": 0.1,
+            "profitPerHourDelta": 0.107,
             "isAvailable": true,
-            "isExpired": false
+            "isExpired": false,
+            "totalCooldownSeconds": 21600
         }
     ]
 }
