@@ -15,5 +15,6 @@
   { "promoId": "d2378baf-d617-417a-9d99-d685824335f0", "appToken": "d2378baf-d617-417a-9d99-d685824335f0", "minWaitAfterLogin": 21, "name": "Pin Out Master", "image_url": "https://cdn.hamsterkombat.io/pin_out_master/image.webp" },
   { "promoId": "eb518c4b-e448-4065-9d33-06f3039f0fcb", "appToken": "eb518c4b-e448-4065-9d33-06f3039f0fcb", "minWaitAfterLogin": 21, "name": "Infected Frontier", "image_url": "https://cdn.hamsterkombat.io/infected_frontier/image.webp" },
   { "promoId": "daab8f83-8ea2-4ad0-8dd5-d33363129640", "appToken": "daab8f83-8ea2-4ad0-8dd5-d33363129640", "minWaitAfterLogin": 31, "name": "Among Water", "image_url": "https://cdn.hamsterkombat.io/among_water/image.webp" },
-  { "promoId": "d02fc404-8985-4305-87d8-32bd4e66bb16", "appToken": "d02fc404-8985-4305-87d8-32bd4e66bb16", "minWaitAfterLogin": 31, "name": "Factory World", "image_url": "https://cdn.hamsterkombat.io/factory_world/image.webp" }
+  { "promoId": "d02fc404-8985-4305-87d8-32bd4e66bb16", "appToken": "d02fc404-8985-4305-87d8-32bd4e66bb16", "minWaitAfterLogin": 31, "name": "Factory World", "image_url": "https://cdn.hamsterkombat.io/factory_world/image.webp" },
+  { "promoId": "c8e017e2-8817-4d02-bce6-b951e74bb18f", "appToken": "c8e017e2-8817-4d02-bce6-b951e74bb18f", "minWaitAfterLogin": 31, "name": "Snake Run", "image_url": "https://cdn.hamsterkombat.io/snake_run/image.webp" }
 ]
