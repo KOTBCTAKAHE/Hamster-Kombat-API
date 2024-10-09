@@ -334,6 +334,22 @@
             "profitPerHourDelta": 0.2,
             "isAvailable": true,
             "isExpired": false
+        },
+        {
+            "id": "int_private_investors",
+            "name": "Private Investors",
+            "toggle": {
+                "enableAt": "2024-10-09T11:00:00.000Z"
+            },
+            "price": 3,
+            "profitPerHour": 0.2,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.2,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
