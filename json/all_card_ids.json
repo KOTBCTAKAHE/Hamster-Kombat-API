@@ -366,6 +366,22 @@
             "profitPerHourDelta": 0.15,
             "isAvailable": true,
             "isExpired": false
+        },
+        {
+            "id": "int_exchange_futures",
+            "name": "Exchange Futures",
+            "toggle": {
+                "enableAt": "2024-10-11T11:00:00.000Z"
+            },
+            "price": 2,
+            "profitPerHour": 0.1,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.1,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
