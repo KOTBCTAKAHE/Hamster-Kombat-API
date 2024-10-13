@@ -398,6 +398,22 @@
             "profitPerHourDelta": 0.1,
             "isAvailable": true,
             "isExpired": false
+        },
+        {
+            "id": "int_exchange_token",
+            "name": "Exchange Token",
+            "toggle": {
+                "enableAt": "2024-10-13T11:00:00.000Z"
+            },
+            "price": 3,
+            "profitPerHour": 0.2,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.2,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
