@@ -10,6 +10,7 @@
   { "promoId": "eb518c4b-e448-4065-9d33-06f3039f0fcb", "appToken": "eb518c4b-e448-4065-9d33-06f3039f0fcb", "minWaitAfterLogin": 21, "name": "Infected Frontier", "image_url": "https://cdn.hamsterkombat.io/infected_frontier/image.webp" },
   { "promoId": "daab8f83-8ea2-4ad0-8dd5-d33363129640", "appToken": "daab8f83-8ea2-4ad0-8dd5-d33363129640", "minWaitAfterLogin": 31, "name": "Among Water", "image_url": "https://cdn.hamsterkombat.io/among_water/image.webp" },
   { "promoId": "d02fc404-8985-4305-87d8-32bd4e66bb16", "appToken": "d02fc404-8985-4305-87d8-32bd4e66bb16", "minWaitAfterLogin": 31, "name": "Factory World", "image_url": "https://cdn.hamsterkombat.io/factory_world/image.webp" },
-  { "promoId": "c8e017e2-8817-4d02-bce6-b951e74bb18f", "appToken": "c8e017e2-8817-4d02-bce6-b951e74bb18f", "minWaitAfterLogin": 31, "name": "Snake Run", "image_url": "https://cdn.hamsterkombat.io/snake_run/image.webp" }
-  { "promoId": "ed526e8c-e6c8-40fd-b72a-9e78ff6a2054", "appToken": "ed526e8c-e6c8-40fd-b72a-9e78ff6a2054", "minWaitAfterLogin": 31, "name": "Cooking Stories", "image_url": "https://cdn.hamsterkombat.io/cooking_stories/image.webp" }
+  { "promoId": "c8e017e2-8817-4d02-bce6-b951e74bb18f", "appToken": "c8e017e2-8817-4d02-bce6-b951e74bb18f", "minWaitAfterLogin": 31, "name": "Snake Run", "image_url": "https://cdn.hamsterkombat.io/snake_run/image.webp" },
+  { "promoId": "ed526e8c-e6c8-40fd-b72a-9e78ff6a2054", "appToken": "ed526e8c-e6c8-40fd-b72a-9e78ff6a2054", "minWaitAfterLogin": 31, "name": "Cooking Stories", "image_url": "https://cdn.hamsterkombat.io/cooking_stories/image.webp" },
+  { "promoId": "53bf823a-948c-48c4-8bd5-9c21903416df", "appToken": "53bf823a-948c-48c4-8bd5-9c21903416df", "minWaitAfterLogin": 21, "name": "Tower Defense", "image_url": "https://cdn.hamsterkombat.io/tower_defence/image.webp" }
 ]
