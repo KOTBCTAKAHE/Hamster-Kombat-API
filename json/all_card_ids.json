@@ -414,6 +414,23 @@
             "profitPerHourDelta": 0.2,
             "isAvailable": true,
             "isExpired": false
+        },
+        {
+            "id": "adv_integration_1410",
+            "name": "Fashion event",
+            "toggle": {
+                "enableAt": "2024-10-14T09:00:00.000Z"
+            },
+            "expiresAt": "2024-10-16T09:00:00.000Z",
+            "price": 1,
+            "profitPerHour": 0.1,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.1,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
