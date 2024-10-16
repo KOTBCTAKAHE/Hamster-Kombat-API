@@ -465,6 +465,26 @@
             "profitPerHourDelta": 0.09,
             "isAvailable": true,
             "isExpired": false
+        },
+        {
+            "id": "int_crypto_rally",
+            "name": "Crypto rally",
+            "toggle": {
+                "enableAt": "2024-10-16T11:00:00.000Z"
+            },
+            "price": 3,
+            "profitPerHour": 0.2,
+            "condition": {
+                "_type": "ByUpgrade",
+                "upgradeId": "int_bull_market",
+                "level": 10
+            },
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.2,
+            "isAvailable": false,
+            "isExpired": false
         }
     ]
 }
