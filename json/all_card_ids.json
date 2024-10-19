@@ -544,6 +544,26 @@
             "profitPerHourDelta": 0.2,
             "isAvailable": false,
             "isExpired": false
+        },
+        {
+            "id": "int_deep_dive",
+            "name": "Deep dive",
+            "toggle": {
+                "enableAt": "2024-10-19T11:00:00.000Z"
+            },
+            "price": 2.5,
+            "profitPerHour": 0.15,
+            "condition": {
+                "_type": "ByUpgrade",
+                "upgradeId": "int_visiting_a_zoo",
+                "level": 5
+            },
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.15,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
