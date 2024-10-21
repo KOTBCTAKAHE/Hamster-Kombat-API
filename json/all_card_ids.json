@@ -558,7 +558,7 @@
                 "upgradeId": "int_visiting_a_zoo",
                 "level": 5
             },
-            "cooldownSeconds": 9447,
+            "cooldownSeconds": 8741,
             "section": "Specials",
             "level": 2,
             "currentProfitPerHour": 0.15,
@@ -597,7 +597,7 @@
             "price": 1.65,
             "profitPerHour": 0.186,
             "condition": null,
-            "cooldownSeconds": 9444,
+            "cooldownSeconds": 8738,
             "section": "Specials",
             "level": 2,
             "currentProfitPerHour": 0.09,
