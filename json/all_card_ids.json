@@ -622,6 +622,23 @@
             "profitPerHourDelta": 0.1,
             "isAvailable": true,
             "isExpired": false
+        },
+        {
+            "id": "int_unknown_worlds",
+            "name": "Unknown worlds",
+            "toggle": {
+                "enableAt": "2024-10-23T11:00:00.000Z"
+            },
+            "expiresAt": "2024-10-29T11:00:00.000Z",
+            "price": 1.5,
+            "profitPerHour": 0.09,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.09,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
