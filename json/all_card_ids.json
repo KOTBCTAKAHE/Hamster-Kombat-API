@@ -522,7 +522,7 @@
             "currentProfitPerHour": 0.09,
             "profitPerHourDelta": 0.096,
             "isAvailable": true,
-            "isExpired": false,
+            "isExpired": true,
             "totalCooldownSeconds": 21600
         },
         {
@@ -637,6 +637,22 @@
             "level": 1,
             "currentProfitPerHour": 0,
             "profitPerHourDelta": 0.09,
+            "isAvailable": true,
+            "isExpired": false
+        },
+        {
+            "id": "int_tennis_tournament",
+            "name": "Tennis tournament",
+            "toggle": {
+                "enableAt": "2024-10-24T11:00:00.000Z"
+            },
+            "price": 1,
+            "profitPerHour": 0.05,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.05,
             "isAvailable": true,
             "isExpired": false
         }
