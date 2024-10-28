@@ -672,6 +672,22 @@
             "profitPerHourDelta": 0.09,
             "isAvailable": true,
             "isExpired": false
+        },
+        {
+            "id": "int_liquidity_crisis",
+            "name": "Liquidity Crisis",
+            "toggle": {
+                "enableAt": "2024-10-28T11:00:00.000Z"
+            },
+            "price": 5,
+            "profitPerHour": 0.05,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.05,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
