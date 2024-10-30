@@ -708,6 +708,23 @@
             "profitPerHourDelta": 0.2,
             "isAvailable": false,
             "isExpired": false
+        },
+        {
+            "id": "adv_integration_3010",
+            "name": "Stablecoin Launch",
+            "toggle": {
+                "enableAt": "2024-10-30T09:00:00.000Z"
+            },
+            "expiresAt": "2024-11-01T09:00:00.000Z",
+            "price": 3,
+            "profitPerHour": 0.3,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.3,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
