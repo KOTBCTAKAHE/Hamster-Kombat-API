@@ -296,7 +296,7 @@
             "price": 80.73,
             "profitPerHour": 1.007,
             "condition": null,
-            "cooldownSeconds": 7182,
+            "cooldownSeconds": 5753,
             "section": "Specials",
             "level": 13,
             "currentProfitPerHour": 0.8939999999999999,
@@ -350,7 +350,7 @@
             "price": 242.19,
             "profitPerHour": 4.028,
             "condition": null,
-            "cooldownSeconds": 7178,
+            "cooldownSeconds": 5749,
             "section": "Specials",
             "level": 13,
             "currentProfitPerHour": 3.578,
@@ -492,18 +492,18 @@
             "toggle": {
                 "enableAt": "2024-10-16T11:00:00.000Z"
             },
-            "price": 11.2,
-            "profitPerHour": 1.731,
+            "price": 16.55,
+            "profitPerHour": 2.052,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "int_bull_market",
                 "level": 10
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 20963,
             "section": "Specials",
-            "level": 7,
-            "currentProfitPerHour": 1.431,
-            "profitPerHourDelta": 0.3,
+            "level": 8,
+            "currentProfitPerHour": 1.731,
+            "profitPerHourDelta": 0.321,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -533,18 +533,18 @@
             "toggle": {
                 "enableAt": "2024-10-18T11:00:00.000Z"
             },
-            "price": 11.2,
-            "profitPerHour": 1.731,
+            "price": 16.55,
+            "profitPerHour": 2.052,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "int_buying_an_apartment",
                 "level": 10
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 20959,
             "section": "Specials",
-            "level": 7,
-            "currentProfitPerHour": 1.431,
-            "profitPerHourDelta": 0.3,
+            "level": 8,
+            "currentProfitPerHour": 1.731,
+            "profitPerHourDelta": 0.321,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -652,14 +652,14 @@
             "toggle": {
                 "enableAt": "2024-10-24T11:00:00.000Z"
             },
-            "price": 42.81,
-            "profitPerHour": 0.894,
+            "price": 80.73,
+            "profitPerHour": 1.007,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 20983,
             "section": "Specials",
-            "level": 12,
-            "currentProfitPerHour": 0.7889999999999999,
-            "profitPerHourDelta": 0.105,
+            "level": 13,
+            "currentProfitPerHour": 0.8939999999999999,
+            "profitPerHourDelta": 0.113,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -707,18 +707,18 @@
             "toggle": {
                 "enableAt": "2024-10-29T11:00:00.000Z"
             },
-            "price": 55.75,
-            "profitPerHour": 2.764,
+            "price": 95.36,
+            "profitPerHour": 3.157,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "int_market_manipulation",
                 "level": 7
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 20979,
             "section": "Specials",
-            "level": 10,
-            "currentProfitPerHour": 2.396,
-            "profitPerHourDelta": 0.368,
+            "level": 11,
+            "currentProfitPerHour": 2.764,
+            "profitPerHourDelta": 0.393,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -767,18 +767,18 @@
             "toggle": {
                 "enableAt": "2024-11-01T11:00:00.000Z"
             },
-            "price": 34.23,
-            "profitPerHour": 2.396,
+            "price": 55.75,
+            "profitPerHour": 2.764,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "int_social_trading_platform",
                 "level": 5
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 20971,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 2.052,
-            "profitPerHourDelta": 0.344,
+            "level": 10,
+            "currentProfitPerHour": 2.396,
+            "profitPerHourDelta": 0.368,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -789,14 +789,14 @@
             "toggle": {
                 "enableAt": "2024-11-02T11:00:00.000Z"
             },
-            "price": 13.27,
-            "profitPerHour": 0.715,
+            "price": 18.67,
+            "profitPerHour": 0.865,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 20967,
             "section": "Specials",
-            "level": 6,
-            "currentProfitPerHour": 0.575,
-            "profitPerHourDelta": 0.14,
+            "level": 7,
+            "currentProfitPerHour": 0.715,
+            "profitPerHourDelta": 0.15,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -807,14 +807,14 @@
             "toggle": {
                 "enableAt": "2024-11-03T11:00:00.000Z"
             },
-            "price": 1.28,
-            "profitPerHour": 0.032,
+            "price": 1.55,
+            "profitPerHour": 0.044,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 20975,
             "section": "Specials",
-            "level": 3,
-            "currentProfitPerHour": 0.020999999999999998,
-            "profitPerHourDelta": 0.011,
+            "level": 4,
+            "currentProfitPerHour": 0.032,
+            "profitPerHourDelta": 0.012,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
