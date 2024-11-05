@@ -278,7 +278,7 @@
             "price": 239.76,
             "profitPerHour": 2.029,
             "condition": null,
-            "cooldownSeconds": 1477,
+            "cooldownSeconds": 146,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 1.812,
@@ -499,7 +499,7 @@
                 "upgradeId": "int_bull_market",
                 "level": 10
             },
-            "cooldownSeconds": 8471,
+            "cooldownSeconds": 7140,
             "section": "Specials",
             "level": 12,
             "currentProfitPerHour": 3.157,
@@ -540,7 +540,7 @@
                 "upgradeId": "int_buying_an_apartment",
                 "level": 10
             },
-            "cooldownSeconds": 8467,
+            "cooldownSeconds": 7136,
             "section": "Specials",
             "level": 12,
             "currentProfitPerHour": 3.157,
@@ -562,7 +562,7 @@
                 "upgradeId": "int_visiting_a_zoo",
                 "level": 5
             },
-            "cooldownSeconds": 21091,
+            "cooldownSeconds": 19760,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 3.0229999999999997,
@@ -792,7 +792,7 @@
             "price": 119.2,
             "profitPerHour": 1.579,
             "condition": null,
-            "cooldownSeconds": 21087,
+            "cooldownSeconds": 19756,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 1.382,
@@ -810,7 +810,7 @@
             "price": 5.52,
             "profitPerHour": 0.102,
             "condition": null,
-            "cooldownSeconds": 8475,
+            "cooldownSeconds": 7144,
             "section": "Specials",
             "level": 8,
             "currentProfitPerHour": 0.086,
@@ -828,7 +828,7 @@
             "price": 1.55,
             "profitPerHour": 0.044,
             "condition": null,
-            "cooldownSeconds": 1473,
+            "cooldownSeconds": 142,
             "section": "Specials",
             "level": 4,
             "currentProfitPerHour": 0.032,
@@ -836,6 +836,22 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
+        },
+        {
+            "id": "int_hamster_doctor",
+            "name": "Hamster doctor",
+            "toggle": {
+                "enableAt": "2024-11-05T11:00:00.000Z"
+            },
+            "price": 1,
+            "profitPerHour": 0.017,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.017,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
