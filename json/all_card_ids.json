@@ -499,7 +499,7 @@
                 "upgradeId": "int_bull_market",
                 "level": 10
             },
-            "cooldownSeconds": 17767,
+            "cooldownSeconds": 16314,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 4.028,
@@ -540,7 +540,7 @@
                 "upgradeId": "int_buying_an_apartment",
                 "level": 10
             },
-            "cooldownSeconds": 4136,
+            "cooldownSeconds": 2683,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 4.028,
@@ -810,7 +810,7 @@
             "price": 23.84,
             "profitPerHour": 0.157,
             "condition": null,
-            "cooldownSeconds": 4140,
+            "cooldownSeconds": 2687,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 0.13699999999999998,
@@ -828,7 +828,7 @@
             "price": 3.73,
             "profitPerHour": 0.086,
             "condition": null,
-            "cooldownSeconds": 4132,
+            "cooldownSeconds": 2679,
             "section": "Specials",
             "level": 7,
             "currentProfitPerHour": 0.071,
@@ -846,7 +846,7 @@
             "price": 1.55,
             "profitPerHour": 0.075,
             "condition": null,
-            "cooldownSeconds": 4128,
+            "cooldownSeconds": 2675,
             "section": "Specials",
             "level": 4,
             "currentProfitPerHour": 0.054000000000000006,
@@ -854,6 +854,23 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
+        },
+        {
+            "id": "adv_integration_0611",
+            "name": "Hamster fireman",
+            "toggle": {
+                "enableAt": "2024-11-06T09:00:00.000Z"
+            },
+            "expiresAt": "2024-11-30T23:59:59.000Z",
+            "price": 3,
+            "profitPerHour": 0.3,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.3,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
