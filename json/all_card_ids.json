@@ -499,7 +499,7 @@
                 "upgradeId": "int_bull_market",
                 "level": 10
             },
-            "cooldownSeconds": 9350,
+            "cooldownSeconds": 8572,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 4.028,
@@ -584,7 +584,7 @@
                 "upgradeId": "int_shopping",
                 "level": 5
             },
-            "cooldownSeconds": 16553,
+            "cooldownSeconds": 15775,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 3.0229999999999997,
