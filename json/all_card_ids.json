@@ -499,7 +499,7 @@
                 "upgradeId": "int_bull_market",
                 "level": 10
             },
-            "cooldownSeconds": 15252,
+            "cooldownSeconds": 14302,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 4.028,
@@ -540,7 +540,7 @@
                 "upgradeId": "int_buying_an_apartment",
                 "level": 10
             },
-            "cooldownSeconds": 1621,
+            "cooldownSeconds": 671,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 4.028,
@@ -577,18 +577,18 @@
             "toggle": {
                 "enableAt": "2024-10-20T11:00:00.000Z"
             },
-            "price": 201.83,
-            "profitPerHour": 3.023,
+            "price": 399.6,
+            "profitPerHour": 3.384,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "int_shopping",
                 "level": 5
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 21505,
             "section": "Specials",
-            "level": 13,
-            "currentProfitPerHour": 2.6849999999999996,
-            "profitPerHourDelta": 0.338,
+            "level": 14,
+            "currentProfitPerHour": 3.0229999999999997,
+            "profitPerHourDelta": 0.361,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -810,7 +810,7 @@
             "price": 23.84,
             "profitPerHour": 0.157,
             "condition": null,
-            "cooldownSeconds": 1625,
+            "cooldownSeconds": 675,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 0.13699999999999998,
@@ -828,7 +828,7 @@
             "price": 3.73,
             "profitPerHour": 0.086,
             "condition": null,
-            "cooldownSeconds": 1617,
+            "cooldownSeconds": 667,
             "section": "Specials",
             "level": 7,
             "currentProfitPerHour": 0.071,
@@ -846,7 +846,7 @@
             "price": 1.55,
             "profitPerHour": 0.075,
             "condition": null,
-            "cooldownSeconds": 1613,
+            "cooldownSeconds": 663,
             "section": "Specials",
             "level": 4,
             "currentProfitPerHour": 0.054000000000000006,
@@ -854,23 +854,6 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
-        },
-        {
-            "id": "adv_integration_0611",
-            "name": "Hamster fireman",
-            "toggle": {
-                "enableAt": "2024-11-06T09:00:00.000Z"
-            },
-            "expiresAt": "2024-11-30T23:59:59.000Z",
-            "price": 3,
-            "profitPerHour": 0.3,
-            "condition": null,
-            "section": "Specials",
-            "level": 1,
-            "currentProfitPerHour": 0,
-            "profitPerHourDelta": 0.3,
-            "isAvailable": true,
-            "isExpired": false
         }
     ]
 }
