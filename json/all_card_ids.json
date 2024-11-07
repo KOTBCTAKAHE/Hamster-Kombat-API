@@ -207,7 +207,7 @@
             "price": 319.68,
             "profitPerHour": 2.255,
             "condition": null,
-            "cooldownSeconds": 12262,
+            "cooldownSeconds": 10928,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 2.014,
@@ -350,7 +350,7 @@
             "price": 479.52,
             "profitPerHour": 4.51,
             "condition": null,
-            "cooldownSeconds": 3915,
+            "cooldownSeconds": 2581,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 4.028,
@@ -386,7 +386,7 @@
             "price": 319.68,
             "profitPerHour": 2.255,
             "condition": null,
-            "cooldownSeconds": 3919,
+            "cooldownSeconds": 2585,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 2.014,
@@ -810,7 +810,7 @@
             "price": 159.84,
             "profitPerHour": 0.225,
             "condition": null,
-            "cooldownSeconds": 15254,
+            "cooldownSeconds": 13920,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 0.20099999999999996,
@@ -854,6 +854,22 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
+        },
+        {
+            "id": "int_hamster_policeman",
+            "name": "Hamster policeman",
+            "toggle": {
+                "enableAt": "2024-11-07T11:00:00.000Z"
+            },
+            "price": 1,
+            "profitPerHour": 0.02,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.02,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
