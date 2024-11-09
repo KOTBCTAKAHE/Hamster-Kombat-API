@@ -368,7 +368,7 @@
             "price": 830.74,
             "profitPerHour": 3.771,
             "condition": null,
-            "cooldownSeconds": 16499,
+            "cooldownSeconds": 15217,
             "section": "Specials",
             "level": 15,
             "currentProfitPerHour": 3.3839999999999995,
@@ -846,7 +846,7 @@
             "price": 80.73,
             "profitPerHour": 0.341,
             "condition": null,
-            "cooldownSeconds": 2258,
+            "cooldownSeconds": 976,
             "section": "Specials",
             "level": 13,
             "currentProfitPerHour": 0.303,
@@ -913,6 +913,26 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
+        },
+        {
+            "id": "int_fairytales_for_children",
+            "name": "Fairytales for Children",
+            "toggle": {
+                "enableAt": "2024-11-09T11:00:00.000Z"
+            },
+            "price": 4,
+            "profitPerHour": 0.2,
+            "condition": {
+                "_type": "ByUpgrade",
+                "upgradeId": "int_amusement_park",
+                "level": 10
+            },
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.2,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
