@@ -584,7 +584,7 @@
                 "upgradeId": "int_shopping",
                 "level": 5
             },
-            "cooldownSeconds": 9622,
+            "cooldownSeconds": 8945,
             "section": "Specials",
             "level": 15,
             "currentProfitPerHour": 3.3839999999999995,
