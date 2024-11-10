@@ -153,7 +153,7 @@
             "price": 664.59,
             "profitPerHour": 2.513,
             "condition": null,
-            "cooldownSeconds": 9257,
+            "cooldownSeconds": 7979,
             "section": "Specials",
             "level": 15,
             "currentProfitPerHour": 2.255,
@@ -865,7 +865,7 @@
             "price": 71.52,
             "profitPerHour": 4.735,
             "condition": null,
-            "cooldownSeconds": 14672,
+            "cooldownSeconds": 13394,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 4.1450000000000005,
@@ -883,7 +883,7 @@
             "price": 23.84,
             "profitPerHour": 0.315,
             "condition": null,
-            "cooldownSeconds": 14676,
+            "cooldownSeconds": 13398,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 0.27599999999999997,
@@ -905,7 +905,7 @@
                 "upgradeId": "int_flash_crash",
                 "level": 5
             },
-            "cooldownSeconds": 14668,
+            "cooldownSeconds": 13390,
             "section": "Specials",
             "level": 8,
             "currentProfitPerHour": 1.731,
@@ -927,7 +927,7 @@
                 "upgradeId": "int_amusement_park",
                 "level": 10
             },
-            "cooldownSeconds": 14664,
+            "cooldownSeconds": 13386,
             "section": "Specials",
             "level": 5,
             "currentProfitPerHour": 0.888,
@@ -935,6 +935,22 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
+        },
+        {
+            "id": "int_hamster_biker",
+            "name": "Hamster biker",
+            "toggle": {
+                "enableAt": "2024-11-10T11:00:00.000Z"
+            },
+            "price": 1,
+            "profitPerHour": 0.022,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.022,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
