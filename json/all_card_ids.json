@@ -207,7 +207,7 @@
             "price": 664.59,
             "profitPerHour": 2.513,
             "condition": null,
-            "cooldownSeconds": 16816,
+            "cooldownSeconds": 16251,
             "section": "Specials",
             "level": 15,
             "currentProfitPerHour": 2.255,
@@ -499,7 +499,7 @@
                 "upgradeId": "int_bull_market",
                 "level": 10
             },
-            "cooldownSeconds": 3046,
+            "cooldownSeconds": 2481,
             "section": "Specials",
             "level": 15,
             "currentProfitPerHour": 4.51,
@@ -862,14 +862,14 @@
                 "enableAt": "2024-11-07T14:45:00.000Z"
             },
             "expiresAt": "2024-11-30T23:59:59.000Z",
-            "price": 128.44,
-            "profitPerHour": 5.366,
+            "price": 242.19,
+            "profitPerHour": 6.042,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 21425,
             "section": "Specials",
-            "level": 12,
-            "currentProfitPerHour": 4.735,
-            "profitPerHourDelta": 0.631,
+            "level": 13,
+            "currentProfitPerHour": 5.3660000000000005,
+            "profitPerHourDelta": 0.676,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -880,14 +880,14 @@
             "toggle": {
                 "enableAt": "2024-11-07T11:00:00.000Z"
             },
-            "price": 42.81,
-            "profitPerHour": 0.357,
+            "price": 80.73,
+            "profitPerHour": 0.402,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 21429,
             "section": "Specials",
-            "level": 12,
-            "currentProfitPerHour": 0.31499999999999995,
-            "profitPerHourDelta": 0.042,
+            "level": 13,
+            "currentProfitPerHour": 0.35699999999999993,
+            "profitPerHourDelta": 0.045,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -898,18 +898,18 @@
             "toggle": {
                 "enableAt": "2024-11-08T11:00:00.000Z"
             },
-            "price": 34.23,
-            "profitPerHour": 2.396,
+            "price": 55.75,
+            "profitPerHour": 2.764,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "int_flash_crash",
                 "level": 5
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 21421,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 2.052,
-            "profitPerHourDelta": 0.344,
+            "level": 10,
+            "currentProfitPerHour": 2.396,
+            "profitPerHourDelta": 0.368,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -920,18 +920,18 @@
             "toggle": {
                 "enableAt": "2024-11-09T11:00:00.000Z"
             },
-            "price": 10.61,
-            "profitPerHour": 1.431,
+            "price": 14.93,
+            "profitPerHour": 1.731,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "int_amusement_park",
                 "level": 10
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 21417,
             "section": "Specials",
-            "level": 6,
-            "currentProfitPerHour": 1.15,
-            "profitPerHourDelta": 0.281,
+            "level": 7,
+            "currentProfitPerHour": 1.431,
+            "profitPerHourDelta": 0.3,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -945,7 +945,7 @@
             "price": 1.28,
             "profitPerHour": 0.071,
             "condition": null,
-            "cooldownSeconds": 8792,
+            "cooldownSeconds": 8227,
             "section": "Specials",
             "level": 3,
             "currentProfitPerHour": 0.046,
