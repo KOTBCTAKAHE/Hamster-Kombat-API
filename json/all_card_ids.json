@@ -296,7 +296,7 @@
             "price": 725.36,
             "profitPerHour": 1.394,
             "condition": null,
-            "cooldownSeconds": 13026,
+            "cooldownSeconds": 11517,
             "section": "Specials",
             "level": 16,
             "currentProfitPerHour": 1.2559999999999998,
@@ -989,7 +989,7 @@
                 "upgradeId": "int_private_investors",
                 "level": 10
             },
-            "cooldownSeconds": 13022,
+            "cooldownSeconds": 11513,
             "section": "Specials",
             "level": 2,
             "currentProfitPerHour": 0.2,
