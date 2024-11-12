@@ -296,7 +296,7 @@
             "price": 725.36,
             "profitPerHour": 1.394,
             "condition": null,
-            "cooldownSeconds": 530,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 16,
             "currentProfitPerHour": 1.2559999999999998,
@@ -329,14 +329,14 @@
             "toggle": {
                 "enableAt": "2024-10-08T11:00:00.000Z"
             },
-            "price": 479.52,
-            "profitPerHour": 4.51,
+            "price": 996.89,
+            "profitPerHour": 5.026,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 21349,
             "section": "Specials",
-            "level": 14,
-            "currentProfitPerHour": 4.028,
-            "profitPerHourDelta": 0.482,
+            "level": 15,
+            "currentProfitPerHour": 4.51,
+            "profitPerHourDelta": 0.516,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -927,7 +927,7 @@
                 "upgradeId": "int_amusement_park",
                 "level": 10
             },
-            "cooldownSeconds": 14448,
+            "cooldownSeconds": 12992,
             "section": "Specials",
             "level": 13,
             "currentProfitPerHour": 3.578,
@@ -945,7 +945,7 @@
             "price": 8.56,
             "profitPerHour": 0.264,
             "condition": null,
-            "cooldownSeconds": 14444,
+            "cooldownSeconds": 12988,
             "section": "Specials",
             "level": 9,
             "currentProfitPerHour": 0.226,
@@ -967,7 +967,7 @@
                 "upgradeId": "int_private_investors",
                 "level": 5
             },
-            "cooldownSeconds": 14440,
+            "cooldownSeconds": 12984,
             "section": "Specials",
             "level": 5,
             "currentProfitPerHour": 2.22,
@@ -982,18 +982,18 @@
             "toggle": {
                 "enableAt": "2024-11-12T11:00:00.000Z"
             },
-            "price": 4.41,
-            "profitPerHour": 0.414,
+            "price": 5.11,
+            "profitPerHour": 0.643,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "int_private_investors",
                 "level": 10
             },
-            "cooldownSeconds": 526,
+            "cooldownSeconds": 21353,
             "section": "Specials",
-            "level": 2,
-            "currentProfitPerHour": 0.2,
-            "profitPerHourDelta": 0.214,
+            "level": 3,
+            "currentProfitPerHour": 0.41400000000000003,
+            "profitPerHourDelta": 0.229,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
