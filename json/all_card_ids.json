@@ -865,7 +865,7 @@
             "price": 996.89,
             "profitPerHour": 7.539,
             "condition": null,
-            "cooldownSeconds": 14810,
+            "cooldownSeconds": 13186,
             "section": "Specials",
             "level": 15,
             "currentProfitPerHour": 6.765000000000001,
@@ -898,18 +898,18 @@
             "toggle": {
                 "enableAt": "2024-11-08T11:00:00.000Z"
             },
-            "price": 322.92,
-            "profitPerHour": 4.028,
+            "price": 639.36,
+            "profitPerHour": 4.51,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "int_flash_crash",
                 "level": 5
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 21081,
             "section": "Specials",
-            "level": 13,
-            "currentProfitPerHour": 3.578,
-            "profitPerHourDelta": 0.45,
+            "level": 14,
+            "currentProfitPerHour": 4.028,
+            "profitPerHourDelta": 0.482,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -927,7 +927,7 @@
                 "upgradeId": "int_amusement_park",
                 "level": 10
             },
-            "cooldownSeconds": 14822,
+            "cooldownSeconds": 13198,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 2.764,
@@ -945,7 +945,7 @@
             "price": 3.73,
             "profitPerHour": 0.191,
             "condition": null,
-            "cooldownSeconds": 14818,
+            "cooldownSeconds": 13194,
             "section": "Specials",
             "level": 7,
             "currentProfitPerHour": 0.158,
@@ -967,7 +967,7 @@
                 "upgradeId": "int_private_investors",
                 "level": 5
             },
-            "cooldownSeconds": 14814,
+            "cooldownSeconds": 13190,
             "section": "Specials",
             "level": 3,
             "currentProfitPerHour": 1.0350000000000001,
