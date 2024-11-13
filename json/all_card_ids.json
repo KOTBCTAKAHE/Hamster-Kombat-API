@@ -311,14 +311,14 @@
             "toggle": {
                 "enableAt": "2024-10-07T11:00:00.000Z"
             },
-            "price": 479.52,
-            "profitPerHour": 4.51,
+            "price": 996.89,
+            "profitPerHour": 5.026,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 20953,
             "section": "Specials",
-            "level": 14,
-            "currentProfitPerHour": 4.028,
-            "profitPerHourDelta": 0.482,
+            "level": 15,
+            "currentProfitPerHour": 4.51,
+            "profitPerHourDelta": 0.516,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -927,7 +927,7 @@
                 "upgradeId": "int_amusement_park",
                 "level": 10
             },
-            "cooldownSeconds": 15747,
+            "cooldownSeconds": 14119,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 4.028,
@@ -945,7 +945,7 @@
             "price": 13.94,
             "profitPerHour": 0.304,
             "condition": null,
-            "cooldownSeconds": 15743,
+            "cooldownSeconds": 14115,
             "section": "Specials",
             "level": 10,
             "currentProfitPerHour": 0.264,
@@ -967,7 +967,7 @@
                 "upgradeId": "int_private_investors",
                 "level": 5
             },
-            "cooldownSeconds": 15735,
+            "cooldownSeconds": 14107,
             "section": "Specials",
             "level": 6,
             "currentProfitPerHour": 2.875,
@@ -989,7 +989,7 @@
                 "upgradeId": "int_private_investors",
                 "level": 10
             },
-            "cooldownSeconds": 15739,
+            "cooldownSeconds": 14111,
             "section": "Specials",
             "level": 4,
             "currentProfitPerHour": 0.643,
