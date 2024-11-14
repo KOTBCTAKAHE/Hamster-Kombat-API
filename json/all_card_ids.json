@@ -278,7 +278,7 @@
             "price": 1088.04,
             "profitPerHour": 2.509,
             "condition": null,
-            "cooldownSeconds": 5761,
+            "cooldownSeconds": 4987,
             "section": "Specials",
             "level": 16,
             "currentProfitPerHour": 2.261,
@@ -1011,7 +1011,7 @@
                 "upgradeId": "int_project_crowdfunding",
                 "level": 5
             },
-            "cooldownSeconds": 16321,
+            "cooldownSeconds": 15547,
             "section": "Specials",
             "level": 5,
             "currentProfitPerHour": 1.3319999999999999,
