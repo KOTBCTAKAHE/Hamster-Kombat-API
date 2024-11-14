@@ -942,14 +942,14 @@
             "toggle": {
                 "enableAt": "2024-11-10T11:00:00.000Z"
             },
-            "price": 332.3,
-            "profitPerHour": 0.553,
+            "price": 725.36,
+            "profitPerHour": 0.614,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 20904,
             "section": "Specials",
-            "level": 15,
-            "currentProfitPerHour": 0.49599999999999994,
-            "profitPerHourDelta": 0.057,
+            "level": 16,
+            "currentProfitPerHour": 0.5529999999999999,
+            "profitPerHourDelta": 0.061,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -960,18 +960,18 @@
             "toggle": {
                 "enableAt": "2024-11-11T11:00:00.000Z"
             },
-            "price": 143.04,
-            "profitPerHour": 7.891,
+            "price": 256.88,
+            "profitPerHour": 8.943,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "int_private_investors",
                 "level": 5
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 20899,
             "section": "Specials",
-            "level": 11,
-            "currentProfitPerHour": 6.907,
-            "profitPerHourDelta": 0.984,
+            "level": 12,
+            "currentProfitPerHour": 7.891,
+            "profitPerHourDelta": 1.052,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -982,18 +982,18 @@
             "toggle": {
                 "enableAt": "2024-11-12T11:00:00.000Z"
             },
-            "price": 34.23,
-            "profitPerHour": 2.396,
+            "price": 55.75,
+            "profitPerHour": 2.764,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "int_private_investors",
                 "level": 10
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 20895,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 2.052,
-            "profitPerHourDelta": 0.344,
+            "level": 10,
+            "currentProfitPerHour": 2.396,
+            "profitPerHourDelta": 0.368,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -1011,7 +1011,7 @@
                 "upgradeId": "int_project_crowdfunding",
                 "level": 5
             },
-            "cooldownSeconds": 18819,
+            "cooldownSeconds": 18101,
             "section": "Specials",
             "level": 6,
             "currentProfitPerHour": 1.7249999999999999,
@@ -1026,18 +1026,18 @@
             "toggle": {
                 "enableAt": "2024-11-14T11:00:00.000Z"
             },
-            "price": 5.51,
-            "profitPerHour": 0.414,
+            "price": 6.38,
+            "profitPerHour": 0.643,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "int_project_crowdfunding",
                 "level": 7
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 20891,
             "section": "Specials",
-            "level": 2,
-            "currentProfitPerHour": 0.2,
-            "profitPerHourDelta": 0.214,
+            "level": 3,
+            "currentProfitPerHour": 0.41400000000000003,
+            "profitPerHourDelta": 0.229,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
