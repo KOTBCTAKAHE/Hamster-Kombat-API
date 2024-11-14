@@ -945,7 +945,7 @@
             "price": 332.3,
             "profitPerHour": 0.553,
             "condition": null,
-            "cooldownSeconds": 13996,
+            "cooldownSeconds": 12956,
             "section": "Specials",
             "level": 15,
             "currentProfitPerHour": 0.49599999999999994,
@@ -967,7 +967,7 @@
                 "upgradeId": "int_private_investors",
                 "level": 5
             },
-            "cooldownSeconds": 13992,
+            "cooldownSeconds": 12952,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 6.907,
@@ -989,7 +989,7 @@
                 "upgradeId": "int_private_investors",
                 "level": 10
             },
-            "cooldownSeconds": 13988,
+            "cooldownSeconds": 12948,
             "section": "Specials",
             "level": 9,
             "currentProfitPerHour": 2.052,
@@ -1033,7 +1033,7 @@
                 "upgradeId": "int_project_crowdfunding",
                 "level": 7
             },
-            "cooldownSeconds": 13984,
+            "cooldownSeconds": 12944,
             "section": "Specials",
             "level": 2,
             "currentProfitPerHour": 0.2,
