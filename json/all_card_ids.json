@@ -1055,7 +1055,7 @@
                 "upgradeId": "int_ico_breakthrough",
                 "level": 5
             },
-            "cooldownSeconds": 15996,
+            "cooldownSeconds": 15032,
             "section": "Specials",
             "level": 2,
             "currentProfitPerHour": 0.25,
