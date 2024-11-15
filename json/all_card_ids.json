@@ -967,7 +967,7 @@
                 "upgradeId": "int_private_investors",
                 "level": 5
             },
-            "cooldownSeconds": 2825,
+            "cooldownSeconds": 2314,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 10.068999999999999,
@@ -989,7 +989,7 @@
                 "upgradeId": "int_private_investors",
                 "level": 10
             },
-            "cooldownSeconds": 2821,
+            "cooldownSeconds": 2310,
             "section": "Specials",
             "level": 12,
             "currentProfitPerHour": 3.157,
@@ -1011,7 +1011,7 @@
                 "upgradeId": "int_project_crowdfunding",
                 "level": 5
             },
-            "cooldownSeconds": 2817,
+            "cooldownSeconds": 2306,
             "section": "Specials",
             "level": 8,
             "currentProfitPerHour": 2.596,
@@ -1033,7 +1033,7 @@
                 "upgradeId": "int_project_crowdfunding",
                 "level": 7
             },
-            "cooldownSeconds": 2813,
+            "cooldownSeconds": 2302,
             "section": "Specials",
             "level": 5,
             "currentProfitPerHour": 0.888,
@@ -1055,7 +1055,7 @@
                 "upgradeId": "int_ico_breakthrough",
                 "level": 5
             },
-            "cooldownSeconds": 19002,
+            "cooldownSeconds": 18491,
             "section": "Specials",
             "level": 2,
             "currentProfitPerHour": 0.25,
