@@ -967,7 +967,7 @@
                 "upgradeId": "int_private_investors",
                 "level": 5
             },
-            "cooldownSeconds": 13216,
+            "cooldownSeconds": 11876,
             "section": "Specials",
             "level": 14,
             "currentProfitPerHour": 10.068999999999999,
@@ -989,7 +989,7 @@
                 "upgradeId": "int_private_investors",
                 "level": 10
             },
-            "cooldownSeconds": 13212,
+            "cooldownSeconds": 11872,
             "section": "Specials",
             "level": 12,
             "currentProfitPerHour": 3.157,
@@ -1011,7 +1011,7 @@
                 "upgradeId": "int_project_crowdfunding",
                 "level": 5
             },
-            "cooldownSeconds": 13208,
+            "cooldownSeconds": 11868,
             "section": "Specials",
             "level": 8,
             "currentProfitPerHour": 2.596,
@@ -1033,7 +1033,7 @@
                 "upgradeId": "int_project_crowdfunding",
                 "level": 7
             },
-            "cooldownSeconds": 13204,
+            "cooldownSeconds": 11864,
             "section": "Specials",
             "level": 5,
             "currentProfitPerHour": 0.888,
@@ -1041,6 +1041,26 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
+        },
+        {
+            "id": "int_e_commerce_giant",
+            "name": "E-Commerce Giant",
+            "toggle": {
+                "enableAt": "2024-11-15T11:00:00.000Z"
+            },
+            "price": 7,
+            "profitPerHour": 0.25,
+            "condition": {
+                "_type": "ByUpgrade",
+                "upgradeId": "int_ico_breakthrough",
+                "level": 5
+            },
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.25,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
