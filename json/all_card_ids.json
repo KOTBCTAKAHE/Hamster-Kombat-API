@@ -1091,7 +1091,7 @@
             "price": 1.1,
             "profitPerHour": 0.207,
             "condition": null,
-            "cooldownSeconds": 8241,
+            "cooldownSeconds": 7126,
             "section": "Specials",
             "level": 2,
             "currentProfitPerHour": 0.1,
