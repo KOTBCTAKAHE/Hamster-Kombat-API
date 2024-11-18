@@ -1026,18 +1026,18 @@
             "toggle": {
                 "enableAt": "2024-11-14T11:00:00.000Z"
             },
-            "price": 403.65,
-            "profitPerHour": 4.028,
+            "price": 799.2,
+            "profitPerHour": 4.51,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "int_project_crowdfunding",
                 "level": 7
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 20809,
             "section": "Specials",
-            "level": 13,
-            "currentProfitPerHour": 3.578,
-            "profitPerHourDelta": 0.45,
+            "level": 14,
+            "currentProfitPerHour": 4.028,
+            "profitPerHourDelta": 0.482,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -1048,18 +1048,18 @@
             "toggle": {
                 "enableAt": "2024-11-15T11:00:00.000Z"
             },
-            "price": 59.9,
-            "profitPerHour": 2.995,
+            "price": 97.57,
+            "profitPerHour": 3.455,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "int_ico_breakthrough",
                 "level": 5
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 20804,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 2.5650000000000004,
-            "profitPerHourDelta": 0.43,
+            "level": 10,
+            "currentProfitPerHour": 2.9950000000000006,
+            "profitPerHourDelta": 0.46,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -1070,14 +1070,14 @@
             "toggle": {
                 "enableAt": "2024-11-16T11:00:00.000Z"
             },
-            "price": 5.31,
-            "profitPerHour": 1.431,
+            "price": 7.47,
+            "profitPerHour": 1.731,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 20800,
             "section": "Specials",
-            "level": 6,
-            "currentProfitPerHour": 1.15,
-            "profitPerHourDelta": 0.281,
+            "level": 7,
+            "currentProfitPerHour": 1.431,
+            "profitPerHourDelta": 0.3,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -1091,7 +1091,7 @@
             "price": 1.28,
             "profitPerHour": 0.321,
             "condition": null,
-            "cooldownSeconds": 4806,
+            "cooldownSeconds": 0,
             "section": "Specials",
             "level": 3,
             "currentProfitPerHour": 0.20700000000000002,
