@@ -1048,18 +1048,18 @@
             "toggle": {
                 "enableAt": "2024-11-15T11:00:00.000Z"
             },
-            "price": 299.69,
-            "profitPerHour": 4.473,
+            "price": 565.11,
+            "profitPerHour": 5.036,
             "condition": {
                 "_type": "ByUpgrade",
                 "upgradeId": "int_ico_breakthrough",
                 "level": 5
             },
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 19686,
             "section": "Specials",
-            "level": 12,
-            "currentProfitPerHour": 3.9470000000000005,
-            "profitPerHourDelta": 0.526,
+            "level": 13,
+            "currentProfitPerHour": 4.473000000000001,
+            "profitPerHourDelta": 0.563,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -1070,14 +1070,14 @@
             "toggle": {
                 "enableAt": "2024-11-16T11:00:00.000Z"
             },
-            "price": 17.11,
-            "profitPerHour": 2.396,
+            "price": 27.88,
+            "profitPerHour": 2.764,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 19682,
             "section": "Specials",
-            "level": 9,
-            "currentProfitPerHour": 2.052,
-            "profitPerHourDelta": 0.344,
+            "level": 10,
+            "currentProfitPerHour": 2.396,
+            "profitPerHourDelta": 0.368,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -1088,14 +1088,14 @@
             "toggle": {
                 "enableAt": "2024-11-17T11:00:00.000Z"
             },
-            "price": 2.65,
-            "profitPerHour": 0.715,
+            "price": 3.73,
+            "profitPerHour": 0.865,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 19678,
             "section": "Specials",
-            "level": 6,
-            "currentProfitPerHour": 0.575,
-            "profitPerHourDelta": 0.14,
+            "level": 7,
+            "currentProfitPerHour": 0.715,
+            "profitPerHourDelta": 0.15,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
