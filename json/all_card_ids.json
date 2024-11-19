@@ -1073,7 +1073,7 @@
             "price": 47.68,
             "profitPerHour": 3.157,
             "condition": null,
-            "cooldownSeconds": 13344,
+            "cooldownSeconds": 12124,
             "section": "Specials",
             "level": 11,
             "currentProfitPerHour": 2.764,
@@ -1091,7 +1091,7 @@
             "price": 5.52,
             "profitPerHour": 1.026,
             "condition": null,
-            "cooldownSeconds": 13340,
+            "cooldownSeconds": 12120,
             "section": "Specials",
             "level": 8,
             "currentProfitPerHour": 0.865,
@@ -1099,6 +1099,22 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
+        },
+        {
+            "id": "int_warrior_of_the_cherry_blossoms",
+            "name": "Warrior of the Cherry Blossoms",
+            "toggle": {
+                "enableAt": "2024-11-19T11:00:00.000Z"
+            },
+            "price": 2,
+            "profitPerHour": 0.2,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.2,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
