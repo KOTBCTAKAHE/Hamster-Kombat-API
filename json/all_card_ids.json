@@ -1070,14 +1070,14 @@
             "toggle": {
                 "enableAt": "2024-11-16T11:00:00.000Z"
             },
-            "price": 27.88,
-            "profitPerHour": 2.764,
+            "price": 47.68,
+            "profitPerHour": 3.157,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 21023,
             "section": "Specials",
-            "level": 10,
-            "currentProfitPerHour": 2.396,
-            "profitPerHourDelta": 0.368,
+            "level": 11,
+            "currentProfitPerHour": 2.764,
+            "profitPerHourDelta": 0.393,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
@@ -1088,14 +1088,14 @@
             "toggle": {
                 "enableAt": "2024-11-17T11:00:00.000Z"
             },
-            "price": 3.73,
-            "profitPerHour": 0.865,
+            "price": 5.52,
+            "profitPerHour": 1.026,
             "condition": null,
-            "cooldownSeconds": 0,
+            "cooldownSeconds": 21019,
             "section": "Specials",
-            "level": 7,
-            "currentProfitPerHour": 0.715,
-            "profitPerHourDelta": 0.15,
+            "level": 8,
+            "currentProfitPerHour": 0.865,
+            "profitPerHourDelta": 0.161,
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
