@@ -1117,6 +1117,22 @@
             "isAvailable": true,
             "isExpired": false,
             "totalCooldownSeconds": 21600
+        },
+        {
+            "id": "int_magic_of_the_noodles",
+            "name": "Magic of the Noodles",
+            "toggle": {
+                "enableAt": "2024-11-20T11:00:00.000Z"
+            },
+            "price": 1,
+            "profitPerHour": 0.1,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.1,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
