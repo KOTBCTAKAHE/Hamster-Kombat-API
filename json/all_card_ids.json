@@ -1201,6 +1201,22 @@
             "profitPerHourDelta": 0.09,
             "isAvailable": true,
             "isExpired": false
+        },
+        {
+            "id": "int_journey_to_school",
+            "name": "Journey to School",
+            "toggle": {
+                "enableAt": "2024-11-25T11:00:00.000Z"
+            },
+            "price": 1.5,
+            "profitPerHour": 0.09,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.09,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
