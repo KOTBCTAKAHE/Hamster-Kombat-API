@@ -1233,6 +1233,22 @@
             "profitPerHourDelta": 0.09,
             "isAvailable": true,
             "isExpired": false
+        },
+        {
+            "id": "int_the_florist_hamster",
+            "name": "The Florist Hamster",
+            "toggle": {
+                "enableAt": "2024-11-27T11:00:00.000Z"
+            },
+            "price": 5,
+            "profitPerHour": 0.05,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.05,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
