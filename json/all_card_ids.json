@@ -1265,6 +1265,22 @@
             "profitPerHourDelta": 0.2,
             "isAvailable": true,
             "isExpired": false
+        },
+        {
+            "id": "int_beach_roller_hamster",
+            "name": "Beach Roller Hamster",
+            "toggle": {
+                "enableAt": "2024-11-29T11:00:00.000Z"
+            },
+            "price": 2,
+            "profitPerHour": 0.15,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.15,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
