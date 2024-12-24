@@ -1281,6 +1281,20 @@
             "isAvailable": true,
             "isExpired": true,
             "totalCooldownSeconds": 21600
+        },
+        {
+            "id": "int_happy_holidays",
+            "name": "Happy Holidays",
+            "toggle": {},
+            "price": 25,
+            "profitPerHour": 0.5,
+            "condition": null,
+            "section": "Specials",
+            "level": 1,
+            "currentProfitPerHour": 0,
+            "profitPerHourDelta": 0.5,
+            "isAvailable": true,
+            "isExpired": false
         }
     ]
 }
