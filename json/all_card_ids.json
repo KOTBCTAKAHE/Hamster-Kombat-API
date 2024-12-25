@@ -1269,7 +1269,7 @@
             "toggle": {
                 "enableAt": "2024-11-07T14:45:00.000Z"
             },
-            "expiresAt": "2024-12-24T09:00:00.000Z",
+            "expiresAt": "2024-12-31T20:59:59.000Z",
             "price": 996.89,
             "profitPerHour": 7.539,
             "condition": null,
@@ -1279,7 +1279,7 @@
             "currentProfitPerHour": 6.765000000000001,
             "profitPerHourDelta": 0.774,
             "isAvailable": true,
-            "isExpired": true,
+            "isExpired": false,
             "totalCooldownSeconds": 21600
         },
         {
