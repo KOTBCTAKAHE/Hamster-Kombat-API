@@ -1311,7 +1311,7 @@
             "currentProfitPerHour": 0,
             "profitPerHourDelta": 0.1,
             "isAvailable": true,
-            "isExpired": false
+            "isExpired": true
         },
         {
             "id": "adv_integration_2812",
