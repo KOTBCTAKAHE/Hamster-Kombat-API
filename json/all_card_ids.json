@@ -1279,7 +1279,7 @@
             "currentProfitPerHour": 6.765000000000001,
             "profitPerHourDelta": 0.774,
             "isAvailable": true,
-            "isExpired": false,
+            "isExpired": true,
             "totalCooldownSeconds": 21600
         },
         {
@@ -1328,7 +1328,7 @@
             "currentProfitPerHour": 0,
             "profitPerHourDelta": 0.1,
             "isAvailable": true,
-            "isExpired": false
+            "isExpired": true
         }
     ]
 }
