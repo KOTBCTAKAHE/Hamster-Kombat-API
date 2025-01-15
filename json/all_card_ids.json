@@ -1264,25 +1264,6 @@
             "isExpired": false
         },
         {
-            "id": "adv_integration_0611",
-            "name": "Hamster fireman",
-            "toggle": {
-                "enableAt": "2024-11-07T14:45:00.000Z"
-            },
-            "expiresAt": "2024-12-31T20:59:59.000Z",
-            "price": 996.89,
-            "profitPerHour": 7.539,
-            "condition": null,
-            "cooldownSeconds": 0,
-            "section": "Specials",
-            "level": 15,
-            "currentProfitPerHour": 6.765000000000001,
-            "profitPerHourDelta": 0.774,
-            "isAvailable": true,
-            "isExpired": true,
-            "totalCooldownSeconds": 21600
-        },
-        {
             "id": "int_happy_holidays",
             "name": "Happy Holidays",
             "toggle": {},
@@ -1329,6 +1310,25 @@
             "profitPerHourDelta": 0.1,
             "isAvailable": true,
             "isExpired": true
+        },
+        {
+            "id": "adv_integration_0611",
+            "name": "Hamster fireman",
+            "toggle": {
+                "enableAt": "2024-11-07T14:45:00.000Z"
+            },
+            "expiresAt": "2025-01-31T20:29:59.000Z",
+            "price": 996.89,
+            "profitPerHour": 7.539,
+            "condition": null,
+            "cooldownSeconds": 0,
+            "section": "Specials",
+            "level": 15,
+            "currentProfitPerHour": 6.765000000000001,
+            "profitPerHourDelta": 0.774,
+            "isAvailable": true,
+            "isExpired": false,
+            "totalCooldownSeconds": 21600
         }
     ]
 }
